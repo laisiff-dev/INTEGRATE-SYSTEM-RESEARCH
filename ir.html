@@ -1,0 +1,2085 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>輔英科技大學｜教師歷年計畫案、論文、專利智慧收集與校務研究 (IR) 整合系統</title>
+  <style>
+    :root {
+      --bg: #f3f6f9;
+      --surface: #ffffff;
+      --surface-alt: #f8fafc;
+      --primary: #0f4c81;
+      --primary-dark: #0a355c;
+      --primary-light: #e6f0fa;
+      --secondary: #0d9488;
+      --secondary-light: #ccfbf1;
+      --accent: #d97706;
+      --accent-light: #fef3c7;
+      --danger: #dc2626;
+      --danger-light: #fee2e2;
+      --success: #16a34a;
+      --success-light: #dcfce7;
+      --purple: #6d28d9;
+      --purple-light: #ede9fe;
+      --text: #1e293b;
+      --text-muted: #64748b;
+      --border: #e2e8f0;
+      --shadow: 0 4px 14px rgba(15, 76, 129, 0.08);
+      --radius: 10px;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: "PingFang TC", "Microsoft JhengHei", "Noto Sans TC", -apple-system, BlinkMacSystemFont, sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.5;
+      font-size: 14px;
+    }
+
+    a {
+      color: var(--primary);
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+
+    /* Top Banner for Artifact Downloads */
+    .top-bundle-bar {
+      background: #0a2540;
+      color: #fff;
+      padding: 10px 24px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 10px;
+      border-bottom: 2px solid #f59e0b;
+      font-size: 12.5px;
+    }
+    .bundle-tag {
+      background: #f59e0b;
+      color: #0a2540;
+      font-weight: 800;
+      padding: 3px 8px;
+      border-radius: 4px;
+      margin-right: 8px;
+    }
+
+    /* Header */
+    .top-header {
+      background: linear-gradient(135deg, var(--primary-dark) 0%, var(--primary) 60%, #1565c0 100%);
+      color: #fff;
+      padding: 16px 24px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 12px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.12);
+    }
+
+    .brand-block {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+    }
+
+    .brand-logo {
+      width: 46px;
+      height: 46px;
+      border-radius: 10px;
+      background: rgba(255,255,255,0.18);
+      border: 1px solid rgba(255,255,255,0.35);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 900;
+      font-size: 19px;
+      letter-spacing: 1px;
+    }
+
+    .brand-title h1 {
+      font-size: 18.5px;
+      font-weight: 700;
+      letter-spacing: 0.4px;
+    }
+
+    .brand-title p {
+      font-size: 12.5px;
+      color: rgba(255,255,255,0.88);
+      margin-top: 2px;
+    }
+
+    .header-meta {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+
+    .sso-pill {
+      background: rgba(22, 163, 74, 0.28);
+      border: 1px solid rgba(134, 239, 172, 0.6);
+      color: #dcfce7;
+      padding: 5px 12px;
+      border-radius: 20px;
+      font-size: 12px;
+      font-weight: 600;
+    }
+
+    .role-badge {
+      background: rgba(255,255,255,0.16);
+      border: 1px solid rgba(255,255,255,0.3);
+      color: #fff;
+      padding: 6px 12px;
+      border-radius: 20px;
+      font-size: 12.5px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .role-select {
+      background: #fff;
+      color: var(--primary-dark);
+      border: none;
+      padding: 5px 10px;
+      border-radius: 6px;
+      font-weight: 600;
+      font-size: 12.5px;
+      cursor: pointer;
+    }
+
+    /* Notice Banner */
+    .demo-banner {
+      background: #fffbeb;
+      border-bottom: 1px solid #fde68a;
+      color: #92400e;
+      padding: 10px 24px;
+      font-size: 12.5px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    /* Navigation Tabs */
+    .nav-tabs {
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      padding: 0 24px;
+      display: flex;
+      gap: 4px;
+      overflow-x: auto;
+      position: sticky;
+      top: 0;
+      z-index: 50;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.03);
+    }
+
+    .nav-tab {
+      padding: 13px 16px;
+      border: none;
+      background: transparent;
+      color: var(--text-muted);
+      font-size: 13.5px;
+      font-weight: 600;
+      cursor: pointer;
+      border-bottom: 3px solid transparent;
+      white-space: nowrap;
+      transition: all 0.2s;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .nav-tab:hover {
+      color: var(--primary);
+      background: var(--surface-alt);
+    }
+
+    .nav-tab.active {
+      color: var(--primary);
+      border-bottom-color: var(--primary);
+      background: var(--primary-light);
+    }
+
+    .nav-tab.highlight-tab {
+      color: #b45309;
+    }
+    .nav-tab.highlight-tab.active {
+      color: var(--primary-dark);
+      border-bottom-color: var(--accent);
+      background: #fffbeb;
+    }
+
+    /* Global Filter Bar */
+    .global-filter-bar {
+      background: var(--surface);
+      margin: 16px 24px 0 24px;
+      padding: 16px 20px;
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      border: 1px solid var(--border);
+    }
+
+    .filter-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 12px;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .filter-title {
+      font-weight: 700;
+      color: var(--primary-dark);
+      font-size: 14.5px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .filter-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+      gap: 12px;
+      align-items: end;
+    }
+
+    .filter-item label {
+      display: block;
+      font-size: 12px;
+      font-weight: 600;
+      color: var(--text-muted);
+      margin-bottom: 4px;
+    }
+
+    .filter-item select,
+    .filter-item input {
+      width: 100%;
+      padding: 8px 10px;
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      font-size: 13px;
+      color: var(--text);
+      background: var(--surface-alt);
+    }
+
+    .filter-item select:focus,
+    .filter-item input:focus {
+      outline: 2px solid var(--primary);
+      background: #fff;
+    }
+
+    .filter-actions {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+
+    .btn {
+      padding: 8px 14px;
+      border-radius: 6px;
+      font-size: 13px;
+      font-weight: 600;
+      cursor: pointer;
+      border: 1px solid transparent;
+      transition: all 0.15s;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .btn-primary { background: var(--primary); color: #fff; }
+    .btn-primary:hover { background: var(--primary-dark); }
+    .btn-secondary { background: var(--secondary); color: #fff; }
+    .btn-secondary:hover { background: #0f766e; }
+    .btn-accent { background: var(--accent); color: #fff; }
+    .btn-accent:hover { background: #b45309; }
+    .btn-outline { background: #fff; border-color: var(--border); color: var(--text); }
+    .btn-outline:hover { background: var(--surface-alt); border-color: #cbd5e1; }
+    .btn-sm { padding: 4px 9px; font-size: 12px; }
+
+    /* Main Content Container */
+    .main-container {
+      padding: 16px 24px 40px 24px;
+      max-width: 1600px;
+      margin: 0 auto;
+    }
+
+    .tab-panel {
+      display: none;
+    }
+    .tab-panel.active {
+      display: block;
+    }
+
+    /* KPI Row */
+    .kpi-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+      gap: 14px;
+      margin-bottom: 18px;
+    }
+
+    .kpi-card {
+      background: var(--surface);
+      padding: 16px 18px;
+      border-radius: var(--radius);
+      border: 1px solid var(--border);
+      box-shadow: var(--shadow);
+      border-left: 4px solid var(--primary);
+    }
+    .kpi-card.teal { border-left-color: var(--secondary); }
+    .kpi-card.amber { border-left-color: var(--accent); }
+    .kpi-card.purple { border-left-color: var(--purple); }
+    .kpi-card.green { border-left-color: var(--success); }
+
+    .kpi-label { font-size: 12.5px; color: var(--text-muted); font-weight: 600; }
+    .kpi-value { font-size: 24px; font-weight: 800; color: var(--text); margin: 6px 0 4px 0; }
+    .kpi-sub { font-size: 12px; color: var(--text-muted); }
+
+    /* Card Box */
+    .card {
+      background: var(--surface);
+      border-radius: var(--radius);
+      border: 1px solid var(--border);
+      box-shadow: var(--shadow);
+      padding: 18px 20px;
+      margin-bottom: 18px;
+    }
+
+    .card-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 14px;
+      padding-bottom: 10px;
+      border-bottom: 1px solid var(--border);
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .card-title {
+      font-size: 15.5px;
+      font-weight: 700;
+      color: var(--primary-dark);
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    /* Tables */
+    .table-responsive {
+      overflow-x: auto;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 13px;
+    }
+
+    th, td {
+      padding: 10px 12px;
+      text-align: left;
+      border-bottom: 1px solid var(--border);
+      vertical-align: middle;
+    }
+
+    th {
+      background: var(--surface-alt);
+      font-weight: 700;
+      color: var(--primary-dark);
+      white-space: nowrap;
+    }
+
+    tr:hover td {
+      background: #f8fbff;
+    }
+
+    .num {
+      text-align: right;
+      font-variant-numeric: tabular-nums;
+    }
+
+    /* Badges */
+    .badge {
+      display: inline-block;
+      padding: 3px 8px;
+      border-radius: 12px;
+      font-size: 11.5px;
+      font-weight: 600;
+      white-space: nowrap;
+    }
+
+    .badge-project { background: var(--primary-light); color: var(--primary-dark); }
+    .badge-paper { background: var(--purple-light); color: var(--purple); }
+    .badge-patent { background: var(--secondary-light); color: #0f766e; }
+
+    .badge-verified { background: var(--success-light); color: var(--success); }
+    .badge-pending { background: var(--accent-light); color: var(--accent); }
+    .badge-return { background: var(--danger-light); color: var(--danger); }
+
+    .badge-tier1 { background: #fef3c7; color: #b45309; border: 1px solid #f59e0b; font-weight: 700; }
+    .badge-tier2 { background: #e0f2fe; color: #0369a1; border: 1px solid #38bdf8; font-weight: 700; }
+    .badge-tier3 { background: #dcfce7; color: #15803d; border: 1px solid #4ade80; font-weight: 700; }
+
+    .badge-article7 {
+      background: #ede9fe;
+      color: #6d28d9;
+      border: 1px solid #c4b5fd;
+      font-size: 11px;
+      padding: 2px 6px;
+      border-radius: 4px;
+    }
+
+    /* Tier Column Styling */
+    .grid-3 {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 18px;
+    }
+
+    .tier-col {
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      background: var(--surface-alt);
+      padding: 16px;
+    }
+    .tier-col.tier-best { border-top: 5px solid #d97706; background: #fffdf7; }
+    .tier-col.tier-second { border-top: 5px solid #0284c7; background: #f8fbff; }
+    .tier-col.tier-good { border-top: 5px solid #16a34a; background: #f7fee7; }
+
+    .candidate-card {
+      background: #fff;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 14px;
+      margin-top: 12px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.03);
+    }
+
+    /* Formula Config Box */
+    .formula-param-box {
+      background: var(--surface-alt);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 14px;
+    }
+    .formula-param-box h4 {
+      font-size: 13.5px;
+      color: var(--primary-dark);
+      margin-bottom: 10px;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 6px;
+    }
+    .param-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 8px;
+      font-size: 12.5px;
+      gap: 8px;
+    }
+    .param-row input {
+      width: 90px;
+      padding: 4px 8px;
+      border: 1px solid var(--border);
+      border-radius: 4px;
+      text-align: right;
+      font-weight: 700;
+      color: var(--primary-dark);
+    }
+
+    /* Ingestion Channels */
+    .channel-box {
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 16px;
+      background: var(--surface-alt);
+    }
+    .channel-box h4 { font-size: 14.5px; color: var(--primary-dark); margin-bottom: 6px; }
+
+    .api-card {
+      background: #fff;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 12px 14px;
+      margin-top: 10px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .form-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+      gap: 12px;
+      margin-top: 12px;
+    }
+    .form-group label {
+      display: block;
+      font-size: 12.5px;
+      font-weight: 600;
+      margin-bottom: 4px;
+      color: var(--text);
+    }
+    .form-group input,
+    .form-group select,
+    .form-group textarea {
+      width: 100%;
+      padding: 8px 10px;
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      font-size: 13px;
+      background: #fff;
+    }
+
+    /* Bar Chart horizontal CSS */
+    .bar-row { margin-bottom: 10px; }
+    .bar-label { display: flex; justify-content: space-between; font-size: 12.5px; margin-bottom: 4px; font-weight: 600; }
+    .bar-track { height: 12px; background: #e2e8f0; border-radius: 6px; overflow: hidden; display: flex; }
+    .bar-fill { height: 100%; transition: width 0.3s ease; }
+
+    /* Toast notification */
+    #toast {
+      position: fixed;
+      bottom: 24px;
+      right: 24px;
+      background: var(--primary-dark);
+      color: #fff;
+      padding: 12px 20px;
+      border-radius: 8px;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+      font-size: 13.5px;
+      font-weight: 600;
+      display: none;
+      z-index: 1000;
+    }
+
+    @media print {
+      .nav-tabs, .global-filter-bar, .demo-banner, .top-bundle-bar, .no-print {
+        display: none !important;
+      }
+      body { background: #fff; }
+      .card { box-shadow: none; border: 1px solid #ccc; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Top Bundle Bar -->
+  <div class="top-bundle-bar no-print">
+    <div>
+      <span class="bundle-tag">整合系統總檔</span>
+      <span>內建 <strong>輔英 4 院 16 系所組織主檔、111–115 年度完整資料集、7 大類人選演算法、獎金/評鑑核算公式、跨處室 SSO/會計/部會介接與 GitHub Actions 自動部署</strong></span>
+    </div>
+    <div style="display:flex; gap:8px; flex-wrap:wrap;">
+      <button class="btn btn-sm btn-accent" onclick="downloadFile('docs/SYSTEM_SPECIFICATION.md', 'SYSTEM_SPECIFICATION.md')">⬇ 系統規格書</button>
+      <button class="btn btn-sm btn-secondary" onclick="downloadFile('data/fooyin_org_master.json', 'fooyin_org_master.json')">⬇ 4院16系所主檔</button>
+      <button class="btn btn-sm btn-primary" onclick="downloadFile('data/dataset_111_115.json', 'dataset_111_115.json')">⬇ 111-115完整JSON</button>
+      <button class="btn btn-sm btn-outline" onclick="downloadFile('.github/workflows/deploy.yml', 'deploy.yml')">⬇ GitHub Actions YAML</button>
+    </div>
+  </div>
+
+  <!-- Top Header -->
+  <header class="top-header">
+    <div class="brand-block">
+      <div class="brand-logo">FYU</div>
+      <div class="brand-title">
+        <h1>輔英科技大學｜教師歷年計畫案、論文、專利智慧收集與校務研究 (IR) 整合系統</h1>
+        <p>研究與產學發展處 × 圖書暨資訊處 SSO × 會計室經費傳票 × 人事室專任教師評鑑（第7條主管免評判定）</p>
+      </div>
+    </div>
+    <div class="header-meta">
+      <span class="sso-pill" id="ssoStatusPill">● 圖資處 SSO 已連線 (工號：ZH177)</span>
+      <div class="role-badge">
+        <span>作業視角：</span>
+        <select id="roleSelector" class="role-select" onchange="handleRoleChange()">
+          <option value="dean">賴文亮 研發長（全校總覽與最佳人選決策）</option>
+          <option value="hq">研發處 處本部（私校獎補助/深耕/校務會議彙報）</option>
+          <option value="iac">研發處 產學合作組（產學計畫/政府委辦/專利技轉管考）</option>
+          <option value="rdi">研發處 研發創新組（國科會計畫/論文/專利獎勵金審核）</option>
+          <option value="teacher">學院系所教師（個人研發成果預填確認與評鑑點數查詢）</option>
+        </select>
+      </div>
+    </div>
+  </header>
+
+  <!-- Groundedness Banner -->
+  <div class="demo-banner">
+    <div>
+      <strong>官方依據：</strong>本系統架構依據<a href="https://www.fy.edu.tw/p/412-1032-8760.php?Lang=zh-tw" target="_blank">輔英科技大學 4 院 16 系所</a>、<a href="https://etc.fy.edu.tw/p/412-1054-510.php?Lang=zh-tw" target="_blank">研究與產學發展處法規辦法</a>、<a href="https://epn.fy.edu.tw/p/412-1055-6611.php?Lang=zh-tw" target="_blank">人事室《專任教師評鑑辦法》</a>及<a href="https://eac.fy.edu.tw/p/412-1056-10422.php" target="_blank">會計室《執行計畫彈性支用額度作業要點》</a>設計，內建 7 大類人選推薦、可調式獎金/評鑑點數公式引擎與跨處室 SSO 拋轉。
+    </div>
+    <div id="roleHintText" style="font-weight:600; color:#0f4c81;">
+      視角提示：全校跨年度、跨院系總覽、獎金/評鑑核算與跨處室拋轉
+    </div>
+  </div>
+
+  <!-- Navigation Tabs -->
+  <nav class="nav-tabs">
+    <button class="nav-tab active" onclick="switchTab('workbench', this)">1. 研發處多維度查詢與管考工作台</button>
+    <button class="nav-tab highlight-tab" onclick="switchTab('aimatch', this)">2. 計畫/專利撰寫「最佳・次佳・佳」人選與主動導入</button>
+    <button class="nav-tab highlight-tab" onclick="switchTab('rewardcalc', this)">3. 獎勵金與教師評鑑點數公式自動核算</button>
+    <button class="nav-tab" onclick="switchTab('ssohub', this)">4. 校內系統介接 (SSO / 會計核銷 / 人事評鑑拋轉)</button>
+    <button class="nav-tab" onclick="switchTab('ingestion', this)">5. 資料收集與匯入中心 (匯入/公開網/直接輸入)</button>
+    <button class="nav-tab" onclick="switchTab('dashboard', this)">6. 校務研究 (IR) 儀表板與部會匯出</button>
+  </nav>
+
+  <!-- Global Filter Bar -->
+  <section class="global-filter-bar" id="globalFilterSection">
+    <div class="filter-header">
+      <div class="filter-title">
+        <span>研發處專屬多維度複合篩選器（年度 111–115、4 院 16 系所、細部類型即時連動全系統）</span>
+      </div>
+      <div class="filter-actions">
+        <button class="btn btn-outline btn-sm" onclick="resetFilters()">重置全部條件</button>
+        <button class="btn btn-primary btn-sm" onclick="exportFilteredCSV()">匯出目前篩選清冊 (.csv)</button>
+        <button class="btn btn-secondary btn-sm" onclick="window.print()">列印 / 轉存 PDF 報表</button>
+      </div>
+    </div>
+    <div class="filter-grid">
+      <div class="filter-item">
+        <label>學年度 (Year)</label>
+        <select id="filterYear" onchange="applyFilters()">
+          <option value="ALL">全部學年度 (111–115)</option>
+          <option value="115">115 學年度 (最新進行中)</option>
+          <option value="114">114 學年度</option>
+          <option value="113">113 學年度</option>
+          <option value="112">112 學年度</option>
+          <option value="111">111 學年度</option>
+        </select>
+      </div>
+      <div class="filter-item">
+        <label>學院 (College)</label>
+        <select id="filterCollege" onchange="handleCollegeFilterChange()">
+          <option value="ALL">全部學院 (4 大學院)</option>
+          <option value="護理學院">護理學院</option>
+          <option value="醫學與健康學院">醫學與健康學院</option>
+          <option value="環境與生命學院">環境與生命學院</option>
+          <option value="人文與管理學院">人文與管理學院</option>
+        </select>
+      </div>
+      <div class="filter-item">
+        <label>系所 (Department)</label>
+        <select id="filterDept" onchange="applyFilters()">
+          <option value="ALL">全部系所 (16 系所)</option>
+        </select>
+      </div>
+      <div class="filter-item">
+        <label>成果大類 (Category)</label>
+        <select id="filterCategory" onchange="handleCategoryFilterChange()">
+          <option value="ALL">全部大類 (計畫/論文/專利)</option>
+          <option value="計畫案">計畫案 (國科會/深耕/產學/部會)</option>
+          <option value="論文">學術論文 (SCI/SSCI/EI/TSSCI)</option>
+          <option value="專利">專利與技轉 (發明/新型/設計/技轉)</option>
+        </select>
+      </div>
+      <div class="filter-item">
+        <label>細部類型 (Sub-Type)</label>
+        <select id="filterSubType" onchange="applyFilters()">
+          <option value="ALL">全部細部類型</option>
+        </select>
+      </div>
+      <div class="filter-item">
+        <label>審核狀態 (Audit Status)</label>
+        <select id="filterStatus" onchange="applyFilters()">
+          <option value="ALL">全部狀態</option>
+          <option value="已核定歸檔">已核定歸檔 (已通過)</option>
+          <option value="待研發處審核">待研發處審核 (審理中)</option>
+          <option value="需教師補件">需教師補件 (退請補正)</option>
+        </select>
+      </div>
+      <div class="filter-item">
+        <label>關鍵字 / 教師姓名搜尋</label>
+        <input type="text" id="filterKeyword" placeholder="搜尋姓名、篇名、案號、DOI..." oninput="applyFilters()" />
+      </div>
+    </div>
+  </section>
+
+  <!-- Main Container -->
+  <main class="main-container">
+
+    <!-- TAB 1: 研發處多維度查詢與管考工作台 -->
+    <div id="tab-workbench" class="tab-panel active">
+      <div class="kpi-grid">
+        <div class="kpi-card">
+          <div class="kpi-label">計畫案核定總金額</div>
+          <div class="kpi-value" id="kpiFunding">NT$ 0 萬</div>
+          <div class="kpi-sub" id="kpiFundingSub">國科會、產學與部會計畫</div>
+        </div>
+        <div class="kpi-card purple">
+          <div class="kpi-label">學術期刊論文發表</div>
+          <div class="kpi-value" id="kpiPapers">0 篇</div>
+          <div class="kpi-sub" id="kpiPapersSub">SCI / SSCI / EI / TSSCI</div>
+        </div>
+        <div class="kpi-card teal">
+          <div class="kpi-label">專利獲證與技轉授權</div>
+          <div class="kpi-value" id="kpiPatents">0 件</div>
+          <div class="kpi-sub" id="kpiPatentsSub">發明、新型與實收技轉</div>
+        </div>
+        <div class="kpi-card green">
+          <div class="kpi-label">研發處管考核定率</div>
+          <div class="kpi-value" id="kpiAuditRate">0%</div>
+          <div class="kpi-sub" id="kpiAuditSub">已核定歸檔佔比</div>
+        </div>
+      </div>
+
+      <!-- Pivot Cross-Analysis Box -->
+      <div class="card">
+        <div class="card-header">
+          <div class="card-title">
+            <span>動態樞紐交叉分析統計表</span>
+          </div>
+          <div style="display:flex; gap:10px; align-items:center;">
+            <span style="font-size:12.5px; color:var(--text-muted);">彙總維度：</span>
+            <select id="pivotGroupMode" onchange="renderPivotTable()" style="padding:4px 8px; border:1px solid var(--border); border-radius:6px; font-size:12.5px;">
+              <option value="college">依 4 大學院彙總</option>
+              <option value="dept">依 16 系所彙總</option>
+              <option value="year">依學年度彙總 (111–115)</option>
+              <option value="category">依成果大類彙總</option>
+            </select>
+          </div>
+        </div>
+        <div class="table-responsive">
+          <table>
+            <thead>
+              <tr id="pivotHeadRow"></tr>
+            </thead>
+            <tbody id="pivotBodyRows"></tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- Master Roster Table -->
+      <div class="card">
+        <div class="card-header">
+          <div class="card-title">
+            <span>全校歷年計畫案、論文、專利與技轉清冊（共 <span id="recordCountBadge">0</span> 筆）</span>
+          </div>
+          <div style="display:flex; gap:8px;">
+            <button class="btn btn-outline btn-sm" onclick="batchApproveVisible()">一鍵核定目前可見紀錄</button>
+            <button class="btn btn-primary btn-sm" onclick="exportFilteredCSV()">匯出 CSV 清冊</button>
+          </div>
+        </div>
+        <div class="table-responsive">
+          <table>
+            <thead>
+              <tr>
+                <th>學年</th>
+                <th>學院 / 系所</th>
+                <th>教師姓名 / 職稱</th>
+                <th>大類</th>
+                <th>細部類型</th>
+                <th>成果名稱 (計畫案名 / 論文篇名 / 專利名稱)</th>
+                <th>計畫案號 / DOI / 專利證號</th>
+                <th>會計管控代碼 / 傳票</th>
+                <th class="num">金額 / IF指標</th>
+                <th>來源</th>
+                <th>審核狀態</th>
+                <th>操作</th>
+              </tr>
+            </thead>
+            <tbody id="masterTableBody"></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <!-- TAB 2: 計畫/專利撰寫「最佳・次佳・佳」人選推薦 -->
+    <div id="tab-aimatch" class="tab-panel">
+      <div class="card" style="border-left: 5px solid var(--accent); background:#fffdf8;">
+        <div class="card-header">
+          <div class="card-title">
+            <span>7 大計畫與專利撰寫「最佳・次佳・佳」人選媒合推薦與主動導入</span>
+          </div>
+          <div style="display:flex; gap:10px; align-items:center;">
+            <span style="font-weight:700; color:var(--accent);">目標撰寫類別：</span>
+            <select id="targetWritingType" onchange="handleTargetWritingChange()" style="padding:6px 12px; border:1px solid #f59e0b; border-radius:6px; font-weight:700; color:#92400e; background:#fff;">
+              <option value="proj_nstc">國科會專題研究計畫 (NSTC)</option>
+              <option value="proj_gov">政府部會委辦計畫 (衛福部/環境部/勞動部)</option>
+              <option value="proj_moe">教育部補助計畫 (深耕/USR/EMI/教學實踐)</option>
+              <option value="proj_iac">企業產學合作計畫 (民生產業/實驗室檢測/驗證)</option>
+              <option value="pat_inv">發明專利撰寫與申請 (高價值實驗數據與新穎配方)</option>
+              <option value="pat_util">新型／設計專利撰寫與輔具改良 (實體機構與輔具)</option>
+              <option value="pat_tt">專利技術移轉與產學授權 (專利商業化與70%權利金分配)</option>
+            </select>
+          </div>
+        </div>
+        <p id="targetDescription" style="font-size:13px; color:#78350f; line-height:1.6; margin-bottom:12px;">
+          載入目標說明中...
+        </p>
+        <div style="display:flex; gap:10px; flex-wrap:wrap;">
+          <button class="btn btn-accent btn-sm" onclick="sendBatchProactiveInvites()">批次發送一對一撰寫輔導邀請</button>
+          <button class="btn btn-outline btn-sm" onclick="exportCandidateRosterCSV()">匯出本類別推薦名單 (.csv)</button>
+        </div>
+      </div>
+
+      <!-- 3 Tier Kanban Columns -->
+      <div class="grid-3" id="candidateTiersContainer">
+        <!-- Best Column -->
+        <div class="tier-col tier-best">
+          <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px;">
+            <h3 style="font-size:15px; color:#92400e; font-weight:800;">第一波：最佳人選 (Best)</h3>
+            <span class="badge badge-tier1" id="countBest">0 位</span>
+          </div>
+          <p style="font-size:12px; color:#b45309; margin-bottom:12px;">適配總分 ≥ 85 分｜系統自 GRB/GPSS/DOI 預填完整成果，專屬一對一邀約主持</p>
+          <div id="listBestCandidates"></div>
+        </div>
+
+        <!-- Second Column -->
+        <div class="tier-col tier-second">
+          <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px;">
+            <h3 style="font-size:15px; color:#0369a1; font-weight:800;">第二波：次佳人選 (Runner-Up)</h3>
+            <span class="badge badge-tier2" id="countSecond">0 位</span>
+          </div>
+          <p style="font-size:12px; color:#0284c7; margin-bottom:12px;">適配總分 73–84 分｜診斷技術缺口，媒合與最佳人選共同主持，推動高 IF 論文轉化專利</p>
+          <div id="listSecondCandidates"></div>
+        </div>
+
+        <!-- Good Column -->
+        <div class="tier-col tier-good">
+          <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px;">
+            <h3 style="font-size:15px; color:#15803d; font-weight:800;">第三波：佳人選 (Merit)</h3>
+            <span class="badge badge-tier3" id="countGood">0 位</span>
+          </div>
+          <p style="font-size:12px; color:#16a34a; margin-bottom:12px;">適配總分 60–72 分｜自動預填教師研發履歷，邀請加入跨領域研發社群與申請先期產學</p>
+          <div id="listGoodCandidates"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- TAB 3: 獎勵金與教師評鑑點數公式自動核算 -->
+    <div id="tab-rewardcalc" class="tab-panel">
+      <div class="kpi-grid">
+        <div class="kpi-card amber">
+          <div class="kpi-label">全校預估研發績效獎勵金總額</div>
+          <div class="kpi-value" id="kpiCalcTotalReward">NT$ 0</div>
+          <div class="kpi-sub">論文發表 + 專利獲證 + 技轉 70% 分配</div>
+        </div>
+        <div class="kpi-card teal">
+          <div class="kpi-label">會計室彈性支用額度總額</div>
+          <div class="kpi-value" id="kpiCalcTotalFlex">NT$ 0</div>
+          <div class="kpi-sub">依作業要點：管理費 8% 中提撥 20%</div>
+        </div>
+        <div class="kpi-card purple">
+          <div class="kpi-label">人事室專任教師評鑑總點數</div>
+          <div class="kpi-value" id="kpiCalcTotalPts">0 點</div>
+          <div class="kpi-sub">計畫點數 + 論文點數 + 專利點數</div>
+        </div>
+      </div>
+
+      <!-- Config Inputs -->
+      <div class="card">
+        <div class="card-header">
+          <div class="card-title">
+            <span>法規參數即時試算設定 (依研發處法規、會計室作業要點與人事室評鑑辦法第7條)</span>
+          </div>
+          <div style="display:flex; gap:8px;">
+            <button class="btn btn-outline btn-sm" onclick="resetFormulaConfig()">還原法規預設值</button>
+            <button class="btn btn-primary btn-sm" onclick="recalculateBatchFormulas()">立即重新計算全部教師</button>
+          </div>
+        </div>
+        <div class="grid-3">
+          <div class="formula-param-box">
+            <h4>期刊論文獎勵金標準 (元)</h4>
+            <div class="param-row"><span>SCI/SSCI 頂尖 (Q1/IF≥5)</span><input type="number" id="cfg_rewardPaperSciQ1" value="30000" onchange="recalculateBatchFormulas()"></div>
+            <div class="param-row"><span>SCI 一般期刊</span><input type="number" id="cfg_rewardPaperSciGen" value="20000" onchange="recalculateBatchFormulas()"></div>
+            <div class="param-row"><span>SSCI 國際期刊</span><input type="number" id="cfg_rewardPaperSsci" value="20000" onchange="recalculateBatchFormulas()"></div>
+            <div class="param-row"><span>EI 工程索引期刊</span><input type="number" id="cfg_rewardPaperEi" value="12000" onchange="recalculateBatchFormulas()"></div>
+            <div class="param-row"><span>TSSCI/THCI 核心期刊</span><input type="number" id="cfg_rewardPaperTssci" value="12000" onchange="recalculateBatchFormulas()"></div>
+            <div class="param-row"><span>Scopus 收錄期刊</span><input type="number" id="cfg_rewardPaperScopus" value="6000" onchange="recalculateBatchFormulas()"></div>
+          </div>
+          <div class="formula-param-box">
+            <h4>專利獲證獎勵與技轉分配 (元)</h4>
+            <div class="param-row"><span>發明專利 (已獲證)</span><input type="number" id="cfg_rewardPatentInvGrant" value="15000" onchange="recalculateBatchFormulas()"></div>
+            <div class="param-row"><span>發明專利 (申請中補助)</span><input type="number" id="cfg_rewardPatentInvApp" value="5000" onchange="recalculateBatchFormulas()"></div>
+            <div class="param-row"><span>新型專利 (已獲證)</span><input type="number" id="cfg_rewardPatentUtilGrant" value="5000" onchange="recalculateBatchFormulas()"></div>
+            <div class="param-row"><span>設計專利 (已獲證)</span><input type="number" id="cfg_rewardPatentDesGrant" value="5000" onchange="recalculateBatchFormulas()"></div>
+            <div class="param-row"><span>技轉金教師分配比率</span><input type="number" step="0.05" id="cfg_royaltyTeacherSplitRatio" value="0.70" onchange="recalculateBatchFormulas()"></div>
+          </div>
+          <div class="formula-param-box">
+            <h4>會計彈性額度與人事評鑑點數</h4>
+            <div class="param-row"><span>國科會計畫主持點數</span><input type="number" id="cfg_ptsProjNstcBase" value="50" onchange="recalculateBatchFormulas()"></div>
+            <div class="param-row"><span>產學/部會/深耕點數</span><input type="number" id="cfg_ptsProjGovIacBase" value="35" onchange="recalculateBatchFormulas()"></div>
+            <div class="param-row"><span>計畫每滿50萬加計點數</span><input type="number" id="cfg_ptsProjPer50WanBonus" value="10" onchange="recalculateBatchFormulas()"></div>
+            <div class="param-row"><span>發明專利獲證評鑑點數</span><input type="number" id="cfg_ptsPatentInvGrant" value="35" onchange="recalculateBatchFormulas()"></div>
+            <div class="param-row"><span>管理費提撥彈性額度率</span><input type="number" step="0.05" id="cfg_flexibleBudgetRatio" value="0.20" onchange="recalculateBatchFormulas()"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Faculty Summary Table -->
+      <div class="card">
+        <div class="card-header">
+          <div class="card-title">
+            <span>各系所教師獎勵金、彈性支用額度與評鑑點數自動核算清冊</span>
+          </div>
+          <button class="btn btn-primary btn-sm" onclick="exportFacultyRewardCSV()">匯出全校人事/會計試算表 (.csv)</button>
+        </div>
+        <div class="table-responsive">
+          <table>
+            <thead>
+              <tr>
+                <th>學院</th>
+                <th>系所</th>
+                <th>教師姓名</th>
+                <th>職稱 / 行政身分</th>
+                <th>人事評鑑辦法第7條判定</th>
+                <th class="num">核定成果筆數</th>
+                <th class="num">預估研發績效獎勵金</th>
+                <th class="num">會計彈性支用額度</th>
+                <th class="num">研究評鑑總點數</th>
+                <th>詳細計算清冊</th>
+              </tr>
+            </thead>
+            <tbody id="facultyRewardTableBody"></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <!-- TAB 4: 校內系統介接 -->
+    <div id="tab-ssohub" class="tab-panel">
+      <div class="grid-3">
+        <!-- SSO Sandbox -->
+        <div class="card">
+          <div class="card-header">
+            <div class="card-title"><span>圖書暨資訊處 SSO 單一簽入</span></div>
+            <span class="badge badge-verified">OAuth2 / OIDC</span>
+          </div>
+          <p style="font-size:12.5px; color:var(--text-muted); margin-bottom:12px;">
+            端點：<code>https://inf.fy.edu.tw/sso/v2/authorize</code>，支援 5 種權限視角模擬：
+          </p>
+          <div style="margin-bottom:12px;">
+            <label style="font-size:12px; font-weight:700;">目前模擬登入帳號：</label>
+            <div id="ssoProfileBox" style="background:var(--surface-alt); padding:10px; border-radius:6px; border:1px solid var(--border); font-size:12.5px; margin-top:4px;"></div>
+          </div>
+          <button class="btn btn-secondary btn-sm" onclick="simulateSSORefresh()">模擬重新向圖資處換發 JWT Token</button>
+        </div>
+
+        <!-- Accounting Sandbox -->
+        <div class="card">
+          <div class="card-header">
+            <div class="card-title"><span>會計室 ERP 經費核銷雙向介接</span></div>
+            <span class="badge badge-verified">API 連通正常</span>
+          </div>
+          <p style="font-size:12.5px; color:var(--text-muted); margin-bottom:12px;">
+            端點：<code>https://eac.fy.edu.tw/api/v1/voucher/verify</code>，即時校驗計畫經費核銷率與傳票開立：
+          </p>
+          <div style="display:flex; gap:6px; margin-bottom:10px;">
+            <input type="text" id="accTestInput" value="ACC-115-NSTC-001" style="flex:1; padding:6px 10px; border:1px solid var(--border); border-radius:6px; font-size:12.5px;">
+            <button class="btn btn-primary btn-sm" onclick="testAccountingAPI()">查詢核銷率</button>
+          </div>
+          <div id="accResultBox" style="background:var(--surface-alt); padding:10px; border-radius:6px; border:1px solid var(--border); font-size:12px; min-height:60px;">
+            點擊「查詢核銷率」即時模擬會計系統回傳。
+          </div>
+        </div>
+
+        <!-- Personnel Sandbox -->
+        <div class="card">
+          <div class="card-header">
+            <div class="card-title"><span>人事室教師評鑑系統回拋</span></div>
+            <span class="badge badge-verified">第7條免評自動比對</span>
+          </div>
+          <p style="font-size:12.5px; color:var(--text-muted); margin-bottom:12px;">
+            端點：<code>https://epn.fy.edu.tw/p/412-1055-6611.php</code>，即時將已審核歸檔之研發績效點數拋轉至人事室專任教師評鑑資料庫：
+          </p>
+          <button class="btn btn-accent btn-sm" style="width:100%; margin-bottom:8px;" onclick="simulatePushToHR()">一鍵批次同步評鑑積分至人事室</button>
+          <div id="hrPushResultBox" style="background:var(--surface-alt); padding:10px; border-radius:6px; border:1px solid var(--border); font-size:12px; color:var(--text-muted);">
+            尚未執行回拋同步。
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- TAB 5: 資料收集與匯入中心 -->
+    <div id="tab-ingestion" class="tab-panel">
+      <div class="grid-3" style="margin-bottom:18px;">
+        <div class="channel-box">
+          <h4>管道 1：政府與公開資料庫自動同步</h4>
+          <p style="font-size:12px; color:var(--text-muted); margin-bottom:10px;">
+            透過 GRB、國科會、GPSS 智慧局與 Crossref DOI 定期排程擷取
+          </p>
+          <div class="api-card">
+            <div><strong>國科會 / GRB 研究計畫</strong><br/><span style="font-size:11px; color:var(--text-muted);">https://www.grb.gov.tw/</span></div>
+            <button class="btn btn-primary btn-sm" onclick="simulateOpenGovSync('grb')">同步匯入</button>
+          </div>
+          <div class="api-card">
+            <div><strong>智慧局 GPSS 專利檢索</strong><br/><span style="font-size:11px; color:var(--text-muted);">https://tiponet.tipo.gov.tw/gpss/</span></div>
+            <button class="btn btn-secondary btn-sm" onclick="simulateOpenGovSync('gpss')">專利同步</button>
+          </div>
+          <div class="api-card">
+            <div><strong>Crossref / DOI 期刊論文</strong><br/><span style="font-size:11px; color:var(--text-muted);">https://doi.org/</span></div>
+            <button class="btn btn-accent btn-sm" onclick="simulateOpenGovSync('doi')">抓取論文</button>
+          </div>
+        </div>
+
+        <div class="channel-box">
+          <h4>管道 2：批次 CSV / Excel 上傳</h4>
+          <p style="font-size:12px; color:var(--text-muted); margin-bottom:10px;">
+            研發處同仁批次整理匯入、自動去重與格式驗證
+          </p>
+          <div style="border: 2px dashed var(--border); padding: 18px; text-align: center; border-radius: 8px; background: #fff; margin-bottom: 12px;">
+            <input type="file" id="csvFileInput" accept=".csv" style="display:none;" onchange="handleCSVFileUpload(event)" />
+            <button class="btn btn-outline btn-sm" onclick="document.getElementById('csvFileInput').click()">📁 選擇本機 CSV 檔案上傳</button>
+            <div style="font-size:11.5px; color:var(--text-muted); margin-top:6px;">支援標準 UTF-8 CSV 格式，欄位自動對應</div>
+          </div>
+          <button class="btn btn-outline btn-sm" style="width:100%; margin-bottom:6px;" onclick="downloadTemplateCSV()">下載研發處匯入標準範本 (.csv)</button>
+          <button class="btn btn-primary btn-sm" style="width:100%;" onclick="simulateBatchImport()">一鍵載入示範批次清冊</button>
+        </div>
+
+        <div class="channel-box">
+          <h4>管道 3：教師線上登錄 / 人工作業補登</h4>
+          <p style="font-size:12px; color:var(--text-muted); margin-bottom:10px;">
+            依 4 院 16 系所組織聯動選單，直接登錄新案件
+          </p>
+          <form id="manualEntryForm" onsubmit="handleManualSubmit(event)">
+            <div class="form-grid" style="grid-template-columns: 1fr 1fr; gap:8px;">
+              <div class="form-group">
+                <label>學年度</label>
+                <select id="mYear" required>
+                  <option value="115">115</option>
+                  <option value="114">114</option>
+                  <option value="113">113</option>
+                  <option value="112">112</option>
+                  <option value="111">111</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label>大類</label>
+                <select id="mCategory" onchange="updateManualSubtypes()" required>
+                  <option value="計畫案">計畫案</option>
+                  <option value="論文">學術論文</option>
+                  <option value="專利">專利與技轉</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-grid" style="grid-template-columns: 1fr 1fr; gap:8px;">
+              <div class="form-group">
+                <label>學院</label>
+                <select id="mCollege" onchange="updateManualDepts()" required>
+                  <option value="護理學院">護理學院</option>
+                  <option value="醫學與健康學院">醫學與健康學院</option>
+                  <option value="環境與生命學院">環境與生命學院</option>
+                  <option value="人文與管理學院">人文與管理學院</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label>系所</label>
+                <select id="mDept" required></select>
+              </div>
+            </div>
+            <div class="form-grid" style="grid-template-columns: 1fr 1fr; gap:8px;">
+              <div class="form-group">
+                <label>教師姓名</label>
+                <input type="text" id="mTeacher" placeholder="例如：賴文亮" required />
+              </div>
+              <div class="form-group">
+                <label>細部類型</label>
+                <select id="mSubType" required></select>
+              </div>
+            </div>
+            <div class="form-group" style="margin-top:8px;">
+              <label>成果完整名稱</label>
+              <input type="text" id="mTitle" placeholder="計畫案名 / 論文篇名 / 專利名稱" required />
+            </div>
+            <div class="form-grid" style="grid-template-columns: 1fr 1fr; gap:8px;">
+              <div class="form-group">
+                <label id="mCodeLabel">案號 / DOI / 專利號</label>
+                <input type="text" id="mCode" placeholder="如 NSTC 115-xxx" required />
+              </div>
+              <div class="form-group">
+                <label id="mMetricLabel">經費 (萬元) / IF</label>
+                <input type="number" step="0.1" id="mAmount" placeholder="如 120" required />
+              </div>
+            </div>
+            <button type="submit" class="btn btn-primary btn-sm" style="width:100%; margin-top:10px;">送出登錄至研發處審核庫</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- TAB 6: 校務研究 (IR) 儀表板與部會匯出 -->
+    <div id="tab-dashboard" class="tab-panel">
+      <!-- Visual Charts -->
+      <div class="grid-2">
+        <div class="card">
+          <div class="card-header">
+            <div class="card-title"><span>歷年研發經費與成果趨勢 (111–115 學年度)</span></div>
+          </div>
+          <div id="chartYearTrend"></div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <div class="card-title"><span>4 大學院研發成果分佈比例 (計畫/論文/專利)</span></div>
+          </div>
+          <div id="chartCollegeDist"></div>
+        </div>
+      </div>
+
+      <div class="grid-2">
+        <div class="card">
+          <div class="card-header">
+            <div class="card-title"><span>各類型計畫案核定經費佔比分析</span></div>
+          </div>
+          <div id="chartProjectTypes"></div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <div class="card-title"><span>期刊收錄別與專利獲證結構</span></div>
+          </div>
+          <div id="chartPaperPatentTypes"></div>
+        </div>
+      </div>
+
+      <!-- TVEDB Export Preview -->
+      <div class="card">
+        <div class="card-header">
+          <div class="card-title">
+            <span>教育部全國技專校院校務基本資料庫 (TVEDB) 填報表冊匯出</span>
+          </div>
+          <div style="display:flex; gap:8px;">
+            <button class="btn btn-outline btn-sm" onclick="selectReportFormat('tvedb_proj')">預覽表 4-10 (產學與專案)</button>
+            <button class="btn btn-outline btn-sm" onclick="selectReportFormat('tvedb_paper')">預覽表 4-8 (學術論文)</button>
+            <button class="btn btn-outline btn-sm" onclick="selectReportFormat('tvedb_pat')">預覽表 4-7 (專利與技轉)</button>
+            <button class="btn btn-primary btn-sm" onclick="downloadCurrentReportCSV()">匯出本表冊標準 CSV (UTF-8 BOM)</button>
+          </div>
+        </div>
+        <p id="reportPreviewHeader" style="font-size:13px; font-weight:700; color:var(--primary); margin-bottom:10px;">
+          目前預覽表冊：教育部全國技專校院校務基本資料庫 — 表 4-10 產學合作及政府專案計畫表
+        </p>
+        <div class="table-responsive">
+          <table id="reportPreviewTable">
+            <thead id="reportPreviewThead"></thead>
+            <tbody id="reportPreviewTbody"></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <div id="toast"></div>
+
+  <!-- Internal JavaScript Modules -->
+  <script src="src/recommendation_engine.js"></script>
+  <script src="src/evaluation_engine.js"></script>
+  <script src="src/integration_specs.js"></script>
+
+  <script>
+    // 輔英科技大學 4 院 16 系所官方組織主檔 (雙重保險載入)
+    const FOOYIN_ORG = {
+      "護理學院": [
+        "護理系",
+        "助產與婦嬰健康照護系",
+        "健康事業管理系",
+        "高齡及長期照護事業系"
+      ],
+      "醫學與健康學院": [
+        "醫學檢驗生物技術系",
+        "物理治療系",
+        "保健營養系",
+        "健康美容系"
+      ],
+      "環境與生命學院": [
+        "環境工程與科學系",
+        "生物科技與綠色產業系",
+        "應用化學及材料科學系",
+        "職業安全衛生系"
+      ],
+      "人文與管理學院": [
+        "幼兒保育暨產業系",
+        "休閒與遊憩事業管理系",
+        "資訊科技與管理系",
+        "應用外語系"
+      ]
+    };
+
+    const SUBTYPES_BY_CAT = {
+      "計畫案": [
+        "國科會專題研究計畫",
+        "教育部補助計畫(深耕/USR)",
+        "政府部會委辦計畫",
+        "企業產學合作計畫",
+        "校內先期產學/研發補助"
+      ],
+      "論文": [
+        "SCI 國際期刊",
+        "SSCI 國際期刊",
+        "EI 工程索引期刊",
+        "TSSCI / THCI 核心期刊",
+        "Scopus 收錄期刊",
+        "一般學術期刊/國際研討會"
+      ],
+      "專利": [
+        "發明專利(已獲證)",
+        "發明專利(申請中)",
+        "新型專利(已獲證)",
+        "設計專利(已獲證)",
+        "專利技術移轉/授權案"
+      ]
+    };
+
+    // 系統主資料庫紀錄
+    let rdRecords = [];
+    let currentReportMode = "tvedb_proj";
+    let currentRole = "dean";
+
+    // 頁面初始化
+    document.addEventListener("DOMContentLoaded", async function() {
+      await loadInitialDataset();
+      initFilterDropdowns();
+      updateManualDepts();
+      updateManualSubtypes();
+      handleTargetWritingChange();
+      recalculateBatchFormulas();
+      applyFilters();
+      handleRoleChange();
+    });
+
+    // 載入資料集
+    async function loadInitialDataset() {
+      try {
+        const res = await fetch("data/dataset_111_115.json");
+        if (res.ok) {
+          rdRecords = await res.json();
+          console.log("從 data/dataset_111_115.json 成功載入", rdRecords.length, "筆資料");
+        } else {
+          throw new Error("HTTP error " + res.status);
+        }
+      } catch (e) {
+        console.warn("使用本機備份種子資料集：", e);
+        // 若以 file:// 協議直接開啟，自動使用安全備援資料
+        rdRecords = getFallbackDataset();
+      }
+    }
+
+    function initFilterDropdowns() {
+      const deptSelect = document.getElementById("filterDept");
+      deptSelect.innerHTML = '<option value="ALL">全部系所 (16 系所)</option>';
+      Object.keys(FOOYIN_ORG).forEach(c => {
+        const optgroup = document.createElement("optgroup");
+        optgroup.label = c;
+        FOOYIN_ORG[c].forEach(d => {
+          const opt = document.createElement("option");
+          opt.value = d;
+          opt.textContent = d;
+          optgroup.appendChild(opt);
+        });
+        deptSelect.appendChild(optgroup);
+      });
+      handleCategoryFilterChange();
+    }
+
+    function handleCollegeFilterChange() {
+      const col = document.getElementById("filterCollege").value;
+      const deptSelect = document.getElementById("filterDept");
+      deptSelect.innerHTML = '<option value="ALL">全部系所 (16 系所)</option>';
+      const colleges = col === "ALL" ? Object.keys(FOOYIN_ORG) : [col];
+      colleges.forEach(c => {
+        const optgroup = document.createElement("optgroup");
+        optgroup.label = c;
+        FOOYIN_ORG[c].forEach(d => {
+          const opt = document.createElement("option");
+          opt.value = d;
+          opt.textContent = d;
+          optgroup.appendChild(opt);
+        });
+        deptSelect.appendChild(optgroup);
+      });
+      applyFilters();
+    }
+
+    function handleCategoryFilterChange() {
+      const cat = document.getElementById("filterCategory").value;
+      const subSelect = document.getElementById("filterSubType");
+      subSelect.innerHTML = '<option value="ALL">全部細部類型</option>';
+      const cats = cat === "ALL" ? Object.keys(SUBTYPES_BY_CAT) : [cat];
+      cats.forEach(c => {
+        const optgroup = document.createElement("optgroup");
+        optgroup.label = c;
+        SUBTYPES_BY_CAT[c].forEach(st => {
+          const opt = document.createElement("option");
+          opt.value = st;
+          opt.textContent = st;
+          optgroup.appendChild(opt);
+        });
+        subSelect.appendChild(optgroup);
+      });
+      applyFilters();
+    }
+
+    function getFilteredRecords() {
+      const yr = document.getElementById("filterYear").value;
+      const col = document.getElementById("filterCollege").value;
+      const dept = document.getElementById("filterDept").value;
+      const cat = document.getElementById("filterCategory").value;
+      const sub = document.getElementById("filterSubType").value;
+      const st = document.getElementById("filterStatus").value;
+      const kw = document.getElementById("filterKeyword").value.trim().toLowerCase();
+
+      return rdRecords.filter(r => {
+        if (yr !== "ALL" && r.year !== yr) return false;
+        if (col !== "ALL" && r.college !== col) return false;
+        if (dept !== "ALL" && r.dept !== dept) return false;
+        if (cat !== "ALL" && r.category !== cat) return false;
+        if (sub !== "ALL" && r.subType !== sub) return false;
+        if (st !== "ALL" && r.status !== st) return false;
+        if (kw) {
+          const matchStr = `${r.teacher} ${r.dept} ${r.title} ${r.code} ${r.subType} ${(r.keywords || []).join(" ")}`.toLowerCase();
+          if (!matchStr.includes(kw)) return false;
+        }
+        return true;
+      });
+    }
+
+    function applyFilters() {
+      const filtered = getFilteredRecords();
+      updateKPIs(filtered);
+      renderPivotTable(filtered);
+      renderMasterTable(filtered);
+      renderCharts(filtered);
+      renderReportPreview(filtered);
+    }
+
+    function resetFilters() {
+      document.getElementById("filterYear").value = "ALL";
+      document.getElementById("filterCollege").value = "ALL";
+      handleCollegeFilterChange();
+      document.getElementById("filterDept").value = "ALL";
+      document.getElementById("filterCategory").value = "ALL";
+      handleCategoryFilterChange();
+      document.getElementById("filterSubType").value = "ALL";
+      document.getElementById("filterStatus").value = "ALL";
+      document.getElementById("filterKeyword").value = "";
+      applyFilters();
+      showToast("已重置所有篩選條件！");
+    }
+
+    function switchTab(tabId, btn) {
+      document.querySelectorAll(".tab-panel").forEach(p => p.classList.remove("active"));
+      document.querySelectorAll(".nav-tab").forEach(b => b.classList.remove("active"));
+      const panel = document.getElementById("tab-" + tabId);
+      if (panel) panel.classList.add("active");
+      if (btn) btn.classList.add("active");
+
+      // 局部刷新
+      if (tabId === "aimatch") handleTargetWritingChange();
+      if (tabId === "rewardcalc") recalculateBatchFormulas();
+      if (tabId === "dashboard") renderCharts(getFilteredRecords());
+    }
+
+    function handleRoleChange() {
+      currentRole = document.getElementById("roleSelector").value;
+      const ssoProfile = IntegrationSpecs ? IntegrationSpecs.sso.mockProfiles[currentRole] : null;
+      const hintEl = document.getElementById("roleHintText");
+      const pill = document.getElementById("ssoStatusPill");
+      const profileBox = document.getElementById("ssoProfileBox");
+
+      if (ssoProfile) {
+        pill.textContent = `● 圖資處 SSO 已連線 (${ssoProfile.name} / ${ssoProfile.empId})`;
+        hintEl.textContent = `目前身分視角：${ssoProfile.roleLabel}｜${ssoProfile.article7Note}`;
+        if (profileBox) {
+          profileBox.innerHTML = `
+            <strong>姓名：</strong>${ssoProfile.name} (${ssoProfile.empId})<br/>
+            <strong>單位：</strong>${ssoProfile.college} / ${ssoProfile.dept}<br/>
+            <strong>職稱：</strong>${ssoProfile.title}<br/>
+            <strong>權限：</strong><code>${ssoProfile.role}</code><br/>
+            <span style="color:#6d28d9; font-weight:700;">${ssoProfile.article7Note}</span>
+          `;
+        }
+      }
+      showToast(`已切換作業視角為：${ssoProfile ? ssoProfile.roleLabel : currentRole}`);
+    }
+
+    // 候選人推薦
+    function handleTargetWritingChange() {
+      const targetKey = document.getElementById("targetWritingType").value;
+      const descEl = document.getElementById("targetDescription");
+      const cfg = window.RecommendationEngine ? window.RecommendationEngine.TARGET_WRITING_CONFIG[targetKey] : null;
+
+      if (cfg) {
+        descEl.innerHTML = `<strong>推動重心：</strong>${cfg.focus}｜<strong>計分門檻：</strong>最佳人選 ≥ ${cfg.thresholds.best} 分、次佳人選 73–84 分、佳人選 60–72 分。系統主動預填外部資料庫並依缺口自動媒合。`;
+      }
+
+      renderCandidateTiers();
+    }
+
+    function renderCandidateTiers() {
+      const targetKey = document.getElementById("targetWritingType").value;
+      if (!window.RecommendationEngine) return;
+
+      const res = window.RecommendationEngine.evaluateCandidatesForTarget(targetKey, rdRecords);
+
+      document.getElementById("countBest").textContent = res.bestCount + " 位";
+      document.getElementById("countSecond").textContent = res.secondCount + " 位";
+      document.getElementById("countGood").textContent = res.goodCount + " 位";
+
+      const renderList = (arr, emptyText) => {
+        if (!arr.length) return `<div style="font-size:12.5px; color:var(--text-muted); padding:10px; text-align:center;">${emptyText}</div>`;
+        return arr.map(c => `
+          <div class="candidate-card">
+            <div style="display:flex; justify-content:space-between; align-items:flex-start;">
+              <div>
+                <strong style="font-size:14px; color:var(--primary-dark);">${c.name}</strong>
+                <span style="font-size:11.5px; color:var(--text-muted); margin-left:6px;">${c.dept}</span>
+                ${c.isArticle7Exempt ? '<span class="badge-article7" style="margin-left:4px;">主管免評</span>' : ''}
+              </div>
+              <span class="badge ${c.tierCode === 'tier1' ? 'badge-tier1' : c.tierCode === 'tier2' ? 'badge-tier2' : 'badge-tier3'}">${c.score} 分</span>
+            </div>
+            <div style="font-size:12px; color:#475569; margin-top:6px; line-height:1.4;">
+              ${c.reasons.map(r => `<div>• ${r}</div>`).join("")}
+              ${c.gapNote ? `<div style="color:#b45309; font-weight:700; margin-top:3px;">⚠ 轉化缺口：${c.gapNote}</div>` : ''}
+            </div>
+            <div style="background:var(--surface-alt); border-radius:4px; padding:6px 8px; font-size:11.5px; color:var(--text-muted); margin-top:8px;">
+              ${c.strategy}
+            </div>
+            <div style="margin-top:8px; display:flex; justify-content:flex-end;">
+              <button class="btn btn-outline btn-sm" onclick="triggerSingleOutreach('${c.name}', '${c.tier}')">發送個別邀約輔導單</button>
+            </div>
+          </div>
+        `).join("");
+      };
+
+      const best = res.candidates.filter(c => c.tier === "最佳人選");
+      const second = res.candidates.filter(c => c.tier === "次佳人選");
+      const good = res.candidates.filter(c => c.tier === "佳人選");
+
+      document.getElementById("listBestCandidates").innerHTML = renderList(best, "暫無符合第一波門檻之名單");
+      document.getElementById("listSecondCandidates").innerHTML = renderList(second, "暫無符合第二波門檻之名單");
+      document.getElementById("listGoodCandidates").innerHTML = renderList(good, "暫無符合第三波門檻之名單");
+    }
+
+    function triggerSingleOutreach(teacherName, tier) {
+      showToast(`已向 ${teacherName} (${tier}) 送出專案一對一輔導邀約與預填確認單！`);
+    }
+
+    function sendBatchProactiveInvites() {
+      const targetKey = document.getElementById("targetWritingType").value;
+      const res = window.RecommendationEngine.evaluateCandidatesForTarget(targetKey, rdRecords);
+      const topCandidates = res.candidates.filter(c => c.tier === "最佳人選" || c.tier === "次佳人選");
+      showToast(`已批次發送一對一輔導與預填成果確認單至 ${topCandidates.length} 位推薦教師信箱！`);
+    }
+
+    function exportCandidateRosterCSV() {
+      const targetKey = document.getElementById("targetWritingType").value;
+      const res = window.RecommendationEngine.evaluateCandidatesForTarget(targetKey, rdRecords);
+      let csv = "\uFEFF目標類別,分級,教師姓名,學院,系所,適配總分,評估加分依據,轉化缺口診斷,主動輔導策略\n";
+      res.candidates.forEach(c => {
+        csv += `"${res.cfg.name}","${c.tier}","${c.name}","${c.college}","${c.dept}",${c.score},"${c.reasons.join(';') }","${c.gapNote || ''}","${c.strategy}"\n`;
+      });
+      triggerCSVDownload(csv, `輔英研發處_推薦人選清冊_${targetKey}.csv`);
+      showToast("已成功匯出推薦名單 CSV！");
+    }
+
+    // 公式核算
+    function getFormulaCustomConfig() {
+      return {
+        rewardPaperSciQ1: Number(document.getElementById("cfg_rewardPaperSciQ1").value) || 30000,
+        rewardPaperSciGen: Number(document.getElementById("cfg_rewardPaperSciGen").value) || 20000,
+        rewardPaperSsci: Number(document.getElementById("cfg_rewardPaperSsci").value) || 20000,
+        rewardPaperEi: Number(document.getElementById("cfg_rewardPaperEi").value) || 12000,
+        rewardPaperTssci: Number(document.getElementById("cfg_rewardPaperTssci").value) || 12000,
+        rewardPaperScopus: Number(document.getElementById("cfg_rewardPaperScopus").value) || 6000,
+        rewardPatentInvGrant: Number(document.getElementById("cfg_rewardPatentInvGrant").value) || 15000,
+        rewardPatentInvApp: Number(document.getElementById("cfg_rewardPatentInvApp").value) || 5000,
+        rewardPatentUtilGrant: Number(document.getElementById("cfg_rewardPatentUtilGrant").value) || 5000,
+        rewardPatentDesGrant: Number(document.getElementById("cfg_rewardPatentDesGrant").value) || 5000,
+        royaltyTeacherSplitRatio: Number(document.getElementById("cfg_royaltyTeacherSplitRatio").value) || 0.70,
+        ptsProjNstcBase: Number(document.getElementById("cfg_ptsProjNstcBase").value) || 50,
+        ptsProjGovIacBase: Number(document.getElementById("cfg_ptsProjGovIacBase").value) || 35,
+        ptsProjPer50WanBonus: Number(document.getElementById("cfg_ptsProjPer50WanBonus").value) || 10,
+        ptsPatentInvGrant: Number(document.getElementById("cfg_ptsPatentInvGrant").value) || 35,
+        flexibleBudgetRatio: Number(document.getElementById("cfg_flexibleBudgetRatio").value) || 0.20
+      };
+    }
+
+    function resetFormulaConfig() {
+      document.getElementById("cfg_rewardPaperSciQ1").value = 30000;
+      document.getElementById("cfg_rewardPaperSciGen").value = 20000;
+      document.getElementById("cfg_rewardPaperSsci").value = 20000;
+      document.getElementById("cfg_rewardPaperEi").value = 12000;
+      document.getElementById("cfg_rewardPaperTssci").value = 12000;
+      document.getElementById("cfg_rewardPaperScopus").value = 6000;
+      document.getElementById("cfg_rewardPatentInvGrant").value = 15000;
+      document.getElementById("cfg_rewardPatentInvApp").value = 5000;
+      document.getElementById("cfg_rewardPatentUtilGrant").value = 5000;
+      document.getElementById("cfg_rewardPatentDesGrant").value = 5000;
+      document.getElementById("cfg_royaltyTeacherSplitRatio").value = 0.70;
+      document.getElementById("cfg_ptsProjNstcBase").value = 50;
+      document.getElementById("cfg_ptsProjGovIacBase").value = 35;
+      document.getElementById("cfg_ptsProjPer50WanBonus").value = 10;
+      document.getElementById("cfg_ptsPatentInvGrant").value = 35;
+      document.getElementById("cfg_flexibleBudgetRatio").value = 0.20;
+      recalculateBatchFormulas();
+      showToast("已重置為法規基準設定！");
+    }
+
+    function recalculateBatchFormulas() {
+      if (!window.EvaluationEngine) return;
+      const customCfg = getFormulaCustomConfig();
+      const summary = window.EvaluationEngine.calculateBatchFacultySummary(rdRecords, customCfg);
+
+      document.getElementById("kpiCalcTotalReward").textContent = "NT$ " + summary.totalRewardSum.toLocaleString();
+      document.getElementById("kpiCalcTotalFlex").textContent = "NT$ " + summary.totalFlexibleBudgetSum.toLocaleString();
+      document.getElementById("kpiCalcTotalPts").textContent = summary.totalEvalPointsSum + " 點";
+
+      const tbody = document.getElementById("facultyRewardTableBody");
+      tbody.innerHTML = summary.facultyList.map(f => `
+        <tr>
+          <td>${f.college}</td>
+          <td>${f.dept}</td>
+          <td><strong>${f.name}</strong></td>
+          <td>${f.adminRole}</td>
+          <td>${f.isArticle7Exempt ? '<span class="badge badge-tier1">符合第7條主管免評研究（自動達標）</span>' : '<span style="color:var(--text-muted);">一般專任標準</span>'}</td>
+          <td class="num">${f.itemCount}</td>
+          <td class="num" style="color:var(--accent); font-weight:700;">NT$ ${f.totalRewardNTD.toLocaleString()}</td>
+          <td class="num" style="color:var(--secondary); font-weight:700;">NT$ ${f.totalFlexibleBudgetNTD.toLocaleString()}</td>
+          <td class="num" style="color:var(--purple); font-weight:800;">${f.totalEvalPoints} 點</td>
+          <td>
+            <button class="btn btn-outline btn-sm" onclick="viewFacultyFormulaDetail('${f.name}')">查看明細</button>
+          </td>
+        </tr>
+      `).join("");
+    }
+
+    function viewFacultyFormulaDetail(teacherName) {
+      const customCfg = getFormulaCustomConfig();
+      const records = rdRecords.filter(r => r.teacher === teacherName);
+      let msg = `【${teacherName} 研發績效與評鑑試算明細】\n`;
+      records.forEach(r => {
+        const res = window.EvaluationEngine.calculateRecordBenefits(r, customCfg);
+        msg += `\n• [${r.category}] ${r.title.slice(0, 30)}...\n  獎勵金: NT$ ${res.rewardAmount.toLocaleString()} | 評鑑點數: ${res.evalPoints} 點\n  細節: ${res.details.join("；")}\n`;
+      });
+      alert(msg);
+    }
+
+    function exportFacultyRewardCSV() {
+      const customCfg = getFormulaCustomConfig();
+      const summary = window.EvaluationEngine.calculateBatchFacultySummary(rdRecords, customCfg);
+      let csv = "\uFEFF學院,系所,教師姓名,職稱與行政角色,人事評鑑第7條判定,成果筆數,預估獎勵金(元),會計彈性額度(元),評鑑點數\n";
+      summary.facultyList.forEach(f => {
+        csv += `"${f.college}","${f.dept}","${f.name}","${f.adminRole}","${f.isArticle7Exempt ? '符合第7條主管免評' : '一般專任'}",${f.itemCount},${f.totalRewardNTD},${f.totalFlexibleBudgetNTD},${f.totalEvalPoints}\n`;
+      });
+      triggerCSVDownload(csv, `輔英研發處_教師獎勵與評鑑核算總表_${new Date().toISOString().slice(0,10)}.csv`);
+      showToast("已成功匯出全校核算清冊！");
+    }
+
+    // 跨處室沙盒
+    function simulateSSORefresh() {
+      showToast("已向圖資處 SSO 認證伺服器換發最新 RS256 JWT Token！");
+    }
+
+    function testAccountingAPI() {
+      const code = document.getElementById("accTestInput").value.trim();
+      const resBox = document.getElementById("accResultBox");
+      const matched = rdRecords.find(r => r.accCode && r.accCode.includes(code.split(" ")[0]));
+      const amountWan = matched ? matched.amount : 100;
+      const res = IntegrationSpecs.accounting.verifyVoucher(code, amountWan);
+
+      resBox.innerHTML = `
+        <div style="color:var(--success); font-weight:700;">✔ 會計系統回傳成功 [HTTP 200 OK]</div>
+        <div><strong>計畫代碼：</strong>${res.accCode}</div>
+        <div><strong>目前核銷率：</strong>${res.disbursementRate}%</div>
+        <div><strong>管理費提撥：</strong>NT$ ${Math.round(res.overheadNTD).toLocaleString()}</div>
+        <div><strong>彈性支用額度：</strong>NT$ ${Math.round(res.flexibleBudgetNTD).toLocaleString()}</div>
+        <div style="color:var(--text-muted);">${res.notes}</div>
+      `;
+    }
+
+    function simulatePushToHR() {
+      const resBox = document.getElementById("hrPushResultBox");
+      resBox.innerHTML = `
+        <div style="color:var(--success); font-weight:700;">✔ 評鑑資料拋轉成功！[人事室 HTTP 200 OK]</div>
+        <div>已成功同步 32 位專任教師研究點數至《人事室專任教師評鑑系統》</div>
+        <div>自動標註兼任主管教師符合第 7 條免評研究指標。</div>
+        <div style="font-size:11px; color:var(--text-muted);">拋轉時間戳記：${new Date().toLocaleString()}</div>
+      `;
+      showToast("已完成人事室評鑑系統雙向拋轉！");
+    }
+
+    // 儀表板與樞紐分析
+    function updateKPIs(list) {
+      const projList = list.filter(r => r.category === "計畫案");
+      const paperList = list.filter(r => r.category === "論文");
+      const patentList = list.filter(r => r.category === "專利");
+
+      const totalFunding = projList.reduce((acc, r) => acc + (Number(r.amount) || 0), 0);
+      const verifiedCount = list.filter(r => r.status === "已核定歸檔").length;
+      const auditRate = list.length ? Math.round((verifiedCount / list.length) * 100) : 0;
+
+      document.getElementById("kpiFunding").textContent = "NT$ " + totalFunding.toLocaleString() + " 萬";
+      document.getElementById("kpiFundingSub").textContent = `共 ${projList.length} 件專案計畫`;
+
+      document.getElementById("kpiPapers").textContent = paperList.length + " 篇";
+      document.getElementById("kpiPapersSub").textContent = `SCI/SSCI 頂尖期刊`;
+
+      document.getElementById("kpiPatents").textContent = patentList.length + " 件";
+      document.getElementById("kpiPatentsSub").textContent = `已獲證與技轉授權`;
+
+      document.getElementById("kpiAuditRate").textContent = auditRate + "%";
+      document.getElementById("kpiAuditSub").textContent = `已核定 ${verifiedCount} / 全數 ${list.length} 筆`;
+    }
+
+    function renderPivotTable(passedList) {
+      const list = passedList || getFilteredRecords();
+      const mode = document.getElementById("pivotGroupMode").value;
+      const headRow = document.getElementById("pivotHeadRow");
+      const bodyRows = document.getElementById("pivotBodyRows");
+
+      let groupName = "學院名稱";
+      if (mode === "dept") groupName = "系所名稱";
+      if (mode === "year") groupName = "學年度";
+      if (mode === "category") groupName = "成果大類";
+
+      headRow.innerHTML = `
+        <th>${groupName}</th>
+        <th class="num">計畫案件數</th>
+        <th class="num">計畫總金額 (萬元)</th>
+        <th class="num">論文篇數</th>
+        <th class="num">專利獲證數</th>
+        <th class="num">技轉總金額 (萬元)</th>
+        <th class="num">總成果筆數</th>
+      `;
+
+      const groups = {};
+      list.forEach(r => {
+        let key = r.college;
+        if (mode === "dept") key = r.dept;
+        if (mode === "year") key = r.year + " 學年度";
+        if (mode === "category") key = r.category;
+
+        if (!groups[key]) {
+          groups[key] = { projCnt: 0, projFund: 0, paperCnt: 0, patCnt: 0, ttFund: 0, total: 0 };
+        }
+        groups[key].total++;
+        if (r.category === "計畫案") {
+          groups[key].projCnt++;
+          groups[key].projFund += (Number(r.amount) || 0);
+        } else if (r.category === "論文") {
+          groups[key].paperCnt++;
+        } else if (r.category === "專利") {
+          groups[key].patCnt++;
+          if (r.subType.includes("技術移轉")) {
+            groups[key].ttFund += (Number(r.amount) || 0);
+          }
+        }
+      });
+
+      const keys = Object.keys(groups);
+      if (!keys.length) {
+        bodyRows.innerHTML = `<tr><td colspan="7" style="text-align:center;">無符合條件之資料</td></tr>`;
+        return;
+      }
+
+      bodyRows.innerHTML = keys.map(k => {
+        const g = groups[k];
+        return `
+          <tr>
+            <td><strong>${k}</strong></td>
+            <td class="num">${g.projCnt} 件</td>
+            <td class="num" style="color:var(--primary); font-weight:700;">NT$ ${g.projFund.toLocaleString()} 萬</td>
+            <td class="num">${g.paperCnt} 篇</td>
+            <td class="num">${g.patCnt} 件</td>
+            <td class="num" style="color:var(--secondary); font-weight:700;">NT$ ${g.ttFund.toLocaleString()} 萬</td>
+            <td class="num"><strong>${g.total} 筆</strong></td>
+          </tr>
+        `;
+      }).join("");
+    }
+
+    function renderMasterTable(list) {
+      document.getElementById("recordCountBadge").textContent = list.length;
+      const tbody = document.getElementById("masterTableBody");
+      if (!list.length) {
+        tbody.innerHTML = `<tr><td colspan="12" style="text-align:center; padding:20px; color:var(--text-muted);">無符合篩選條件之成果記錄</td></tr>`;
+        return;
+      }
+
+      tbody.innerHTML = list.map(r => {
+        let catBadge = "badge-project";
+        if (r.category === "論文") catBadge = "badge-paper";
+        if (r.category === "專利") catBadge = "badge-patent";
+
+        let statusBadge = "badge-verified";
+        if (r.status === "待研發處審核") statusBadge = "badge-pending";
+        if (r.status === "需教師補件") statusBadge = "badge-return";
+
+        const amtDisplay = r.category === "計畫案"
+          ? `<strong style="color:var(--primary);">NT$ ${(r.amount || 0).toLocaleString()} 萬</strong>`
+          : r.category === "論文"
+            ? `<span>${r.metricNote || '無IF'}</span>`
+            : r.amount > 0 ? `<strong style="color:var(--secondary);">NT$ ${r.amount} 萬</strong>` : '獲證專利';
+
+        return `
+          <tr>
+            <td>${r.year}</td>
+            <td><strong>${r.dept}</strong><br/><span style="font-size:11px; color:var(--text-muted);">${r.college}</span></td>
+            <td><strong>${r.teacher}</strong><br/><span style="font-size:11px; color:var(--text-muted);">${r.authorOrder || ''}</span></td>
+            <td><span class="badge ${catBadge}">${r.category}</span></td>
+            <td>${r.subType}</td>
+            <td style="max-width:280px; word-break:break-word;">
+              <strong>${r.title}</strong>
+              ${r.isArticle7Exempt ? '<br/><span class="badge-article7">第7條免評</span>' : ''}
+            </td>
+            <td><code style="font-size:11.5px;">${r.code}</code></td>
+            <td><span style="font-size:11px; color:#475569;">${r.accCode || '無'}</span></td>
+            <td class="num">${amtDisplay}</td>
+            <td><span style="font-size:11.5px; color:var(--text-muted);">${r.source}</span></td>
+            <td><span class="badge ${statusBadge}">${r.status}</span></td>
+            <td>
+              <button class="btn btn-outline btn-sm" onclick="cycleStatus('${r.id}')">切換狀態</button>
+            </td>
+          </tr>
+        `;
+      }).join("");
+    }
+
+    function cycleStatus(id) {
+      const rec = rdRecords.find(r => r.id === id);
+      if (!rec) return;
+      const order = ["待研發處審核", "已核定歸檔", "需教師補件"];
+      const nextIdx = (order.indexOf(rec.status) + 1) % order.length;
+      rec.status = order[nextIdx];
+      applyFilters();
+      showToast(`已將 ${rec.teacher} 的案件狀態變更為：${rec.status}`);
+    }
+
+    function batchApproveVisible() {
+      const visible = getFilteredRecords();
+      visible.forEach(r => r.status = "已核定歸檔");
+      applyFilters();
+      showToast(`已批次核定可見的 ${visible.length} 筆案件！`);
+    }
+
+    // 資料匯入
+    function updateManualDepts() {
+      const col = document.getElementById("mCollege").value;
+      const deptSel = document.getElementById("mDept");
+      deptSel.innerHTML = FOOYIN_ORG[col].map(d => `<option value="${d}">${d}</option>`).join("");
+    }
+
+    function updateManualSubtypes() {
+      const cat = document.getElementById("mCategory").value;
+      const subSel = document.getElementById("mSubType");
+      subSel.innerHTML = SUBTYPES_BY_CAT[cat].map(st => `<option value="${st}">${st}</option>`).join("");
+    }
+
+    function handleManualSubmit(e) {
+      e.preventDefault();
+      const yr = document.getElementById("mYear").value;
+      const cat = document.getElementById("mCategory").value;
+      const col = document.getElementById("mCollege").value;
+      const dept = document.getElementById("mDept").value;
+      const teacher = document.getElementById("mTeacher").value.trim();
+      const subType = document.getElementById("mSubType").value;
+      const title = document.getElementById("mTitle").value.trim();
+      const code = document.getElementById("mCode").value.trim();
+      const val = Number(document.getElementById("mAmount").value) || 0;
+
+      const newRec = {
+        id: `REC-${yr}-${Date.now().toString().slice(-4)}`,
+        year: yr,
+        college: col,
+        dept: dept,
+        teacher: teacher,
+        authorOrder: "第一作者/主持人 (100%)",
+        weightRatio: 1.0,
+        category: cat,
+        subType: subType,
+        title: title,
+        code: code,
+        accCode: `ACC-${yr}-NEW-${Math.floor(100+Math.random()*900)}`,
+        disbursementRate: 0,
+        amount: cat === "計畫案" ? val : (subType.includes("技術移轉") ? val : 0),
+        ifScore: cat === "論文" ? val : 0,
+        metricNote: cat === "計畫案" ? `核定 NT$ ${val} 萬` : (cat === "論文" ? `IF: ${val}` : '專利'),
+        source: "教師線上登錄",
+        group: cat === "計畫案" ? "產學合作組" : "研發創新組",
+        status: "待研發處審核",
+        keywords: [dept, subType]
+      };
+
+      rdRecords.unshift(newRec);
+      applyFilters();
+      recalculateBatchFormulas();
+      showToast(`已成功登錄：${teacher} 的《${title}》！`);
+      document.getElementById("manualEntryForm").reset();
+      updateManualDepts();
+      updateManualSubtypes();
+    }
+
+    function simulateOpenGovSync(channel) {
+      showToast(`正在連線 ${channel.toUpperCase()} 公開資料庫同步新案...`);
+      setTimeout(() => {
+        showToast(`已自 ${channel.toUpperCase()} 智慧同步完成！`);
+      }, 600);
+    }
+
+    function simulateBatchImport() {
+      showToast("已批次載入範例資料清冊！");
+    }
+
+    function handleCSVFileUpload(e) {
+      const file = e.target.files[0];
+      if (!file) return;
+      const reader = new FileReader();
+      reader.onload = function(evt) {
+        const text = evt.target.result;
+        const lines = text.split(/\r?\n/).filter(l => l.trim().length > 0);
+        showToast(`已讀取 CSV 檔案，成功解析 ${lines.length - 1} 筆紀錄！`);
+      };
+      reader.readAsText(file, "UTF-8");
+    }
+
+    function downloadTemplateCSV() {
+      const csv = "\uFEFF學年度,學院,系所,教師姓名,大類,細部類型,名稱,編號或DOI,金額萬元或IF,管考組別\n" +
+                  "115,環境與生命學院,環境工程與科學系,賴文亮,計畫案,國科會專題研究計畫,水質監測新案,NSTC 115-001,150,研發創新組\n";
+      triggerCSVDownload(csv, "輔英研發處_匯入範本.csv");
+    }
+
+    function exportFilteredCSV() {
+      const list = getFilteredRecords();
+      let csv = "\uFEFF學年度,學院,系所,教師姓名,成果大類,細部類型,名稱,案號或DOI,經費(萬元),指標備註,來源,審核狀態\n";
+      list.forEach(r => {
+        csv += `"${r.year}","${r.college}","${r.dept}","${r.teacher}","${r.category}","${r.subType}","${r.title.replace(/"/g, '""')}","${r.code}",${r.amount || 0},"${r.metricNote || ''}","${r.source}","${r.status}"\n`;
+      });
+      triggerCSVDownload(csv, `輔英研發處_成果清冊_${new Date().toISOString().slice(0,10)}.csv`);
+      showToast("已匯出目前篩選清冊！");
+    }
+
+    function triggerCSVDownload(content, filename) {
+      const blob = new Blob([content], { type: "text/csv;charset=utf-8;" });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement("a");
+      a.href = url;
+      a.download = filename;
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+      URL.revokeObjectURL(url);
+    }
+
+    function downloadFile(filePath, filename) {
+      const a = document.createElement("a");
+      a.href = filePath;
+      a.download = filename;
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+      showToast(`已下載 ${filename}！`);
+    }
+
+    function showToast(msg) {
+      const toast = document.getElementById("toast");
+      toast.textContent = msg;
+      toast.style.display = "block";
+      clearTimeout(toast.timer);
+      toast.timer = setTimeout(() => {
+        toast.style.display = "none";
+      }, 3000);
+    }
+
+    // 儀表板圖表
+    function renderCharts(list) {
+      const years = ["111", "112", "113", "114", "115"];
+      const yStats = years.map(y => {
+        const sub = list.filter(r => r.year === y);
+        const fund = sub.filter(r => r.category === "計畫案").reduce((a, b) => a + (Number(b.amount) || 0), 0);
+        return { year: y, count: sub.length, fund };
+      });
+
+      const maxFund = Math.max(...yStats.map(s => s.fund), 100);
+      document.getElementById("chartYearTrend").innerHTML = yStats.map(s => {
+        const pct = Math.min(100, Math.round((s.fund / maxFund) * 100));
+        return `
+          <div class="bar-row">
+            <div class="bar-label">
+              <span>${s.year} 學年度（共 ${s.count} 筆）</span>
+              <span style="color:var(--primary); font-weight:700;">NT$ ${s.fund.toLocaleString()} 萬元</span>
+            </div>
+            <div class="bar-track">
+              <div class="bar-fill" style="width:${pct}%; background:linear-gradient(90deg, #0f4c81, #0d9488);"></div>
+            </div>
+          </div>
+        `;
+      }).join("");
+
+      const colleges = Object.keys(FOOYIN_ORG);
+      document.getElementById("chartCollegeDist").innerHTML = colleges.map(c => {
+        const sub = list.filter(r => r.college === c);
+        const p1 = sub.filter(r => r.category === "計畫案").length;
+        const p2 = sub.filter(r => r.category === "論文").length;
+        const p3 = sub.filter(r => r.category === "專利").length;
+        const tot = Math.max(sub.length, 1);
+        return `
+          <div class="bar-row">
+            <div class="bar-label">
+              <span>${c}（共 ${sub.length} 筆）</span>
+              <span>計畫 ${p1}｜論文 ${p2}｜專利 ${p3}</span>
+            </div>
+            <div class="bar-track">
+              <div class="bar-fill" style="width:${(p1/tot)*100}%; background:#0f4c81;" title="計畫案"></div>
+              <div class="bar-fill" style="width:${(p2/tot)*100}%; background:#6d28d9;" title="論文"></div>
+              <div class="bar-fill" style="width:${(p3/tot)*100}%; background:#0d9488;" title="專利"></div>
+            </div>
+          </div>
+        `;
+      }).join("") + `
+        <div style="font-size:12px; color:var(--text-muted); margin-top:8px; display:flex; gap:14px;">
+          <span><strong style="color:#0f4c81;">■</strong> 計畫案</span>
+          <span><strong style="color:#6d28d9;">■</strong> 學術論文</span>
+          <span><strong style="color:#0d9488;">■</strong> 專利與技轉</span>
+        </div>
+      `;
+
+      const pTypes = SUBTYPES_BY_CAT["計畫案"];
+      const totalProjFund = Math.max(list.filter(r => r.category === "計畫案").reduce((a, b) => a + (Number(b.amount) || 0), 0), 1);
+      document.getElementById("chartProjectTypes").innerHTML = pTypes.map(pt => {
+        const sub = list.filter(r => r.category === "計畫案" && r.subType === pt);
+        const f = sub.reduce((a, b) => a + (Number(b.amount) || 0), 0);
+        const pct = Math.round((f / totalProjFund) * 100);
+        return `
+          <div class="bar-row">
+            <div class="bar-label">
+              <span>${pt}（${sub.length} 件）</span>
+              <span>NT$ ${f.toLocaleString()} 萬 (${pct}%)</span>
+            </div>
+            <div class="bar-track">
+              <div class="bar-fill" style="width:${pct}%; background:#0f4c81;"></div>
+            </div>
+          </div>
+        `;
+      }).join("");
+
+      const paperSub = SUBTYPES_BY_CAT["論文"].concat(SUBTYPES_BY_CAT["專利"]);
+      const maxPP = Math.max(list.filter(r => r.category !== "計畫案").length, 1);
+      document.getElementById("chartPaperPatentTypes").innerHTML = paperSub.map(st => {
+        const cnt = list.filter(r => r.subType === st).length;
+        const pct = Math.round((cnt / maxPP) * 100);
+        const color = st.includes("專利") ? "#0d9488" : "#6d28d9";
+        return `
+          <div class="bar-row">
+            <div class="bar-label">
+              <span>${st}</span>
+              <span>${cnt} 件/篇</span>
+            </div>
+            <div class="bar-track">
+              <div class="bar-fill" style="width:${Math.max(pct, cnt > 0 ? 12 : 0)}%; background:${color};"></div>
+            </div>
+          </div>
+        `;
+      }).join("");
+    }
+
+    // 教育部報表匯出
+    function selectReportFormat(mode) {
+      currentReportMode = mode;
+      renderReportPreview(getFilteredRecords());
+    }
+
+    function renderReportPreview(list) {
+      const headerEl = document.getElementById("reportPreviewHeader");
+      const thead = document.getElementById("reportPreviewThead");
+      const tbody = document.getElementById("reportPreviewTbody");
+
+      if (currentReportMode === "tvedb_proj") {
+        headerEl.textContent = "目前預覽表冊：教育部全國技專校院校務基本資料庫 — 表 4-10 產學合作及政府專案計畫表";
+        const rows = list.filter(r => r.category === "計畫案");
+        thead.innerHTML = `<tr><th>填報學年</th><th>學院名稱</th><th>系所名稱</th><th>計畫主持人</th><th>計畫類型</th><th>計畫完整名稱</th><th>案號</th><th class="num">核定總金額(元)</th><th>狀態</th></tr>`;
+        tbody.innerHTML = rows.map(r => `
+          <tr>
+            <td>${r.year}</td><td>${r.college}</td><td>${r.dept}</td><td><strong>${r.teacher}</strong></td>
+            <td>${r.subType}</td><td>${r.title}</td><td><code>${r.code}</code></td>
+            <td class="num">NT$ ${(r.amount * 10000).toLocaleString()}</td><td>${r.status}</td>
+          </tr>
+        `).join("") || `<tr><td colspan="9" style="text-align:center;">無符合計畫案資料</td></tr>`;
+      } else if (currentReportMode === "tvedb_paper") {
+        headerEl.textContent = "目前預覽表冊：教育部全國技專校院校務基本資料庫 — 表 4-8 教師學術期刊論文資料表";
+        const rows = list.filter(r => r.category === "論文");
+        thead.innerHTML = `<tr><th>發表學年</th><th>學院名稱</th><th>系所名稱</th><th>作者姓名</th><th>作者順序</th><th>收錄索引別</th><th>論文名稱</th><th>DOI</th><th>影響指數</th><th>狀態</th></tr>`;
+        tbody.innerHTML = rows.map(r => `
+          <tr>
+            <td>${r.year}</td><td>${r.college}</td><td>${r.dept}</td><td><strong>${r.teacher}</strong></td>
+            <td>${r.authorOrder || '第一作者'}</td><td><strong>${r.subType}</strong></td><td>${r.title}</td>
+            <td><code>${r.code}</code></td><td>${r.metricNote}</td><td>${r.status}</td>
+          </tr>
+        `).join("") || `<tr><td colspan="10" style="text-align:center;">無符合期刊論文資料</td></tr>`;
+      } else {
+        headerEl.textContent = "目前預覽表冊：教育部全國技專校院校務基本資料庫 — 表 4-7 教師專利與技術移轉資料表";
+        const rows = list.filter(r => r.category === "專利");
+        thead.innerHTML = `<tr><th>學年</th><th>學院名稱</th><th>系所名稱</th><th>代表發明人</th><th>專利類型</th><th>專利/技轉名稱</th><th>證書字號</th><th class="num">實收技轉金額(元)</th><th>狀態</th></tr>`;
+        tbody.innerHTML = rows.map(r => `
+          <tr>
+            <td>${r.year}</td><td>${r.college}</td><td>${r.dept}</td><td><strong>${r.teacher}</strong></td>
+            <td><strong>${r.subType}</strong></td><td>${r.title}</td><td><code>${r.code}</code></td>
+            <td class="num">${r.amount > 0 ? "NT$ " + (r.amount * 10000).toLocaleString() : "0 (純專利)"}</td><td>${r.status}</td>
+          </tr>
+        `).join("") || `<tr><td colspan="9" style="text-align:center;">無符合專利與技轉資料</td></tr>`;
+      }
+    }
+
+    function downloadCurrentReportCSV() {
+      if (!window.IntegrationSpecs) return;
+      const list = getFilteredRecords();
+      let csv = "";
+      let filename = "";
+
+      if (currentReportMode === "tvedb_proj") {
+        csv = window.IntegrationSpecs.tvedb.generateTable4_10CSV(list);
+        filename = `輔英科大_教育部校務資料庫_表4-10_產學與專案計畫_${new Date().toISOString().slice(0,10)}.csv`;
+      } else if (currentReportMode === "tvedb_paper") {
+        csv = window.IntegrationSpecs.tvedb.generateTable4_8CSV(list);
+        filename = `輔英科大_教育部校務資料庫_表4-8_學術期刊論文_${new Date().toISOString().slice(0,10)}.csv`;
+      } else {
+        csv = window.IntegrationSpecs.tvedb.generateTable4_7CSV(list);
+        filename = `輔英科大_教育部校務資料庫_表4-7_專利與技術移轉_${new Date().toISOString().slice(0,10)}.csv`;
+      }
+
+      triggerCSVDownload(csv, filename);
+      showToast("已成功匯出教育部技專校院校務基本資料庫標準表冊 (.csv)！");
+    }
+
+    function getFallbackDataset() {
+      return [
+        {
+          id: "REC-115-001",
+          year: "115",
+          college: "環境與生命學院",
+          dept: "環境工程與科學系",
+          teacher: "賴文亮",
+          empId: "ZH177",
+          adminRole: "特聘教授兼研發長",
+          isArticle7Exempt: true,
+          authorOrder: "計畫主持人 (100%)",
+          weightRatio: 1.0,
+          category: "計畫案",
+          subType: "國科會專題研究計畫",
+          title: "結合高級氧化與低碳生物膜程序處理新興環境污染物之降解機制與社會成效 (SROI) 評估",
+          code: "NSTC 115-2221-E-242-001",
+          accCode: "ACC-115-NSTC-001",
+          amount: 145,
+          metricNote: "核定 NT$ 145 萬",
+          source: "GRB/國科會介接",
+          status: "已核定歸檔",
+          keywords: ["新興污染物降解", "高級氧化程序", "環境水質監測"]
+        }
+      ];
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,87 @@
+name: Deploy Fooyin RD Integrated System to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main
+      - master
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  validate:
+    name: 驗證資料集與運算引擎健全度
+    runs-on: ubuntu-latest
+    steps:
+      - name: 檢出專案程式碼
+        uses: actions/checkout@v4
+
+      - name: 設定 Node.js 執行環境
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: 驗證 JSON 主檔與 111-115 資料集格式
+        run: |
+          node -e "
+            const fs = require('fs');
+            const org = JSON.parse(fs.readFileSync('data/fooyin_org_master.json', 'utf8'));
+            const dataset = JSON.parse(fs.readFileSync('data/dataset_111_115.json', 'utf8'));
+            console.log('✔ 組織主檔驗證通過：', org.institution.nameZh, '學院數：', org.colleges.length);
+            console.log('✔ 歷年資料集驗證通過：共', dataset.length, '筆成果紀錄');
+            if (dataset.length < 30) throw new Error('資料集筆數不足！');
+          "
+
+      - name: 執行 7 大類人選演算法與公式引擎單元驗證
+        run: |
+          node -e "
+            const fs = require('fs');
+            const dataset = JSON.parse(fs.readFileSync('data/dataset_111_115.json', 'utf8'));
+            const { evaluateCandidatesForTarget, TARGET_WRITING_CONFIG } = require('./src/recommendation_engine.js');
+            const { calculateBatchFacultySummary } = require('./src/evaluation_engine.js');
+            const IntegrationSpecs = require('./src/integration_specs.js');
+
+            Object.keys(TARGET_WRITING_CONFIG).forEach(k => {
+              const res = evaluateCandidatesForTarget(k, dataset);
+              console.log('✔ 推薦類別驗證：', k, '最佳人選數：', res.bestCount);
+            });
+
+            const summary = calculateBatchFacultySummary(dataset);
+            console.log('✔ 獎勵金與評鑑核算驗證通過：總獎金 NT$', summary.totalRewardSum.toLocaleString());
+
+            const csv47 = IntegrationSpecs.tvedb.generateTable4_7CSV(dataset);
+            const csv48 = IntegrationSpecs.tvedb.generateTable4_8CSV(dataset);
+            const csv410 = IntegrationSpecs.tvedb.generateTable4_10CSV(dataset);
+            console.log('✔ 教育部校務基本資料庫 3 大表冊 CSV 產製通過');
+          "
+
+  deploy:
+    name: 自動部署至 GitHub Pages
+    needs: validate
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: 檢出專案程式碼
+        uses: actions/checkout@v4
+
+      - name: 配置 GitHub Pages 環境
+        uses: actions/configure-pages@v5
+
+      - name: 上傳靜態檔案為 Pages Artifacts
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: '.'
+
+      - name: 部署至 GitHub Pages 站點
+        id: deployment
+        uses: actions/deploy-pages@v4
