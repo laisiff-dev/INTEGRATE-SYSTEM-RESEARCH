@@ -40,16 +40,24 @@ const TARGET_WRITING_CONFIG = {
         reasons.push(`發表頂尖/SCI/SSCI期刊 ${topPapers.length} 篇 (含高IF Q1 ${q1Count} 篇) (+${pBonus}分)`);
       }
 
-      // 產學或校內先期研究基礎
-      if (p.totalProjectCount > p.nstcCount) {
+      // 產學或校內先期研究基礎 或 具高 IF 期刊發表
+      const hasHighIf = p.papers.some(paper => (paper.ifScore && paper.ifScore >= 5.0) || (paper.subType && paper.subType.includes("Q1")));
+      if (p.totalProjectCount > p.nstcCount || hasHighIf) {
         score += 8;
-        reasons.push("具備產學或校內先期研發計畫執行經驗 (+8分)");
+        reasons.push(hasHighIf ? "發表高影響力 IF Q1 期刊論文，原創學術能量充足 (+8分)" : "具備產學或校內先期研發計畫執行經驗 (+8分)");
       }
 
       // 專利實務
       if (p.patentsCount > 0) {
         score += 5;
         reasons.push("具專利發明實績，論述具產業前瞻性 (+5分)");
+      }
+
+      // 原創實驗室系所優勢 (環境、醫檢、生技、應化、物治、保營、健美、護理)
+      const nstcSuitedDepts = ["環境工程與科學系", "醫學檢驗生物技術系", "生物科技與綠色產業系", "應用化學及材料科學系", "物理治療系", "保健營養系", "護理系"];
+      if (nstcSuitedDepts.includes(p.dept)) {
+        score += 8;
+        reasons.push(`所屬系所 (${p.dept}) 具前瞻實驗室研發能量與原創探索優勢 (+8分)`);
       }
 
       return { score, reasons, gapNote, targetType: "proj_nstc" };

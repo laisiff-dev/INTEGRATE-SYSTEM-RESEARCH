@@ -801,3 +801,20 @@ const records = [
 const outputPath = path.join(__dirname, 'data', 'dataset_111_115.json');
 fs.writeFileSync(outputPath, JSON.stringify(records, null, 2), 'utf-8');
 console.log('Successfully wrote', records.length, 'records to', outputPath);
+
+const jsPath = path.join(__dirname, 'data', 'dataset_111_115.js');
+const jsContent = `/**
+ * 輔英科技大學 111-115 年度完整研發成果資料集 (31 筆紀錄，涵蓋 4 院 16 系所)
+ * 支援瀏覽器本機 file:// 協議直接加載
+ */
+const DATASET_111_115 = ${JSON.stringify(records, null, 2)};
+
+if (typeof window !== "undefined") {
+  window.DATASET_111_115 = DATASET_111_115;
+}
+if (typeof module !== "undefined" && module.exports) {
+  module.exports = DATASET_111_115;
+}
+`;
+fs.writeFileSync(jsPath, jsContent, 'utf-8');
+console.log('Successfully wrote', records.length, 'records to', jsPath);

@@ -1176,6 +1176,8 @@
   <div id="toast"></div>
 
   <!-- Internal JavaScript Modules -->
+  <script src="data/fooyin_org_master.js"></script>
+  <script src="data/dataset_111_115.js"></script>
   <script src="src/recommendation_engine.js"></script>
   <script src="src/evaluation_engine.js"></script>
   <script src="src/integration_specs.js"></script>
@@ -1251,8 +1253,13 @@
       handleRoleChange();
     });
 
-    // 載入資料集
+    // 載入資料集 (支援本地直接開啟與伺服器 fetch 兩種模式)
     async function loadInitialDataset() {
+      if (window.DATASET_111_115 && Array.isArray(window.DATASET_111_115) && window.DATASET_111_115.length > 0) {
+        rdRecords = window.DATASET_111_115;
+        console.log("從 window.DATASET_111_115 成功載入", rdRecords.length, "筆資料 (免 CORS 模式)");
+        return;
+      }
       try {
         const res = await fetch("data/dataset_111_115.json");
         if (res.ok) {
@@ -1263,7 +1270,7 @@
         }
       } catch (e) {
         console.warn("使用本機備份種子資料集：", e);
-        // 若以 file:// 協議直接開啟，自動使用安全備援資料
+        // 若以 file:// 協議直接開啟且無 window.DATASET_111_115，自動使用安全備援資料
         rdRecords = getFallbackDataset();
       }
     }
@@ -2055,6 +2062,9 @@
     }
 
     function getFallbackDataset() {
+      if (window.DATASET_111_115 && Array.isArray(window.DATASET_111_115) && window.DATASET_111_115.length > 0) {
+        return window.DATASET_111_115;
+      }
       return [
         {
           id: "REC-115-001",
