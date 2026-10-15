@@ -86,15 +86,22 @@
       "nameZh": "護理學院",
       "nameEn": "College of Nursing",
       "dean": {
+        "name": "張遠萍",
+        "title": "特聘教授兼院長",
+        "department": "學士後護理系",
+        "article7Exempt": true
+      },
+      "viceDean": {
         "name": "陳淑銘",
         "title": "特聘教授兼副院長",
+        "department": "護理系",
         "article7Exempt": true
       },
       "departments": [
         {
           "deptId": "NURS_01",
           "nameZh": "護理系",
-          "head": "蔡芬卿 副教授",
+          "head": "蔡芬卿 副教授兼系(科)主任",
           "keyFaculty": [
             "陳淑銘",
             "蔡芬卿",
@@ -105,7 +112,7 @@
         {
           "deptId": "NURS_02",
           "nameZh": "助產與婦嬰健康照護系",
-          "head": "廖怡惠 副教授",
+          "head": "廖怡惠 副教授兼系主任",
           "keyFaculty": [
             "廖怡惠",
             "黃淑芬",
@@ -115,7 +122,7 @@
         {
           "deptId": "NURS_03",
           "nameZh": "健康事業管理系",
-          "head": "林政翰 副教授",
+          "head": "林政翰 副教授兼系主任",
           "keyFaculty": [
             "林惠賢",
             "羅家倫",
@@ -127,7 +134,7 @@
         {
           "deptId": "NURS_04",
           "nameZh": "高齡及長期照護事業系",
-          "head": "程紋貞 副教授",
+          "head": "程紋貞 副教授兼系主任",
           "keyFaculty": [
             "程紋貞",
             "楊月頴",
@@ -143,13 +150,14 @@
       "dean": {
         "name": "陳中一",
         "title": "特聘教授兼院長",
+        "department": "健康美容系",
         "article7Exempt": true
       },
       "departments": [
         {
           "deptId": "MED_01",
           "nameZh": "醫學檢驗生物技術系",
-          "head": "曾維昌 副教授",
+          "head": "曾維昌 副教授兼系主任",
           "keyFaculty": [
             "郭順宇",
             "曾維昌",
@@ -160,7 +168,7 @@
         {
           "deptId": "MED_02",
           "nameZh": "物理治療系",
-          "head": "陳麗秋 副教授",
+          "head": "陳麗秋 副教授兼系主任",
           "keyFaculty": [
             "陳麗秋",
             "李美誼",
@@ -171,10 +179,10 @@
         {
           "deptId": "MED_03",
           "nameZh": "保健營養系",
-          "head": "張月萍 副教授",
+          "head": "張月萍 副教授兼系主任",
           "keyFaculty": [
-            "王志傑",
             "張月萍",
+            "蔡蕙芸",
             "林佩瑩",
             "陳家茂"
           ]
@@ -182,7 +190,7 @@
         {
           "deptId": "MED_04",
           "nameZh": "健康美容系",
-          "head": "蘇嘉宏 教授",
+          "head": "蘇嘉宏 教授兼系主任",
           "keyFaculty": [
             "陳中一",
             "蘇嘉宏",
@@ -199,13 +207,14 @@
       "dean": {
         "name": "賴進興",
         "title": "特聘教授兼院長",
+        "department": "環境工程與科學系",
         "article7Exempt": true
       },
       "departments": [
         {
           "deptId": "ENV_01",
           "nameZh": "環境工程與科學系",
-          "head": "陳世裕 副教授",
+          "head": "陳世裕 副教授兼系主任",
           "keyFaculty": [
             "賴文亮",
             "賴進興",
@@ -217,7 +226,7 @@
         {
           "deptId": "ENV_02",
           "nameZh": "生物科技與綠色產業系",
-          "head": "王昭凱 副教授",
+          "head": "王昭凱 副教授兼系主任",
           "keyFaculty": [
             "王昭凱",
             "吳聲祺",
@@ -227,7 +236,7 @@
         {
           "deptId": "ENV_03",
           "nameZh": "應用化學及材料科學系",
-          "head": "潘文彬 副教授",
+          "head": "潘文彬 副教授兼系主任",
           "keyFaculty": [
             "潘文彬",
             "王麗芬",
@@ -237,7 +246,7 @@
         {
           "deptId": "ENV_04",
           "nameZh": "職業安全衛生系",
-          "head": "鄭立新 副教授",
+          "head": "鄭立新 副教授兼系主任",
           "keyFaculty": [
             "鄭立新",
             "陳毅謙",
@@ -251,15 +260,16 @@
       "nameZh": "人文與管理學院",
       "nameEn": "College of Humanities and Management",
       "dean": {
-        "name": "陳淑滿",
-        "title": "教授兼院長",
+        "name": "林献巃",
+        "title": "專任教授兼院長",
+        "department": "休閒與遊憩事業管理系",
         "article7Exempt": true
       },
       "departments": [
         {
           "deptId": "HUM_01",
           "nameZh": "幼兒保育暨產業系",
-          "head": "張靖敏 副教授",
+          "head": "張靖敏 副教授兼系主任",
           "keyFaculty": [
             "張靖敏",
             "簡君純",
@@ -269,7 +279,7 @@
         {
           "deptId": "HUM_02",
           "nameZh": "休閒與遊憩事業管理系",
-          "head": "陳冠位 副教授",
+          "head": "陳冠位 副教授兼系主任",
           "keyFaculty": [
             "陳冠位",
             "林献巃",
@@ -279,21 +289,21 @@
         {
           "deptId": "HUM_03",
           "nameZh": "資訊科技與管理系",
-          "head": "葉富豪 副教授",
+          "head": "葉富豪 副教授兼系主任",
           "keyFaculty": [
-            "陳淑滿",
-            "陳俊勳",
             "葉富豪",
+            "陳俊勳",
+            "陳淑滿",
             "張簡文添"
           ]
         },
         {
           "deptId": "HUM_04",
           "nameZh": "應用外語系",
-          "head": "蔡瑤 副教授",
+          "head": "蔡瑤 副教授兼系主任",
           "keyFaculty": [
-            "楊玉琦",
             "蔡瑤",
+            "楊玉琦",
             "高家萱",
             "陳甄儀"
           ]
