@@ -63,15 +63,15 @@ const IntegrationSpecs = {
         article7Note: "一般職員"
       },
       teacher: {
-        empId: "T2021",
-        name: "鄭博仁",
-        title: "專任教授",
+        empId: "T0000010996",
+        name: "李美誼",
+        title: "專任副教授",
         college: "醫學與健康學院",
         dept: "物理治療系",
         role: "TEACHER",
-        roleLabel: "學院系所教師（個人研發成果預填確認與評鑑點數查詢）",
+        roleLabel: "李美誼 副教授（學院系所教師：個人成果預填確認與評鑑點數試算）",
         isArticle7Exempt: false,
-        article7Note: "專任專任教師，適用完整教師評鑑標準"
+        article7Note: "專任教師，適用完整教師評鑑標準（國科會/產學/論文/專利獲證）"
       }
     }
   },
