@@ -182,8 +182,8 @@ const TARGET_WRITING_CONFIG = {
       let gapNote = "";
 
       const sciPapers = p.papers.filter(paper => paper.subType.includes("SCI") || paper.subType.includes("EI"));
-      const invGranted = p.patents.filter(patent => patent.subType.includes("發明專利(已獲證)"));
-      const invPending = p.patents.filter(patent => patent.subType.includes("發明專利(申請中)"));
+      const invGranted = p.patents.filter(patent => patent.subType.includes("發明專利") && patent.status !== "申請中");
+      const invPending = p.patents.filter(patent => patent.subType.includes("發明專利") && patent.status === "申請中");
 
       // 【核心缺口演算法】：發表高水準 SCI/EI 實驗論文，卻尚未申請發明專利
       if (sciPapers.length > 0 && invGranted.length === 0 && invPending.length === 0) {
@@ -341,7 +341,7 @@ function aggregateTeacherProfiles(records) {
       if (r.subType.includes("國科會")) t.nstcCount++;
       if (r.subType.includes("政府部會")) t.govProjCount++;
       if (r.subType.includes("教育部")) t.moeProjCount++;
-      if (r.subType.includes("企業產學")) {
+      if (r.subType.includes("企業產學") || r.subType.includes("產學合作計畫") || r.subType.includes("產學")) {
         t.iacProjCount++;
         t.iacFundingWan += amt;
       }
@@ -354,6 +354,11 @@ function aggregateTeacherProfiles(records) {
         t.ttCount++;
         t.ttRevenueWan += (Number(r.amount) || 0);
       }
+    } else if (r.category === "技術移轉") {
+      t.ttCount++;
+      t.ttRevenueWan += (Number(r.amount) || 0);
+    } else if (r.category === "專業競賽") {
+      t.compCount = (t.compCount || 0) + 1;
     }
   });
 
