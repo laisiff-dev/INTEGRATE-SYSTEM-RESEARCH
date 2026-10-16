@@ -594,6 +594,7 @@
       <button class="btn btn-sm btn-secondary" onclick="downloadFile('data/fooyin_org_master.json', 'fooyin_org_master.json')">⬇ 4院16系所主檔</button>
       <button class="btn btn-sm btn-primary" onclick="downloadFile('data/dataset_110_115.json', 'dataset_110_115.json')">⬇ 110-115完整JSON (2,076筆)</button>
       <button class="btn btn-sm" onclick="openTeacherWrittingModal()" style="background:#6d28d9; color:#fff; border-color:#6d28d9; font-weight:700;">📚 GitHub 論文庫 (5,258 筆)</button>
+      <button class="btn btn-sm" onclick="openSelectiveExportModal()" style="background:#0d9488; color:#fff; border-color:#0d9488; font-weight:700;">📤 自訂匯出 (依院/系/年)</button>
       <button class="btn btn-sm btn-outline" onclick="switchTab('ingestion', document.querySelectorAll('.nav-tab')[4])" style="background:#0d9488; color:#fff; border-color:#0d9488;">☁️ 雲端與 GitHub 匯入中心</button>
       <button class="btn btn-sm btn-outline" onclick="downloadFile('.github/workflows/deploy.yml', 'deploy.yml')">⬇ GitHub Actions YAML</button>
     </div>
@@ -651,6 +652,7 @@
       </div>
       <div class="filter-actions">
         <button class="btn btn-sm" onclick="openTeacherWrittingModal()" style="background:#6d28d9; color:#fff; border-color:#6d28d9; font-weight:600;">📚 GitHub 論文庫 (5,258筆)</button>
+        <button class="btn btn-sm" onclick="openSelectiveExportModal()" style="background:#0d9488; color:#fff; border-color:#0d9488; font-weight:600;">📤 依系/院/年度自訂匯出</button>
         <button class="btn btn-outline btn-sm" onclick="resetFilters()">重置全部條件</button>
         <button class="btn btn-primary btn-sm" onclick="exportFilteredCSV()">匯出目前篩選清冊 (.csv)</button>
         <button class="btn btn-secondary btn-sm" onclick="window.print()">列印 / 轉存 PDF 報表</button>
@@ -778,8 +780,10 @@
           <div class="card-title">
             <span>全校歷年計畫案、論文、專利與技轉清冊（共 <span id="recordCountBadge">0</span> 筆）</span>
           </div>
-          <div style="display:flex; gap:8px;">
-            <button class="btn btn-outline btn-sm" onclick="batchApproveVisible()">一鍵核定目前可見紀錄</button>
+          <div style="display:flex; gap:8px; flex-wrap:wrap;">
+            <button class="btn btn-outline btn-sm" onclick="batchApproveVisible()">一鍵核定可見紀錄</button>
+            <button class="btn btn-outline btn-sm" onclick="batchDeleteVisible()" style="color:var(--danger); border-color:#fca5a5;">批次刪除可見紀錄</button>
+            <button class="btn btn-outline btn-sm" onclick="openSelectiveExportModal()" style="color:#0d9488; border-color:#0d9488; font-weight:600;">📤 依系/院/年度自訂匯出</button>
             <button class="btn btn-primary btn-sm" onclick="exportFilteredCSV()">匯出 CSV 清冊</button>
           </div>
         </div>
@@ -1590,6 +1594,267 @@
     </div>
   </div>
 
+  <!-- Modal: 單筆資料修正與維護 (Edit Record Modal) -->
+  <div id="editRecordModal" style="display:none; position:fixed; inset:0; background:rgba(15,23,42,0.65); z-index:9999; align-items:center; justify-content:center; backdrop-filter:blur(4px); padding:16px;">
+    <div style="background:#fff; border-radius:12px; max-width:850px; width:100%; max-height:92vh; display:flex; flex-direction:column; box-shadow:0 25px 50px -12px rgba(0,0,0,0.3); border:1px solid #cbd5e1; overflow:hidden;">
+      
+      <!-- Modal Header -->
+      <div style="padding:16px 20px; background:linear-gradient(135deg, var(--primary-dark), var(--primary)); color:#fff; display:flex; justify-content:space-between; align-items:center;">
+        <div style="display:flex; align-items:center; gap:10px;">
+          <span style="font-size:22px;">✏️</span>
+          <div>
+            <strong style="font-size:16px;">修正成果資料記錄</strong>
+            <div style="font-size:12px; opacity:0.9; margin-top:2px;">若資料有誤，可於此修正系所、教師、類型、案號、經費或評鑑判定，儲存後即時生效</div>
+          </div>
+        </div>
+        <button onclick="closeEditRecordModal()" style="background:none; border:none; color:#fff; font-size:22px; cursor:pointer; padding:2px 8px; line-height:1;">✕</button>
+      </div>
+
+      <!-- Form Content -->
+      <form id="editRecordForm" onsubmit="saveEditedRecord(event)" style="padding:20px; flex:1; overflow-y:auto; display:flex; flex-direction:column; gap:14px;">
+        <input type="hidden" id="editRecId" />
+
+        <div style="display:grid; grid-template-columns: 1fr 1fr 1fr; gap:12px;">
+          <div class="form-group">
+            <label style="font-weight:700; font-size:12.5px; margin-bottom:4px; display:block;">學年度 (Year) *</label>
+            <select id="editRecYear" required style="width:100%; padding:7px 10px; border:1px solid var(--border); border-radius:6px; font-size:13px;">
+              <option value="115">115 學年度</option>
+              <option value="114">114 學年度</option>
+              <option value="113">113 學年度</option>
+              <option value="112">112 學年度</option>
+              <option value="111">111 學年度</option>
+              <option value="110">110 學年度</option>
+              <option value="109">109 學年度</option>
+              <option value="108">108 學年度</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label style="font-weight:700; font-size:12.5px; margin-bottom:4px; display:block;">成果大類 (Category) *</label>
+            <select id="editRecCategory" onchange="updateEditSubtypes()" required style="width:100%; padding:7px 10px; border:1px solid var(--border); border-radius:6px; font-size:13px;">
+              <option value="計畫案">計畫案</option>
+              <option value="論文">學術論文</option>
+              <option value="專利">專利成果</option>
+              <option value="專業競賽">專業競賽</option>
+              <option value="技術移轉">技術移轉</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label style="font-weight:700; font-size:12.5px; margin-bottom:4px; display:block;">細部類型 (Sub-Type) *</label>
+            <select id="editRecSubType" required style="width:100%; padding:7px 10px; border:1px solid var(--border); border-radius:6px; font-size:13px;"></select>
+          </div>
+        </div>
+
+        <div style="display:grid; grid-template-columns: 1fr 1fr; gap:12px;">
+          <div class="form-group">
+            <label style="font-weight:700; font-size:12.5px; margin-bottom:4px; display:block;">所屬學院 (College) *</label>
+            <select id="editRecCollege" onchange="updateEditDepts()" required style="width:100%; padding:7px 10px; border:1px solid var(--border); border-radius:6px; font-size:13px;">
+              <option value="護理學院">護理學院</option>
+              <option value="醫學與健康學院">醫學與健康學院</option>
+              <option value="環境與生命學院">環境與生命學院</option>
+              <option value="人文與管理學院">人文與管理學院</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label style="font-weight:700; font-size:12.5px; margin-bottom:4px; display:block;">所屬系所 (Department) *</label>
+            <select id="editRecDept" required style="width:100%; padding:7px 10px; border:1px solid var(--border); border-radius:6px; font-size:13px;"></select>
+          </div>
+        </div>
+
+        <div style="display:grid; grid-template-columns: 1.2fr 1fr 1.2fr; gap:12px;">
+          <div class="form-group">
+            <label style="font-weight:700; font-size:12.5px; margin-bottom:4px; display:block;">教師姓名 (Teacher Name) *</label>
+            <input type="text" id="editRecTeacher" required style="width:100%; padding:7px 10px; border:1px solid var(--border); border-radius:6px; font-size:13px;" />
+          </div>
+          <div class="form-group">
+            <label style="font-weight:700; font-size:12.5px; margin-bottom:4px; display:block;">作者序 / 角色</label>
+            <input type="text" id="editRecAuthorOrder" placeholder="如：計畫主持人 (100%)、第一作者..." style="width:100%; padding:7px 10px; border:1px solid var(--border); border-radius:6px; font-size:13px;" />
+          </div>
+          <div class="form-group">
+            <label style="font-weight:700; font-size:12.5px; margin-bottom:4px; display:block;">職稱與行政主管職</label>
+            <input type="text" id="editRecAdminRole" placeholder="如：特聘教授兼研發長、助理教授..." style="width:100%; padding:7px 10px; border:1px solid var(--border); border-radius:6px; font-size:13px;" />
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label style="font-weight:700; font-size:12.5px; margin-bottom:4px; display:block;">成果完整名稱 (Title) *</label>
+          <input type="text" id="editRecTitle" required style="width:100%; padding:8px 10px; border:1px solid var(--border); border-radius:6px; font-size:13px;" />
+        </div>
+
+        <div style="display:grid; grid-template-columns: 1fr 1fr 1fr; gap:12px;">
+          <div class="form-group">
+            <label style="font-weight:700; font-size:12.5px; margin-bottom:4px; display:block;">案號 / DOI / 專利證號</label>
+            <input type="text" id="editRecCode" placeholder="如 NSTC 114-xxx 或 證號" style="width:100%; padding:7px 10px; border:1px solid var(--border); border-radius:6px; font-size:13px;" />
+          </div>
+          <div class="form-group">
+            <label style="font-weight:700; font-size:12.5px; margin-bottom:4px; display:block;">會計管控代碼 / 傳票</label>
+            <input type="text" id="editRecAccCode" placeholder="如 ACC-114-NSTC-001" style="width:100%; padding:7px 10px; border:1px solid var(--border); border-radius:6px; font-size:13px;" />
+          </div>
+          <div class="form-group">
+            <label style="font-weight:700; font-size:12.5px; margin-bottom:4px; display:block;">核定經費 (萬元) / IF指標</label>
+            <input type="number" step="0.01" id="editRecAmount" placeholder="如 120" style="width:100%; padding:7px 10px; border:1px solid var(--border); border-radius:6px; font-size:13px;" />
+          </div>
+        </div>
+
+        <div style="display:grid; grid-template-columns: 1fr 1fr; gap:12px;">
+          <div class="form-group">
+            <label style="font-weight:700; font-size:12.5px; margin-bottom:4px; display:block;">審核狀態 (Status)</label>
+            <select id="editRecStatus" style="width:100%; padding:7px 10px; border:1px solid var(--border); border-radius:6px; font-size:13px;">
+              <option value="已核定歸檔">已核定歸檔 (通過審查)</option>
+              <option value="待研發處審核">待研發處審核 (審查中)</option>
+              <option value="需教師補件">需教師補件 (退請修正)</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label style="font-weight:700; font-size:12.5px; margin-bottom:4px; display:block;">來源資料庫 (Source)</label>
+            <input type="text" id="editRecSource" placeholder="如 雲端硬碟主檔 / TEACHER-WRITTING" style="width:100%; padding:7px 10px; border:1px solid var(--border); border-radius:6px; font-size:13px;" />
+          </div>
+        </div>
+
+        <div style="background:#f8fafc; border:1px solid var(--border); border-radius:8px; padding:12px; display:flex; align-items:center; gap:10px;">
+          <input type="checkbox" id="editRecIsArticle7" style="width:18px; height:18px; cursor:pointer;" />
+          <label for="editRecIsArticle7" style="font-size:13px; font-weight:600; color:var(--purple); cursor:pointer;">
+            符合《專任教師評鑑辦法》第 7 條兼任行政主管免評規定（評鑑自動達標）
+          </label>
+        </div>
+
+        <!-- Action Buttons -->
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-top:8px; border-top:1px solid var(--border); padding-top:14px;">
+          <button type="button" class="btn btn-outline btn-sm" onclick="deleteCurrentEditingRecord()" style="color:var(--danger); border-color:#fca5a5;">
+            🗑️ 刪除此筆資料
+          </button>
+          <div style="display:flex; gap:10px;">
+            <button type="button" class="btn btn-outline btn-sm" onclick="closeEditRecordModal()">取消</button>
+            <button type="submit" class="btn btn-primary btn-sm" style="padding:6px 18px; font-weight:700;">💾 儲存修正並即時生效</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- Modal: 依系、院、使用年度自訂選擇性資料匯出中心 (Selective Export Modal) -->
+  <div id="selectiveExportModal" style="display:none; position:fixed; inset:0; background:rgba(15,23,42,0.65); z-index:9999; align-items:center; justify-content:center; backdrop-filter:blur(4px); padding:16px;">
+    <div style="background:#fff; border-radius:12px; max-width:960px; width:100%; max-height:92vh; display:flex; flex-direction:column; box-shadow:0 25px 50px -12px rgba(0,0,0,0.3); border:1px solid #cbd5e1; overflow:hidden;">
+      
+      <!-- Modal Header -->
+      <div style="padding:16px 22px; background:linear-gradient(135deg, #0d9488, #0f4c81); color:#fff; display:flex; justify-content:space-between; align-items:center;">
+        <div style="display:flex; align-items:center; gap:10px;">
+          <span style="font-size:24px;">📤</span>
+          <div>
+            <strong style="font-size:16.5px;">自訂維度成果資料匯出中心</strong>
+            <div style="font-size:12px; opacity:0.92; margin-top:2px;">可依「學院」、「系所」及「使用學年度」自訂勾選輸出，支援標準 Excel CSV、教育部表冊與 JSON</div>
+          </div>
+        </div>
+        <button onclick="closeSelectiveExportModal()" style="background:none; border:none; color:#fff; font-size:22px; cursor:pointer; padding:2px 8px; line-height:1;">✕</button>
+      </div>
+
+      <!-- Live Count Stats Banner -->
+      <div style="background:#f0fdf4; border-bottom:1px solid #bbf7d0; padding:12px 22px; display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:10px; font-size:13px;">
+        <div>
+          <span style="color:#166534; font-weight:700;">🎯 目前選定維度涵蓋：</span>
+          <strong id="selExportLiveCount" style="color:#15803d; font-size:16px; margin:0 4px;">0</strong>
+          <span style="color:#166534;">筆成果記錄</span>
+          <span id="selExportBreakdown" style="font-size:12px; color:#15803d; margin-left:8px;"></span>
+        </div>
+        <div style="display:flex; gap:8px;">
+          <button class="btn btn-outline btn-sm" onclick="resetSelectiveExportFilters()" style="background:#fff; font-size:11.5px;">重置選擇條件</button>
+          <button class="btn btn-sm btn-primary" onclick="selectAllSelectiveExportFilters()" style="background:#15803d; border-color:#15803d; font-size:11.5px;">全選全部維度</button>
+        </div>
+      </div>
+
+      <!-- Filter Controls Container -->
+      <div style="padding:18px 22px; flex:1; overflow-y:auto; display:flex; flex-direction:column; gap:16px;">
+        
+        <!-- 1. 學年度選擇 -->
+        <div style="border:1px solid var(--border); border-radius:8px; padding:14px; background:#fafafa;">
+          <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px;">
+            <strong style="color:var(--primary-dark); font-size:13.5px;">📅 1. 學年度選擇 (可多選)：</strong>
+            <div style="display:flex; gap:6px;">
+              <button type="button" class="btn btn-outline btn-sm" onclick="setAllYears(true)" style="padding:1px 6px; font-size:11px;">全選年度</button>
+              <button type="button" class="btn btn-outline btn-sm" onclick="setAllYears(false)" style="padding:1px 6px; font-size:11px;">清空年度</button>
+            </div>
+          </div>
+          <div id="selExportYearContainer" style="display:flex; flex-wrap:wrap; gap:10px; font-size:13px;">
+            <label style="display:flex; align-items:center; gap:5px; cursor:pointer;"><input type="checkbox" value="115" class="exp-year-cb" onchange="updateSelectiveExportCount()" checked /> 115 學年度</label>
+            <label style="display:flex; align-items:center; gap:5px; cursor:pointer;"><input type="checkbox" value="114" class="exp-year-cb" onchange="updateSelectiveExportCount()" checked /> 114 學年度</label>
+            <label style="display:flex; align-items:center; gap:5px; cursor:pointer;"><input type="checkbox" value="113" class="exp-year-cb" onchange="updateSelectiveExportCount()" checked /> 113 學年度</label>
+            <label style="display:flex; align-items:center; gap:5px; cursor:pointer;"><input type="checkbox" value="112" class="exp-year-cb" onchange="updateSelectiveExportCount()" checked /> 112 學年度</label>
+            <label style="display:flex; align-items:center; gap:5px; cursor:pointer;"><input type="checkbox" value="111" class="exp-year-cb" onchange="updateSelectiveExportCount()" checked /> 111 學年度</label>
+            <label style="display:flex; align-items:center; gap:5px; cursor:pointer;"><input type="checkbox" value="110" class="exp-year-cb" onchange="updateSelectiveExportCount()" checked /> 110 學年度</label>
+            <label style="display:flex; align-items:center; gap:5px; cursor:pointer;"><input type="checkbox" value="PRE_110" class="exp-year-cb" onchange="updateSelectiveExportCount()" checked /> 109 以前歷史成果</label>
+          </div>
+        </div>
+
+        <!-- 2. 學院與系所選擇 -->
+        <div style="border:1px solid var(--border); border-radius:8px; padding:14px; background:#fff;">
+          <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px;">
+            <strong style="color:var(--primary-dark); font-size:13.5px;">🏫 2. 學院與系所選擇 (4 大學院、16 系所)：</strong>
+            <div style="display:flex; gap:6px;">
+              <button type="button" class="btn btn-outline btn-sm" onclick="setAllDepts(true)" style="padding:1px 6px; font-size:11px;">全選 16 系所</button>
+              <button type="button" class="btn btn-outline btn-sm" onclick="setAllDepts(false)" style="padding:1px 6px; font-size:11px;">清空系所</button>
+            </div>
+          </div>
+          <div id="selExportCollegeDeptGrid" style="display:grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap:12px;">
+            <!-- Dynamically populated 4 colleges and 16 depts -->
+          </div>
+        </div>
+
+        <!-- 3. 成果大類與審核狀態篩選 -->
+        <div style="display:grid; grid-template-columns: 1fr 1fr; gap:12px;">
+          <div style="border:1px solid var(--border); border-radius:8px; padding:12px; background:#fafafa;">
+            <strong style="color:var(--primary-dark); font-size:13px; display:block; margin-bottom:6px;">📑 3. 成果大類 (Category)：</strong>
+            <div style="display:flex; flex-wrap:wrap; gap:8px; font-size:12.5px;">
+              <label style="display:flex; align-items:center; gap:4px; cursor:pointer;"><input type="checkbox" value="計畫案" class="exp-cat-cb" onchange="updateSelectiveExportCount()" checked /> 計畫案</label>
+              <label style="display:flex; align-items:center; gap:4px; cursor:pointer;"><input type="checkbox" value="論文" class="exp-cat-cb" onchange="updateSelectiveExportCount()" checked /> 學術論文</label>
+              <label style="display:flex; align-items:center; gap:4px; cursor:pointer;"><input type="checkbox" value="專利" class="exp-cat-cb" onchange="updateSelectiveExportCount()" checked /> 專利成果</label>
+              <label style="display:flex; align-items:center; gap:4px; cursor:pointer;"><input type="checkbox" value="專業競賽" class="exp-cat-cb" onchange="updateSelectiveExportCount()" checked /> 專業競賽</label>
+              <label style="display:flex; align-items:center; gap:4px; cursor:pointer;"><input type="checkbox" value="技術移轉" class="exp-cat-cb" onchange="updateSelectiveExportCount()" checked /> 技術移轉</label>
+            </div>
+          </div>
+          <div style="border:1px solid var(--border); border-radius:8px; padding:12px; background:#fafafa;">
+            <strong style="color:var(--primary-dark); font-size:13px; display:block; margin-bottom:6px;">⚖️ 4. 審核狀態 (Status)：</strong>
+            <div style="display:flex; flex-wrap:wrap; gap:8px; font-size:12.5px;">
+              <label style="display:flex; align-items:center; gap:4px; cursor:pointer;"><input type="checkbox" value="已核定歸檔" class="exp-status-cb" onchange="updateSelectiveExportCount()" checked /> 已核定歸檔</label>
+              <label style="display:flex; align-items:center; gap:4px; cursor:pointer;"><input type="checkbox" value="待研發處審核" class="exp-status-cb" onchange="updateSelectiveExportCount()" checked /> 待研發處審核</label>
+              <label style="display:flex; align-items:center; gap:4px; cursor:pointer;"><input type="checkbox" value="需教師補件" class="exp-status-cb" onchange="updateSelectiveExportCount()" checked /> 需教師補件</label>
+            </div>
+          </div>
+        </div>
+
+        <!-- 4. 輸出格式設定 -->
+        <div style="border:1px solid var(--border); border-radius:8px; padding:12px; background:#fff;">
+          <strong style="color:var(--primary-dark); font-size:13px; display:block; margin-bottom:8px;">📦 5. 匯出格式與欄位模式：</strong>
+          <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap:10px; font-size:12.5px;">
+            <label style="display:flex; align-items:center; gap:6px; cursor:pointer; background:#f8fafc; padding:8px 10px; border-radius:6px; border:1px solid var(--border);">
+              <input type="radio" name="expFormatMode" value="standard_csv" checked />
+              <div><strong>研發處標準成果清冊 (.csv)</strong><div style="font-size:11px; color:var(--text-muted);">含學院系所、案號、經費與評鑑註記</div></div>
+            </label>
+            <label style="display:flex; align-items:center; gap:6px; cursor:pointer; background:#f8fafc; padding:8px 10px; border-radius:6px; border:1px solid var(--border);">
+              <input type="radio" name="expFormatMode" value="tvedb_csv" />
+              <div><strong>教育部 TVEDB 校務庫格式 (.csv)</strong><div style="font-size:11px; color:var(--text-muted);">符合技專校院校務基本資料庫規範</div></div>
+            </label>
+            <label style="display:flex; align-items:center; gap:6px; cursor:pointer; background:#f8fafc; padding:8px 10px; border-radius:6px; border:1px solid var(--border);">
+              <input type="radio" name="expFormatMode" value="json" />
+              <div><strong>完整結構化 JSON 檔案 (.json)</strong><div style="font-size:11px; color:var(--text-muted);">適合系統串接與次世代整合分析</div></div>
+            </label>
+          </div>
+        </div>
+      </div>
+
+      <!-- Modal Footer -->
+      <div style="padding:14px 22px; background:#f8fafc; border-top:1px solid var(--border); display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:10px;">
+        <div style="font-size:12px; color:var(--text-muted);">
+          * 輸出檔案均預設包含 UTF-8 BOM 簽章，以微軟 Excel 開啟保證繁體中文無亂碼。
+        </div>
+        <div style="display:flex; gap:10px;">
+          <button class="btn btn-outline btn-sm" onclick="copySelectiveExportToClipboard()">📋 複製內容 (TSV)</button>
+          <button class="btn btn-primary btn-sm" onclick="executeSelectiveExport()" style="background:#0d9488; border-color:#0d9488; padding:8px 18px; font-weight:700;">
+            📥 依選定條件匯出
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <!-- Internal JavaScript Modules -->
   <script src="data/fooyin_org_master.js"></script>
   <script src="data/dataset_110_115.js"></script>
@@ -2214,8 +2479,16 @@
             <td><span style="font-size:11.5px; color:var(--text-muted);">${r.source}</span></td>
             <td><span class="badge ${statusBadge}">${r.status}</span></td>
             <td>
-              <button class="btn btn-outline btn-sm" onclick="cycleStatus('${r.id}')">切換狀態</button>
-              <button class="btn btn-outline btn-sm" style="margin-top:4px; color:#6d28d9; border-color:#ddd6fe; display:inline-flex; align-items:center; gap:2px;" onclick="openTeacherWrittingModal('${r.teacher}')" title="LOOK：檢索該教師於 GitHub 論文庫全部發表">📚 論文庫</button>
+              <div style="display:flex; flex-direction:column; gap:4px; min-width:125px;">
+                <div style="display:flex; gap:4px;">
+                  <button class="btn btn-primary btn-sm" style="padding:2px 7px; font-size:11px;" onclick="openEditRecordModal('${r.id}')" title="修改此筆資料">✏️ 修正</button>
+                  <button class="btn btn-outline btn-sm" style="padding:2px 7px; font-size:11px; color:var(--danger); border-color:#fca5a5;" onclick="deleteRecord('${r.id}')" title="自系統中刪除此筆記錄">🗑️ 刪除</button>
+                </div>
+                <div style="display:flex; gap:4px;">
+                  <button class="btn btn-outline btn-sm" style="padding:2px 5px; font-size:11px;" onclick="cycleStatus('${r.id}')" title="切換審核狀態">🔄 狀態</button>
+                  <button class="btn btn-outline btn-sm" style="padding:2px 5px; font-size:11px; color:#6d28d9; border-color:#ddd6fe;" onclick="openTeacherWrittingModal('${r.teacher}')" title="LOOK：檢索該教師於 GitHub 論文庫全部發表">📚 論文</button>
+                </div>
+              </div>
             </td>
           </tr>
         `;
@@ -3024,12 +3297,20 @@
 
     function exportFilteredCSV() {
       const list = getFilteredRecords();
-      let csv = "\uFEFF學年度,學院,系所,教師姓名,成果大類,細部類型,名稱,案號或DOI,經費(萬元),指標備註,來源,審核狀態\n";
+      const yr = document.getElementById("filterYear") ? document.getElementById("filterYear").value : "ALL";
+      const col = document.getElementById("filterCollege") ? document.getElementById("filterCollege").value : "ALL";
+      const dept = document.getElementById("filterDept") ? document.getElementById("filterDept").value : "ALL";
+
+      const yrDesc = yr === "ALL" ? "110-115學年度" : (yr + "學年度");
+      const scopeDesc = dept !== "ALL" ? dept : (col !== "ALL" ? col : "全校");
+      const dateStr = new Date().toISOString().slice(0, 10);
+
+      let csv = "\uFEFF學年度,學院,系所,教師姓名,職稱,人事評鑑第7條判定,成果大類,細部類型,成果完整名稱,案號或DOI證號,會計管控代碼,經費(萬元),指標備註,來源,審核狀態\n";
       list.forEach(r => {
-        csv += `"${r.year}","${r.college}","${r.dept}","${r.teacher}","${r.category}","${r.subType}","${r.title.replace(/"/g, '""')}","${r.code}",${r.amount || 0},"${r.metricNote || ''}","${r.source}","${r.status}"\n`;
+        csv += `"${r.year}","${r.college}","${r.dept}","${r.teacher}","${r.adminRole || ''}","${r.isArticle7Exempt ? '符合第7條主管免評' : '一般專任'}","${r.category}","${r.subType}","${(r.title || '').replace(/"/g, '""')}","${r.code}","${r.accCode || ''}",${r.amount || 0},"${r.metricNote || ''}","${r.source}","${r.status}"\n`;
       });
-      triggerCSVDownload(csv, `輔英研發處_成果清冊_${new Date().toISOString().slice(0,10)}.csv`);
-      showToast("已匯出目前篩選清冊！");
+      triggerCSVDownload(csv, `輔英研發處_${scopeDesc}_${yrDesc}_成果清冊_${dateStr}.csv`);
+      showToast(`已依【${scopeDesc}｜${yrDesc}】匯出目前篩選的 ${list.length} 筆清冊！`);
     }
 
     function triggerCSVDownload(content, filename) {
@@ -3515,6 +3796,386 @@
       if (year) year.value = "ALL";
       if (order) order.value = "ALL";
       filterTeacherWritting();
+    }
+
+    // ==========================================
+    // 單筆資料修正 (Edit) 與刪除 (Delete) 控制器
+    // ==========================================
+    function openEditRecordModal(id) {
+      const rec = rdRecords.find(r => r.id === id);
+      if (!rec) {
+        showToast("⚠️ 找不到該筆成果資料！");
+        return;
+      }
+
+      document.getElementById("editRecId").value = rec.id || "";
+      document.getElementById("editRecYear").value = rec.year || "115";
+      document.getElementById("editRecCollege").value = rec.college || "護理學院";
+      updateEditDepts();
+      document.getElementById("editRecDept").value = rec.dept || "";
+      document.getElementById("editRecTeacher").value = rec.teacher || "";
+      document.getElementById("editRecAdminRole").value = rec.adminRole || "";
+      document.getElementById("editRecIsArticle7").checked = !!rec.isArticle7Exempt;
+      
+      document.getElementById("editRecCategory").value = rec.category || "計畫案";
+      updateEditSubtypes();
+      document.getElementById("editRecSubType").value = rec.subType || "";
+
+      document.getElementById("editRecTitle").value = rec.title || "";
+      document.getElementById("editRecCode").value = rec.code || "";
+      document.getElementById("editRecAccCode").value = rec.accCode || "";
+      document.getElementById("editRecAmount").value = rec.amount !== undefined ? rec.amount : "";
+      document.getElementById("editRecAuthorOrder").value = rec.authorOrder || "";
+      document.getElementById("editRecSource").value = rec.source || "自訂修正";
+      document.getElementById("editRecStatus").value = rec.status || "已核定歸檔";
+
+      const modal = document.getElementById("editRecordModal");
+      if (modal) modal.style.display = "flex";
+    }
+
+    function closeEditRecordModal() {
+      const modal = document.getElementById("editRecordModal");
+      if (modal) modal.style.display = "none";
+    }
+
+    function updateEditDepts() {
+      const col = document.getElementById("editRecCollege").value;
+      const deptSel = document.getElementById("editRecDept");
+      if (!deptSel) return;
+      const depts = FOOYIN_ORG[col] || [];
+      deptSel.innerHTML = depts.map(d => `<option value="${d}">${d}</option>`).join("");
+    }
+
+    function updateEditSubtypes() {
+      const cat = document.getElementById("editRecCategory").value;
+      const subSel = document.getElementById("editRecSubType");
+      if (!subSel) return;
+      const subs = SUBTYPES_BY_CAT[cat] || [];
+      subSel.innerHTML = subs.map(s => `<option value="${s}">${s}</option>`).join("");
+    }
+
+    function saveEditedRecord(e) {
+      e.preventDefault();
+      const id = document.getElementById("editRecId").value;
+      const rec = rdRecords.find(r => r.id === id);
+      if (!rec) {
+        showToast("⚠️ 找不到欲修正之資料！");
+        return;
+      }
+
+      const yr = document.getElementById("editRecYear").value;
+      const col = document.getElementById("editRecCollege").value;
+      const dept = document.getElementById("editRecDept").value;
+      const teacher = document.getElementById("editRecTeacher").value.trim();
+      const adminRole = document.getElementById("editRecAdminRole").value.trim();
+      const isArticle7 = document.getElementById("editRecIsArticle7").checked;
+      const cat = document.getElementById("editRecCategory").value;
+      const subType = document.getElementById("editRecSubType").value;
+      const title = document.getElementById("editRecTitle").value.trim();
+      const code = document.getElementById("editRecCode").value.trim();
+      const accCode = document.getElementById("editRecAccCode").value.trim();
+      const rawAmt = Number(document.getElementById("editRecAmount").value) || 0;
+      const authorOrder = document.getElementById("editRecAuthorOrder").value.trim();
+      const source = document.getElementById("editRecSource").value.trim();
+      const status = document.getElementById("editRecStatus").value;
+
+      rec.year = yr;
+      rec.college = col;
+      rec.dept = dept;
+      rec.teacher = teacher;
+      rec.adminRole = adminRole;
+      rec.isArticle7Exempt = isArticle7;
+      rec.category = cat;
+      rec.subType = subType;
+      rec.title = title;
+      rec.code = code;
+      rec.accCode = accCode;
+      rec.amount = rawAmt;
+      rec.authorOrder = authorOrder;
+      rec.source = source || "自訂修正";
+      rec.status = status;
+      rec.metricNote = cat === "計畫案" ? `核定 NT$ ${rawAmt} 萬` : (cat === "論文" ? `指標/IF ${rawAmt}` : (cat === "專利" ? (rawAmt > 0 ? `技轉 NT$ ${rawAmt} 萬` : '已獲證專利') : ''));
+      rec.keywords = [dept, subType, teacher];
+
+      localStorage.setItem("FOOYIN_RD_CLOUD_DATASET", JSON.stringify(rdRecords));
+      applyFilters();
+      recalculateBatchFormulas();
+      renderCloudSyncUI();
+      closeEditRecordModal();
+      showToast(`✅ 已成功修正【${teacher}】成果記錄！`);
+    }
+
+    function deleteRecord(id) {
+      const rec = rdRecords.find(r => r.id === id);
+      if (!rec) return;
+
+      const confirmMsg = `確定要刪除此筆成果記錄嗎？\n\n【教師】${rec.teacher}（${rec.dept}）\n【成果】[${rec.category}] ${rec.title}\n【案號/證號】${rec.code}\n\n刪除後將即時自系統統計、評鑑點數與報表中扣除。`;
+      if (!confirm(confirmMsg)) return;
+
+      rdRecords = rdRecords.filter(r => r.id !== id);
+      localStorage.setItem("FOOYIN_RD_CLOUD_DATASET", JSON.stringify(rdRecords));
+      applyFilters();
+      recalculateBatchFormulas();
+      renderCloudSyncUI();
+      showToast(`🗑️ 已成功刪除【${rec.teacher}】該筆成果記錄！`);
+    }
+
+    function deleteCurrentEditingRecord() {
+      const id = document.getElementById("editRecId").value;
+      if (id) {
+        deleteRecord(id);
+        closeEditRecordModal();
+      }
+    }
+
+    function batchDeleteVisible() {
+      const visible = getFilteredRecords();
+      if (!visible.length) {
+        showToast("⚠️ 目前無可刪除之記錄！");
+        return;
+      }
+      if (!confirm(`⚠️ 確定要批次刪除目前篩選可見的全部 ${visible.length} 筆成果記錄嗎？\n\n注意：此操作將從當前系統中移除，請謹慎操作！`)) return;
+
+      const visibleIds = new Set(visible.map(r => r.id));
+      rdRecords = rdRecords.filter(r => !visibleIds.has(r.id));
+      localStorage.setItem("FOOYIN_RD_CLOUD_DATASET", JSON.stringify(rdRecords));
+      applyFilters();
+      recalculateBatchFormulas();
+      renderCloudSyncUI();
+      showToast(`🗑️ 已批次刪除 ${visible.length} 筆成果記錄！`);
+    }
+
+    // ==========================================
+    // 依系、院、使用年度選擇性輸出控制器 (Selective Export)
+    // ==========================================
+    function openSelectiveExportModal() {
+      const modal = document.getElementById("selectiveExportModal");
+      if (!modal) return;
+
+      renderSelectiveExportDeptGrid();
+
+      // 同步目前篩選器選擇的院、系、年度 (若有選定則預設勾選相應項目)
+      const currentYear = document.getElementById("filterYear") ? document.getElementById("filterYear").value : "ALL";
+      const currentCol = document.getElementById("filterCollege") ? document.getElementById("filterCollege").value : "ALL";
+      const currentDept = document.getElementById("filterDept") ? document.getElementById("filterDept").value : "ALL";
+
+      if (currentYear !== "ALL") {
+        document.querySelectorAll(".exp-year-cb").forEach(cb => {
+          cb.checked = (cb.value === currentYear);
+        });
+      }
+      if (currentDept !== "ALL") {
+        document.querySelectorAll(".exp-dept-cb").forEach(cb => {
+          cb.checked = (cb.value === currentDept);
+        });
+      } else if (currentCol !== "ALL") {
+        document.querySelectorAll(".exp-college-cb").forEach(cb => {
+          cb.checked = (cb.value === currentCol);
+        });
+        document.querySelectorAll(".exp-dept-cb").forEach(cb => {
+          cb.checked = (cb.getAttribute("data-college") === currentCol);
+        });
+      }
+
+      updateSelectiveExportCount();
+      modal.style.display = "flex";
+    }
+
+    function closeSelectiveExportModal() {
+      const modal = document.getElementById("selectiveExportModal");
+      if (modal) modal.style.display = "none";
+    }
+
+    function renderSelectiveExportDeptGrid() {
+      const grid = document.getElementById("selExportCollegeDeptGrid");
+      if (!grid) return;
+
+      grid.innerHTML = Object.keys(FOOYIN_ORG).map(c => {
+        const depts = FOOYIN_ORG[c];
+        return `
+          <div style="background:#f8fafc; border:1px solid var(--border); border-radius:6px; padding:10px;">
+            <label style="font-weight:700; color:var(--primary-dark); font-size:12.5px; display:flex; align-items:center; gap:6px; margin-bottom:6px; cursor:pointer;">
+              <input type="checkbox" value="${c}" class="exp-college-cb" onchange="toggleCollegeDepts('${c}', this.checked)" checked />
+              ${c}
+            </label>
+            <div style="display:flex; flex-direction:column; gap:4px; padding-left:14px; font-size:12px;">
+              ${depts.map(d => `
+                <label style="display:flex; align-items:center; gap:5px; cursor:pointer;">
+                  <input type="checkbox" value="${d}" data-college="${c}" class="exp-dept-cb" onchange="updateSelectiveExportCount()" checked />
+                  ${d}
+                </label>
+              `).join("")}
+            </div>
+          </div>
+        `;
+      }).join("");
+    }
+
+    function setAllYears(state) {
+      document.querySelectorAll(".exp-year-cb").forEach(cb => cb.checked = state);
+      updateSelectiveExportCount();
+    }
+
+    function setAllDepts(state) {
+      document.querySelectorAll(".exp-college-cb").forEach(cb => cb.checked = state);
+      document.querySelectorAll(".exp-dept-cb").forEach(cb => cb.checked = state);
+      updateSelectiveExportCount();
+    }
+
+    function toggleCollegeDepts(college, checked) {
+      document.querySelectorAll(`.exp-dept-cb[data-college="${college}"]`).forEach(cb => {
+        cb.checked = checked;
+      });
+      updateSelectiveExportCount();
+    }
+
+    function resetSelectiveExportFilters() {
+      document.querySelectorAll(".exp-year-cb").forEach(cb => cb.checked = false);
+      document.querySelectorAll(".exp-college-cb").forEach(cb => cb.checked = false);
+      document.querySelectorAll(".exp-dept-cb").forEach(cb => cb.checked = false);
+      document.querySelectorAll(".exp-cat-cb").forEach(cb => cb.checked = true);
+      document.querySelectorAll(".exp-status-cb").forEach(cb => cb.checked = true);
+      updateSelectiveExportCount();
+    }
+
+    function selectAllSelectiveExportFilters() {
+      document.querySelectorAll(".exp-year-cb").forEach(cb => cb.checked = true);
+      document.querySelectorAll(".exp-college-cb").forEach(cb => cb.checked = true);
+      document.querySelectorAll(".exp-dept-cb").forEach(cb => cb.checked = true);
+      document.querySelectorAll(".exp-cat-cb").forEach(cb => cb.checked = true);
+      document.querySelectorAll(".exp-status-cb").forEach(cb => cb.checked = true);
+      updateSelectiveExportCount();
+    }
+
+    function getSelectiveExportRecords() {
+      const checkedYears = new Set(Array.from(document.querySelectorAll(".exp-year-cb:checked")).map(cb => cb.value));
+      const checkedDepts = new Set(Array.from(document.querySelectorAll(".exp-dept-cb:checked")).map(cb => cb.value));
+      const checkedCats = new Set(Array.from(document.querySelectorAll(".exp-cat-cb:checked")).map(cb => cb.value));
+      const checkedStatuses = new Set(Array.from(document.querySelectorAll(".exp-status-cb:checked")).map(cb => cb.value));
+
+      return rdRecords.filter(r => {
+        // 學年度
+        if (checkedYears.size > 0) {
+          if (checkedYears.has(r.year)) {
+            // match
+          } else if (checkedYears.has("PRE_110") && (Number(r.year) < 110 || !r.year)) {
+            // match pre-110
+          } else {
+            return false;
+          }
+        } else {
+          return false;
+        }
+
+        // 系所
+        if (checkedDepts.size > 0) {
+          if (!checkedDepts.has(r.dept)) return false;
+        } else {
+          return false;
+        }
+
+        // 大類
+        if (checkedCats.size > 0 && !checkedCats.has(r.category)) return false;
+
+        // 狀態
+        if (checkedStatuses.size > 0 && !checkedStatuses.has(r.status)) return false;
+
+        return true;
+      });
+    }
+
+    function updateSelectiveExportCount() {
+      const records = getSelectiveExportRecords();
+      const countEl = document.getElementById("selExportLiveCount");
+      const breakdownEl = document.getElementById("selExportBreakdown");
+      if (countEl) countEl.textContent = records.length.toLocaleString();
+
+      if (breakdownEl) {
+        const pCnt = records.filter(r => r.category === "計畫案").length;
+        const paperCnt = records.filter(r => r.category === "論文").length;
+        const patCnt = records.filter(r => r.category === "專利").length;
+        const compCnt = records.filter(r => r.category === "專業競賽").length;
+        const ttCnt = records.filter(r => r.category === "技術移轉").length;
+        breakdownEl.textContent = `(計畫 ${pCnt} / 論文 ${paperCnt} / 專利 ${patCnt} / 競賽 ${compCnt} / 技轉 ${ttCnt})`;
+      }
+    }
+
+    function executeSelectiveExport() {
+      const records = getSelectiveExportRecords();
+      if (!records.length) {
+        showToast("⚠️ 目前選取條件無任何符合之成果紀錄，請調整選擇！");
+        return;
+      }
+
+      const formatRadios = document.getElementsByName("expFormatMode");
+      let mode = "standard_csv";
+      for (const r of formatRadios) {
+        if (r.checked) { mode = r.value; break; }
+      }
+
+      const checkedYears = Array.from(document.querySelectorAll(".exp-year-cb:checked")).map(cb => cb.value);
+      const checkedDepts = Array.from(document.querySelectorAll(".exp-dept-cb:checked")).map(cb => cb.value);
+      const checkedColleges = Array.from(document.querySelectorAll(".exp-college-cb:checked")).map(cb => cb.value);
+
+      const yrDesc = checkedYears.length === 7 ? "全部學年度" : (checkedYears.join("+") + "學年度");
+      const scopeDesc = checkedDepts.length === 16 ? "全校16系所" : (checkedColleges.length === 1 ? checkedColleges[0] : (checkedDepts.length + "系所"));
+      const dateStr = new Date().toISOString().slice(0, 10);
+
+      if (mode === "json") {
+        const jsonStr = JSON.stringify(records, null, 2);
+        const blob = new Blob([jsonStr], { type: "application/json;charset=utf-8;" });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement("a");
+        a.href = url;
+        a.download = `輔英科技大學_研發成果_${scopeDesc}_${yrDesc}_${dateStr}.json`;
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+        URL.revokeObjectURL(url);
+        showToast(`✅ 已匯出 ${records.length} 筆成果 JSON 檔案！`);
+        return;
+      }
+
+      if (mode === "tvedb_csv") {
+        let csv = "\uFEFF填報學年,學院名稱,系所名稱,成果大類,細部類型,成果完整名稱,案號或證號,作者姓名,職稱,作者順序,核定金額(萬元),管考組別\n";
+        records.forEach(r => {
+          csv += `"${r.year}","${r.college}","${r.dept}","${r.category}","${r.subType}","${(r.title || '').replace(/"/g, '""')}","${r.code}","${r.teacher}","${r.adminRole || ''}","${r.authorOrder || ''}",${r.amount || 0},"${r.group || '研發處'}"\n`;
+        });
+        triggerCSVDownload(csv, `輔英校務資料庫_TVEDB格式_${scopeDesc}_${yrDesc}_${dateStr}.csv`);
+        showToast(`✅ 已依 TVEDB 格式匯出 ${records.length} 筆成果 CSV！`);
+        return;
+      }
+
+      // 標準 CSV
+      let csv = "\uFEFF學年度,學院,系所,教師姓名,職稱,行政角色免評判定,成果大類,細部類型,成果完整名稱,案號或DOI證號,會計管控代碼,核定經費(萬元),作者排序,來源資料庫,審核狀態\n";
+      records.forEach(r => {
+        csv += `"${r.year}","${r.college}","${r.dept}","${r.teacher}","${r.adminRole || ''}","${r.isArticle7Exempt ? '符合第7條主管免評' : '一般專任'}","${r.category}","${r.subType}","${(r.title || '').replace(/"/g, '""')}","${r.code}","${r.accCode || ''}",${r.amount || 0},"${r.authorOrder || ''}","${r.source}","${r.status}"\n`;
+      });
+      triggerCSVDownload(csv, `輔英研發成果清冊_${scopeDesc}_${yrDesc}_${dateStr}.csv`);
+      showToast(`✅ 已成功依【${scopeDesc}｜${yrDesc}】匯出 ${records.length} 筆成果 CSV 清冊！`);
+    }
+
+    function copySelectiveExportToClipboard() {
+      const records = getSelectiveExportRecords();
+      if (!records.length) {
+        showToast("⚠️ 目前無資料可複製！");
+        return;
+      }
+
+      let tsv = "學年度\t學院\t系所\t教師姓名\t成果大類\t細部類型\t成果完整名稱\t案號或DOI\t金額(萬元)\t審核狀態\n";
+      records.forEach(r => {
+        tsv += `${r.year}\t${r.college}\t${r.dept}\t${r.teacher}\t${r.category}\t${r.subType}\t${(r.title || '').replace(/\t/g, ' ')}\t${r.code}\t${r.amount || 0}\t${r.status}\n`;
+      });
+
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(tsv).then(() => {
+          showToast(`📋 已複製 ${records.length} 筆資料至剪貼簿！可直接於 Excel 按 Ctrl+V 貼上。`);
+        }).catch(() => {
+          showToast("複製至剪貼簿失敗，請改用匯出 CSV 按鈕。");
+        });
+      } else {
+        showToast("瀏覽器權限限制，請改用匯出 CSV 按鈕。");
+      }
     }
 
     function getFallbackDataset() {
