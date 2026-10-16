@@ -328,6 +328,13 @@ function aggregateTeacherProfiles(records) {
 
     const t = teacherMap[r.teacher];
 
+    if (r.isArticle7Exempt) {
+      t.isArticle7Exempt = true;
+      if (r.adminRole && r.adminRole !== "專任教師") {
+        t.adminRole = r.adminRole;
+      }
+    }
+
     if (r.keywords && Array.isArray(r.keywords)) {
       r.keywords.forEach(kw => t.keywords.add(kw));
     }

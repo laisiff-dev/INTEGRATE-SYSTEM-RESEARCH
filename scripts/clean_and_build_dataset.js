@@ -26,58 +26,101 @@ if (!fs.existsSync(orgMasterPath)) {
 
 const orgMaster = JSON.parse(fs.readFileSync(orgMasterPath, 'utf8'));
 
-// 1. 建立行政主管與第 7 條免評對應表
+// 1. 建立行政主管與第 7 條免評對應表 (依據人事室《專任教師評鑑辦法》第七條：兼任行政主管教師得僅評教學基本指標)
 const facultyRoleMap = {};
+
+function registerLeader(person, defaultTitle, defaultDesc) {
+  if (!person || !person.name) return;
+  const title = person.title || defaultTitle || '行政主管';
+  const desc = person.article7Description || defaultDesc || `${title}（依評鑑辦法第7條免受研究項目評鑑）`;
+  facultyRoleMap[person.name] = {
+    title,
+    academicTitle: person.academicTitle || '',
+    dept: person.dept || person.department || '',
+    article7Exempt: person.article7Exempt !== false,
+    desc
+  };
+}
+
+// 1-1. 校長、副校長、主任秘書
 if (orgMaster.leadership) {
-  Object.values(orgMaster.leadership).forEach(lead => {
-    if (lead.name) {
-      facultyRoleMap[lead.name] = {
-        title: lead.title,
-        academicTitle: lead.academicTitle,
-        dept: lead.department,
-        article7Exempt: true,
-        desc: lead.article7Description || `${lead.title}（依評鑑辦法第7條免受研究項目評鑑）`
-      };
+  if (orgMaster.leadership.president) {
+    registerLeader(orgMaster.leadership.president, '校長', '校長（依評鑑辦法第7條免受研究項目評鑑，系統標註自動達標）');
+  }
+  if (Array.isArray(orgMaster.leadership.vicePresidents)) {
+    orgMaster.leadership.vicePresidents.forEach(vp => registerLeader(vp, '副校長', `${vp.title || '副校長'}（依評鑑辦法第7條免受研究項目評鑑）`));
+  } else if (orgMaster.leadership.vicePresident) {
+    registerLeader(orgMaster.leadership.vicePresident, '副校長', '副校長（依評鑑辦法第7條免受研究項目評鑑）');
+  }
+  if (orgMaster.leadership.secretaryGeneral) {
+    registerLeader(orgMaster.leadership.secretaryGeneral, '主任秘書', '主任秘書（依評鑑辦法第7條免受研究項目評鑑）');
+  }
+}
+
+// 1-2. 研發與永續發展處
+if (orgMaster.rdOffice) {
+  if (orgMaster.rdOffice.leadership) {
+    registerLeader(orgMaster.rdOffice.leadership, '研發長', '研發長（依評鑑辦法第7條免受研究項目評鑑）');
+  }
+  if (Array.isArray(orgMaster.rdOffice.divisions)) {
+    orgMaster.rdOffice.divisions.forEach(div => {
+      if (div.head && typeof div.head === 'string') {
+        const match = div.head.match(/^([\u4e00-\u9fa5]{2,4})\s*(.*)$/);
+        if (match) {
+          facultyRoleMap[match[1]] = {
+            title: match[2] || '組長',
+            article7Exempt: true,
+            desc: `${match[2] || '組長'}（依評鑑辦法第7條得僅評教學基本指標）`
+          };
+        }
+      }
+    });
+  }
+}
+
+// 1-3. 各一級行政單位主管與中心主任
+if (Array.isArray(orgMaster.administrativeUnits)) {
+  orgMaster.administrativeUnits.forEach(unit => {
+    if (unit.head) {
+      registerLeader(unit.head, unit.unitName + '主管', `${unit.head.title || '處室主管'}（依評鑑辦法第7條得僅評教學基本指標）`);
+    }
+    if (Array.isArray(unit.heads)) {
+      unit.heads.forEach(h => registerLeader(h, unit.unitName + '主管', `${h.title || '處室主管'}（依評鑑辦法第7條得僅評教學基本指標）`));
+    }
+    if (unit.deputy) {
+      registerLeader(unit.deputy, '副主管', `${unit.deputy.title || '副主管'}（依評鑑辦法第7條得僅評教學基本指標）`);
+    }
+    if (Array.isArray(unit.subHeads)) {
+      unit.subHeads.forEach(sh => {
+        if (sh.name && sh.article7Exempt !== false) {
+          registerLeader(sh, sh.title || '組長/中心主任', `${sh.title || '組長/中心主任'}（依評鑑辦法第7條得僅評教學基本指標）`);
+        }
+      });
     }
   });
 }
-if (orgMaster.rdOffice && orgMaster.rdOffice.leadership) {
-  const rd = orgMaster.rdOffice.leadership;
-  facultyRoleMap[rd.name] = {
-    title: rd.title,
-    academicTitle: rd.academicTitle,
-    dept: rd.department,
-    article7Exempt: true,
-    desc: `${rd.title}（依評鑑辦法第7條免受研究項目評鑑）`
-  };
-}
-if (orgMaster.colleges) {
+
+// 1-4. 4 學院院長、副院長、系主任、副主任
+if (Array.isArray(orgMaster.colleges)) {
   orgMaster.colleges.forEach(col => {
-    if (col.dean && col.dean.name) {
-      facultyRoleMap[col.dean.name] = {
-        title: col.dean.title || '院長',
-        dept: col.dean.department,
-        article7Exempt: true,
-        desc: `${col.dean.title || '院長'}（依評鑑辦法第7條免受研究項目評鑑）`
-      };
+    if (col.dean) {
+      registerLeader(col.dean, `${col.nameZh}院長`, `${col.dean.title || '院長'}（依評鑑辦法第7條免受研究項目評鑑）`);
     }
-    if (col.viceDean && col.viceDean.name) {
-      facultyRoleMap[col.viceDean.name] = {
-        title: col.viceDean.title || '副院長',
-        dept: col.viceDean.department,
-        article7Exempt: true,
-        desc: `${col.viceDean.title || '副院長'}（依評鑑辦法第7條免受研究項目評鑑）`
-      };
+    if (col.viceDean) {
+      registerLeader(col.viceDean, `${col.nameZh}副院長`, `${col.viceDean.title || '副院長'}（依評鑑辦法第7條免受研究項目評鑑）`);
     }
-    if (col.departments) {
+    if (Array.isArray(col.departments)) {
       col.departments.forEach(dept => {
-        if (dept.chair && dept.chair.name) {
-          facultyRoleMap[dept.chair.name] = {
-            title: dept.chair.title || '系主任',
-            dept: dept.nameZh,
-            article7Exempt: true,
-            desc: `系主任（依評鑑辦法第7條得僅評教學基本指標）`
-          };
+        if (dept.chair) {
+          registerLeader(dept.chair, `${dept.nameZh}主任`, `系主任（依評鑑辦法第7條得僅評教學基本指標）`);
+        }
+        if (dept.viceChair) {
+          registerLeader(dept.viceChair, `${dept.nameZh}副主任`, `副主任（依評鑑辦法第7條得僅評教學基本指標）`);
+        }
+        if (Array.isArray(dept.viceChairs)) {
+          dept.viceChairs.forEach(vc => {
+            registerLeader(vc, `${dept.nameZh}副主任`, `${vc.title || '副主任'}（依評鑑辦法第7條得僅評教學基本指標）`);
+          });
         }
       });
     }

@@ -85,8 +85,21 @@ function resolveAuthorWeightRatio(authorOrder, fallbackRatio) {
 function checkArticle7Exemption(teacherRecord) {
   const role = teacherRecord.adminRole || "";
   const isExempt = !!teacherRecord.isArticle7Exempt ||
+                   role.includes("校長") ||
+                   role.includes("副校長") ||
+                   role.includes("主任秘書") ||
+                   role.includes("主秘") ||
                    role.includes("研發長") ||
+                   role.includes("教務長") ||
+                   role.includes("學務長") ||
+                   role.includes("總務長") ||
+                   role.includes("處長") ||
+                   role.includes("國際長") ||
+                   role.includes("圖資長") ||
                    role.includes("院長") ||
+                   role.includes("副院長") ||
+                   role.includes("系主任") ||
+                   role.includes("副主任") ||
                    role.includes("主任") ||
                    role.includes("兼任行政主管") ||
                    role.includes("組長");
