@@ -1,10 +1,41 @@
 /**
  * 輔英科技大學 111–115 學年度研究與產學成果清洗資料庫
  * 資料來源：Google 雲端硬碟「110-115研發計畫.專利」
- * 總筆數：784 筆
+ * 總筆數：1712 筆
  * 更新日期：2026-10-16
  */
 var DATASET_111_115 = [
+  {
+    "year": "115",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "楊雅斐",
+    "empId": "T0000077636",
+    "adminRole": "實習指導教師",
+    "isArticle7Exempt": false,
+    "authorOrder": "共同主持人 (50%)",
+    "weightRatio": 0.5,
+    "category": "計畫案",
+    "subType": "國科會專題研究計畫",
+    "title": "「來護腎」系統：以人工智慧驅動轉型腎病全幅照護之數位醫療系統(2/4)",
+    "code": "NSTC-115-推動疾病導向之生醫資料基盤優化與科技應用計畫_生醫資料之轉譯研究與應用-547",
+    "accCode": "ACC-115-NSTC-547",
+    "disbursementRate": 100,
+    "amount": 700,
+    "metricNote": "國科會核定 NT$ 700 萬 (專題研究計畫 (一般策略專案計畫))",
+    "source": "TEACHER-WRITTING (表1-17 國科會計畫案)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已核定歸檔",
+    "keywords": [
+      "高齡長照",
+      "失智症照護",
+      "AI智慧應用",
+      "數位轉型",
+      "護理系"
+    ],
+    "id": "REC-115-001"
+  },
   {
     "year": "115",
     "college": "環境與生命學院",
@@ -33,7 +64,96 @@ var DATASET_111_115 = [
       "數位轉型",
       "環境工程與科學系"
     ],
-    "id": "REC-115-001"
+    "id": "REC-115-002"
+  },
+  {
+    "year": "115",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "顧雅利",
+    "empId": "T0000077888",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "計畫主持人 (100%)",
+    "weightRatio": 1,
+    "category": "計畫案",
+    "subType": "國科會專題研究計畫",
+    "title": "2026國際健康照護研討會 : 永續智慧照顧與人才培育的實踐與展望",
+    "code": "NSTC-115-新興/其他領域-050",
+    "accCode": "ACC-115-NSTC-050",
+    "disbursementRate": 100,
+    "amount": 10,
+    "metricNote": "國科會核定 NT$ 10 萬 (國內舉辦國際學術研討會)",
+    "source": "TEACHER-WRITTING (表1-17 國科會計畫案)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已核定歸檔",
+    "keywords": [
+      "高齡長照",
+      "失智症照護",
+      "AI智慧應用",
+      "數位轉型",
+      "護理系"
+    ],
+    "id": "REC-115-003"
+  },
+  {
+    "year": "115",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "江季蓁",
+    "empId": "T0000066846",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "計畫主持人 (100%)",
+    "weightRatio": 1,
+    "category": "計畫案",
+    "subType": "國科會專題研究計畫",
+    "title": "22nd EuGMS Congress",
+    "code": "NSTC-115-護理-041",
+    "accCode": "ACC-115-NSTC-041",
+    "disbursementRate": 100,
+    "amount": 4,
+    "metricNote": "國科會核定 NT$ 4 萬 (補助國內專家學者出席國際學術會議)",
+    "source": "TEACHER-WRITTING (表1-17 國科會計畫案)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已核定歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-115-004"
+  },
+  {
+    "year": "115",
+    "college": "醫學與健康學院",
+    "dept": "醫學檢驗生物技術系",
+    "teacher": "陳志良",
+    "empId": "T0000029576",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "共同主持人 (50%)",
+    "weightRatio": 0.5,
+    "category": "計畫案",
+    "subType": "國科會專題研究計畫",
+    "title": "人工智慧賦能想法中心學習機制支持低成就護理學生進行知識翻新活動：從機制的建立、優化到實務應用",
+    "code": "NSTC-115-科學教育-147",
+    "accCode": "ACC-115-NSTC-147",
+    "disbursementRate": 100,
+    "amount": 389.9,
+    "metricNote": "國科會核定 NT$ 389.9 萬 (專題研究計畫 (一般研究計畫))",
+    "source": "TEACHER-WRITTING (表1-17 國科會計畫案)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已核定歸檔",
+    "keywords": [
+      "AI智慧應用",
+      "數位轉型",
+      "臨床護理",
+      "教材研發",
+      "醫學檢驗生物技術系"
+    ],
+    "id": "REC-115-005"
   },
   {
     "year": "115",
@@ -61,7 +181,7 @@ var DATASET_111_115 = [
       "公共托育",
       "幼兒保育暨產業系"
     ],
-    "id": "REC-115-002"
+    "id": "REC-115-006"
   },
   {
     "year": "115",
@@ -89,7 +209,36 @@ var DATASET_111_115 = [
       "機能食品",
       "保健營養系"
     ],
-    "id": "REC-115-003"
+    "id": "REC-115-007"
+  },
+  {
+    "year": "115",
+    "college": "醫學與健康學院",
+    "dept": "保健營養系",
+    "teacher": "蔡蕙芸",
+    "empId": "T0000098101",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "計畫主持人 (100%)",
+    "weightRatio": 1,
+    "category": "計畫案",
+    "subType": "國科會專題研究計畫",
+    "title": "小麥胚芽亞精胺調節腸-腦軸於腦部保健之機能性評估",
+    "code": "NSTC-115-食品科學-267",
+    "accCode": "ACC-115-NSTC-267",
+    "disbursementRate": 100,
+    "amount": 82.9,
+    "metricNote": "國科會核定 NT$ 82.9 萬 (專題研究計畫 (鼓勵技專校院從事實務型研究專案計畫))",
+    "source": "TEACHER-WRITTING (表1-17 國科會計畫案)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已核定歸檔",
+    "keywords": [
+      "保健營養",
+      "機能食品",
+      "保健營養系"
+    ],
+    "id": "REC-115-008"
   },
   {
     "year": "115",
@@ -119,7 +268,94 @@ var DATASET_111_115 = [
       "教材研發",
       "健康事業管理系"
     ],
-    "id": "REC-115-004"
+    "id": "REC-115-009"
+  },
+  {
+    "year": "115",
+    "college": "護理學院",
+    "dept": "健康事業管理系",
+    "teacher": "羅家倫",
+    "empId": "T0000060871",
+    "adminRole": "國際事務長（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "計畫主持人 (100%)",
+    "weightRatio": 1,
+    "category": "計畫案",
+    "subType": "國科會專題研究計畫",
+    "title": "以生成式人工智慧輔助時間感知風險建模之敗血症惡化臨床決策支援模式研究",
+    "code": "NSTC-115-資訊管理-328",
+    "accCode": "ACC-115-NSTC-328",
+    "disbursementRate": 100,
+    "amount": 193.5,
+    "metricNote": "國科會核定 NT$ 193.5 萬 (專題研究計畫 (一般研究計畫))",
+    "source": "TEACHER-WRITTING (表1-17 國科會計畫案)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已核定歸檔",
+    "keywords": [
+      "AI智慧應用",
+      "數位轉型",
+      "臨床護理",
+      "教材研發",
+      "健康事業管理系"
+    ],
+    "id": "REC-115-010"
+  },
+  {
+    "year": "115",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "吳靜宜",
+    "empId": "T0000029836",
+    "adminRole": "實習指導教師",
+    "isArticle7Exempt": false,
+    "authorOrder": "計畫主持人 (100%)",
+    "weightRatio": 1,
+    "category": "計畫案",
+    "subType": "國科會專題研究計畫",
+    "title": "以光學同調斷層掃描評估小唾液腺功能之臨床研究",
+    "code": "NSTC-115-牙醫-519",
+    "accCode": "ACC-115-NSTC-519",
+    "disbursementRate": 100,
+    "amount": 121.5,
+    "metricNote": "國科會核定 NT$ 121.5 萬 (專題研究計畫 (一般研究計畫))",
+    "source": "TEACHER-WRITTING (表1-17 國科會計畫案)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已核定歸檔",
+    "keywords": [
+      "臨床護理",
+      "教材研發",
+      "護理系"
+    ],
+    "id": "REC-115-011"
+  },
+  {
+    "year": "115",
+    "college": "護理學院",
+    "dept": "健康事業管理系",
+    "teacher": "鄭南玉",
+    "empId": "T0000016973",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "共同主持人 (50%)",
+    "weightRatio": 0.5,
+    "category": "計畫案",
+    "subType": "國科會專題研究計畫",
+    "title": "以使用者為中心之腦性麻痺者輔助溝通需求與跨平台個人化溝通系統之研究",
+    "code": "NSTC-115-環境藝術與設計-286",
+    "accCode": "ACC-115-NSTC-286",
+    "disbursementRate": 100,
+    "amount": 80.4,
+    "metricNote": "國科會核定 NT$ 80.4 萬 (專題研究計畫 (一般研究計畫))",
+    "source": "TEACHER-WRITTING (表1-17 國科會計畫案)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已核定歸檔",
+    "keywords": [
+      "健康事業管理系"
+    ],
+    "id": "REC-115-012"
   },
   {
     "year": "115",
@@ -147,7 +383,92 @@ var DATASET_111_115 = [
       "數位轉型",
       "護理系"
     ],
-    "id": "REC-115-005"
+    "id": "REC-115-013"
+  },
+  {
+    "year": "115",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "施芊卉",
+    "empId": "T0000084532",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "計畫主持人 (100%)",
+    "weightRatio": 1,
+    "category": "計畫案",
+    "subType": "國科會專題研究計畫",
+    "title": "以健康識能為核心之AI輔助課程介入對原住民族大學生理想體位達成之影響：二年期準實驗研究",
+    "code": "NSTC-115-多元族群的科學教育-058",
+    "accCode": "ACC-115-NSTC-058",
+    "disbursementRate": 100,
+    "amount": 98,
+    "metricNote": "國科會核定 NT$ 98 萬 (專題研究計畫 (一般研究計畫))",
+    "source": "TEACHER-WRITTING (表1-17 國科會計畫案)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已核定歸檔",
+    "keywords": [
+      "AI智慧應用",
+      "數位轉型",
+      "護理系"
+    ],
+    "id": "REC-115-014"
+  },
+  {
+    "year": "115",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "顏秀珍",
+    "empId": "T0000089142",
+    "adminRole": "實習指導教師",
+    "isArticle7Exempt": false,
+    "authorOrder": "共同主持人 (50%)",
+    "weightRatio": 0.5,
+    "category": "計畫案",
+    "subType": "國科會專題研究計畫",
+    "title": "生成式AI在不平衡資料之分類效能優化上的研究",
+    "code": "NSTC-115-資料科學與網際網路技術-569",
+    "accCode": "ACC-115-NSTC-569",
+    "disbursementRate": 100,
+    "amount": 93.2,
+    "metricNote": "國科會核定 NT$ 93.2 萬 (專題研究計畫 (一般研究計畫))",
+    "source": "TEACHER-WRITTING (表1-17 國科會計畫案)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已核定歸檔",
+    "keywords": [
+      "AI智慧應用",
+      "數位轉型",
+      "護理系"
+    ],
+    "id": "REC-115-015"
+  },
+  {
+    "year": "115",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "董曉婷",
+    "empId": "T0000045947",
+    "adminRole": "主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "計畫主持人 (100%)",
+    "weightRatio": 1,
+    "category": "計畫案",
+    "subType": "國科會專題研究計畫",
+    "title": "李達雅 Ta-Ya Lee",
+    "code": "NSTC-115-護理-540",
+    "accCode": "ACC-115-NSTC-540",
+    "disbursementRate": 100,
+    "amount": 2.91,
+    "metricNote": "國科會核定 NT$ 2.91 萬 (短訪計畫 (邀請國際科技人士短期訪問))",
+    "source": "TEACHER-WRITTING (表1-17 國科會計畫案)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已核定歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-115-016"
   },
   {
     "year": "115",
@@ -175,7 +496,7 @@ var DATASET_111_115 = [
       "公共托育",
       "幼兒保育暨產業系"
     ],
-    "id": "REC-115-006"
+    "id": "REC-115-017"
   },
   {
     "year": "115",
@@ -203,7 +524,7 @@ var DATASET_111_115 = [
       "失智症照護",
       "物理治療系"
     ],
-    "id": "REC-115-007"
+    "id": "REC-115-018"
   },
   {
     "year": "115",
@@ -229,7 +550,61 @@ var DATASET_111_115 = [
     "keywords": [
       "休閒與遊憩事業管理系"
     ],
-    "id": "REC-115-008"
+    "id": "REC-115-019"
+  },
+  {
+    "year": "115",
+    "college": "護理學院",
+    "dept": "健康事業管理系",
+    "teacher": "鄭南玉",
+    "empId": "T0000016973",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "計畫主持人 (100%)",
+    "weightRatio": 1,
+    "category": "計畫案",
+    "subType": "國科會專題研究計畫",
+    "title": "科普活動：115年高雄市全民科學週",
+    "code": "NSTC-115-科普活動計畫-285",
+    "accCode": "ACC-115-NSTC-285",
+    "disbursementRate": 100,
+    "amount": 112,
+    "metricNote": "國科會核定 NT$ 112 萬 (專題研究計畫 (大眾科學教育計畫))",
+    "source": "TEACHER-WRITTING (表1-17 國科會計畫案)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已核定歸檔",
+    "keywords": [
+      "健康事業管理系"
+    ],
+    "id": "REC-115-020"
+  },
+  {
+    "year": "115",
+    "college": "護理學院",
+    "dept": "健康事業管理系",
+    "teacher": "鄭南玉",
+    "empId": "T0000016973",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "共同主持人 (50%)",
+    "weightRatio": 0.5,
+    "category": "計畫案",
+    "subType": "國科會專題研究計畫",
+    "title": "科普活動：2026高雄科學日暨高中物理動手學—全台科普演示",
+    "code": "NSTC-115-科普活動計畫-287",
+    "accCode": "ACC-115-NSTC-287",
+    "disbursementRate": 100,
+    "amount": 87,
+    "metricNote": "國科會核定 NT$ 87 萬 (專題研究計畫 (大眾科學教育計畫))",
+    "source": "TEACHER-WRITTING (表1-17 國科會計畫案)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已核定歸檔",
+    "keywords": [
+      "健康事業管理系"
+    ],
+    "id": "REC-115-021"
   },
   {
     "year": "115",
@@ -257,7 +632,7 @@ var DATASET_111_115 = [
       "產品開發",
       "健康美容系"
     ],
-    "id": "REC-115-009"
+    "id": "REC-115-022"
   },
   {
     "year": "115",
@@ -287,7 +662,96 @@ var DATASET_111_115 = [
       "機能食品",
       "護理系"
     ],
-    "id": "REC-115-010"
+    "id": "REC-115-023"
+  },
+  {
+    "year": "115",
+    "college": "醫學與健康學院",
+    "dept": "保健營養系",
+    "teacher": "林佩瑩",
+    "empId": "T0000071516",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "計畫主持人 (100%)",
+    "weightRatio": 1,
+    "category": "計畫案",
+    "subType": "國科會專題研究計畫",
+    "title": "核酸適體鉑金藥物於癌症精準醫療以及癌症腦轉移的應用",
+    "code": "NSTC-115-產業前瞻—應用型研究育苗專案-257",
+    "accCode": "ACC-115-NSTC-257",
+    "disbursementRate": 100,
+    "amount": 655,
+    "metricNote": "國科會核定 NT$ 655 萬 (專題研究計畫 (產業前瞻技術計畫規劃案))",
+    "source": "TEACHER-WRITTING (表1-17 國科會計畫案)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已核定歸檔",
+    "keywords": [
+      "精準醫療",
+      "分子檢測",
+      "保健營養系"
+    ],
+    "id": "REC-115-024"
+  },
+  {
+    "year": "115",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "陳立庭",
+    "empId": "T0000036425",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "計畫主持人 (100%)",
+    "weightRatio": 1,
+    "category": "計畫案",
+    "subType": "國科會專題研究計畫",
+    "title": "基於人工智慧之 LINE 正念自我照護聊天機器人於大腸直腸癌存活者之發展及應用：個人化症狀推播與正念介入成效之隨機對照試驗研究",
+    "code": "NSTC-115-護理-029",
+    "accCode": "ACC-115-NSTC-029",
+    "disbursementRate": 100,
+    "amount": 74,
+    "metricNote": "國科會核定 NT$ 74 萬 (專題研究計畫 (新進人員研究計畫))",
+    "source": "TEACHER-WRITTING (表1-17 國科會計畫案)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已核定歸檔",
+    "keywords": [
+      "高齡長照",
+      "失智症照護",
+      "AI智慧應用",
+      "數位轉型",
+      "護理系"
+    ],
+    "id": "REC-115-025"
+  },
+  {
+    "year": "115",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "顏秀珍",
+    "empId": "T0000089142",
+    "adminRole": "實習指導教師",
+    "isArticle7Exempt": false,
+    "authorOrder": "計畫主持人 (100%)",
+    "weightRatio": 1,
+    "category": "計畫案",
+    "subType": "國科會專題研究計畫",
+    "title": "基於特徵相似性解耦與固定擾動代理模型之可解釋機器學習研究",
+    "code": "NSTC-115-資料科學與網際網路技術-568",
+    "accCode": "ACC-115-NSTC-568",
+    "disbursementRate": 100,
+    "amount": 96.6,
+    "metricNote": "國科會核定 NT$ 96.6 萬 (專題研究計畫 (一般研究計畫))",
+    "source": "TEACHER-WRITTING (表1-17 國科會計畫案)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已核定歸檔",
+    "keywords": [
+      "AI智慧應用",
+      "數位轉型",
+      "護理系"
+    ],
+    "id": "REC-115-026"
   },
   {
     "year": "115",
@@ -315,7 +779,34 @@ var DATASET_111_115 = [
       "教材研發",
       "護理系"
     ],
-    "id": "REC-115-011"
+    "id": "REC-115-027"
+  },
+  {
+    "year": "115",
+    "college": "醫學與健康學院",
+    "dept": "醫學檢驗生物技術系",
+    "teacher": "邱敏熙",
+    "empId": "T0000089506",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "共同主持人 (50%)",
+    "weightRatio": 0.5,
+    "category": "計畫案",
+    "subType": "國科會專題研究計畫",
+    "title": "探討脂激素在早發性衰老相關之肌少症中的角色之2",
+    "code": "NSTC-115-精神醫學、老人醫學及家庭醫學-194",
+    "accCode": "ACC-115-NSTC-194",
+    "disbursementRate": 100,
+    "amount": 327.8,
+    "metricNote": "國科會核定 NT$ 327.8 萬 (專題研究計畫 (一般研究計畫))",
+    "source": "TEACHER-WRITTING (表1-17 國科會計畫案)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已核定歸檔",
+    "keywords": [
+      "醫學檢驗生物技術系"
+    ],
+    "id": "REC-115-028"
   },
   {
     "year": "115",
@@ -343,7 +834,63 @@ var DATASET_111_115 = [
       "數位轉型",
       "健康事業管理系"
     ],
-    "id": "REC-115-012"
+    "id": "REC-115-029"
+  },
+  {
+    "year": "115",
+    "college": "護理學院",
+    "dept": "健康事業管理系",
+    "teacher": "楊鎮維",
+    "empId": "T0000028271",
+    "adminRole": "教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "計畫主持人 (100%)",
+    "weightRatio": 1,
+    "category": "計畫案",
+    "subType": "國科會專題研究計畫",
+    "title": "推進AI賦能之醫療領域知識創造：策略構型與治理 — 能耐契合",
+    "code": "NSTC-115-科技管理-292",
+    "accCode": "ACC-115-NSTC-292",
+    "disbursementRate": 100,
+    "amount": 62,
+    "metricNote": "國科會核定 NT$ 62 萬 (專題研究計畫 (一般研究計畫))",
+    "source": "TEACHER-WRITTING (表1-17 國科會計畫案)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已核定歸檔",
+    "keywords": [
+      "AI智慧應用",
+      "數位轉型",
+      "健康事業管理系"
+    ],
+    "id": "REC-115-030"
+  },
+  {
+    "year": "115",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "陳舜華",
+    "empId": "T0000003564",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "計畫主持人 (100%)",
+    "weightRatio": 1,
+    "category": "計畫案",
+    "subType": "國科會專題研究計畫",
+    "title": "軟珊瑚活性成分改善代謝症候群之治療研究",
+    "code": "NSTC-115-中醫藥學-653",
+    "accCode": "ACC-115-NSTC-653",
+    "disbursementRate": 100,
+    "amount": 240,
+    "metricNote": "國科會核定 NT$ 240 萬 (專題研究計畫 (鼓勵女性從事科學及技術研究專案計畫))",
+    "source": "TEACHER-WRITTING (表1-17 國科會計畫案)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已核定歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-115-031"
   },
   {
     "year": "115",
@@ -369,7 +916,63 @@ var DATASET_111_115 = [
     "keywords": [
       "健康事業管理系"
     ],
-    "id": "REC-115-013"
+    "id": "REC-115-032"
+  },
+  {
+    "year": "115",
+    "college": "護理學院",
+    "dept": "健康事業管理系",
+    "teacher": "林政翰",
+    "empId": "T0000074995",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "計畫主持人 (100%)",
+    "weightRatio": 1,
+    "category": "計畫案",
+    "subType": "國科會專題研究計畫",
+    "title": "軟體定義網路使用Lyapunov理論在可程式交換器設計主動佇列管理之研究",
+    "code": "NSTC-115-計算機網路與網際網路-339",
+    "accCode": "ACC-115-NSTC-339",
+    "disbursementRate": 100,
+    "amount": 81,
+    "metricNote": "國科會核定 NT$ 81 萬 (專題研究計畫 (一般研究計畫))",
+    "source": "TEACHER-WRITTING (表1-17 國科會計畫案)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已核定歸檔",
+    "keywords": [
+      "健康事業管理系"
+    ],
+    "id": "REC-115-033"
+  },
+  {
+    "year": "115",
+    "college": "醫學與健康學院",
+    "dept": "保健營養系",
+    "teacher": "蔡蕙芸",
+    "empId": "T0000098101",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "共同主持人 (50%)",
+    "weightRatio": 0.5,
+    "category": "計畫案",
+    "subType": "國科會專題研究計畫",
+    "title": "魚膠原蛋白作為胃部保健食品原料之機能性評估",
+    "code": "NSTC-115-食品科學-266",
+    "accCode": "ACC-115-NSTC-266",
+    "disbursementRate": 100,
+    "amount": 84,
+    "metricNote": "國科會核定 NT$ 84 萬 (專題研究計畫 (產學合作研究計畫))",
+    "source": "TEACHER-WRITTING (表1-17 國科會計畫案)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已核定歸檔",
+    "keywords": [
+      "保健營養",
+      "機能食品",
+      "保健營養系"
+    ],
+    "id": "REC-115-034"
   },
   {
     "year": "115",
@@ -399,7 +1002,7 @@ var DATASET_111_115 = [
       "分子檢測",
       "醫學檢驗生物技術系"
     ],
-    "id": "REC-115-014"
+    "id": "REC-115-035"
   },
   {
     "year": "115",
@@ -429,7 +1032,36 @@ var DATASET_111_115 = [
       "數位轉型",
       "資訊科技與管理系"
     ],
-    "id": "REC-115-015"
+    "id": "REC-115-036"
+  },
+  {
+    "year": "115",
+    "college": "醫學與健康學院",
+    "dept": "保健營養系",
+    "teacher": "林佩瑩",
+    "empId": "T0000071516",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "計畫主持人 (100%)",
+    "weightRatio": 1,
+    "category": "計畫案",
+    "subType": "國科會專題研究計畫",
+    "title": "解鎖肺癌治療的瓶頸: 腦膜轉移與癌症惡質症",
+    "code": "NSTC-115-胸腔內科-256",
+    "accCode": "ACC-115-NSTC-256",
+    "disbursementRate": 100,
+    "amount": 121.72,
+    "metricNote": "國科會核定 NT$ 121.72 萬 (延攬科技人才 (延攬博士後研究人才))",
+    "source": "TEACHER-WRITTING (表1-17 國科會計畫案)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已核定歸檔",
+    "keywords": [
+      "精準醫療",
+      "分子檢測",
+      "保健營養系"
+    ],
+    "id": "REC-115-037"
   },
   {
     "year": "115",
@@ -457,7 +1089,34 @@ var DATASET_111_115 = [
       "淨零減碳",
       "環境工程與科學系"
     ],
-    "id": "REC-115-016"
+    "id": "REC-115-038"
+  },
+  {
+    "year": "115",
+    "college": "護理學院",
+    "dept": "助產與婦嬰健康照護系",
+    "teacher": "郭心怡",
+    "empId": "T0000005425",
+    "adminRole": "講師",
+    "isArticle7Exempt": false,
+    "authorOrder": "計畫主持人 (100%)",
+    "weightRatio": 1,
+    "category": "計畫案",
+    "subType": "國科會專題研究計畫",
+    "title": "磁-電-彈纖維複合板導波散射行為之解析",
+    "code": "NSTC-115-結構應力-009",
+    "accCode": "ACC-115-NSTC-009",
+    "disbursementRate": 100,
+    "amount": 436.8,
+    "metricNote": "國科會核定 NT$ 436.8 萬 (專題研究計畫 (優秀年輕學者研究計畫))",
+    "source": "TEACHER-WRITTING (表1-17 國科會計畫案)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已核定歸檔",
+    "keywords": [
+      "助產與婦嬰健康照護系"
+    ],
+    "id": "REC-115-039"
   },
   {
     "year": "115",
@@ -485,7 +1144,65 @@ var DATASET_111_115 = [
       "分子檢測",
       "醫學檢驗生物技術系"
     ],
-    "id": "REC-115-017"
+    "id": "REC-115-040"
+  },
+  {
+    "year": "115",
+    "college": "醫學與健康學院",
+    "dept": "醫學檢驗生物技術系",
+    "teacher": "邱敏熙",
+    "empId": "T0000089506",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "共同主持人 (50%)",
+    "weightRatio": 0.5,
+    "category": "計畫案",
+    "subType": "國科會專題研究計畫",
+    "title": "精進全自動多標的智能化體外分子診斷平台：一站式核酸檢測產線整合、轉譯驗證與跨域實務人才培育",
+    "code": "NSTC-115-技專私大跨域實作型計畫-192",
+    "accCode": "ACC-115-NSTC-192",
+    "disbursementRate": 100,
+    "amount": 400,
+    "metricNote": "國科會核定 NT$ 400 萬 (專題研究計畫 (技專校院實務型研究專案計畫（跨域實作型）))",
+    "source": "TEACHER-WRITTING (表1-17 國科會計畫案)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已核定歸檔",
+    "keywords": [
+      "精準醫療",
+      "分子檢測",
+      "醫學檢驗生物技術系"
+    ],
+    "id": "REC-115-041"
+  },
+  {
+    "year": "115",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "梁菁萍",
+    "empId": "T0000117242",
+    "adminRole": "教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "共同主持人 (50%)",
+    "weightRatio": 0.5,
+    "category": "計畫案",
+    "subType": "國科會專題研究計畫",
+    "title": "精進多物種反應化學傳輸解析解模式的開發與其實務應用：考量移動-非移動區效應並探討其對含氯溶劑污染物與放射性核種與其降解產物於地下水共同遷移的關鍵影響(II)",
+    "code": "NSTC-115-水文學-069",
+    "accCode": "ACC-115-NSTC-069",
+    "disbursementRate": 100,
+    "amount": 209,
+    "metricNote": "國科會核定 NT$ 209 萬 (專題研究計畫 (一般研究計畫))",
+    "source": "TEACHER-WRITTING (表1-17 國科會計畫案)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已核定歸檔",
+    "keywords": [
+      "環境監測",
+      "淨零減碳",
+      "護理系"
+    ],
+    "id": "REC-115-042"
   },
   {
     "year": "115",
@@ -515,7 +1232,123 @@ var DATASET_111_115 = [
       "機能食品",
       "醫學檢驗生物技術系"
     ],
-    "id": "REC-115-018"
+    "id": "REC-115-043"
+  },
+  {
+    "year": "115",
+    "college": "醫學與健康學院",
+    "dept": "醫學檢驗生物技術系",
+    "teacher": "邱敏熙",
+    "empId": "T0000089506",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "共同主持人 (50%)",
+    "weightRatio": 0.5,
+    "category": "計畫案",
+    "subType": "國科會專題研究計畫",
+    "title": "精準營養產業技術發展聯盟(2/3)",
+    "code": "NSTC-115-產學技術聯盟合作計畫-193",
+    "accCode": "ACC-115-NSTC-193",
+    "disbursementRate": 100,
+    "amount": 260,
+    "metricNote": "國科會核定 NT$ 260 萬 (專題研究計畫 (產學技術聯盟合作計畫))",
+    "source": "TEACHER-WRITTING (表1-17 國科會計畫案)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已核定歸檔",
+    "keywords": [
+      "精準醫療",
+      "分子檢測",
+      "保健營養",
+      "機能食品",
+      "醫學檢驗生物技術系"
+    ],
+    "id": "REC-115-044"
+  },
+  {
+    "year": "115",
+    "college": "護理學院",
+    "dept": "健康事業管理系",
+    "teacher": "林政翰",
+    "empId": "T0000074995",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "共同主持人 (50%)",
+    "weightRatio": 0.5,
+    "category": "計畫案",
+    "subType": "國科會專題研究計畫",
+    "title": "應用邊緣式AI技術於安寧緩和照護品質管理以發展健保永續模式之研究實證計畫",
+    "code": "NSTC-115-技專私大跨域實作型計畫-340",
+    "accCode": "ACC-115-NSTC-340",
+    "disbursementRate": 100,
+    "amount": 350,
+    "metricNote": "國科會核定 NT$ 350 萬 (專題研究計畫 (技專校院實務型研究專案計畫（跨域實作型）))",
+    "source": "TEACHER-WRITTING (表1-17 國科會計畫案)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已核定歸檔",
+    "keywords": [
+      "高齡長照",
+      "失智症照護",
+      "AI智慧應用",
+      "數位轉型",
+      "健康事業管理系"
+    ],
+    "id": "REC-115-045"
+  },
+  {
+    "year": "115",
+    "college": "環境與生命學院",
+    "dept": "職業安全衛生系",
+    "teacher": "鄭立新",
+    "empId": "T0000017031",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "共同主持人 (50%)",
+    "weightRatio": 0.5,
+    "category": "計畫案",
+    "subType": "國科會專題研究計畫",
+    "title": "PP-PS混合燃燒之非線性PAHs生成效應、來源診斷與微粒毒性整合風險分析",
+    "code": "NSTC-115-職業安全衛生-486",
+    "accCode": "ACC-115-NSTC-486",
+    "disbursementRate": 100,
+    "amount": 130,
+    "metricNote": "國科會核定 NT$ 130 萬 (專題研究計畫 (一般研究計畫))",
+    "source": "TEACHER-WRITTING (表1-17 國科會計畫案)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已核定歸檔",
+    "keywords": [
+      "職業安全衛生系"
+    ],
+    "id": "REC-115-046"
+  },
+  {
+    "year": "115",
+    "college": "醫學與健康學院",
+    "dept": "保健營養系",
+    "teacher": "蔡蕙芸",
+    "empId": "T0000098101",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "共同主持人 (50%)",
+    "weightRatio": 0.5,
+    "category": "計畫案",
+    "subType": "國科會專題研究計畫",
+    "title": "Pterostilbene與3′-hydroxypterostilbene於甲基乙二醛誘導之認知障礙的神經保護功效及其腸-腦軸調控機制研究",
+    "code": "NSTC-115-食品科學-265",
+    "accCode": "ACC-115-NSTC-265",
+    "disbursementRate": 100,
+    "amount": 140,
+    "metricNote": "國科會核定 NT$ 140 萬 (專題研究計畫 (一般研究計畫))",
+    "source": "TEACHER-WRITTING (表1-17 國科會計畫案)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已核定歸檔",
+    "keywords": [
+      "保健營養系"
+    ],
+    "id": "REC-115-047"
   },
   {
     "year": "115",
@@ -542,7 +1375,7 @@ var DATASET_111_115 = [
       "專利研發",
       "物理治療系"
     ],
-    "id": "REC-115-019"
+    "id": "REC-115-048"
   },
   {
     "year": "115",
@@ -568,7 +1401,7 @@ var DATASET_111_115 = [
     "keywords": [
       "護理系"
     ],
-    "id": "REC-115-020"
+    "id": "REC-115-049"
   },
   {
     "year": "115",
@@ -594,7 +1427,7 @@ var DATASET_111_115 = [
     "keywords": [
       "護理系"
     ],
-    "id": "REC-115-021"
+    "id": "REC-115-050"
   },
   {
     "year": "115",
@@ -623,7 +1456,7 @@ var DATASET_111_115 = [
       "專利研發",
       "護理系"
     ],
-    "id": "REC-115-022"
+    "id": "REC-115-051"
   },
   {
     "year": "115",
@@ -649,7 +1482,7 @@ var DATASET_111_115 = [
     "keywords": [
       "職業安全衛生系"
     ],
-    "id": "REC-115-023"
+    "id": "REC-115-052"
   },
   {
     "year": "115",
@@ -675,7 +1508,7 @@ var DATASET_111_115 = [
     "keywords": [
       "護理系"
     ],
-    "id": "REC-115-024"
+    "id": "REC-115-053"
   },
   {
     "year": "115",
@@ -703,7 +1536,7 @@ var DATASET_111_115 = [
       "數位轉型",
       "護理系"
     ],
-    "id": "REC-115-025"
+    "id": "REC-115-054"
   },
   {
     "year": "115",
@@ -733,7 +1566,7 @@ var DATASET_111_115 = [
       "數位轉型",
       "環境工程與科學系"
     ],
-    "id": "REC-115-026"
+    "id": "REC-115-055"
   },
   {
     "year": "115",
@@ -762,7 +1595,7 @@ var DATASET_111_115 = [
       "專利研發",
       "護理系"
     ],
-    "id": "REC-115-027"
+    "id": "REC-115-056"
   },
   {
     "year": "115",
@@ -789,7 +1622,7 @@ var DATASET_111_115 = [
       "專利研發",
       "護理系"
     ],
-    "id": "REC-115-028"
+    "id": "REC-115-057"
   },
   {
     "year": "115",
@@ -815,7 +1648,7 @@ var DATASET_111_115 = [
     "keywords": [
       "護理系"
     ],
-    "id": "REC-115-029"
+    "id": "REC-115-058"
   },
   {
     "year": "115",
@@ -841,7 +1674,7 @@ var DATASET_111_115 = [
     "keywords": [
       "護理系"
     ],
-    "id": "REC-115-030"
+    "id": "REC-115-059"
   },
   {
     "year": "115",
@@ -867,7 +1700,7 @@ var DATASET_111_115 = [
     "keywords": [
       "護理系"
     ],
-    "id": "REC-115-031"
+    "id": "REC-115-060"
   },
   {
     "year": "115",
@@ -893,7 +1726,7 @@ var DATASET_111_115 = [
     "keywords": [
       "健康美容系"
     ],
-    "id": "REC-115-032"
+    "id": "REC-115-061"
   },
   {
     "year": "115",
@@ -923,7 +1756,7 @@ var DATASET_111_115 = [
       "實務專題",
       "健康美容系"
     ],
-    "id": "REC-115-033"
+    "id": "REC-115-062"
   },
   {
     "year": "115",
@@ -951,7 +1784,7 @@ var DATASET_111_115 = [
       "實務專題",
       "健康美容系"
     ],
-    "id": "REC-115-034"
+    "id": "REC-115-063"
   },
   {
     "year": "115",
@@ -981,7 +1814,7 @@ var DATASET_111_115 = [
       "實務專題",
       "健康美容系"
     ],
-    "id": "REC-115-035"
+    "id": "REC-115-064"
   },
   {
     "year": "115",
@@ -1009,7 +1842,7 @@ var DATASET_111_115 = [
       "實務專題",
       "健康美容系"
     ],
-    "id": "REC-115-036"
+    "id": "REC-115-065"
   },
   {
     "year": "115",
@@ -1039,7 +1872,7 @@ var DATASET_111_115 = [
       "實務專題",
       "健康美容系"
     ],
-    "id": "REC-115-037"
+    "id": "REC-115-066"
   },
   {
     "year": "115",
@@ -1067,7 +1900,7 @@ var DATASET_111_115 = [
       "實務專題",
       "高齡及長期照護事業系"
     ],
-    "id": "REC-115-038"
+    "id": "REC-115-067"
   },
   {
     "year": "115",
@@ -1095,7 +1928,7 @@ var DATASET_111_115 = [
       "實務專題",
       "健康美容系"
     ],
-    "id": "REC-115-039"
+    "id": "REC-115-068"
   },
   {
     "year": "115",
@@ -1123,7 +1956,7 @@ var DATASET_111_115 = [
       "實務專題",
       "健康美容系"
     ],
-    "id": "REC-115-040"
+    "id": "REC-115-069"
   },
   {
     "year": "115",
@@ -1153,7 +1986,7 @@ var DATASET_111_115 = [
       "產品開發",
       "保健營養"
     ],
-    "id": "REC-115-041"
+    "id": "REC-115-070"
   },
   {
     "year": "115",
@@ -1183,7 +2016,7 @@ var DATASET_111_115 = [
       "機能食品",
       "師生競賽"
     ],
-    "id": "REC-115-042"
+    "id": "REC-115-071"
   },
   {
     "year": "115",
@@ -1211,7 +2044,7 @@ var DATASET_111_115 = [
       "實務專題",
       "健康美容系"
     ],
-    "id": "REC-115-043"
+    "id": "REC-115-072"
   },
   {
     "year": "115",
@@ -1241,7 +2074,7 @@ var DATASET_111_115 = [
       "機能食品",
       "師生競賽"
     ],
-    "id": "REC-115-044"
+    "id": "REC-115-073"
   },
   {
     "year": "115",
@@ -1271,7 +2104,7 @@ var DATASET_111_115 = [
       "實務專題",
       "健康美容系"
     ],
-    "id": "REC-115-045"
+    "id": "REC-115-074"
   },
   {
     "year": "115",
@@ -1301,7 +2134,7 @@ var DATASET_111_115 = [
       "實務專題",
       "健康美容系"
     ],
-    "id": "REC-115-046"
+    "id": "REC-115-075"
   },
   {
     "year": "115",
@@ -1331,7 +2164,7 @@ var DATASET_111_115 = [
       "實務專題",
       "健康美容系"
     ],
-    "id": "REC-115-047"
+    "id": "REC-115-076"
   },
   {
     "year": "115",
@@ -1359,7 +2192,7 @@ var DATASET_111_115 = [
       "實務專題",
       "健康美容系"
     ],
-    "id": "REC-115-048"
+    "id": "REC-115-077"
   },
   {
     "year": "115",
@@ -1389,7 +2222,7 @@ var DATASET_111_115 = [
       "實務專題",
       "健康美容系"
     ],
-    "id": "REC-115-049"
+    "id": "REC-115-078"
   },
   {
     "year": "115",
@@ -1419,7 +2252,7 @@ var DATASET_111_115 = [
       "實務專題",
       "健康美容系"
     ],
-    "id": "REC-115-050"
+    "id": "REC-115-079"
   },
   {
     "year": "115",
@@ -1447,7 +2280,7 @@ var DATASET_111_115 = [
       "實務專題",
       "健康美容系"
     ],
-    "id": "REC-115-051"
+    "id": "REC-115-080"
   },
   {
     "year": "115",
@@ -1477,7 +2310,7 @@ var DATASET_111_115 = [
       "實務專題",
       "高齡及長期照護事業系"
     ],
-    "id": "REC-115-052"
+    "id": "REC-115-081"
   },
   {
     "year": "115",
@@ -1507,7 +2340,7 @@ var DATASET_111_115 = [
       "實務專題",
       "健康美容系"
     ],
-    "id": "REC-115-053"
+    "id": "REC-115-082"
   },
   {
     "year": "115",
@@ -1537,7 +2370,7 @@ var DATASET_111_115 = [
       "實務專題",
       "健康美容系"
     ],
-    "id": "REC-115-054"
+    "id": "REC-115-083"
   },
   {
     "year": "115",
@@ -1565,7 +2398,7 @@ var DATASET_111_115 = [
       "實務專題",
       "健康美容系"
     ],
-    "id": "REC-115-055"
+    "id": "REC-115-084"
   },
   {
     "year": "115",
@@ -1593,7 +2426,7 @@ var DATASET_111_115 = [
       "實務專題",
       "醫學檢驗生物技術系"
     ],
-    "id": "REC-115-056"
+    "id": "REC-115-085"
   },
   {
     "year": "115",
@@ -1621,7 +2454,7 @@ var DATASET_111_115 = [
       "實務專題",
       "醫學檢驗生物技術系"
     ],
-    "id": "REC-115-057"
+    "id": "REC-115-086"
   },
   {
     "year": "115",
@@ -1649,7 +2482,7 @@ var DATASET_111_115 = [
       "實務專題",
       "物理治療系"
     ],
-    "id": "REC-115-058"
+    "id": "REC-115-087"
   },
   {
     "year": "115",
@@ -1677,7 +2510,7 @@ var DATASET_111_115 = [
       "實務專題",
       "護理系"
     ],
-    "id": "REC-115-059"
+    "id": "REC-115-088"
   },
   {
     "year": "115",
@@ -1705,7 +2538,7 @@ var DATASET_111_115 = [
       "實務專題",
       "應用外語系"
     ],
-    "id": "REC-115-060"
+    "id": "REC-115-089"
   },
   {
     "year": "115",
@@ -1733,7 +2566,7 @@ var DATASET_111_115 = [
       "實務專題",
       "護理系"
     ],
-    "id": "REC-115-061"
+    "id": "REC-115-090"
   },
   {
     "year": "115",
@@ -1761,7 +2594,7 @@ var DATASET_111_115 = [
       "實務專題",
       "健康美容系"
     ],
-    "id": "REC-115-062"
+    "id": "REC-115-091"
   },
   {
     "year": "115",
@@ -1789,7 +2622,7 @@ var DATASET_111_115 = [
       "實務專題",
       "護理系"
     ],
-    "id": "REC-115-063"
+    "id": "REC-115-092"
   },
   {
     "year": "115",
@@ -1817,7 +2650,7 @@ var DATASET_111_115 = [
       "實務專題",
       "應用化學及材料科學系"
     ],
-    "id": "REC-115-064"
+    "id": "REC-115-093"
   },
   {
     "year": "115",
@@ -1845,7 +2678,7 @@ var DATASET_111_115 = [
       "實務專題",
       "物理治療系"
     ],
-    "id": "REC-115-065"
+    "id": "REC-115-094"
   },
   {
     "year": "115",
@@ -1873,7 +2706,7 @@ var DATASET_111_115 = [
       "實務專題",
       "健康美容系"
     ],
-    "id": "REC-115-066"
+    "id": "REC-115-095"
   },
   {
     "year": "115",
@@ -1901,7 +2734,7 @@ var DATASET_111_115 = [
       "實務專題",
       "健康美容系"
     ],
-    "id": "REC-115-067"
+    "id": "REC-115-096"
   },
   {
     "year": "115",
@@ -1929,7 +2762,7 @@ var DATASET_111_115 = [
       "實務專題",
       "應用化學及材料科學系"
     ],
-    "id": "REC-115-068"
+    "id": "REC-115-097"
   },
   {
     "year": "115",
@@ -1957,7 +2790,7 @@ var DATASET_111_115 = [
       "實務專題",
       "健康美容系"
     ],
-    "id": "REC-115-069"
+    "id": "REC-115-098"
   },
   {
     "year": "115",
@@ -1987,7 +2820,7 @@ var DATASET_111_115 = [
       "產品開發",
       "師生競賽"
     ],
-    "id": "REC-115-070"
+    "id": "REC-115-099"
   },
   {
     "year": "115",
@@ -2015,7 +2848,7 @@ var DATASET_111_115 = [
       "實務專題",
       "護理系"
     ],
-    "id": "REC-115-071"
+    "id": "REC-115-100"
   },
   {
     "year": "115",
@@ -2045,7 +2878,7 @@ var DATASET_111_115 = [
       "實務專題",
       "醫學檢驗生物技術系"
     ],
-    "id": "REC-115-072"
+    "id": "REC-115-101"
   },
   {
     "year": "115",
@@ -2075,7 +2908,7 @@ var DATASET_111_115 = [
       "實務專題",
       "健康美容系"
     ],
-    "id": "REC-115-073"
+    "id": "REC-115-102"
   },
   {
     "year": "115",
@@ -2105,7 +2938,7 @@ var DATASET_111_115 = [
       "實務專題",
       "健康美容系"
     ],
-    "id": "REC-115-074"
+    "id": "REC-115-103"
   },
   {
     "year": "115",
@@ -2133,7 +2966,7 @@ var DATASET_111_115 = [
       "實務專題",
       "護理系"
     ],
-    "id": "REC-115-075"
+    "id": "REC-115-104"
   },
   {
     "year": "115",
@@ -2161,7 +2994,7 @@ var DATASET_111_115 = [
       "實務專題",
       "護理系"
     ],
-    "id": "REC-115-076"
+    "id": "REC-115-105"
   },
   {
     "year": "115",
@@ -2189,7 +3022,7 @@ var DATASET_111_115 = [
       "實務專題",
       "健康美容系"
     ],
-    "id": "REC-115-077"
+    "id": "REC-115-106"
   },
   {
     "year": "115",
@@ -2219,7 +3052,7 @@ var DATASET_111_115 = [
       "實務專題",
       "健康美容系"
     ],
-    "id": "REC-115-078"
+    "id": "REC-115-107"
   },
   {
     "year": "115",
@@ -2249,7 +3082,7 @@ var DATASET_111_115 = [
       "實務專題",
       "健康美容系"
     ],
-    "id": "REC-115-079"
+    "id": "REC-115-108"
   },
   {
     "year": "115",
@@ -2277,7 +3110,7 @@ var DATASET_111_115 = [
       "實務專題",
       "健康美容系"
     ],
-    "id": "REC-115-080"
+    "id": "REC-115-109"
   },
   {
     "year": "115",
@@ -2305,7 +3138,7 @@ var DATASET_111_115 = [
       "實務專題",
       "健康美容系"
     ],
-    "id": "REC-115-081"
+    "id": "REC-115-110"
   },
   {
     "year": "115",
@@ -2333,7 +3166,7 @@ var DATASET_111_115 = [
       "實務專題",
       "健康美容系"
     ],
-    "id": "REC-115-082"
+    "id": "REC-115-111"
   },
   {
     "year": "115",
@@ -2362,7 +3195,7 @@ var DATASET_111_115 = [
       "實務專題",
       "護理系"
     ],
-    "id": "REC-115-083"
+    "id": "REC-115-112"
   },
   {
     "year": "115",
@@ -2390,7 +3223,7 @@ var DATASET_111_115 = [
       "實務專題",
       "護理系"
     ],
-    "id": "REC-115-084"
+    "id": "REC-115-113"
   },
   {
     "year": "115",
@@ -2418,7 +3251,7 @@ var DATASET_111_115 = [
       "實務專題",
       "護理系"
     ],
-    "id": "REC-115-085"
+    "id": "REC-115-114"
   },
   {
     "year": "115",
@@ -2446,12 +3279,12 @@ var DATASET_111_115 = [
       "實務專題",
       "健康美容系"
     ],
-    "id": "REC-115-086"
+    "id": "REC-115-115"
   },
   {
     "year": "115",
-    "college": "護理學院",
-    "dept": "護理系",
+    "college": "人文與管理學院",
+    "dept": "共同教育中心",
     "teacher": "王佳瑜",
     "adminRole": "專任教師",
     "isArticle7Exempt": false,
@@ -2472,9 +3305,9 @@ var DATASET_111_115 = [
     "keywords": [
       "師生競賽",
       "實務專題",
-      "護理系"
+      "共同教育中心"
     ],
-    "id": "REC-115-087"
+    "id": "REC-115-116"
   },
   {
     "year": "115",
@@ -2502,7 +3335,7 @@ var DATASET_111_115 = [
       "實務專題",
       "健康美容系"
     ],
-    "id": "REC-115-088"
+    "id": "REC-115-117"
   },
   {
     "year": "115",
@@ -2530,7 +3363,7 @@ var DATASET_111_115 = [
       "實務專題",
       "健康美容系"
     ],
-    "id": "REC-115-089"
+    "id": "REC-115-118"
   },
   {
     "year": "115",
@@ -2558,7 +3391,7 @@ var DATASET_111_115 = [
       "實務專題",
       "健康美容系"
     ],
-    "id": "REC-115-090"
+    "id": "REC-115-119"
   },
   {
     "year": "115",
@@ -2586,7 +3419,7 @@ var DATASET_111_115 = [
       "實務專題",
       "健康美容系"
     ],
-    "id": "REC-115-091"
+    "id": "REC-115-120"
   },
   {
     "year": "115",
@@ -2614,7 +3447,7 @@ var DATASET_111_115 = [
       "實務專題",
       "健康美容系"
     ],
-    "id": "REC-115-092"
+    "id": "REC-115-121"
   },
   {
     "year": "115",
@@ -2642,7 +3475,7 @@ var DATASET_111_115 = [
       "實務專題",
       "健康美容系"
     ],
-    "id": "REC-115-093"
+    "id": "REC-115-122"
   },
   {
     "year": "115",
@@ -2670,7 +3503,7 @@ var DATASET_111_115 = [
       "實務專題",
       "健康美容系"
     ],
-    "id": "REC-115-094"
+    "id": "REC-115-123"
   },
   {
     "year": "115",
@@ -2698,7 +3531,7 @@ var DATASET_111_115 = [
       "實務專題",
       "健康美容系"
     ],
-    "id": "REC-115-095"
+    "id": "REC-115-124"
   },
   {
     "year": "115",
@@ -2726,7 +3559,7 @@ var DATASET_111_115 = [
       "實務專題",
       "健康美容系"
     ],
-    "id": "REC-115-096"
+    "id": "REC-115-125"
   },
   {
     "year": "115",
@@ -2754,7 +3587,7 @@ var DATASET_111_115 = [
       "實務專題",
       "健康美容系"
     ],
-    "id": "REC-115-097"
+    "id": "REC-115-126"
   },
   {
     "year": "115",
@@ -2784,11 +3617,11 @@ var DATASET_111_115 = [
       "實務專題",
       "護理系"
     ],
-    "id": "REC-115-098"
+    "id": "REC-115-127"
   },
   {
     "year": "115",
-    "college": "醫學與健康學院",
+    "college": "護理學院",
     "dept": "健康事業管理系",
     "teacher": "林政翰",
     "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
@@ -2812,7 +3645,34 @@ var DATASET_111_115 = [
       "實務專題",
       "健康事業管理系"
     ],
-    "id": "REC-115-099"
+    "id": "REC-115-128"
+  },
+  {
+    "year": "115",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "陳舜華",
+    "empId": "T0000003564",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "A Pholidota chinensis-derived dihydrophenanthrene acts as a bioactive constituent to trigger GPx4-mediated ferroptosis in colorectal cancer",
+    "code": "Journal of Ethnopharmacology",
+    "accCode": "PUB-JRN-2026-2298",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Journal of Ethnopharmacology, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-115-129"
   },
   {
     "year": "115",
@@ -2842,7 +3702,34 @@ var DATASET_111_115 = [
       "翻譯訓練",
       "應用外語系"
     ],
-    "id": "REC-115-100"
+    "id": "REC-115-130"
+  },
+  {
+    "year": "115",
+    "college": "護理學院",
+    "dept": "健康事業管理系",
+    "teacher": "楊鎮維",
+    "empId": "T0000028271",
+    "adminRole": "教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "E-service quality as a mechanism linking health-related motivations to telemedicine usage intention: Evidence from Taiwan in the COVID-19 context",
+    "code": "International Journal of Healthcare Technology and Management",
+    "accCode": "PUB-JRN-2026-1456",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: International Journal of Healthcare Technology and Management, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康事業管理系"
+    ],
+    "id": "REC-115-131"
   },
   {
     "year": "115",
@@ -2871,7 +3758,61 @@ var DATASET_111_115 = [
       "轉診追蹤機制",
       "健康事業管理系"
     ],
-    "id": "REC-115-101"
+    "id": "REC-115-132"
+  },
+  {
+    "year": "115",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "蔡宛玲",
+    "empId": "T0000121830",
+    "adminRole": "職能發展組副主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "SCIE 國際期刊",
+    "title": "Oral sodium butyrate alleviates motor deficits and dopaminergic neuronal loss in 6-hydroxydopamine-induced Parkinson’s disease rat model",
+    "code": "BMC Neuroscience",
+    "accCode": "PUB-JRN-2026-2230",
+    "disbursementRate": 100,
+    "amount": 2,
+    "metricNote": "SCIE 國際期刊 收錄 (刊物: BMC Neuroscience, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-115-133"
+  },
+  {
+    "year": "115",
+    "college": "護理學院",
+    "dept": "健康事業管理系",
+    "teacher": "羅家倫",
+    "empId": "T0000060871",
+    "adminRole": "國際事務長（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "SSCI 國際期刊",
+    "title": "Workplace Bullying, Resilience, and Work Stress Among Undergraduate Nursing Students During Clinical Placements",
+    "code": "Nurse Education Today(SSCI)",
+    "accCode": "PUB-JRN-2026-1611",
+    "disbursementRate": 100,
+    "amount": 2,
+    "metricNote": "SSCI 國際期刊 收錄 (刊物: Nurse Education Today(SSCI), 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康事業管理系"
+    ],
+    "id": "REC-115-134"
   },
   {
     "year": "114",
@@ -2960,6 +3901,66 @@ var DATASET_111_115 = [
   },
   {
     "year": "114",
+    "college": "護理學院",
+    "dept": "高齡及長期照護事業系",
+    "teacher": "程紋貞",
+    "empId": "T0000093841",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "共同主持人 (50%)",
+    "weightRatio": 0.5,
+    "category": "計畫案",
+    "subType": "國科會專題研究計畫",
+    "title": "「包容同理之跨專業合作臨終照護訓練方案」提升長照機構人員與家屬死亡識能之成效",
+    "code": "NSTC-114-應用科學教育-707",
+    "accCode": "ACC-114-NSTC-707",
+    "disbursementRate": 100,
+    "amount": 70,
+    "metricNote": "國科會核定 NT$ 70 萬 (專題研究計畫 (鼓勵技專校院從事實務型研究專案計畫))",
+    "source": "TEACHER-WRITTING (表1-17 國科會計畫案)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已核定歸檔",
+    "keywords": [
+      "高齡長照",
+      "失智症照護",
+      "高齡及長期照護事業系"
+    ],
+    "id": "REC-114-004"
+  },
+  {
+    "year": "114",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "楊雅斐",
+    "empId": "T0000077636",
+    "adminRole": "實習指導教師",
+    "isArticle7Exempt": false,
+    "authorOrder": "共同主持人 (50%)",
+    "weightRatio": 0.5,
+    "category": "計畫案",
+    "subType": "國科會專題研究計畫",
+    "title": "「來護腎」系統：以人工智慧驅動轉型腎病全幅照護之數位醫療系統(1/4)",
+    "code": "NSTC-114-推動疾病導向之生醫資料基盤優化與科技應用計畫_生醫資料之轉譯研究與應用-548",
+    "accCode": "ACC-114-NSTC-548",
+    "disbursementRate": 100,
+    "amount": 800,
+    "metricNote": "國科會核定 NT$ 800 萬 (專題研究計畫 (一般策略專案計畫))",
+    "source": "TEACHER-WRITTING (表1-17 國科會計畫案)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已核定歸檔",
+    "keywords": [
+      "高齡長照",
+      "失智症照護",
+      "AI智慧應用",
+      "數位轉型",
+      "護理系"
+    ],
+    "id": "REC-114-005"
+  },
+  {
+    "year": "114",
     "college": "環境與生命學院",
     "dept": "環境工程與科學系",
     "teacher": "林清和",
@@ -2984,7 +3985,7 @@ var DATASET_111_115 = [
       "淨零減碳",
       "環境工程與科學系"
     ],
-    "id": "REC-114-004"
+    "id": "REC-114-006"
   },
   {
     "year": "114",
@@ -3012,12 +4013,12 @@ var DATASET_111_115 = [
       "淨零減碳",
       "環境工程與科學系"
     ],
-    "id": "REC-114-005"
+    "id": "REC-114-007"
   },
   {
     "year": "114",
     "college": "護理學院",
-    "dept": "護理系",
+    "dept": "共同教育中心",
     "teacher": "程紋貞",
     "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
     "isArticle7Exempt": true,
@@ -3038,9 +4039,9 @@ var DATASET_111_115 = [
     "keywords": [
       "高齡長照",
       "失智症照護",
-      "護理系"
+      "共同教育中心"
     ],
-    "id": "REC-114-006"
+    "id": "REC-114-008"
   },
   {
     "year": "114",
@@ -3066,12 +4067,12 @@ var DATASET_111_115 = [
     "keywords": [
       "環境工程與科學系"
     ],
-    "id": "REC-114-007"
+    "id": "REC-114-009"
   },
   {
     "year": "114",
     "college": "護理學院",
-    "dept": "護理系",
+    "dept": "共同教育中心",
     "teacher": "程紋貞",
     "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
     "isArticle7Exempt": true,
@@ -3092,9 +4093,9 @@ var DATASET_111_115 = [
     "keywords": [
       "AI智慧應用",
       "數位轉型",
-      "護理系"
+      "共同教育中心"
     ],
-    "id": "REC-114-008"
+    "id": "REC-114-010"
   },
   {
     "year": "114",
@@ -3120,7 +4121,7 @@ var DATASET_111_115 = [
     "keywords": [
       "健康美容系"
     ],
-    "id": "REC-114-009"
+    "id": "REC-114-011"
   },
   {
     "year": "114",
@@ -3148,7 +4149,7 @@ var DATASET_111_115 = [
       "公共托育",
       "健康事業管理系"
     ],
-    "id": "REC-114-010"
+    "id": "REC-114-012"
   },
   {
     "year": "114",
@@ -3176,7 +4177,7 @@ var DATASET_111_115 = [
       "公共托育",
       "健康事業管理系"
     ],
-    "id": "REC-114-011"
+    "id": "REC-114-013"
   },
   {
     "year": "114",
@@ -3204,7 +4205,7 @@ var DATASET_111_115 = [
       "公共托育",
       "健康事業管理系"
     ],
-    "id": "REC-114-012"
+    "id": "REC-114-014"
   },
   {
     "year": "114",
@@ -3232,7 +4233,7 @@ var DATASET_111_115 = [
       "公共托育",
       "健康事業管理系"
     ],
-    "id": "REC-114-013"
+    "id": "REC-114-015"
   },
   {
     "year": "114",
@@ -3258,7 +4259,63 @@ var DATASET_111_115 = [
     "keywords": [
       "健康美容系"
     ],
-    "id": "REC-114-014"
+    "id": "REC-114-016"
+  },
+  {
+    "year": "114",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "董曉婷",
+    "empId": "T0000045947",
+    "adminRole": "主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "計畫主持人 (100%)",
+    "weightRatio": 1,
+    "category": "計畫案",
+    "subType": "國科會專題研究計畫",
+    "title": "2025國際健康照護研討會--社交機器人於創新健康照護之趨勢、跨域與應用",
+    "code": "NSTC-114-新興/其他領域-542",
+    "accCode": "ACC-114-NSTC-542",
+    "disbursementRate": 100,
+    "amount": 9,
+    "metricNote": "國科會核定 NT$ 9 萬 (國內舉辦國際學術研討會)",
+    "source": "TEACHER-WRITTING (表1-17 國科會計畫案)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已核定歸檔",
+    "keywords": [
+      "高齡長照",
+      "失智症照護",
+      "護理系"
+    ],
+    "id": "REC-114-017"
+  },
+  {
+    "year": "114",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "董曉婷",
+    "empId": "T0000045947",
+    "adminRole": "主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "計畫主持人 (100%)",
+    "weightRatio": 1,
+    "category": "計畫案",
+    "subType": "國科會專題研究計畫",
+    "title": "36th International Nursing Research Congress",
+    "code": "NSTC-114-護理-541",
+    "accCode": "ACC-114-NSTC-541",
+    "disbursementRate": 100,
+    "amount": 3,
+    "metricNote": "國科會核定 NT$ 3 萬 (補助國內專家學者出席國際學術會議)",
+    "source": "TEACHER-WRITTING (表1-17 國科會計畫案)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已核定歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-114-018"
   },
   {
     "year": "114",
@@ -3284,7 +4341,92 @@ var DATASET_111_115 = [
     "keywords": [
       "健康美容系"
     ],
-    "id": "REC-114-015"
+    "id": "REC-114-019"
+  },
+  {
+    "year": "114",
+    "college": "護理學院",
+    "dept": "高齡及長期照護事業系",
+    "teacher": "楊月頴",
+    "empId": "T0000097047",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "計畫主持人 (100%)",
+    "weightRatio": 1,
+    "category": "計畫案",
+    "subType": "國科會專題研究計畫",
+    "title": "6th Asian Congress in Nursing Education （ACiNE）",
+    "code": "NSTC-114-護理-711",
+    "accCode": "ACC-114-NSTC-711",
+    "disbursementRate": 100,
+    "amount": 2.5,
+    "metricNote": "國科會核定 NT$ 2.5 萬 (補助國內專家學者出席國際學術會議)",
+    "source": "TEACHER-WRITTING (表1-17 國科會計畫案)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已核定歸檔",
+    "keywords": [
+      "高齡及長期照護事業系"
+    ],
+    "id": "REC-114-020"
+  },
+  {
+    "year": "114",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "顏秀珍",
+    "empId": "T0000089142",
+    "adminRole": "實習指導教師",
+    "isArticle7Exempt": false,
+    "authorOrder": "共同主持人 (50%)",
+    "weightRatio": 0.5,
+    "category": "計畫案",
+    "subType": "國科會專題研究計畫",
+    "title": "一個新的可解釋機器學習方法之研究",
+    "code": "NSTC-114-資料科學與網際網路技術-570",
+    "accCode": "ACC-114-NSTC-570",
+    "disbursementRate": 100,
+    "amount": 88.1,
+    "metricNote": "國科會核定 NT$ 88.1 萬 (專題研究計畫 (一般研究計畫))",
+    "source": "TEACHER-WRITTING (表1-17 國科會計畫案)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已核定歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-114-021"
+  },
+  {
+    "year": "114",
+    "college": "護理學院",
+    "dept": "健康事業管理系",
+    "teacher": "羅家倫",
+    "empId": "T0000060871",
+    "adminRole": "國際事務長（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "計畫主持人 (100%)",
+    "weightRatio": 1,
+    "category": "計畫案",
+    "subType": "國科會專題研究計畫",
+    "title": "人工智慧在長期照顧營養監測中的跨文化應用與效能分析：整合 NutriTrack 系統與時間摘要模型的台灣與澳洲之比較研究",
+    "code": "NSTC-114-資訊管理-329",
+    "accCode": "ACC-114-NSTC-329",
+    "disbursementRate": 100,
+    "amount": 81.5,
+    "metricNote": "國科會核定 NT$ 81.5 萬 (專題研究計畫 (一般研究計畫))",
+    "source": "TEACHER-WRITTING (表1-17 國科會計畫案)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已核定歸檔",
+    "keywords": [
+      "AI智慧應用",
+      "數位轉型",
+      "保健營養",
+      "機能食品",
+      "健康事業管理系"
+    ],
+    "id": "REC-114-022"
   },
   {
     "year": "114",
@@ -3314,7 +4456,7 @@ var DATASET_111_115 = [
       "機能食品",
       "健康事業管理系"
     ],
-    "id": "REC-114-016"
+    "id": "REC-114-023"
   },
   {
     "year": "114",
@@ -3340,7 +4482,7 @@ var DATASET_111_115 = [
     "keywords": [
       "應用外語系"
     ],
-    "id": "REC-114-017"
+    "id": "REC-114-024"
   },
   {
     "year": "114",
@@ -3368,7 +4510,7 @@ var DATASET_111_115 = [
       "公共托育",
       "幼兒保育暨產業系"
     ],
-    "id": "REC-114-018"
+    "id": "REC-114-025"
   },
   {
     "year": "114",
@@ -3394,7 +4536,7 @@ var DATASET_111_115 = [
     "keywords": [
       "幼兒保育暨產業系"
     ],
-    "id": "REC-114-019"
+    "id": "REC-114-026"
   },
   {
     "year": "114",
@@ -3420,7 +4562,7 @@ var DATASET_111_115 = [
     "keywords": [
       "幼兒保育暨產業系"
     ],
-    "id": "REC-114-020"
+    "id": "REC-114-027"
   },
   {
     "year": "114",
@@ -3446,7 +4588,34 @@ var DATASET_111_115 = [
     "keywords": [
       "幼兒保育暨產業系"
     ],
-    "id": "REC-114-021"
+    "id": "REC-114-028"
+  },
+  {
+    "year": "114",
+    "college": "人文與管理學院",
+    "dept": "資訊科技與管理系",
+    "teacher": "陳俊勳",
+    "empId": "T0000042494",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "計畫主持人 (100%)",
+    "weightRatio": 1,
+    "category": "計畫案",
+    "subType": "國科會專題研究計畫",
+    "title": "工業用戶多模態特徵的短時負載預測與市場參與策略研究",
+    "code": "NSTC-114-能源節約-748",
+    "accCode": "ACC-114-NSTC-748",
+    "disbursementRate": 100,
+    "amount": 86,
+    "metricNote": "國科會核定 NT$ 86 萬 (專題研究計畫 (一般研究計畫))",
+    "source": "TEACHER-WRITTING (表1-17 國科會計畫案)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已核定歸檔",
+    "keywords": [
+      "資訊科技與管理系"
+    ],
+    "id": "REC-114-029"
   },
   {
     "year": "114",
@@ -3472,12 +4641,12 @@ var DATASET_111_115 = [
     "keywords": [
       "護理系"
     ],
-    "id": "REC-114-022"
+    "id": "REC-114-030"
   },
   {
     "year": "114",
     "college": "環境與生命學院",
-    "dept": "護理系",
+    "dept": "共同教育中心",
     "teacher": "李佩芳",
     "adminRole": "產學合作組組長（依評鑑辦法第7條得僅評教學基本指標）",
     "isArticle7Exempt": true,
@@ -3496,9 +4665,36 @@ var DATASET_111_115 = [
     "group": "產學合作組",
     "status": "執行中",
     "keywords": [
+      "共同教育中心"
+    ],
+    "id": "REC-114-031"
+  },
+  {
+    "year": "114",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "蔡家梅",
+    "empId": "T0000095912",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "共同主持人 (50%)",
+    "weightRatio": 0.5,
+    "category": "計畫案",
+    "subType": "國科會專題研究計畫",
+    "title": "以可信任專業活動建構「臺灣介護食士」核心職能能力教育課程及成效評量",
+    "code": "NSTC-114-醫學教育-067",
+    "accCode": "ACC-114-NSTC-067",
+    "disbursementRate": 100,
+    "amount": 95.8,
+    "metricNote": "國科會核定 NT$ 95.8 萬 (專題研究計畫 (新進人員研究計畫))",
+    "source": "TEACHER-WRITTING (表1-17 國科會計畫案)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已核定歸檔",
+    "keywords": [
       "護理系"
     ],
-    "id": "REC-114-023"
+    "id": "REC-114-032"
   },
   {
     "year": "114",
@@ -3524,7 +4720,34 @@ var DATASET_111_115 = [
     "keywords": [
       "環境工程與科學系"
     ],
-    "id": "REC-114-024"
+    "id": "REC-114-033"
+  },
+  {
+    "year": "114",
+    "college": "環境與生命學院",
+    "dept": "環境工程與科學系",
+    "teacher": "施百鴻",
+    "empId": "T0000074458",
+    "adminRole": "教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "計畫主持人 (100%)",
+    "weightRatio": 1,
+    "category": "計畫案",
+    "subType": "國科會專題研究計畫",
+    "title": "以快速分析作為無機循環產品自主管理之探討",
+    "code": "NSTC-114-廢棄物及土壤與地下水-429",
+    "accCode": "ACC-114-NSTC-429",
+    "disbursementRate": 100,
+    "amount": 50.1,
+    "metricNote": "國科會核定 NT$ 50.1 萬 (專題研究計畫 (鼓勵技專校院從事實務型研究專案計畫))",
+    "source": "TEACHER-WRITTING (表1-17 國科會計畫案)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已核定歸檔",
+    "keywords": [
+      "環境工程與科學系"
+    ],
+    "id": "REC-114-034"
   },
   {
     "year": "114",
@@ -3552,7 +4775,34 @@ var DATASET_111_115 = [
       "失智症照護",
       "物理治療系"
     ],
-    "id": "REC-114-025"
+    "id": "REC-114-035"
+  },
+  {
+    "year": "114",
+    "college": "護理學院",
+    "dept": "助產與婦嬰健康照護系",
+    "teacher": "郭心怡",
+    "empId": "T0000005425",
+    "adminRole": "講師",
+    "isArticle7Exempt": false,
+    "authorOrder": "計畫主持人 (100%)",
+    "weightRatio": 1,
+    "category": "計畫案",
+    "subType": "國科會專題研究計畫",
+    "title": "半無窮域多鐵纖維複合材料之多重散射",
+    "code": "NSTC-114--010",
+    "accCode": "ACC-114-NSTC-010",
+    "disbursementRate": 100,
+    "amount": 52.18,
+    "metricNote": "國科會核定 NT$ 52.18 萬 (補助科學與技術人員國外短期研究)",
+    "source": "TEACHER-WRITTING (表1-17 國科會計畫案)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已核定歸檔",
+    "keywords": [
+      "助產與婦嬰健康照護系"
+    ],
+    "id": "REC-114-036"
   },
   {
     "year": "114",
@@ -3580,7 +4830,34 @@ var DATASET_111_115 = [
       "淨零減碳",
       "環境工程與科學系"
     ],
-    "id": "REC-114-026"
+    "id": "REC-114-037"
+  },
+  {
+    "year": "114",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "梁菁萍",
+    "empId": "T0000117242",
+    "adminRole": "教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "共同主持人 (50%)",
+    "weightRatio": 0.5,
+    "category": "計畫案",
+    "subType": "國科會專題研究計畫",
+    "title": "因應氣候變遷之地下水調適策略-桃園示範區(1/3)",
+    "code": "NSTC-114-永續發展研究—自然科學-071",
+    "accCode": "ACC-114-NSTC-071",
+    "disbursementRate": 100,
+    "amount": 1050,
+    "metricNote": "國科會核定 NT$ 1050 萬 (專題研究計畫 (一般導向專案研究計畫))",
+    "source": "TEACHER-WRITTING (表1-17 國科會計畫案)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已核定歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-114-038"
   },
   {
     "year": "114",
@@ -3606,7 +4883,34 @@ var DATASET_111_115 = [
     "keywords": [
       "物理治療系"
     ],
-    "id": "REC-114-027"
+    "id": "REC-114-039"
+  },
+  {
+    "year": "114",
+    "college": "醫學與健康學院",
+    "dept": "物理治療系",
+    "teacher": "康富傑",
+    "empId": "T0000060441",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "計畫主持人 (100%)",
+    "weightRatio": 1,
+    "category": "計畫案",
+    "subType": "國科會專題研究計畫",
+    "title": "有無肩胛動作障礙之競技游泳選手在肩胛骨運動學、肩胛肌肉力量和肩峰肱骨距離的差異",
+    "code": "NSTC-114-運動生物力學-234",
+    "accCode": "ACC-114-NSTC-234",
+    "disbursementRate": 100,
+    "amount": 95.6,
+    "metricNote": "國科會核定 NT$ 95.6 萬 (專題研究計畫 (新進人員研究計畫))",
+    "source": "TEACHER-WRITTING (表1-17 國科會計畫案)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已核定歸檔",
+    "keywords": [
+      "物理治療系"
+    ],
+    "id": "REC-114-040"
   },
   {
     "year": "114",
@@ -3632,7 +4936,34 @@ var DATASET_111_115 = [
     "keywords": [
       "物理治療系"
     ],
-    "id": "REC-114-028"
+    "id": "REC-114-041"
+  },
+  {
+    "year": "114",
+    "college": "醫學與健康學院",
+    "dept": "物理治療系",
+    "teacher": "鄒瑞怡",
+    "empId": "T0000045916",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "共同主持人 (50%)",
+    "weightRatio": 0.5,
+    "category": "計畫案",
+    "subType": "國科會專題研究計畫",
+    "title": "肌內效貼布對亞急性期中風合併垂足患者步行能力、平衡及神經肌肉功能的影響",
+    "code": "NSTC-114-復健-213",
+    "accCode": "ACC-114-NSTC-213",
+    "disbursementRate": 100,
+    "amount": 72,
+    "metricNote": "國科會核定 NT$ 72 萬 (專題研究計畫 (一般研究計畫))",
+    "source": "TEACHER-WRITTING (表1-17 國科會計畫案)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已核定歸檔",
+    "keywords": [
+      "物理治療系"
+    ],
+    "id": "REC-114-042"
   },
   {
     "year": "114",
@@ -3658,7 +4989,7 @@ var DATASET_111_115 = [
     "keywords": [
       "醫學檢驗生物技術系"
     ],
-    "id": "REC-114-029"
+    "id": "REC-114-043"
   },
   {
     "year": "114",
@@ -3684,7 +5015,7 @@ var DATASET_111_115 = [
     "keywords": [
       "保健營養系"
     ],
-    "id": "REC-114-030"
+    "id": "REC-114-044"
   },
   {
     "year": "114",
@@ -3710,7 +5041,7 @@ var DATASET_111_115 = [
     "keywords": [
       "資訊科技與管理系"
     ],
-    "id": "REC-114-031"
+    "id": "REC-114-045"
   },
   {
     "year": "114",
@@ -3736,7 +5067,7 @@ var DATASET_111_115 = [
     "keywords": [
       "環境工程與科學系"
     ],
-    "id": "REC-114-032"
+    "id": "REC-114-046"
   },
   {
     "year": "114",
@@ -3764,7 +5095,7 @@ var DATASET_111_115 = [
       "公共托育",
       "幼兒保育暨產業系"
     ],
-    "id": "REC-114-033"
+    "id": "REC-114-047"
   },
   {
     "year": "114",
@@ -3790,7 +5121,36 @@ var DATASET_111_115 = [
     "keywords": [
       "幼兒保育暨產業系"
     ],
-    "id": "REC-114-034"
+    "id": "REC-114-048"
+  },
+  {
+    "year": "114",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "許瓊尹",
+    "empId": "T0000030000",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "共同主持人 (50%)",
+    "weightRatio": 0.5,
+    "category": "計畫案",
+    "subType": "國科會專題研究計畫",
+    "title": "長期照護用之肌肉力量評估量測與訓練用之輔具系統開發",
+    "code": "NSTC-114-智慧生醫照護及系統生物控制-660",
+    "accCode": "ACC-114-NSTC-660",
+    "disbursementRate": 100,
+    "amount": 85,
+    "metricNote": "國科會核定 NT$ 85 萬 (專題研究計畫 (鼓勵技專校院從事實務型研究專案計畫))",
+    "source": "TEACHER-WRITTING (表1-17 國科會計畫案)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已核定歸檔",
+    "keywords": [
+      "高齡長照",
+      "失智症照護",
+      "護理系"
+    ],
+    "id": "REC-114-049"
   },
   {
     "year": "114",
@@ -3818,7 +5178,7 @@ var DATASET_111_115 = [
       "失智症照護",
       "高齡及長期照護事業系"
     ],
-    "id": "REC-114-035"
+    "id": "REC-114-050"
   },
   {
     "year": "114",
@@ -3844,7 +5204,7 @@ var DATASET_111_115 = [
     "keywords": [
       "資訊科技與管理系"
     ],
-    "id": "REC-114-036"
+    "id": "REC-114-051"
   },
   {
     "year": "114",
@@ -3872,7 +5232,7 @@ var DATASET_111_115 = [
       "淨零減碳",
       "環境工程與科學系"
     ],
-    "id": "REC-114-037"
+    "id": "REC-114-052"
   },
   {
     "year": "114",
@@ -3898,7 +5258,38 @@ var DATASET_111_115 = [
     "keywords": [
       "環境工程與科學系"
     ],
-    "id": "REC-114-038"
+    "id": "REC-114-053"
+  },
+  {
+    "year": "114",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "陳立庭",
+    "empId": "T0000036425",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "共同主持人 (50%)",
+    "weightRatio": 0.5,
+    "category": "計畫案",
+    "subType": "國科會專題研究計畫",
+    "title": "建構與成效驗證認知行為治療與自我效能理論發展人工智慧精準健康照護模式：以Z世代憂鬱症狀為例",
+    "code": "NSTC-114-護理-030",
+    "accCode": "ACC-114-NSTC-030",
+    "disbursementRate": 100,
+    "amount": 139.15,
+    "metricNote": "國科會核定 NT$ 139.15 萬 (專題研究計畫 (新進人員研究計畫))",
+    "source": "TEACHER-WRITTING (表1-17 國科會計畫案)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已核定歸檔",
+    "keywords": [
+      "高齡長照",
+      "失智症照護",
+      "AI智慧應用",
+      "數位轉型",
+      "護理系"
+    ],
+    "id": "REC-114-054"
   },
   {
     "year": "114",
@@ -3926,7 +5317,36 @@ var DATASET_111_115 = [
       "淨零減碳",
       "環境工程與科學系"
     ],
-    "id": "REC-114-039"
+    "id": "REC-114-055"
+  },
+  {
+    "year": "114",
+    "college": "環境與生命學院",
+    "dept": "環境工程與科學系",
+    "teacher": "賴進興",
+    "empId": "T0000038591",
+    "adminRole": "教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "計畫主持人 (100%)",
+    "weightRatio": 1,
+    "category": "計畫案",
+    "subType": "國科會專題研究計畫",
+    "title": "研發熱動力循環系統應用於連續進流高氨氮廢水提升氣提效率與循環回收氯化銨之設備",
+    "code": "NSTC-114-水-382",
+    "accCode": "ACC-114-NSTC-382",
+    "disbursementRate": 100,
+    "amount": 68.9,
+    "metricNote": "國科會核定 NT$ 68.9 萬 (專題研究計畫 (產學合作研究計畫))",
+    "source": "TEACHER-WRITTING (表1-17 國科會計畫案)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已核定歸檔",
+    "keywords": [
+      "環境監測",
+      "淨零減碳",
+      "環境工程與科學系"
+    ],
+    "id": "REC-114-056"
   },
   {
     "year": "114",
@@ -3952,12 +5372,39 @@ var DATASET_111_115 = [
     "keywords": [
       "健康事業管理系"
     ],
-    "id": "REC-114-040"
+    "id": "REC-114-057"
   },
   {
     "year": "114",
     "college": "護理學院",
-    "dept": "護理系",
+    "dept": "健康事業管理系",
+    "teacher": "鄭南玉",
+    "empId": "T0000016973",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "計畫主持人 (100%)",
+    "weightRatio": 1,
+    "category": "計畫案",
+    "subType": "國科會專題研究計畫",
+    "title": "科普活動：114年高雄市全民科學週",
+    "code": "NSTC-114-科普活動計畫-289",
+    "accCode": "ACC-114-NSTC-289",
+    "disbursementRate": 100,
+    "amount": 120,
+    "metricNote": "國科會核定 NT$ 120 萬 (專題研究計畫 (大眾科學教育計畫))",
+    "source": "TEACHER-WRITTING (表1-17 國科會計畫案)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已核定歸檔",
+    "keywords": [
+      "健康事業管理系"
+    ],
+    "id": "REC-114-058"
+  },
+  {
+    "year": "114",
+    "college": "人文與管理學院",
+    "dept": "共同教育中心",
     "teacher": "主持人",
     "adminRole": "專任教師",
     "isArticle7Exempt": false,
@@ -3976,9 +5423,40 @@ var DATASET_111_115 = [
     "group": "研發創新組",
     "status": "執行中",
     "keywords": [
-      "護理系"
+      "共同教育中心"
     ],
-    "id": "REC-114-041"
+    "id": "REC-114-059"
+  },
+  {
+    "year": "114",
+    "college": "醫學與健康學院",
+    "dept": "保健營養系",
+    "teacher": "林佩瑩",
+    "empId": "T0000071516",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "計畫主持人 (100%)",
+    "weightRatio": 1,
+    "category": "計畫案",
+    "subType": "國科會專題研究計畫",
+    "title": "重塑肺癌腫瘤微環境: 冰與火的轉換",
+    "code": "NSTC-114-胸腔內科-258",
+    "accCode": "ACC-114-NSTC-258",
+    "disbursementRate": 100,
+    "amount": 120.04,
+    "metricNote": "國科會核定 NT$ 120.04 萬 (延攬科技人才 (延攬博士後研究人才))",
+    "source": "TEACHER-WRITTING (表1-17 國科會計畫案)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已核定歸檔",
+    "keywords": [
+      "環境監測",
+      "淨零減碳",
+      "精準醫療",
+      "分子檢測",
+      "保健營養系"
+    ],
+    "id": "REC-114-060"
   },
   {
     "year": "114",
@@ -4008,7 +5486,7 @@ var DATASET_111_115 = [
       "機能食品",
       "醫學檢驗生物技術系"
     ],
-    "id": "REC-114-042"
+    "id": "REC-114-061"
   },
   {
     "year": "114",
@@ -4034,7 +5512,36 @@ var DATASET_111_115 = [
     "keywords": [
       "健康美容系"
     ],
-    "id": "REC-114-043"
+    "id": "REC-114-062"
+  },
+  {
+    "year": "114",
+    "college": "護理學院",
+    "dept": "健康事業管理系",
+    "teacher": "鄭南玉",
+    "empId": "T0000016973",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "計畫主持人 (100%)",
+    "weightRatio": 1,
+    "category": "計畫案",
+    "subType": "國科會專題研究計畫",
+    "title": "基於漫反射光譜學與機器學習的嬰幼兒非侵入性血壓量測技術研究",
+    "code": "NSTC-114-生醫光電-288",
+    "accCode": "ACC-114-NSTC-288",
+    "disbursementRate": 100,
+    "amount": 285.1,
+    "metricNote": "國科會核定 NT$ 285.1 萬 (專題研究計畫 (新進人員研究計畫))",
+    "source": "TEACHER-WRITTING (表1-17 國科會計畫案)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已核定歸檔",
+    "keywords": [
+      "幼兒教育",
+      "公共托育",
+      "健康事業管理系"
+    ],
+    "id": "REC-114-063"
   },
   {
     "year": "114",
@@ -4062,7 +5569,63 @@ var DATASET_111_115 = [
       "公共托育",
       "健康事業管理系"
     ],
-    "id": "REC-114-044"
+    "id": "REC-114-064"
+  },
+  {
+    "year": "114",
+    "college": "醫學與健康學院",
+    "dept": "醫學檢驗生物技術系",
+    "teacher": "陳志良",
+    "empId": "T0000029576",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "共同主持人 (50%)",
+    "weightRatio": 0.5,
+    "category": "計畫案",
+    "subType": "國科會專題研究計畫",
+    "title": "從閱讀到實踐：運用知識翻新原則提升護理學生科學能力的教學策略探討",
+    "code": "NSTC-114-科學教育-148",
+    "accCode": "ACC-114-NSTC-148",
+    "disbursementRate": 100,
+    "amount": 95,
+    "metricNote": "國科會核定 NT$ 95 萬 (專題研究計畫 (一般研究計畫))",
+    "source": "TEACHER-WRITTING (表1-17 國科會計畫案)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已核定歸檔",
+    "keywords": [
+      "臨床護理",
+      "教材研發",
+      "醫學檢驗生物技術系"
+    ],
+    "id": "REC-114-065"
+  },
+  {
+    "year": "114",
+    "college": "醫學與健康學院",
+    "dept": "醫學檢驗生物技術系",
+    "teacher": "邱敏熙",
+    "empId": "T0000089506",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "共同主持人 (50%)",
+    "weightRatio": 0.5,
+    "category": "計畫案",
+    "subType": "國科會專題研究計畫",
+    "title": "探討脂激素在早發性衰老相關之肌少症中的角色",
+    "code": "NSTC-114-精神醫學、老人醫學及家庭醫學-195",
+    "accCode": "ACC-114-NSTC-195",
+    "disbursementRate": 100,
+    "amount": 114,
+    "metricNote": "國科會核定 NT$ 114 萬 (專題研究計畫 (一般研究計畫))",
+    "source": "TEACHER-WRITTING (表1-17 國科會計畫案)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已核定歸檔",
+    "keywords": [
+      "醫學檢驗生物技術系"
+    ],
+    "id": "REC-114-066"
   },
   {
     "year": "114",
@@ -4088,7 +5651,7 @@ var DATASET_111_115 = [
     "keywords": [
       "醫學檢驗生物技術系"
     ],
-    "id": "REC-114-045"
+    "id": "REC-114-067"
   },
   {
     "year": "114",
@@ -4118,7 +5681,7 @@ var DATASET_111_115 = [
       "數位轉型",
       "健康事業管理系"
     ],
-    "id": "REC-114-046"
+    "id": "REC-114-068"
   },
   {
     "year": "114",
@@ -4148,7 +5711,38 @@ var DATASET_111_115 = [
       "教材研發",
       "護理系"
     ],
-    "id": "REC-114-047"
+    "id": "REC-114-069"
+  },
+  {
+    "year": "114",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "陳立庭",
+    "empId": "T0000036425",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "計畫主持人 (100%)",
+    "weightRatio": 1,
+    "category": "計畫案",
+    "subType": "國科會專題研究計畫",
+    "title": "透過翻轉教育模式發展精準護理衛教提升年輕大腸癌存活者的生活品質(第二年和第三年計畫)",
+    "code": "NSTC-114-護理-031",
+    "accCode": "ACC-114-NSTC-031",
+    "disbursementRate": 100,
+    "amount": 74,
+    "metricNote": "國科會核定 NT$ 74 萬 (專題研究計畫 (新進人員研究計畫))",
+    "source": "TEACHER-WRITTING (表1-17 國科會計畫案)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已核定歸檔",
+    "keywords": [
+      "精準醫療",
+      "分子檢測",
+      "臨床護理",
+      "教材研發",
+      "護理系"
+    ],
+    "id": "REC-114-070"
   },
   {
     "year": "114",
@@ -4176,7 +5770,7 @@ var DATASET_111_115 = [
       "數位轉型",
       "職業安全衛生系"
     ],
-    "id": "REC-114-048"
+    "id": "REC-114-071"
   },
   {
     "year": "114",
@@ -4204,12 +5798,12 @@ var DATASET_111_115 = [
       "數位轉型",
       "職業安全衛生系"
     ],
-    "id": "REC-114-049"
+    "id": "REC-114-072"
   },
   {
     "year": "114",
     "college": "環境與生命學院",
-    "dept": "護理系",
+    "dept": "共同教育中心",
     "teacher": "周致中",
     "adminRole": "專任教師",
     "isArticle7Exempt": false,
@@ -4228,9 +5822,9 @@ var DATASET_111_115 = [
     "group": "產學合作組",
     "status": "執行中",
     "keywords": [
-      "護理系"
+      "共同教育中心"
     ],
-    "id": "REC-114-050"
+    "id": "REC-114-073"
   },
   {
     "year": "114",
@@ -4256,7 +5850,34 @@ var DATASET_111_115 = [
     "keywords": [
       "保健營養系"
     ],
-    "id": "REC-114-051"
+    "id": "REC-114-074"
+  },
+  {
+    "year": "114",
+    "college": "醫學與健康學院",
+    "dept": "保健營養系",
+    "teacher": "蔡蕙芸",
+    "empId": "T0000098101",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "計畫主持人 (100%)",
+    "weightRatio": 1,
+    "category": "計畫案",
+    "subType": "國科會專題研究計畫",
+    "title": "紫檀芪透過調節腸道菌相及其代謝產物對動脈粥狀硬化之應用潛力",
+    "code": "NSTC-114-食品科學-269",
+    "accCode": "ACC-114-NSTC-269",
+    "disbursementRate": 100,
+    "amount": 100,
+    "metricNote": "國科會核定 NT$ 100 萬 (專題研究計畫 (鼓勵技專校院從事實務型研究專案計畫))",
+    "source": "TEACHER-WRITTING (表1-17 國科會計畫案)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已核定歸檔",
+    "keywords": [
+      "保健營養系"
+    ],
+    "id": "REC-114-075"
   },
   {
     "year": "114",
@@ -4282,7 +5903,7 @@ var DATASET_111_115 = [
     "keywords": [
       "醫學檢驗生物技術系"
     ],
-    "id": "REC-114-052"
+    "id": "REC-114-076"
   },
   {
     "year": "114",
@@ -4310,7 +5931,36 @@ var DATASET_111_115 = [
       "數位轉型",
       "護理系"
     ],
-    "id": "REC-114-053"
+    "id": "REC-114-077"
+  },
+  {
+    "year": "114",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "梁菁萍",
+    "empId": "T0000117242",
+    "adminRole": "教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "計畫主持人 (100%)",
+    "weightRatio": 1,
+    "category": "計畫案",
+    "subType": "國科會專題研究計畫",
+    "title": "結合機器學習與地下水流動模型進行高雄市地下水補注潛勢區域的評估",
+    "code": "NSTC-114-環境與資源管理-070",
+    "accCode": "ACC-114-NSTC-070",
+    "disbursementRate": 100,
+    "amount": 93.8,
+    "metricNote": "國科會核定 NT$ 93.8 萬 (專題研究計畫 (一般研究計畫))",
+    "source": "TEACHER-WRITTING (表1-17 國科會計畫案)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已核定歸檔",
+    "keywords": [
+      "AI智慧應用",
+      "數位轉型",
+      "護理系"
+    ],
+    "id": "REC-114-078"
   },
   {
     "year": "114",
@@ -4336,7 +5986,34 @@ var DATASET_111_115 = [
     "keywords": [
       "醫學檢驗生物技術系"
     ],
-    "id": "REC-114-054"
+    "id": "REC-114-079"
+  },
+  {
+    "year": "114",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "吳靜宜",
+    "empId": "T0000029836",
+    "adminRole": "實習指導教師",
+    "isArticle7Exempt": false,
+    "authorOrder": "共同主持人 (50%)",
+    "weightRatio": 0.5,
+    "category": "計畫案",
+    "subType": "國科會專題研究計畫",
+    "title": "開發OCT/OCT-A模式應用於牙周表型評估與口腔疾病診斷",
+    "code": "NSTC-114-牙醫-521",
+    "accCode": "ACC-114-NSTC-521",
+    "disbursementRate": 100,
+    "amount": 75,
+    "metricNote": "國科會核定 NT$ 75 萬 (專題研究計畫 (鼓勵女性從事科學及技術研究專案計畫))",
+    "source": "TEACHER-WRITTING (表1-17 國科會計畫案)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已核定歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-114-080"
   },
   {
     "year": "114",
@@ -4366,7 +6043,7 @@ var DATASET_111_115 = [
       "數位轉型",
       "資訊科技與管理系"
     ],
-    "id": "REC-114-055"
+    "id": "REC-114-081"
   },
   {
     "year": "114",
@@ -4394,7 +6071,36 @@ var DATASET_111_115 = [
       "教材研發",
       "護理系"
     ],
-    "id": "REC-114-056"
+    "id": "REC-114-082"
+  },
+  {
+    "year": "114",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "張怡娟",
+    "empId": "T0000009100",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "共同主持人 (50%)",
+    "weightRatio": 0.5,
+    "category": "計畫案",
+    "subType": "國科會專題研究計畫",
+    "title": "韌性訓練方案對新畢業一年內護理人員的職場霸凌、工作壓力與留任專業之成效：縱貫追蹤",
+    "code": "NSTC-114-醫學教育-021",
+    "accCode": "ACC-114-NSTC-021",
+    "disbursementRate": 100,
+    "amount": 90,
+    "metricNote": "國科會核定 NT$ 90 萬 (專題研究計畫 (鼓勵技專校院從事實務型研究專案計畫))",
+    "source": "TEACHER-WRITTING (表1-17 國科會計畫案)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已核定歸檔",
+    "keywords": [
+      "臨床護理",
+      "教材研發",
+      "護理系"
+    ],
+    "id": "REC-114-083"
   },
   {
     "year": "114",
@@ -4422,7 +6128,7 @@ var DATASET_111_115 = [
       "淨零減碳",
       "應用化學及材料科學系"
     ],
-    "id": "REC-114-057"
+    "id": "REC-114-084"
   },
   {
     "year": "114",
@@ -4450,7 +6156,34 @@ var DATASET_111_115 = [
       "淨零減碳",
       "應用化學及材料科學系"
     ],
-    "id": "REC-114-058"
+    "id": "REC-114-085"
+  },
+  {
+    "year": "114",
+    "college": "護理學院",
+    "dept": "高齡及長期照護事業系",
+    "teacher": "楊月頴",
+    "empId": "T0000097047",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "計畫主持人 (100%)",
+    "weightRatio": 1,
+    "category": "計畫案",
+    "subType": "國科會專題研究計畫",
+    "title": "董豔虹 Yan hong DONG",
+    "code": "NSTC-114-護理-710",
+    "accCode": "ACC-114-NSTC-710",
+    "disbursementRate": 100,
+    "amount": 2.18,
+    "metricNote": "國科會核定 NT$ 2.18 萬 (短訪計畫 (邀請國際科技人士短期訪問))",
+    "source": "TEACHER-WRITTING (表1-17 國科會計畫案)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已核定歸檔",
+    "keywords": [
+      "高齡及長期照護事業系"
+    ],
+    "id": "REC-114-086"
   },
   {
     "year": "114",
@@ -4478,7 +6211,63 @@ var DATASET_111_115 = [
       "淨零減碳",
       "環境工程與科學系"
     ],
-    "id": "REC-114-059"
+    "id": "REC-114-087"
+  },
+  {
+    "year": "114",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "吳靜宜",
+    "empId": "T0000029836",
+    "adminRole": "實習指導教師",
+    "isArticle7Exempt": false,
+    "authorOrder": "共同主持人 (50%)",
+    "weightRatio": 0.5,
+    "category": "計畫案",
+    "subType": "國科會專題研究計畫",
+    "title": "運用細胞內水凝膠技術剖析兼性厭氧菌與絕對厭氧菌對口腔上皮細胞與成骨細胞的影響",
+    "code": "NSTC-114-牙醫-520",
+    "accCode": "ACC-114-NSTC-520",
+    "disbursementRate": 100,
+    "amount": 280,
+    "metricNote": "國科會核定 NT$ 280 萬 (專題研究計畫 (一般研究計畫))",
+    "source": "TEACHER-WRITTING (表1-17 國科會計畫案)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已核定歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-114-088"
+  },
+  {
+    "year": "114",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "梁菁萍",
+    "empId": "T0000117242",
+    "adminRole": "教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "共同主持人 (50%)",
+    "weightRatio": 0.5,
+    "category": "計畫案",
+    "subType": "國科會專題研究計畫",
+    "title": "精進多物種反應化學傳輸解析解模式的開發與其實務應用：考量移動-非移動區效應並探討其對含氯溶劑污染物與放射性核種與其降解產物於地下水共同遷移的關鍵影響",
+    "code": "NSTC-114-水文學-072",
+    "accCode": "ACC-114-NSTC-072",
+    "disbursementRate": 100,
+    "amount": 200.3,
+    "metricNote": "國科會核定 NT$ 200.3 萬 (專題研究計畫 (一般研究計畫))",
+    "source": "TEACHER-WRITTING (表1-17 國科會計畫案)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已核定歸檔",
+    "keywords": [
+      "環境監測",
+      "淨零減碳",
+      "護理系"
+    ],
+    "id": "REC-114-089"
   },
   {
     "year": "114",
@@ -4508,7 +6297,65 @@ var DATASET_111_115 = [
       "機能食品",
       "醫學檢驗生物技術系"
     ],
-    "id": "REC-114-060"
+    "id": "REC-114-090"
+  },
+  {
+    "year": "114",
+    "college": "醫學與健康學院",
+    "dept": "醫學檢驗生物技術系",
+    "teacher": "邱敏熙",
+    "empId": "T0000089506",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "共同主持人 (50%)",
+    "weightRatio": 0.5,
+    "category": "計畫案",
+    "subType": "國科會專題研究計畫",
+    "title": "精準營養產業技術發展聯盟(1/3)",
+    "code": "NSTC-114-產學技術聯盟合作計畫-196",
+    "accCode": "ACC-114-NSTC-196",
+    "disbursementRate": 100,
+    "amount": 290,
+    "metricNote": "國科會核定 NT$ 290 萬 (專題研究計畫 (產學技術聯盟合作計畫))",
+    "source": "TEACHER-WRITTING (表1-17 國科會計畫案)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已核定歸檔",
+    "keywords": [
+      "精準醫療",
+      "分子檢測",
+      "保健營養",
+      "機能食品",
+      "醫學檢驗生物技術系"
+    ],
+    "id": "REC-114-091"
+  },
+  {
+    "year": "114",
+    "college": "醫學與健康學院",
+    "dept": "物理治療系",
+    "teacher": "張薰文",
+    "empId": "T0000095983",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "計畫主持人 (100%)",
+    "weightRatio": 1,
+    "category": "計畫案",
+    "subType": "國科會專題研究計畫",
+    "title": "臺北醫學大學基礎研究核心設施共同使用服務計畫(5/5)",
+    "code": "NSTC-114-中心總計畫-242",
+    "accCode": "ACC-114-NSTC-242",
+    "disbursementRate": 100,
+    "amount": 64.5,
+    "metricNote": "國科會核定 NT$ 64.5 萬 (專題研究計畫 (附屬/支援單位補助計畫))",
+    "source": "TEACHER-WRITTING (表1-17 國科會計畫案)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已核定歸檔",
+    "keywords": [
+      "物理治療系"
+    ],
+    "id": "REC-114-092"
   },
   {
     "year": "114",
@@ -4536,12 +6383,12 @@ var DATASET_111_115 = [
       "淨零減碳",
       "護理系"
     ],
-    "id": "REC-114-061"
+    "id": "REC-114-093"
   },
   {
     "year": "114",
     "college": "護理學院",
-    "dept": "護理系",
+    "dept": "共同教育中心",
     "teacher": "程紋貞",
     "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
     "isArticle7Exempt": true,
@@ -4560,9 +6407,9 @@ var DATASET_111_115 = [
     "group": "產學合作組",
     "status": "執行中",
     "keywords": [
-      "護理系"
+      "共同教育中心"
     ],
-    "id": "REC-114-062"
+    "id": "REC-114-094"
   },
   {
     "year": "114",
@@ -4588,12 +6435,12 @@ var DATASET_111_115 = [
     "keywords": [
       "護理系"
     ],
-    "id": "REC-114-063"
+    "id": "REC-114-095"
   },
   {
     "year": "114",
-    "college": "護理學院",
-    "dept": "護理系",
+    "college": "人文與管理學院",
+    "dept": "共同教育中心",
     "teacher": "葉耀宗",
     "adminRole": "主任（依評鑑辦法第7條得僅評教學基本指標）",
     "isArticle7Exempt": true,
@@ -4614,9 +6461,9 @@ var DATASET_111_115 = [
     "keywords": [
       "臨床護理",
       "教材研發",
-      "護理系"
+      "共同教育中心"
     ],
-    "id": "REC-114-064"
+    "id": "REC-114-096"
   },
   {
     "year": "114",
@@ -4646,7 +6493,65 @@ var DATASET_111_115 = [
       "數位轉型",
       "高齡及長期照護事業系"
     ],
-    "id": "REC-114-065"
+    "id": "REC-114-097"
+  },
+  {
+    "year": "114",
+    "college": "護理學院",
+    "dept": "高齡及長期照護事業系",
+    "teacher": "程紋貞",
+    "empId": "T0000093841",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "計畫主持人 (100%)",
+    "weightRatio": 1,
+    "category": "計畫案",
+    "subType": "國科會專題研究計畫",
+    "title": "機構型AI感知照護解決方案暨產學共創共育發展計畫",
+    "code": "NSTC-114-專案計畫-708",
+    "accCode": "ACC-114-NSTC-708",
+    "disbursementRate": 100,
+    "amount": 411,
+    "metricNote": "國科會核定 NT$ 411 萬 (專題研究計畫 (技專校院實務型研究專案計畫（跨域實作型）))",
+    "source": "TEACHER-WRITTING (表1-17 國科會計畫案)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已核定歸檔",
+    "keywords": [
+      "高齡長照",
+      "失智症照護",
+      "AI智慧應用",
+      "數位轉型",
+      "高齡及長期照護事業系"
+    ],
+    "id": "REC-114-098"
+  },
+  {
+    "year": "114",
+    "college": "醫學與健康學院",
+    "dept": "保健營養系",
+    "teacher": "蔡蕙芸",
+    "empId": "T0000098101",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "共同主持人 (50%)",
+    "weightRatio": 0.5,
+    "category": "計畫案",
+    "subType": "國科會專題研究計畫",
+    "title": "積雪草萃取物及其活性成分保護胃黏膜功效之探討",
+    "code": "NSTC-114-食品工程-268",
+    "accCode": "ACC-114-NSTC-268",
+    "disbursementRate": 100,
+    "amount": 107.9,
+    "metricNote": "國科會核定 NT$ 107.9 萬 (專題研究計畫 (一般研究計畫))",
+    "source": "TEACHER-WRITTING (表1-17 國科會計畫案)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已核定歸檔",
+    "keywords": [
+      "保健營養系"
+    ],
+    "id": "REC-114-099"
   },
   {
     "year": "114",
@@ -4674,12 +6579,12 @@ var DATASET_111_115 = [
       "失智症照護",
       "高齡及長期照護事業系"
     ],
-    "id": "REC-114-066"
+    "id": "REC-114-100"
   },
   {
     "year": "114",
     "college": "環境與生命學院",
-    "dept": "護理系",
+    "dept": "共同教育中心",
     "teacher": "許貞雅",
     "adminRole": "專任教師",
     "isArticle7Exempt": false,
@@ -4698,9 +6603,9 @@ var DATASET_111_115 = [
     "group": "產學合作組",
     "status": "執行中",
     "keywords": [
-      "護理系"
+      "共同教育中心"
     ],
-    "id": "REC-114-067"
+    "id": "REC-114-101"
   },
   {
     "year": "114",
@@ -4728,7 +6633,7 @@ var DATASET_111_115 = [
       "教材研發",
       "護理系"
     ],
-    "id": "REC-114-068"
+    "id": "REC-114-102"
   },
   {
     "year": "114",
@@ -4754,7 +6659,7 @@ var DATASET_111_115 = [
     "keywords": [
       "應用化學及材料科學系"
     ],
-    "id": "REC-114-069"
+    "id": "REC-114-103"
   },
   {
     "year": "114",
@@ -4782,7 +6687,7 @@ var DATASET_111_115 = [
       "數位轉型",
       "護理系"
     ],
-    "id": "REC-114-070"
+    "id": "REC-114-104"
   },
   {
     "year": "114",
@@ -4812,7 +6717,7 @@ var DATASET_111_115 = [
       "淨零減碳",
       "臨床護理"
     ],
-    "id": "REC-114-071"
+    "id": "REC-114-105"
   },
   {
     "year": "114",
@@ -4840,7 +6745,7 @@ var DATASET_111_115 = [
       "教材研發",
       "護理系"
     ],
-    "id": "REC-114-072"
+    "id": "REC-114-106"
   },
   {
     "year": "114",
@@ -4868,7 +6773,7 @@ var DATASET_111_115 = [
       "教材研發",
       "護理系"
     ],
-    "id": "REC-114-073"
+    "id": "REC-114-107"
   },
   {
     "year": "114",
@@ -4894,7 +6799,7 @@ var DATASET_111_115 = [
     "keywords": [
       "醫學檢驗生物技術系"
     ],
-    "id": "REC-114-074"
+    "id": "REC-114-108"
   },
   {
     "year": "114",
@@ -4920,7 +6825,7 @@ var DATASET_111_115 = [
     "keywords": [
       "健康事業管理系"
     ],
-    "id": "REC-114-075"
+    "id": "REC-114-109"
   },
   {
     "year": "114",
@@ -4946,7 +6851,7 @@ var DATASET_111_115 = [
     "keywords": [
       "醫學檢驗生物技術系"
     ],
-    "id": "REC-114-076"
+    "id": "REC-114-110"
   },
   {
     "year": "114",
@@ -4972,7 +6877,7 @@ var DATASET_111_115 = [
     "keywords": [
       "應用外語系"
     ],
-    "id": "REC-114-077"
+    "id": "REC-114-111"
   },
   {
     "year": "114",
@@ -4998,7 +6903,7 @@ var DATASET_111_115 = [
     "keywords": [
       "環境工程與科學系"
     ],
-    "id": "REC-114-078"
+    "id": "REC-114-112"
   },
   {
     "year": "114",
@@ -5024,7 +6929,7 @@ var DATASET_111_115 = [
     "keywords": [
       "醫學檢驗生物技術系"
     ],
-    "id": "REC-114-079"
+    "id": "REC-114-113"
   },
   {
     "year": "114",
@@ -5050,7 +6955,7 @@ var DATASET_111_115 = [
     "keywords": [
       "護理系"
     ],
-    "id": "REC-114-080"
+    "id": "REC-114-114"
   },
   {
     "year": "114",
@@ -5076,7 +6981,7 @@ var DATASET_111_115 = [
     "keywords": [
       "護理系"
     ],
-    "id": "REC-114-081"
+    "id": "REC-114-115"
   },
   {
     "year": "114",
@@ -5103,7 +7008,7 @@ var DATASET_111_115 = [
       "專利研發",
       "護理系"
     ],
-    "id": "REC-114-082"
+    "id": "REC-114-116"
   },
   {
     "year": "114",
@@ -5130,7 +7035,7 @@ var DATASET_111_115 = [
       "專利研發",
       "健康事業管理系"
     ],
-    "id": "REC-114-083"
+    "id": "REC-114-117"
   },
   {
     "year": "114",
@@ -5156,7 +7061,7 @@ var DATASET_111_115 = [
     "keywords": [
       "護理系"
     ],
-    "id": "REC-114-084"
+    "id": "REC-114-118"
   },
   {
     "year": "114",
@@ -5182,7 +7087,7 @@ var DATASET_111_115 = [
     "keywords": [
       "物理治療系"
     ],
-    "id": "REC-114-085"
+    "id": "REC-114-119"
   },
   {
     "year": "114",
@@ -5209,7 +7114,7 @@ var DATASET_111_115 = [
       "專利研發",
       "護理系"
     ],
-    "id": "REC-114-086"
+    "id": "REC-114-120"
   },
   {
     "year": "114",
@@ -5235,12 +7140,12 @@ var DATASET_111_115 = [
     "keywords": [
       "護理系"
     ],
-    "id": "REC-114-087"
+    "id": "REC-114-121"
   },
   {
     "year": "114",
     "college": "人文與管理學院",
-    "dept": "護理系",
+    "dept": "共同教育中心",
     "teacher": "張簡文添",
     "adminRole": "專任教師",
     "isArticle7Exempt": false,
@@ -5260,9 +7165,9 @@ var DATASET_111_115 = [
     "status": "已獲證",
     "keywords": [
       "專利研發",
-      "護理系"
+      "共同教育中心"
     ],
-    "id": "REC-114-088"
+    "id": "REC-114-122"
   },
   {
     "year": "114",
@@ -5288,7 +7193,7 @@ var DATASET_111_115 = [
     "keywords": [
       "健康事業管理系"
     ],
-    "id": "REC-114-089"
+    "id": "REC-114-123"
   },
   {
     "year": "114",
@@ -5315,7 +7220,7 @@ var DATASET_111_115 = [
       "專利研發",
       "環境工程與科學系"
     ],
-    "id": "REC-114-090"
+    "id": "REC-114-124"
   },
   {
     "year": "114",
@@ -5342,7 +7247,7 @@ var DATASET_111_115 = [
       "專利研發",
       "護理系"
     ],
-    "id": "REC-114-091"
+    "id": "REC-114-125"
   },
   {
     "year": "114",
@@ -5372,7 +7277,7 @@ var DATASET_111_115 = [
       "分子檢測",
       "健康事業管理系"
     ],
-    "id": "REC-114-092"
+    "id": "REC-114-126"
   },
   {
     "year": "114",
@@ -5400,7 +7305,7 @@ var DATASET_111_115 = [
       "淨零減碳",
       "健康事業管理系"
     ],
-    "id": "REC-114-093"
+    "id": "REC-114-127"
   },
   {
     "year": "114",
@@ -5428,7 +7333,7 @@ var DATASET_111_115 = [
       "淨零減碳",
       "護理系"
     ],
-    "id": "REC-114-094"
+    "id": "REC-114-128"
   },
   {
     "year": "114",
@@ -5454,7 +7359,7 @@ var DATASET_111_115 = [
     "keywords": [
       "護理系"
     ],
-    "id": "REC-114-095"
+    "id": "REC-114-129"
   },
   {
     "year": "114",
@@ -5482,7 +7387,7 @@ var DATASET_111_115 = [
       "實務專題",
       "健康美容系"
     ],
-    "id": "REC-114-096"
+    "id": "REC-114-130"
   },
   {
     "year": "114",
@@ -5510,7 +7415,7 @@ var DATASET_111_115 = [
       "實務專題",
       "健康美容系"
     ],
-    "id": "REC-114-097"
+    "id": "REC-114-131"
   },
   {
     "year": "114",
@@ -5538,7 +7443,7 @@ var DATASET_111_115 = [
       "實務專題",
       "健康美容系"
     ],
-    "id": "REC-114-098"
+    "id": "REC-114-132"
   },
   {
     "year": "114",
@@ -5566,7 +7471,7 @@ var DATASET_111_115 = [
       "實務專題",
       "健康美容系"
     ],
-    "id": "REC-114-099"
+    "id": "REC-114-133"
   },
   {
     "year": "114",
@@ -5594,7 +7499,7 @@ var DATASET_111_115 = [
       "實務專題",
       "健康美容系"
     ],
-    "id": "REC-114-100"
+    "id": "REC-114-134"
   },
   {
     "year": "114",
@@ -5622,11 +7527,11 @@ var DATASET_111_115 = [
       "實務專題",
       "健康美容系"
     ],
-    "id": "REC-114-101"
+    "id": "REC-114-135"
   },
   {
     "year": "114",
-    "college": "醫學與健康學院",
+    "college": "護理學院",
     "dept": "健康事業管理系",
     "teacher": "李采瑄",
     "adminRole": "專任教師",
@@ -5650,7 +7555,7 @@ var DATASET_111_115 = [
       "實務專題",
       "健康事業管理系"
     ],
-    "id": "REC-114-102"
+    "id": "REC-114-136"
   },
   {
     "year": "114",
@@ -5678,7 +7583,7 @@ var DATASET_111_115 = [
       "實務專題",
       "護理系"
     ],
-    "id": "REC-114-103"
+    "id": "REC-114-137"
   },
   {
     "year": "114",
@@ -5708,7 +7613,7 @@ var DATASET_111_115 = [
       "實務專題",
       "護理系"
     ],
-    "id": "REC-114-104"
+    "id": "REC-114-138"
   },
   {
     "year": "114",
@@ -5738,7 +7643,7 @@ var DATASET_111_115 = [
       "實務專題",
       "護理系"
     ],
-    "id": "REC-114-105"
+    "id": "REC-114-139"
   },
   {
     "year": "114",
@@ -5768,7 +7673,7 @@ var DATASET_111_115 = [
       "實務專題",
       "護理系"
     ],
-    "id": "REC-114-106"
+    "id": "REC-114-140"
   },
   {
     "year": "114",
@@ -5798,7 +7703,7 @@ var DATASET_111_115 = [
       "實務專題",
       "護理系"
     ],
-    "id": "REC-114-107"
+    "id": "REC-114-141"
   },
   {
     "year": "114",
@@ -5826,7 +7731,7 @@ var DATASET_111_115 = [
       "實務專題",
       "護理系"
     ],
-    "id": "REC-114-108"
+    "id": "REC-114-142"
   },
   {
     "year": "114",
@@ -5854,7 +7759,7 @@ var DATASET_111_115 = [
       "實務專題",
       "健康美容系"
     ],
-    "id": "REC-114-109"
+    "id": "REC-114-143"
   },
   {
     "year": "114",
@@ -5882,7 +7787,7 @@ var DATASET_111_115 = [
       "實務專題",
       "健康美容系"
     ],
-    "id": "REC-114-110"
+    "id": "REC-114-144"
   },
   {
     "year": "114",
@@ -5910,7 +7815,7 @@ var DATASET_111_115 = [
       "實務專題",
       "護理系"
     ],
-    "id": "REC-114-111"
+    "id": "REC-114-145"
   },
   {
     "year": "114",
@@ -5938,7 +7843,7 @@ var DATASET_111_115 = [
       "實務專題",
       "應用外語系"
     ],
-    "id": "REC-114-112"
+    "id": "REC-114-146"
   },
   {
     "year": "114",
@@ -5966,7 +7871,7 @@ var DATASET_111_115 = [
       "實務專題",
       "護理系"
     ],
-    "id": "REC-114-113"
+    "id": "REC-114-147"
   },
   {
     "year": "114",
@@ -5994,7 +7899,7 @@ var DATASET_111_115 = [
       "實務專題",
       "護理系"
     ],
-    "id": "REC-114-114"
+    "id": "REC-114-148"
   },
   {
     "year": "114",
@@ -6022,7 +7927,7 @@ var DATASET_111_115 = [
       "實務專題",
       "保健營養系"
     ],
-    "id": "REC-114-115"
+    "id": "REC-114-149"
   },
   {
     "year": "114",
@@ -6050,7 +7955,7 @@ var DATASET_111_115 = [
       "實務專題",
       "健康美容系"
     ],
-    "id": "REC-114-116"
+    "id": "REC-114-150"
   },
   {
     "year": "114",
@@ -6078,7 +7983,7 @@ var DATASET_111_115 = [
       "實務專題",
       "健康美容系"
     ],
-    "id": "REC-114-117"
+    "id": "REC-114-151"
   },
   {
     "year": "114",
@@ -6106,7 +8011,7 @@ var DATASET_111_115 = [
       "實務專題",
       "健康美容系"
     ],
-    "id": "REC-114-118"
+    "id": "REC-114-152"
   },
   {
     "year": "114",
@@ -6134,7 +8039,7 @@ var DATASET_111_115 = [
       "實務專題",
       "健康美容系"
     ],
-    "id": "REC-114-119"
+    "id": "REC-114-153"
   },
   {
     "year": "114",
@@ -6162,7 +8067,7 @@ var DATASET_111_115 = [
       "實務專題",
       "健康美容系"
     ],
-    "id": "REC-114-120"
+    "id": "REC-114-154"
   },
   {
     "year": "114",
@@ -6190,7 +8095,7 @@ var DATASET_111_115 = [
       "實務專題",
       "健康美容系"
     ],
-    "id": "REC-114-121"
+    "id": "REC-114-155"
   },
   {
     "year": "114",
@@ -6218,7 +8123,7 @@ var DATASET_111_115 = [
       "實務專題",
       "保健營養系"
     ],
-    "id": "REC-114-122"
+    "id": "REC-114-156"
   },
   {
     "year": "114",
@@ -6246,7 +8151,7 @@ var DATASET_111_115 = [
       "實務專題",
       "健康美容系"
     ],
-    "id": "REC-114-123"
+    "id": "REC-114-157"
   },
   {
     "year": "114",
@@ -6274,7 +8179,7 @@ var DATASET_111_115 = [
       "實務專題",
       "健康美容系"
     ],
-    "id": "REC-114-124"
+    "id": "REC-114-158"
   },
   {
     "year": "114",
@@ -6302,7 +8207,7 @@ var DATASET_111_115 = [
       "實務專題",
       "健康美容系"
     ],
-    "id": "REC-114-125"
+    "id": "REC-114-159"
   },
   {
     "year": "114",
@@ -6332,7 +8237,7 @@ var DATASET_111_115 = [
       "實務專題",
       "健康美容系"
     ],
-    "id": "REC-114-126"
+    "id": "REC-114-160"
   },
   {
     "year": "114",
@@ -6362,7 +8267,7 @@ var DATASET_111_115 = [
       "實務專題",
       "健康美容系"
     ],
-    "id": "REC-114-127"
+    "id": "REC-114-161"
   },
   {
     "year": "114",
@@ -6392,7 +8297,7 @@ var DATASET_111_115 = [
       "實務專題",
       "健康美容系"
     ],
-    "id": "REC-114-128"
+    "id": "REC-114-162"
   },
   {
     "year": "114",
@@ -6422,7 +8327,7 @@ var DATASET_111_115 = [
       "實務專題",
       "健康美容系"
     ],
-    "id": "REC-114-129"
+    "id": "REC-114-163"
   },
   {
     "year": "114",
@@ -6450,7 +8355,7 @@ var DATASET_111_115 = [
       "實務專題",
       "健康美容系"
     ],
-    "id": "REC-114-130"
+    "id": "REC-114-164"
   },
   {
     "year": "114",
@@ -6478,7 +8383,7 @@ var DATASET_111_115 = [
       "實務專題",
       "健康美容系"
     ],
-    "id": "REC-114-131"
+    "id": "REC-114-165"
   },
   {
     "year": "114",
@@ -6506,7 +8411,7 @@ var DATASET_111_115 = [
       "實務專題",
       "健康美容系"
     ],
-    "id": "REC-114-132"
+    "id": "REC-114-166"
   },
   {
     "year": "114",
@@ -6534,7 +8439,7 @@ var DATASET_111_115 = [
       "實務專題",
       "健康美容系"
     ],
-    "id": "REC-114-133"
+    "id": "REC-114-167"
   },
   {
     "year": "114",
@@ -6562,7 +8467,7 @@ var DATASET_111_115 = [
       "實務專題",
       "健康美容系"
     ],
-    "id": "REC-114-134"
+    "id": "REC-114-168"
   },
   {
     "year": "114",
@@ -6590,7 +8495,7 @@ var DATASET_111_115 = [
       "實務專題",
       "健康美容系"
     ],
-    "id": "REC-114-135"
+    "id": "REC-114-169"
   },
   {
     "year": "114",
@@ -6620,7 +8525,7 @@ var DATASET_111_115 = [
       "實務專題",
       "健康美容系"
     ],
-    "id": "REC-114-136"
+    "id": "REC-114-170"
   },
   {
     "year": "114",
@@ -6648,7 +8553,7 @@ var DATASET_111_115 = [
       "實務專題",
       "健康美容系"
     ],
-    "id": "REC-114-137"
+    "id": "REC-114-171"
   },
   {
     "year": "114",
@@ -6678,7 +8583,7 @@ var DATASET_111_115 = [
       "實務專題",
       "健康美容系"
     ],
-    "id": "REC-114-138"
+    "id": "REC-114-172"
   },
   {
     "year": "114",
@@ -6706,11 +8611,11 @@ var DATASET_111_115 = [
       "實務專題",
       "健康美容系"
     ],
-    "id": "REC-114-139"
+    "id": "REC-114-173"
   },
   {
     "year": "114",
-    "college": "醫學與健康學院",
+    "college": "護理學院",
     "dept": "健康事業管理系",
     "teacher": "許郁威",
     "adminRole": "專任教師",
@@ -6734,7 +8639,7 @@ var DATASET_111_115 = [
       "實務專題",
       "健康事業管理系"
     ],
-    "id": "REC-114-140"
+    "id": "REC-114-174"
   },
   {
     "year": "114",
@@ -6762,7 +8667,7 @@ var DATASET_111_115 = [
       "實務專題",
       "健康美容系"
     ],
-    "id": "REC-114-141"
+    "id": "REC-114-175"
   },
   {
     "year": "114",
@@ -6790,7 +8695,7 @@ var DATASET_111_115 = [
       "實務專題",
       "健康美容系"
     ],
-    "id": "REC-114-142"
+    "id": "REC-114-176"
   },
   {
     "year": "114",
@@ -6820,7 +8725,7 @@ var DATASET_111_115 = [
       "實務專題",
       "護理系"
     ],
-    "id": "REC-114-143"
+    "id": "REC-114-177"
   },
   {
     "year": "114",
@@ -6850,7 +8755,7 @@ var DATASET_111_115 = [
       "實務專題",
       "護理系"
     ],
-    "id": "REC-114-144"
+    "id": "REC-114-178"
   },
   {
     "year": "114",
@@ -6878,7 +8783,7 @@ var DATASET_111_115 = [
       "實務專題",
       "護理系"
     ],
-    "id": "REC-114-145"
+    "id": "REC-114-179"
   },
   {
     "year": "114",
@@ -6906,7 +8811,7 @@ var DATASET_111_115 = [
       "實務專題",
       "護理系"
     ],
-    "id": "REC-114-146"
+    "id": "REC-114-180"
   },
   {
     "year": "114",
@@ -6934,7 +8839,7 @@ var DATASET_111_115 = [
       "實務專題",
       "應用外語系"
     ],
-    "id": "REC-114-147"
+    "id": "REC-114-181"
   },
   {
     "year": "114",
@@ -6962,7 +8867,7 @@ var DATASET_111_115 = [
       "實務專題",
       "健康美容系"
     ],
-    "id": "REC-114-148"
+    "id": "REC-114-182"
   },
   {
     "year": "114",
@@ -6990,7 +8895,7 @@ var DATASET_111_115 = [
       "實務專題",
       "護理系"
     ],
-    "id": "REC-114-149"
+    "id": "REC-114-183"
   },
   {
     "year": "114",
@@ -7018,7 +8923,7 @@ var DATASET_111_115 = [
       "實務專題",
       "健康美容系"
     ],
-    "id": "REC-114-150"
+    "id": "REC-114-184"
   },
   {
     "year": "114",
@@ -7046,7 +8951,7 @@ var DATASET_111_115 = [
       "實務專題",
       "健康美容系"
     ],
-    "id": "REC-114-151"
+    "id": "REC-114-185"
   },
   {
     "year": "114",
@@ -7076,7 +8981,7 @@ var DATASET_111_115 = [
       "實務專題",
       "健康美容系"
     ],
-    "id": "REC-114-152"
+    "id": "REC-114-186"
   },
   {
     "year": "114",
@@ -7106,7 +9011,7 @@ var DATASET_111_115 = [
       "實務專題",
       "健康美容系"
     ],
-    "id": "REC-114-153"
+    "id": "REC-114-187"
   },
   {
     "year": "114",
@@ -7134,7 +9039,7 @@ var DATASET_111_115 = [
       "實務專題",
       "健康美容系"
     ],
-    "id": "REC-114-154"
+    "id": "REC-114-188"
   },
   {
     "year": "114",
@@ -7162,7 +9067,7 @@ var DATASET_111_115 = [
       "實務專題",
       "健康美容系"
     ],
-    "id": "REC-114-155"
+    "id": "REC-114-189"
   },
   {
     "year": "114",
@@ -7190,7 +9095,7 @@ var DATASET_111_115 = [
       "實務專題",
       "護理系"
     ],
-    "id": "REC-114-156"
+    "id": "REC-114-190"
   },
   {
     "year": "114",
@@ -7218,7 +9123,7 @@ var DATASET_111_115 = [
       "實務專題",
       "健康美容系"
     ],
-    "id": "REC-114-157"
+    "id": "REC-114-191"
   },
   {
     "year": "114",
@@ -7248,7 +9153,7 @@ var DATASET_111_115 = [
       "實務專題",
       "健康美容系"
     ],
-    "id": "REC-114-158"
+    "id": "REC-114-192"
   },
   {
     "year": "114",
@@ -7278,7 +9183,7 @@ var DATASET_111_115 = [
       "實務專題",
       "健康美容系"
     ],
-    "id": "REC-114-159"
+    "id": "REC-114-193"
   },
   {
     "year": "114",
@@ -7308,7 +9213,7 @@ var DATASET_111_115 = [
       "實務專題",
       "健康美容系"
     ],
-    "id": "REC-114-160"
+    "id": "REC-114-194"
   },
   {
     "year": "114",
@@ -7338,7 +9243,7 @@ var DATASET_111_115 = [
       "實務專題",
       "健康美容系"
     ],
-    "id": "REC-114-161"
+    "id": "REC-114-195"
   },
   {
     "year": "114",
@@ -7366,7 +9271,7 @@ var DATASET_111_115 = [
       "實務專題",
       "護理系"
     ],
-    "id": "REC-114-162"
+    "id": "REC-114-196"
   },
   {
     "year": "114",
@@ -7394,7 +9299,7 @@ var DATASET_111_115 = [
       "實務專題",
       "健康美容系"
     ],
-    "id": "REC-114-163"
+    "id": "REC-114-197"
   },
   {
     "year": "114",
@@ -7422,7 +9327,7 @@ var DATASET_111_115 = [
       "實務專題",
       "健康美容系"
     ],
-    "id": "REC-114-164"
+    "id": "REC-114-198"
   },
   {
     "year": "114",
@@ -7452,7 +9357,7 @@ var DATASET_111_115 = [
       "實務專題",
       "健康美容系"
     ],
-    "id": "REC-114-165"
+    "id": "REC-114-199"
   },
   {
     "year": "114",
@@ -7482,7 +9387,7 @@ var DATASET_111_115 = [
       "實務專題",
       "健康美容系"
     ],
-    "id": "REC-114-166"
+    "id": "REC-114-200"
   },
   {
     "year": "114",
@@ -7512,7 +9417,7 @@ var DATASET_111_115 = [
       "實務專題",
       "職業安全衛生系"
     ],
-    "id": "REC-114-167"
+    "id": "REC-114-201"
   },
   {
     "year": "114",
@@ -7540,7 +9445,7 @@ var DATASET_111_115 = [
       "實務專題",
       "護理系"
     ],
-    "id": "REC-114-168"
+    "id": "REC-114-202"
   },
   {
     "year": "114",
@@ -7569,7 +9474,7 @@ var DATASET_111_115 = [
       "實務專題",
       "護理系"
     ],
-    "id": "REC-114-169"
+    "id": "REC-114-203"
   },
   {
     "year": "114",
@@ -7597,12 +9502,12 @@ var DATASET_111_115 = [
       "實務專題",
       "健康美容系"
     ],
-    "id": "REC-114-170"
+    "id": "REC-114-204"
   },
   {
     "year": "114",
-    "college": "護理學院",
-    "dept": "護理系",
+    "college": "人文與管理學院",
+    "dept": "共同教育中心",
     "teacher": "王佳瑜",
     "adminRole": "專任教師",
     "isArticle7Exempt": false,
@@ -7623,9 +9528,9 @@ var DATASET_111_115 = [
     "keywords": [
       "師生競賽",
       "實務專題",
-      "護理系"
+      "共同教育中心"
     ],
-    "id": "REC-114-171"
+    "id": "REC-114-205"
   },
   {
     "year": "114",
@@ -7653,7 +9558,7 @@ var DATASET_111_115 = [
       "實務專題",
       "健康美容系"
     ],
-    "id": "REC-114-172"
+    "id": "REC-114-206"
   },
   {
     "year": "114",
@@ -7683,7 +9588,7 @@ var DATASET_111_115 = [
       "實務專題",
       "物理治療系"
     ],
-    "id": "REC-114-173"
+    "id": "REC-114-207"
   },
   {
     "year": "114",
@@ -7712,7 +9617,7 @@ var DATASET_111_115 = [
       "實務專題",
       "護理系"
     ],
-    "id": "REC-114-174"
+    "id": "REC-114-208"
   },
   {
     "year": "114",
@@ -7740,7 +9645,7 @@ var DATASET_111_115 = [
       "實務專題",
       "健康美容系"
     ],
-    "id": "REC-114-175"
+    "id": "REC-114-209"
   },
   {
     "year": "114",
@@ -7770,7 +9675,7 @@ var DATASET_111_115 = [
       "實務專題",
       "健康美容系"
     ],
-    "id": "REC-114-176"
+    "id": "REC-114-210"
   },
   {
     "year": "114",
@@ -7800,7 +9705,7 @@ var DATASET_111_115 = [
       "實務專題",
       "健康美容系"
     ],
-    "id": "REC-114-177"
+    "id": "REC-114-211"
   },
   {
     "year": "114",
@@ -7828,7 +9733,7 @@ var DATASET_111_115 = [
       "實務專題",
       "健康美容系"
     ],
-    "id": "REC-114-178"
+    "id": "REC-114-212"
   },
   {
     "year": "114",
@@ -7858,7 +9763,7 @@ var DATASET_111_115 = [
       "實務專題",
       "健康美容系"
     ],
-    "id": "REC-114-179"
+    "id": "REC-114-213"
   },
   {
     "year": "114",
@@ -7888,7 +9793,7 @@ var DATASET_111_115 = [
       "實務專題",
       "健康美容系"
     ],
-    "id": "REC-114-180"
+    "id": "REC-114-214"
   },
   {
     "year": "114",
@@ -7916,11 +9821,11 @@ var DATASET_111_115 = [
       "實務專題",
       "健康美容系"
     ],
-    "id": "REC-114-181"
+    "id": "REC-114-215"
   },
   {
     "year": "114",
-    "college": "醫學與健康學院",
+    "college": "護理學院",
     "dept": "健康事業管理系",
     "teacher": "林政翰",
     "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
@@ -7946,11 +9851,11 @@ var DATASET_111_115 = [
       "實務專題",
       "健康事業管理系"
     ],
-    "id": "REC-114-182"
+    "id": "REC-114-216"
   },
   {
     "year": "114",
-    "college": "醫學與健康學院",
+    "college": "護理學院",
     "dept": "健康事業管理系",
     "teacher": "林政翰",
     "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
@@ -7976,7 +9881,7 @@ var DATASET_111_115 = [
       "實務專題",
       "健康事業管理系"
     ],
-    "id": "REC-114-183"
+    "id": "REC-114-217"
   },
   {
     "year": "114",
@@ -8006,7 +9911,7 @@ var DATASET_111_115 = [
       "機能食品",
       "師生競賽"
     ],
-    "id": "REC-114-184"
+    "id": "REC-114-218"
   },
   {
     "year": "114",
@@ -8036,7 +9941,200 @@ var DATASET_111_115 = [
       "實務專題",
       "環境工程與科學系"
     ],
-    "id": "REC-114-185"
+    "id": "REC-114-219"
+  },
+  {
+    "year": "114",
+    "college": "醫學與健康學院",
+    "dept": "健康美容系",
+    "teacher": "陳采秀",
+    "empId": "T0000121656",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "2025全國健康美容科技研討會",
+    "code": "2025全國健康美容科技研討會 (高雄, NATTWN)",
+    "accCode": "PUB-CONF-2025-0052",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 2025全國健康美容科技研討會, 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康美容",
+      "產品開發",
+      "健康美容系"
+    ],
+    "id": "REC-114-220"
+  },
+  {
+    "year": "114",
+    "college": "醫學與健康學院",
+    "dept": "保健營養系",
+    "teacher": "蔡蕙芸",
+    "empId": "T0000098101",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "3'-Hydroxypterostilbene Alleviates Obesity and Lipoprotein Metabolism Dysregulation by Reshaping Gut Microbiota in High-Fat Diet-Induced Obese Mice",
+    "code": "Journal of Agricultural and Food Chemistry",
+    "accCode": "PUB-JRN-2026-1394",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Journal of Agricultural and Food Chemistry, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "保健營養系"
+    ],
+    "id": "REC-114-221"
+  },
+  {
+    "year": "114",
+    "college": "醫學與健康學院",
+    "dept": "保健營養系",
+    "teacher": "蔡蕙芸",
+    "empId": "T0000098101",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "3´-Hydroxypterostilbene suppresses prostate cancer via apoptosis and autophagy in vitro and potent tumor growth inhibition in vivo",
+    "code": "Food & Function",
+    "accCode": "PUB-JRN-2026-1396",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Food & Function, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "保健營養系"
+    ],
+    "id": "REC-114-222"
+  },
+  {
+    "year": "114",
+    "college": "醫學與健康學院",
+    "dept": "健康美容系",
+    "teacher": "謝天傑",
+    "empId": "T0000001906",
+    "adminRole": "教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第一作者兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "人文社會與產業實務創新鏈結學術研討會",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2025-1896",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康美容系"
+    ],
+    "id": "REC-114-223"
+  },
+  {
+    "year": "114",
+    "college": "醫學與健康學院",
+    "dept": "健康美容系",
+    "teacher": "陳采秀",
+    "empId": "T0000121656",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第二作者 (50%)",
+    "weightRatio": 0.5,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "大學教師教學意象之徑路分析",
+    "code": "台灣教育研究期刊 Vol.6 No.6",
+    "accCode": "PUB-JRN-2025-0074",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: 台灣教育研究期刊, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康美容系"
+    ],
+    "id": "REC-114-224"
+  },
+  {
+    "year": "114",
+    "college": "人文與管理學院",
+    "dept": "共同教育中心",
+    "teacher": "王昭凱",
+    "empId": "T0000051743",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第一作者兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "以二氧化碳超臨界流體萃取七里香花類黃酮活性成份的最適化程序研究",
+    "code": "台灣化學工程學會72週年年會暨國科會化學工程學門成果發表會 台日韓化學工程國際研討會 (台南, NATTWN)",
+    "accCode": "PUB-CONF-2025-0058",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 台灣化學工程學會72週年年會暨國科會化學工程學門成果發表會 台日韓化學工程國際研討會, 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "環境監測",
+      "淨零減碳",
+      "共同教育中心"
+    ],
+    "id": "REC-114-225"
+  },
+  {
+    "year": "114",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "葉蕙芳",
+    "empId": "T0000055001",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第三作者 (25%)",
+    "weightRatio": 0.25,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "加護病房存活者的重症加護後症候群及其相關因素之探討",
+    "code": "台灣急重症醫學雜誌",
+    "accCode": "PUB-JRN-2025-0527",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: 台灣急重症醫學雜誌, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-114-226"
   },
   {
     "year": "114",
@@ -8065,7 +10163,1846 @@ var DATASET_111_115 = [
       "高齡長期照護",
       "高齡及長期照護事業系"
     ],
-    "id": "REC-114-186"
+    "id": "REC-114-227"
+  },
+  {
+    "year": "114",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "蔡馥如",
+    "empId": "T0000059121",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第一作者兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "失智預防與靈性健康促進於社區居民認知、態度、自我效能及行為意圖之調查研究",
+    "code": "2025台灣實證醫學學會學術年會 (台北市, NATTWN)",
+    "accCode": "PUB-CONF-2025-0056",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 2025台灣實證醫學學會學術年會, 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "高齡長照",
+      "失智症照護",
+      "護理系"
+    ],
+    "id": "REC-114-228"
+  },
+  {
+    "year": "114",
+    "college": "人文與管理學院",
+    "dept": "幼兒保育暨產業系",
+    "teacher": "張義雄",
+    "empId": "T0000094730",
+    "adminRole": "教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第一作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "幼教老師使命感與留任意願之研究：兼論工作鑲嵌與工作適配的調節式中介效果",
+    "code": "教育政策論壇",
+    "accCode": "PUB-JRN-2025-3015",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: 教育政策論壇, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "幼兒保育暨產業系"
+    ],
+    "id": "REC-114-229"
+  },
+  {
+    "year": "114",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "林佑樺",
+    "empId": "T0000120649",
+    "adminRole": "教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第一作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "SCI 國際期刊",
+    "title": "改良式低容積間歇鼻胃管灌食法對加護病房病人胃排空與肺吸入相關指標之影響",
+    "code": "台灣急重症醫學會期刊Resuscitation & Intensive Care Med",
+    "accCode": "PUB-JRN-2026-2373",
+    "disbursementRate": 100,
+    "amount": 2,
+    "metricNote": "SCI 國際期刊 收錄 (刊物: 台灣急重症醫學會期刊Resuscitation & Intensive Care Med, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-114-230"
+  },
+  {
+    "year": "114",
+    "college": "護理學院",
+    "dept": "高齡及長期照護事業系",
+    "teacher": "劉一蓉",
+    "empId": "T0000055361",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第一作者兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "居家安寧照顧對家庭照顧者 的挑戰—從家屬的角度",
+    "code": "社區發展季刊 No.192",
+    "accCode": "PUB-JRN-2025-0101",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: 社區發展季刊, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "高齡及長期照護事業系"
+    ],
+    "id": "REC-114-231"
+  },
+  {
+    "year": "114",
+    "college": "護理學院",
+    "dept": "高齡及長期照護事業系",
+    "teacher": "劉一蓉",
+    "empId": "T0000055361",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第一作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "居家安寧照顧對家庭照顧者的挑戰——從家屬的角度",
+    "code": "社區發展季刊Community Development Journal",
+    "accCode": "PUB-JRN-2025-2833",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: 社區發展季刊Community Development Journal, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "高齡及長期照護事業系"
+    ],
+    "id": "REC-114-232"
+  },
+  {
+    "year": "114",
+    "college": "護理學院",
+    "dept": "健康事業管理系",
+    "teacher": "林政翰",
+    "empId": "T0000074995",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第三作者兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "於軟體定義網路下使用李亞普諾夫定理之P4交換器實現緩衝區膨脹之抑制",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2025-1218",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康事業管理系"
+    ],
+    "id": "REC-114-233"
+  },
+  {
+    "year": "114",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "蔡馥如",
+    "empId": "T0000059121",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第一作者兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "社區成年人高血壓預防的知識、態度、行為、自我效能及行為意圖：一個先導調查研究",
+    "code": "2025台灣實證醫學學會學術年會 (台北市, NATTWN)",
+    "accCode": "PUB-CONF-2025-0057",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 2025台灣實證醫學學會學術年會, 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-114-234"
+  },
+  {
+    "year": "114",
+    "college": "人文與管理學院",
+    "dept": "幼兒保育暨產業系",
+    "teacher": "羅鳳珍",
+    "empId": "T0000075164",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第三作者 (25%)",
+    "weightRatio": 0.25,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "家庭環境與教保環境對原住民幼兒發展的關聯—國民教育幼兒班計畫之公平性探討",
+    "code": "114年度國科會人文處教育學門專題計畫成果發表會 (台北, NATTWN)",
+    "accCode": "PUB-CONF-2025-0055",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 114年度國科會人文處教育學門專題計畫成果發表會, 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "幼兒教育",
+      "公共托育",
+      "環境監測",
+      "淨零減碳",
+      "幼兒保育暨產業系"
+    ],
+    "id": "REC-114-235"
+  },
+  {
+    "year": "114",
+    "college": "醫學與健康學院",
+    "dept": "健康美容系",
+    "teacher": "柯美華",
+    "empId": "T0000052468",
+    "adminRole": "副主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第一作者兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "砭石按摩對成年人疲勞、睡眠品質之影響",
+    "code": "美容科技學刊 Vol.22 No.2",
+    "accCode": "PUB-JRN-2025-0088",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: 美容科技學刊, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康美容系"
+    ],
+    "id": "REC-114-236"
+  },
+  {
+    "year": "114",
+    "college": "護理學院",
+    "dept": "健康事業管理系",
+    "teacher": "羅家倫",
+    "empId": "T0000060871",
+    "adminRole": "國際事務長（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第一作者兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "國際學生休退學現況分析：原因探討與對策建議",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2026-1128",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康事業管理系"
+    ],
+    "id": "REC-114-237"
+  },
+  {
+    "year": "114",
+    "college": "護理學院",
+    "dept": "健康事業管理系",
+    "teacher": "林政翰",
+    "empId": "T0000074995",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "基於軟體定義網路下使用李亞普諾夫定理之主動式佇列管理",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2025-1217",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康事業管理系"
+    ],
+    "id": "REC-114-238"
+  },
+  {
+    "year": "114",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "洪瑄曼",
+    "empId": "T0000005248",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第一作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "探討社區中老年志工心肺復甦術課程學習需求之相關因素",
+    "code": "澄清醫護管理雜誌",
+    "accCode": "PUB-JRN-2026-2322",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: 澄清醫護管理雜誌, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-114-239"
+  },
+  {
+    "year": "114",
+    "college": "人文與管理學院",
+    "dept": "共同教育中心",
+    "teacher": "李佩芳",
+    "empId": "T0000050192",
+    "adminRole": "產學合作組組長（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第一作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "淺論家庭照顧價值觀對家庭照顧者長照服務使用之影響",
+    "code": "社區發展季刊",
+    "accCode": "PUB-JRN-2025-2275",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: 社區發展季刊, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "高齡長照",
+      "失智症照護",
+      "共同教育中心"
+    ],
+    "id": "REC-114-240"
+  },
+  {
+    "year": "114",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "徐禎美",
+    "empId": "T0000002682",
+    "adminRole": "實習指導教師",
+    "isArticle7Exempt": false,
+    "authorOrder": "第二作者 (50%)",
+    "weightRatio": 0.5,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "產前檢查大富翁桌遊於婦產科護理學實習生之學習成效",
+    "code": "源遠護理 Vol.19 No.3",
+    "accCode": "PUB-JRN-2025-0104",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: 源遠護理, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "臨床護理",
+      "教材研發",
+      "護理系"
+    ],
+    "id": "REC-114-241"
+  },
+  {
+    "year": "114",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "陳淑銘",
+    "empId": "T0000000530",
+    "adminRole": "教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第一作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "專書/專書篇章",
+    "title": "第8章　評值實證護理執行結果 /實證護理",
+    "code": "ISBN:978-626-381-147-8 (華格那出版有限公司)",
+    "accCode": "PUB-BOOK-2025-006",
+    "disbursementRate": 100,
+    "amount": 1.5,
+    "metricNote": "專書出版 (出版社: 華格那出版有限公司, ISBN: 978-626-381-147-8)",
+    "source": "TEACHER-WRITTING (表1-11 專書)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "臨床護理",
+      "教材研發",
+      "護理系"
+    ],
+    "id": "REC-114-242"
+  },
+  {
+    "year": "114",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "董曉婷",
+    "empId": "T0000045947",
+    "adminRole": "主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "提升護理人員病情訊息傳遞完整率",
+    "code": "源遠護理 Vol.19 No.3",
+    "accCode": "PUB-JRN-2025-0082",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: 源遠護理, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "臨床護理",
+      "教材研發",
+      "護理系"
+    ],
+    "id": "REC-114-243"
+  },
+  {
+    "year": "114",
+    "college": "護理學院",
+    "dept": "健康事業管理系",
+    "teacher": "羅家倫",
+    "empId": "T0000060871",
+    "adminRole": "國際事務長（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第一作者兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "新南向國際學生中輟風險預測與早期預警模型建構",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2026-1129",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "AI智慧應用",
+      "數位轉型",
+      "健康事業管理系"
+    ],
+    "id": "REC-114-244"
+  },
+  {
+    "year": "114",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "董曉婷",
+    "empId": "T0000045947",
+    "adminRole": "主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第一作者兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "運用 Orem 自我照顧理論照顧一位急性腦中風病人之護理經驗",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2025-1663",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "臨床護理",
+      "教材研發",
+      "護理系"
+    ],
+    "id": "REC-114-245"
+  },
+  {
+    "year": "114",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "董曉婷",
+    "empId": "T0000045947",
+    "adminRole": "主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第二作者兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "運用Orem自我照顧理論照護一位急性腦中風病人之護理經驗",
+    "code": "第十四屆全人醫療整合服務研討會暨國際論壇 (台南市, NATTWN)",
+    "accCode": "PUB-CONF-2025-0045",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 第十四屆全人醫療整合服務研討會暨國際論壇, 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "高齡長照",
+      "失智症照護",
+      "臨床護理",
+      "教材研發",
+      "護理系"
+    ],
+    "id": "REC-114-246"
+  },
+  {
+    "year": "114",
+    "college": "護理學院",
+    "dept": "助產與婦嬰健康照護系",
+    "teacher": "廖怡惠",
+    "empId": "T0000059910",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第一作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "專書/專書篇章",
+    "title": "實證護理",
+    "code": "ISBN:9786263811478 (華格那企業有限公司)",
+    "accCode": "PUB-BOOK-2025-007",
+    "disbursementRate": 100,
+    "amount": 1.5,
+    "metricNote": "專書出版 (出版社: 華格那企業有限公司, ISBN: 9786263811478)",
+    "source": "TEACHER-WRITTING (表1-11 專書)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "臨床護理",
+      "教材研發",
+      "助產與婦嬰健康照護系"
+    ],
+    "id": "REC-114-247"
+  },
+  {
+    "year": "114",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "林佑樺",
+    "empId": "T0000120649",
+    "adminRole": "教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第一作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "慢性阻塞性肺病病人長新冠症狀嚴重度指數之發展與信效度檢定\r\nDeveloping and Validating the Long COVID-19 Symptom Severity Index (LCSSI) for Patients With Chronic Obstructive Pulmonary Disease",
+    "code": "護理雜誌",
+    "accCode": "PUB-JRN-2026-2372",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: 護理雜誌, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-114-248"
+  },
+  {
+    "year": "114",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "顧雅利",
+    "empId": "T0000077888",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第一作者兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "顧雅利(2025，11月)‧老人健康照護特論課程與實習於培育老人進階專科護理師之成效。",
+    "code": "2025海峽兩岸暨港澳地區護理論壇暨學術研討會 (台北, NATTWN)",
+    "accCode": "PUB-CONF-2025-0050",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 2025海峽兩岸暨港澳地區護理論壇暨學術研討會, 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "高齡長照",
+      "失智症照護",
+      "臨床護理",
+      "教材研發",
+      "護理系"
+    ],
+    "id": "REC-114-249"
+  },
+  {
+    "year": "114",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "許瓊尹",
+    "empId": "T0000030000",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第二作者兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "A Case Report on the Care Experience of Motor-Dominant Chronic Inflammatory Demyelinating Polyneuropathy (CIDP) with Chronic Pain",
+    "code": "2025 International Health Conference (高雄市, NATTWN)",
+    "accCode": "PUB-CONF-2025-0074",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 2025 International Health Conference, 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-114-250"
+  },
+  {
+    "year": "114",
+    "college": "護理學院",
+    "dept": "健康事業管理系",
+    "teacher": "羅家倫",
+    "empId": "T0000060871",
+    "adminRole": "國際事務長（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "A Comparative Study on Service Quality, Brand Experience, and Consumer Purchase Intention in\r\nCross-Strait Chain Drugstores.",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2025-1130",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康事業管理系"
+    ],
+    "id": "REC-114-251"
+  },
+  {
+    "year": "114",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "顏秀珍",
+    "empId": "T0000089142",
+    "adminRole": "實習指導教師",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "A Graph Neural Network Model Incorporating Spatial and Temporal Information for Next Location Prediction",
+    "code": "Electronics",
+    "accCode": "PUB-JRN-2025-2169",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Electronics, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-114-252"
+  },
+  {
+    "year": "114",
+    "college": "醫學與健康學院",
+    "dept": "健康美容系",
+    "teacher": "李杏丹",
+    "empId": "T0000038837",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "SCI 國際期刊",
+    "title": "A new butanoic acid of Nelumbo nucifera",
+    "code": "Chemistry of Natural Compounds Vol.61 No.5",
+    "accCode": "PUB-JRN-2025-0092",
+    "disbursementRate": 100,
+    "amount": 2,
+    "metricNote": "SCI 國際期刊 收錄 (刊物: Chemistry of Natural Compounds, 審稿: 是, 出版國: NATUSA)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康美容系"
+    ],
+    "id": "REC-114-253"
+  },
+  {
+    "year": "114",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "李維真",
+    "empId": "T0000010059",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "SCI 國際期刊",
+    "title": "A NEW DIAMINE OF Mahonia fortunei",
+    "code": "Chemistry of Natural Compounds",
+    "accCode": "PUB-JRN-2025-0083",
+    "disbursementRate": 100,
+    "amount": 2,
+    "metricNote": "SCI 國際期刊 收錄 (刊物: Chemistry of Natural Compounds, 審稿: 是, 出版國: NATUSA)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-114-254"
+  },
+  {
+    "year": "114",
+    "college": "醫學與健康學院",
+    "dept": "健康美容系",
+    "teacher": "李杏丹",
+    "empId": "T0000038837",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "SCI 國際期刊",
+    "title": "A new pyridine derivative of Mahonia oiwakensis",
+    "code": "Chemistry of Natural Compounds Vol.61 No.6",
+    "accCode": "PUB-JRN-2025-0096",
+    "disbursementRate": 100,
+    "amount": 2,
+    "metricNote": "SCI 國際期刊 收錄 (刊物: Chemistry of Natural Compounds, 審稿: 是, 出版國: NATUSA)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康美容系"
+    ],
+    "id": "REC-114-255"
+  },
+  {
+    "year": "114",
+    "college": "醫學與健康學院",
+    "dept": "健康美容系",
+    "teacher": "柯美華",
+    "empId": "T0000052468",
+    "adminRole": "副主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第一作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "SCI 國際期刊",
+    "title": "A new pyridine derivative of Merremia umbellata.",
+    "code": "Chemisrty of Natural Compounds Vol.61 No.6",
+    "accCode": "PUB-JRN-2025-0085",
+    "disbursementRate": 100,
+    "amount": 2,
+    "metricNote": "SCI 國際期刊 收錄 (刊物: Chemisrty of Natural Compounds, 審稿: 是, 出版國: NATUSA)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康美容系"
+    ],
+    "id": "REC-114-256"
+  },
+  {
+    "year": "114",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "李維真",
+    "empId": "T0000010059",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "SCI 國際期刊",
+    "title": "A NEW SESQUITERPENOID OF Curcuma longa",
+    "code": "Chemistry of Natural Compounds Vol.61 No.5",
+    "accCode": "PUB-JRN-2025-0084",
+    "disbursementRate": 100,
+    "amount": 2,
+    "metricNote": "SCI 國際期刊 收錄 (刊物: Chemistry of Natural Compounds, 審稿: 是, 出版國: NATUSA)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-114-257"
+  },
+  {
+    "year": "114",
+    "college": "醫學與健康學院",
+    "dept": "健康美容系",
+    "teacher": "李杏丹",
+    "empId": "T0000038837",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "SCI 國際期刊",
+    "title": "A new tetraazacyclododecane of Ilex lactifolia",
+    "code": "Chemistry of Natural Compounds Vol.61 No.5",
+    "accCode": "PUB-JRN-2025-0093",
+    "disbursementRate": 100,
+    "amount": 2,
+    "metricNote": "SCI 國際期刊 收錄 (刊物: Chemistry of Natural Compounds, 審稿: 是, 出版國: NATUSA)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康美容系"
+    ],
+    "id": "REC-114-258"
+  },
+  {
+    "year": "114",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "董曉婷",
+    "empId": "T0000045947",
+    "adminRole": "主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第二作者兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "A Nursing Experience in Applying Kolcaba’s Comfort Theory to the Care of a Patient After Coronary Artery Bypass Grafting",
+    "code": "2025 International HealthcareConference 國際健康照護研討會 (高雄, NATTWN)",
+    "accCode": "PUB-CONF-2025-0046",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 2025 International HealthcareConference 國際健康照護研討會, 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-114-259"
+  },
+  {
+    "year": "114",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "陳立庭",
+    "empId": "T0000036425",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "A Pilot study of Mindful Breathing to Relieve Withdrawal Symptoms in Smokers with Myocardial Infraction",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2025-0346",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-114-260"
+  },
+  {
+    "year": "114",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "顧雅利",
+    "empId": "T0000077888",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第一作者兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "An Innovative Nursing Journey: From Patents and Prototype Products to Empirical Testing.",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2025-0585",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-114-261"
+  },
+  {
+    "year": "114",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "梁菁萍",
+    "empId": "T0000117242",
+    "adminRole": "教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Analytical model for three-dimensional reactive transport of coexisting chlorinated solvent contaminants in groundwater under time-varying source discharge concentrations induced by remediation efforts",
+    "code": "Water",
+    "accCode": "PUB-JRN-2025-0878",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Water, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-114-262"
+  },
+  {
+    "year": "114",
+    "college": "醫學與健康學院",
+    "dept": "健康美容系",
+    "teacher": "柯美華",
+    "empId": "T0000052468",
+    "adminRole": "副主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第一作者兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "SCI 國際期刊",
+    "title": "Antiovarian cancer activity alkaloids of Zea mays",
+    "code": "Chemisrty of Natural Compounds Vol.61 No.6",
+    "accCode": "PUB-JRN-2025-0087",
+    "disbursementRate": 100,
+    "amount": 2,
+    "metricNote": "SCI 國際期刊 收錄 (刊物: Chemisrty of Natural Compounds, 審稿: 是, 出版國: NATUSA)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康美容系"
+    ],
+    "id": "REC-114-263"
+  },
+  {
+    "year": "114",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "董曉婷",
+    "empId": "T0000045947",
+    "adminRole": "主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第二作者兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "Anxiety in Patients with Transient Ischemic Attack: A Concept Analysis",
+    "code": "2025 International HealthcareConference 國際健康照護研討會 (Kaohsiung, NATTWN)",
+    "accCode": "PUB-CONF-2025-0044",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 2025 International HealthcareConference 國際健康照護研討會, 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-114-264"
+  },
+  {
+    "year": "114",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "董曉婷",
+    "empId": "T0000045947",
+    "adminRole": "主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第二作者兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "Applying Comfort Theory in the Postoperative Nursing Care of a VATS Lobectomy Patient",
+    "code": "2025 International HealthcareConference 國際健康照護研討會 (高雄, NATTWN)",
+    "accCode": "PUB-CONF-2025-0047",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 2025 International HealthcareConference 國際健康照護研討會, 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-114-265"
+  },
+  {
+    "year": "114",
+    "college": "醫學與健康學院",
+    "dept": "保健營養系",
+    "teacher": "蔡蕙芸",
+    "empId": "T0000098101",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Arginylfructosyl- glucose derived from Korean red ginseng attenuates methylglyoxal- induced insulin resistance in HepG2 cells",
+    "code": "Plant Foods for Human Nutrition",
+    "accCode": "PUB-JRN-2026-1397",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Plant Foods for Human Nutrition, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "保健營養系"
+    ],
+    "id": "REC-114-266"
+  },
+  {
+    "year": "114",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "蔡宛玲",
+    "empId": "T0000121830",
+    "adminRole": "職能發展組副主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Aspartame and asthma: immunomodulatory effects on airway inflammation",
+    "code": "Respiratory Research",
+    "accCode": "PUB-JRN-2026-2231",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Respiratory Research, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-114-267"
+  },
+  {
+    "year": "114",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "陳淑銘",
+    "empId": "T0000000530",
+    "adminRole": "教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第二作者兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "Cancer-Related Fatigue in Patients with Colorectal Cancer: A Concept Analysis.",
+    "code": "2025 International Healthcare Conference (高雄, NATTWN)",
+    "accCode": "PUB-CONF-2025-0060",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 2025 International Healthcare Conference, 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-114-268"
+  },
+  {
+    "year": "114",
+    "college": "護理學院",
+    "dept": "健康事業管理系",
+    "teacher": "羅家倫",
+    "empId": "T0000060871",
+    "adminRole": "國際事務長（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "Compliance Without Governance: Institutional Pressures, Resource Modulation Mechanisms, and the Social Construction of ISO/IEC 27001 Maturity in Semi-Public Organizations",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2026-1126",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康事業管理系"
+    ],
+    "id": "REC-114-269"
+  },
+  {
+    "year": "114",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "陳淑銘",
+    "empId": "T0000000530",
+    "adminRole": "教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第二作者兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "Concept Analysis of Cancer-Related Fatigue in Postoperative Esophageal Cancer Patients",
+    "code": "2025 International Healthcare Conference (高雄, NATTWN)",
+    "accCode": "PUB-CONF-2025-0061",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 2025 International Healthcare Conference, 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-114-270"
+  },
+  {
+    "year": "114",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "陳淑銘",
+    "empId": "T0000000530",
+    "adminRole": "教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第二作者兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "Concept Analysis of Exercise Self-Efficacy in Patients with Chronic Obstructive Pulmonary Disease",
+    "code": "2025 International Healthcare Conference (高雄, NATTWN)",
+    "accCode": "PUB-CONF-2025-0059",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 2025 International Healthcare Conference, 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-114-271"
+  },
+  {
+    "year": "114",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "陳淑銘",
+    "empId": "T0000000530",
+    "adminRole": "教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第二作者兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "Death Anxiety in Patients Undergoing Cardiac Surgery: A Concept Analysis",
+    "code": "2025 International Healthcare Conference (高雄, NATTWN)",
+    "accCode": "PUB-CONF-2025-0062",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 2025 International Healthcare Conference, 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-114-272"
+  },
+  {
+    "year": "114",
+    "college": "護理學院",
+    "dept": "健康事業管理系",
+    "teacher": "羅家倫",
+    "empId": "T0000060871",
+    "adminRole": "國際事務長（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "Determinants of Continued Use of Surgical Navigation Robots: Insights from Clinical Physicians",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2026-1127",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康事業管理系"
+    ],
+    "id": "REC-114-273"
+  },
+  {
+    "year": "114",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "梁菁萍",
+    "empId": "T0000117242",
+    "adminRole": "教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Development of a semi-analytical solution for simulating the migration of parent and daughter contaminants from multiple contaminant sources, considering rate-limited sorption effects",
+    "code": "Hydrology",
+    "accCode": "PUB-JRN-2025-0877",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Hydrology, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-114-274"
+  },
+  {
+    "year": "114",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "董曉婷",
+    "empId": "T0000045947",
+    "adminRole": "主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第一作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "SSCI 國際期刊",
+    "title": "Development of Core Health Indicators and Integrated Health Assessment Toolkit for Older Adults With Dementia",
+    "code": "Worldviews on Evidence-Based Nursing Vol.22 No.4",
+    "accCode": "PUB-JRN-2025-0081",
+    "disbursementRate": 100,
+    "amount": 2,
+    "metricNote": "SSCI 國際期刊 收錄 (刊物: Worldviews on Evidence-Based Nursing, 審稿: 是, 出版國: NATUSA)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-114-275"
+  },
+  {
+    "year": "114",
+    "college": "醫學與健康學院",
+    "dept": "保健營養系",
+    "teacher": "蔡蕙芸",
+    "empId": "T0000098101",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "SCIE 國際期刊",
+    "title": "Djulis beverage attenuates gastric mucosal injury by modulating oxidative stress and inflammation",
+    "code": "npj Science of Food",
+    "accCode": "PUB-JRN-2026-1393",
+    "disbursementRate": 100,
+    "amount": 2,
+    "metricNote": "SCIE 國際期刊 收錄 (刊物: npj Science of Food, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "保健營養系"
+    ],
+    "id": "REC-114-276"
+  },
+  {
+    "year": "114",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "蔡宛玲",
+    "empId": "T0000121830",
+    "adminRole": "職能發展組副主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第一作者兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國際研討會論文",
+    "title": "Early and Prolonged Cortical Electrical Stimulation Preserves Motor Functions and Nigrostriatal Dopaminergic Neurons in the MitoPark Model of Parkinson’s Disease",
+    "code": "Neuroscience 2025 (SAN DIEGO, NATUSA)",
+    "accCode": "PUB-CONF-2025-0066",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國際研討會論文 (發表於 Neuroscience 2025, 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-114-277"
+  },
+  {
+    "year": "114",
+    "college": "護理學院",
+    "dept": "助產與婦嬰健康照護系",
+    "teacher": "郭心怡",
+    "empId": "T0000005425",
+    "adminRole": "講師",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "Effects of imperfect interfaces on the two-dimensional quasi-crystal laminates",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2025-0241",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "助產與婦嬰健康照護系"
+    ],
+    "id": "REC-114-278"
+  },
+  {
+    "year": "114",
+    "college": "護理學院",
+    "dept": "健康事業管理系",
+    "teacher": "羅家倫",
+    "empId": "T0000060871",
+    "adminRole": "國際事務長（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "SCI 國際期刊",
+    "title": "ELDER -MATCH: A Personality-Aware Expert System for Elderly Social Connection Through AI-Powered Social Robots",
+    "code": "Expert Systems (SCI)",
+    "accCode": "PUB-JRN-2026-1612",
+    "disbursementRate": 100,
+    "amount": 2,
+    "metricNote": "SCI 國際期刊 收錄 (刊物: Expert Systems (SCI), 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "AI智慧應用",
+      "數位轉型",
+      "健康事業管理系"
+    ],
+    "id": "REC-114-279"
+  },
+  {
+    "year": "114",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "洪瑄曼",
+    "empId": "T0000005248",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Empowerment, Resilience, and Burnout Among Nurses With Recovered COVID-19: A Multicountry Study.",
+    "code": "Journal of Nursing Management",
+    "accCode": "PUB-JRN-2025-2324",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Journal of Nursing Management, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-114-280"
+  },
+  {
+    "year": "114",
+    "college": "人文與管理學院",
+    "dept": "資訊科技與管理系",
+    "teacher": "陳俊勳",
+    "empId": "T0000042494",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Enabling strategic bidding in ancillary services through a robust probabilistic load forecasting framework",
+    "code": "Electric Power Systems Research",
+    "accCode": "PUB-JRN-2026-2905",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Electric Power Systems Research, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "資訊科技與管理系"
+    ],
+    "id": "REC-114-281"
+  },
+  {
+    "year": "114",
+    "college": "人文與管理學院",
+    "dept": "應用外語系",
+    "teacher": "楊玉琦",
+    "empId": "T0000038233",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第一作者兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Enhancing EFL Writing Self-efficacy through Templates and Teacher Feedback",
+    "code": "English Language Teaching Vol.12 No.18",
+    "accCode": "PUB-JRN-2025-0103",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: English Language Teaching, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "應用外語系"
+    ],
+    "id": "REC-114-282"
+  },
+  {
+    "year": "114",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "莊麗玉",
+    "empId": "T0000009267",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第一作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "Enhancing Nursing Students’ Digital Skills through Industry–Academia Collaboration: An Example of Developing User-Friendly Health Counselling Materials",
+    "code": "International Healthcare Conference (高雄, NATTWN)",
+    "accCode": "PUB-CONF-2025-0065",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 International Healthcare Conference, 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-114-283"
+  },
+  {
+    "year": "114",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "吳靜宜",
+    "empId": "T0000029836",
+    "adminRole": "實習指導教師",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "SCIE 國際期刊",
+    "title": "Evaluating communication and clinical skills in objective structured clinical examination (OSCE) using a low-cost neck-mounted device, insights from a first-person perspective",
+    "code": "Journal of Dental Sciences",
+    "accCode": "PUB-JRN-2025-2049",
+    "disbursementRate": 100,
+    "amount": 2,
+    "metricNote": "SCIE 國際期刊 收錄 (刊物: Journal of Dental Sciences, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-114-284"
+  },
+  {
+    "year": "114",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "江季蓁",
+    "empId": "T0000066846",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Evolving Patterns of Childhood Myopia in Taiwan: Effects of Urbanization,\r\nDigitalization, and Outdoor Activity Policies",
+    "code": "Taiwan Journal of Ophthalmology",
+    "accCode": "PUB-JRN-2026-0599",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Taiwan Journal of Ophthalmology, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-114-285"
+  },
+  {
+    "year": "114",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "張秀華",
+    "empId": "T0000010936",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第三作者 (25%)",
+    "weightRatio": 0.25,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "Exploring caregivers’ professional attitude and knowledge towards self-supporting care model: a case study of Kaohsiung City and Pingtung County",
+    "code": "2025 International Healthcare Conference(2025國際醫療保健研習會) (高雄市, NATTWN)",
+    "accCode": "PUB-CONF-2025-0072",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 2025 International Healthcare Conference(2025國際醫療保健研習會), 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-114-286"
+  },
+  {
+    "year": "114",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "江季蓁",
+    "empId": "T0000066846",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "Exploring the dilemma and needs of hospice palliative care for advanced dementia: Institutional administrators, care providers, and major caregivers' perspectives",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2025-0468",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-114-287"
+  },
+  {
+    "year": "114",
+    "college": "護理學院",
+    "dept": "高齡及長期照護事業系",
+    "teacher": "楊月頴",
+    "empId": "T0000097047",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第一作者兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "Exploring the effectiveness of exercise training in preventing falls in older people - A Scoping Review",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2025-2029",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "高齡及長期照護事業系"
+    ],
+    "id": "REC-114-288"
+  },
+  {
+    "year": "114",
+    "college": "護理學院",
+    "dept": "高齡及長期照護事業系",
+    "teacher": "楊月頴",
+    "empId": "T0000097047",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第一作者兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國際研討會論文",
+    "title": "Exploring the effectiveness of the WANT model education and training program for dementia family caregivers",
+    "code": "6th Asian Congress in Nursing Education (ACiNE) (Brisbane, NATAUS)",
+    "accCode": "PUB-CONF-2025-0068",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國際研討會論文 (發表於 6th Asian Congress in Nursing Education (ACiNE), 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "高齡及長期照護事業系"
+    ],
+    "id": "REC-114-289"
+  },
+  {
+    "year": "114",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "徐佩蘭",
+    "empId": "T0000115075",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第一作者兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國際研討會論文",
+    "title": "Exploring the Experience of Sng-Pain and Discomfort in Hemodialysis Patients",
+    "code": "Vital Role of Nursing in Economic Growth and Community Wellness in Global Era (Kabupaten Bekasi, Jawa Bara, NATIDN)",
+    "accCode": "PUB-CONF-2025-0053",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國際研討會論文 (發表於 Vital Role of Nursing in Economic Growth and Community Wellness in Global Era, 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-114-290"
+  },
+  {
+    "year": "114",
+    "college": "護理學院",
+    "dept": "高齡及長期照護事業系",
+    "teacher": "楊月頴",
+    "empId": "T0000097047",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第三作者兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "Exploring the experiences of family caregivers managing behaviors and psychological symptoms of dementia - Qualitative research",
+    "code": "IHC, International Healthcare Conference (高雄, NATTWN)",
+    "accCode": "PUB-CONF-2025-0067",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 IHC, International Healthcare Conference, 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "高齡及長期照護事業系"
+    ],
+    "id": "REC-114-291"
+  },
+  {
+    "year": "114",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "洪瑄曼",
+    "empId": "T0000005248",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Exploring the Relationship of Well-Being and Resilience on Sense of Personal Accomplishment Among Nurse Practitioners: A Cross-Sectional Correlational Study.",
+    "code": "The Journal of Nursing Research",
+    "accCode": "PUB-JRN-2025-2323",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: The Journal of Nursing Research, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-114-292"
+  },
+  {
+    "year": "114",
+    "college": "護理學院",
+    "dept": "健康事業管理系",
+    "teacher": "楊鎮維",
+    "empId": "T0000028271",
+    "adminRole": "教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Family-Centered Decision Making in Living Liver Transplantation: Analyzing the Tripartite Physician–Patient–Family Model in Taiwan",
+    "code": "Families",
+    "accCode": "PUB-JRN-2025-1461",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Families, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康事業管理系"
+    ],
+    "id": "REC-114-293"
+  },
+  {
+    "year": "114",
+    "college": "護理學院",
+    "dept": "健康事業管理系",
+    "teacher": "楊鎮維",
+    "empId": "T0000028271",
+    "adminRole": "教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "SSCI 國際期刊",
+    "title": "Family-centered Decision-Making in Living Liver Transplantation: Analyzing the Tripartite Physician-Patient-Family Model in Taiwan",
+    "code": "Families, Systems, & Health Vol.43 No.3",
+    "accCode": "PUB-JRN-2025-0069",
+    "disbursementRate": 100,
+    "amount": 2,
+    "metricNote": "SSCI 國際期刊 收錄 (刊物: Families, Systems, & Health, 審稿: 是, 出版國: NATUSA)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康事業管理系"
+    ],
+    "id": "REC-114-294"
   },
   {
     "year": "114",
@@ -8094,7 +12031,846 @@ var DATASET_111_115 = [
       "健康風險評估",
       "環境工程與科學系"
     ],
-    "id": "REC-114-187"
+    "id": "REC-114-295"
+  },
+  {
+    "year": "114",
+    "college": "醫學與健康學院",
+    "dept": "健康美容系",
+    "teacher": "李杏丹",
+    "empId": "T0000038837",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "SCI 國際期刊",
+    "title": "Flavonoids and benzenoids of Mangifera indica with antioxidant activity",
+    "code": "Chemistry of Natural Compounds Vol.61 No.5",
+    "accCode": "PUB-JRN-2025-0094",
+    "disbursementRate": 100,
+    "amount": 2,
+    "metricNote": "SCI 國際期刊 收錄 (刊物: Chemistry of Natural Compounds, 審稿: 是, 出版國: NATUSA)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康美容系"
+    ],
+    "id": "REC-114-296"
+  },
+  {
+    "year": "114",
+    "college": "醫學與健康學院",
+    "dept": "健康美容系",
+    "teacher": "陳中一",
+    "empId": "T0000054317",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "SCI 國際期刊",
+    "title": "Flavonoids from the roots of Torenia concolor",
+    "code": "Chemistry of Natural Compounds Vol.61 No.5",
+    "accCode": "PUB-JRN-2025-0076",
+    "disbursementRate": 100,
+    "amount": 2,
+    "metricNote": "SCI 國際期刊 收錄 (刊物: Chemistry of Natural Compounds, 審稿: 是, 出版國: NATUSA)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康美容系"
+    ],
+    "id": "REC-114-297"
+  },
+  {
+    "year": "114",
+    "college": "護理學院",
+    "dept": "健康事業管理系",
+    "teacher": "羅家倫",
+    "empId": "T0000060871",
+    "adminRole": "國際事務長（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "Forging the Path to Success: Comparing Entrepreneurial Factors in Institutional and Home-based Long-term Care Using Analytic Hierarchy Process.",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2025-1131",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康事業管理系"
+    ],
+    "id": "REC-114-298"
+  },
+  {
+    "year": "114",
+    "college": "醫學與健康學院",
+    "dept": "健康美容系",
+    "teacher": "陳中一",
+    "empId": "T0000054317",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "SCI 國際期刊",
+    "title": "Ginger-derived 1-(4'-hydroxy-3'-methoxyphenyl)-5-methoxydecan-3-one (HMPM) induces apoptosis and DNA damage against triple-negative breast cancer cells in vitro",
+    "code": "Molecular Biology Reports Vol.52 No.1",
+    "accCode": "PUB-JRN-2025-0075",
+    "disbursementRate": 100,
+    "amount": 2,
+    "metricNote": "SCI 國際期刊 收錄 (刊物: Molecular Biology Reports, 審稿: 是, 出版國: NATUSA)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康美容系"
+    ],
+    "id": "REC-114-299"
+  },
+  {
+    "year": "114",
+    "college": "醫學與健康學院",
+    "dept": "健康美容系",
+    "teacher": "陳中一",
+    "empId": "T0000054317",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Ginger-derived 1-(4’-hydroxy-3’-methoxyphenyl)-5-methoxydecan-3-one (HMPM) induces apoptosis and DNA damage against triple-negative breast cancer cells in vitro",
+    "code": "Molecular Biology Reports",
+    "accCode": "PUB-JRN-2025-2458",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Molecular Biology Reports, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康美容系"
+    ],
+    "id": "REC-114-300"
+  },
+  {
+    "year": "114",
+    "college": "醫學與健康學院",
+    "dept": "醫學檢驗生物技術系",
+    "teacher": "邱敏熙",
+    "empId": "T0000089506",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Gramineae Wheat Germ Extract Ameliorates Methylglyoxal-Induced Neurobehavioral Deficits through Modulation of the Gut Microbiota and Tryptophan Metabolism",
+    "code": "Molecular Nutrition & Food Research",
+    "accCode": "PUB-JRN-2026-1195",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Molecular Nutrition & Food Research, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "醫學檢驗生物技術系"
+    ],
+    "id": "REC-114-301"
+  },
+  {
+    "year": "114",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "梁菁萍",
+    "empId": "T0000117242",
+    "adminRole": "教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Groundwater arsenic in Taiwan: From Mid-20th-Century crisis to predictive models for risk mitigation strategies",
+    "code": "Environment International",
+    "accCode": "PUB-JRN-2026-0876",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Environment International, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-114-302"
+  },
+  {
+    "year": "114",
+    "college": "醫學與健康學院",
+    "dept": "醫學檢驗生物技術系",
+    "teacher": "葉耀宗",
+    "empId": "T0000032139",
+    "adminRole": "主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "SCIE 國際期刊",
+    "title": "Heat-killed Lacticaseibacillus paracasei GMNL-346 exerts anti-oral cancer effect by suppressing cancer stem cell activity and rebalancing gut microbiota dysbiosis",
+    "code": "International Journal of Biological Macromolecules",
+    "accCode": "PUB-JRN-2025-0099",
+    "disbursementRate": 100,
+    "amount": 2,
+    "metricNote": "SCIE 國際期刊 收錄 (刊物: International Journal of Biological Macromolecules, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "醫學檢驗生物技術系"
+    ],
+    "id": "REC-114-303"
+  },
+  {
+    "year": "114",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "陳立庭",
+    "empId": "T0000036425",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "Hemodialysis fatigue: A Concept analysis",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2025-0347",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-114-304"
+  },
+  {
+    "year": "114",
+    "college": "醫學與健康學院",
+    "dept": "醫學檢驗生物技術系",
+    "teacher": "羅宏仁",
+    "empId": "T0000061310",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第一作者兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "SCI 國際期刊",
+    "title": "Hinokitiol disrupts iron homeostasis and reduces virulence in Acinetobacter baumannii",
+    "code": "Microbial pathogenesis Vol.209",
+    "accCode": "PUB-JRN-2025-0098",
+    "disbursementRate": 100,
+    "amount": 2,
+    "metricNote": "SCI 國際期刊 收錄 (刊物: Microbial pathogenesis, 審稿: 是, 出版國: NATGBR)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "醫學檢驗生物技術系"
+    ],
+    "id": "REC-114-305"
+  },
+  {
+    "year": "114",
+    "college": "護理學院",
+    "dept": "健康事業管理系",
+    "teacher": "黃傑康",
+    "empId": "T0000119634",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Impact of Anxiety-related Factors on Willingness to Use EHR System: A Perspective from Health Beliefs and Organizational Support Model",
+    "code": "Internet Research",
+    "accCode": "PUB-JRN-2025-1685",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Internet Research, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康事業管理系"
+    ],
+    "id": "REC-114-306"
+  },
+  {
+    "year": "114",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "施芊卉",
+    "empId": "T0000084532",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "Impact of Health Literacy on the Attainment of Ideal Body Weight among Indigenous: A Literature Review.",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2026-0648",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-114-307"
+  },
+  {
+    "year": "114",
+    "college": "護理學院",
+    "dept": "健康事業管理系",
+    "teacher": "楊鎮維",
+    "empId": "T0000028271",
+    "adminRole": "教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Institutional change and service innovation in Taiwan’s school-based health centers: the mediating effect of organizational professionalism",
+    "code": "Journal of Health Organization and Management",
+    "accCode": "PUB-JRN-2026-1457",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Journal of Health Organization and Management, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康事業管理系"
+    ],
+    "id": "REC-114-308"
+  },
+  {
+    "year": "114",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "陳立庭",
+    "empId": "T0000036425",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "EI 工程索引期刊",
+    "title": "Integration of cognitive behavioral therapy and\r\nmobile health applications among university\r\nstudents with depression: a qualitative study",
+    "code": "International Journal of Qualitative Studies on Health\r\nand Well-being",
+    "accCode": "PUB-JRN-2026-0518",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "EI 工程索引期刊 收錄 (刊物: International Journal of Qualitative Studies on Health\r\nand Well-being, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-114-309"
+  },
+  {
+    "year": "114",
+    "college": "人文與管理學院",
+    "dept": "應用外語系",
+    "teacher": "楊玉琦",
+    "empId": "T0000038233",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第一作者兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Intercultural Sensitivity among Junior College Adolescents in Taiwan: A Survey Study",
+    "code": "弘光學報 No.96",
+    "accCode": "PUB-JRN-2025-0102",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: 弘光學報, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "應用外語系"
+    ],
+    "id": "REC-114-310"
+  },
+  {
+    "year": "114",
+    "college": "人文與管理學院",
+    "dept": "幼兒保育暨產業系",
+    "teacher": "張義雄",
+    "empId": "T0000094730",
+    "adminRole": "教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Job Burnout and Employee Silence for Preschool Teachers: A Moderated Mediation of Work Fatigue and Work Disengagement",
+    "code": "Early Childhood Education Journal",
+    "accCode": "PUB-JRN-2025-3014",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Early Childhood Education Journal, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "幼兒保育暨產業系"
+    ],
+    "id": "REC-114-311"
+  },
+  {
+    "year": "114",
+    "college": "醫學與健康學院",
+    "dept": "保健營養系",
+    "teacher": "蔡蕙芸",
+    "empId": "T0000098101",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Lactobacillus protects against lead-induced hepatotoxicity by preserving the gut barrier and microbiota remodeling",
+    "code": "BMC Microbiol",
+    "accCode": "PUB-JRN-2026-1395",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: BMC Microbiol, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "保健營養系"
+    ],
+    "id": "REC-114-312"
+  },
+  {
+    "year": "114",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "吳靜宜",
+    "empId": "T0000029836",
+    "adminRole": "實習指導教師",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Lepidium meyenii walpers promotes the regeneration of salivary gland and prevents xerostomia after irradiation injury",
+    "code": "Nutrients",
+    "accCode": "PUB-JRN-2025-2050",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Nutrients, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-114-313"
+  },
+  {
+    "year": "114",
+    "college": "護理學院",
+    "dept": "健康事業管理系",
+    "teacher": "林政翰",
+    "empId": "T0000074995",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "Lyapunov-Driven Adaptive Queue Management for P4-Programmable SDN: Stability Guaranteed Low-Latency Control against Bufferbloat",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2026-1216",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康事業管理系"
+    ],
+    "id": "REC-114-314"
+  },
+  {
+    "year": "114",
+    "college": "醫學與健康學院",
+    "dept": "健康美容系",
+    "teacher": "陳中一",
+    "empId": "T0000054317",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "SCI 國際期刊",
+    "title": "Metabolites from Antrodia camphorata with anti-melanoma activity",
+    "code": "Chemistry of Natural Compounds Vol.61 No.6",
+    "accCode": "PUB-JRN-2025-0080",
+    "disbursementRate": 100,
+    "amount": 2,
+    "metricNote": "SCI 國際期刊 收錄 (刊物: Chemistry of Natural Compounds, 審稿: 是, 出版國: NATUSA)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康美容系"
+    ],
+    "id": "REC-114-315"
+  },
+  {
+    "year": "114",
+    "college": "醫學與健康學院",
+    "dept": "健康美容系",
+    "teacher": "陳中一",
+    "empId": "T0000054317",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "SCI 國際期刊",
+    "title": "Metabolites from the soil-derived fungus Trichoderma longicollum BCRC 19F0006",
+    "code": "Chemistry of Natural Compounds Vol.61 No.6",
+    "accCode": "PUB-JRN-2025-0078",
+    "disbursementRate": 100,
+    "amount": 2,
+    "metricNote": "SCI 國際期刊 收錄 (刊物: Chemistry of Natural Compounds, 審稿: 是, 出版國: NATUSA)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康美容系"
+    ],
+    "id": "REC-114-316"
+  },
+  {
+    "year": "114",
+    "college": "人文與管理學院",
+    "dept": "幼兒保育暨產業系",
+    "teacher": "張義雄",
+    "empId": "T0000094730",
+    "adminRole": "教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Not only detection but also explain: An interpretable multimodal system for anomaly detection",
+    "code": "IEEE Transactions on Emerging Topics in Computational Intelligence",
+    "accCode": "PUB-JRN-2025-3012",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: IEEE Transactions on Emerging Topics in Computational Intelligence, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "幼兒保育暨產業系"
+    ],
+    "id": "REC-114-317"
+  },
+  {
+    "year": "114",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "徐佩蘭",
+    "empId": "T0000115075",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第一作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "Nursing Expe rience of Caring a Patient with Traumatic Brain Injury by Mishel’s Uncertainty in Illness Theory",
+    "code": "Smart Care and Human-centered Design: Co-Creating Innovative Models for the Future of Care (臺中市, NATTWN)",
+    "accCode": "PUB-CONF-2025-0054",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 Smart Care and Human-centered Design: Co-Creating Innovative Models for the Future of Care, 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-114-318"
+  },
+  {
+    "year": "114",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "施芊卉",
+    "empId": "T0000084532",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "Optimizing obesity managment through positive psychology:A Quasi-expermental Study on Psysical Behavioral, and Emotional Qutcomes in Adults.",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2026-0649",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-114-319"
+  },
+  {
+    "year": "114",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "吳靜宜",
+    "empId": "T0000029836",
+    "adminRole": "實習指導教師",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Oral health variables associated with factors across the Alzheimer's disease continuum: from subjective cognitive decline to dementia",
+    "code": "Journal of Dentistry",
+    "accCode": "PUB-JRN-2025-2051",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Journal of Dentistry, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-114-320"
+  },
+  {
+    "year": "114",
+    "college": "護理學院",
+    "dept": "健康事業管理系",
+    "teacher": "楊鎮維",
+    "empId": "T0000028271",
+    "adminRole": "教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Organizational justice, perceived organizational support, and computer self-efficacy in knowledge sharing among healthcare workers: The mediating role of organizational citizenship behavior",
+    "code": "Healthcare",
+    "accCode": "PUB-JRN-2026-1459",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Healthcare, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康事業管理系"
+    ],
+    "id": "REC-114-321"
+  },
+  {
+    "year": "114",
+    "college": "護理學院",
+    "dept": "健康事業管理系",
+    "teacher": "楊鎮維",
+    "empId": "T0000028271",
+    "adminRole": "教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Perceived work stressors and job performance of employees in long-term care settings within the context of self-supporting care: The moderating effect of perceived care recipients empowerment",
+    "code": "Journal of Applied Gerontology",
+    "accCode": "PUB-JRN-2026-1458",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Journal of Applied Gerontology, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康事業管理系"
+    ],
+    "id": "REC-114-322"
+  },
+  {
+    "year": "114",
+    "college": "醫學與健康學院",
+    "dept": "醫學檢驗生物技術系",
+    "teacher": "邱敏熙",
+    "empId": "T0000089506",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Pre injury Hypercholesterolemia Is Associated with Microbiota Associated Neurobehavioral Vulnerability Following Traumatic Brain Injury",
+    "code": "Brain",
+    "accCode": "PUB-JRN-2026-1194",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Brain, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "醫學檢驗生物技術系"
+    ],
+    "id": "REC-114-323"
+  },
+  {
+    "year": "114",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "邱宜令",
+    "empId": "T0000072457",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第三作者兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Prenatal Checkup Monopoly Board Game on the Learning Outcomes of Obstetrics and Gynecology Nursing Interns產前檢查大富翁桌遊於婦產科護理學實習生 之學習成效",
+    "code": "源遠護理 Vol.19 No.3",
+    "accCode": "PUB-JRN-2025-0072",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: 源遠護理, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "臨床護理",
+      "教材研發",
+      "護理系"
+    ],
+    "id": "REC-114-324"
+  },
+  {
+    "year": "114",
+    "college": "醫學與健康學院",
+    "dept": "保健營養系",
+    "teacher": "蔡蕙芸",
+    "empId": "T0000098101",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "SCIE 國際期刊",
+    "title": "Propyl gallate attenuates methylglyoxal-induced Alzheimer-like cognitive deficits and neuroinflammation in mice",
+    "code": "International Journal of Molecular Sciences",
+    "accCode": "PUB-JRN-2026-1398",
+    "disbursementRate": 100,
+    "amount": 2,
+    "metricNote": "SCIE 國際期刊 收錄 (刊物: International Journal of Molecular Sciences, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "保健營養系"
+    ],
+    "id": "REC-114-325"
+  },
+  {
+    "year": "114",
+    "college": "護理學院",
+    "dept": "高齡及長期照護事業系",
+    "teacher": "林欣妤",
+    "empId": "T0000087685",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "Protective Effects of Upper Airway Exercises on Endothelial Antioxidant Expression and Inflammatory Modulation in Obstructive Sleep Apnea",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2025-2012",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "高齡及長期照護事業系"
+    ],
+    "id": "REC-114-326"
   },
   {
     "year": "114",
@@ -8123,7 +12899,1033 @@ var DATASET_111_115 = [
       "電化學適體感測器",
       "醫學檢驗生物技術系"
     ],
-    "id": "REC-114-188"
+    "id": "REC-114-327"
+  },
+  {
+    "year": "114",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "林佑樺",
+    "empId": "T0000120649",
+    "adminRole": "教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Rethinking Resilience in Nursing Education: Workplace Bullying, Resilience, and Work Stress Among Undergraduate Nursing Students During Clinical Placements\r\nReference",
+    "code": "Nurse Education Today",
+    "accCode": "PUB-JRN-2026-2371",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Nurse Education Today, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-114-328"
+  },
+  {
+    "year": "114",
+    "college": "醫學與健康學院",
+    "dept": "健康美容系",
+    "teacher": "陳中一",
+    "empId": "T0000054317",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Santamarine synergizes with cisplatin via ROS/JNK axis to selectively induce apoptosis and DNA damage in oral cancer cells",
+    "code": "Drug Development Research",
+    "accCode": "PUB-JRN-2026-2456",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Drug Development Research, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康美容系"
+    ],
+    "id": "REC-114-329"
+  },
+  {
+    "year": "114",
+    "college": "護理學院",
+    "dept": "健康事業管理系",
+    "teacher": "羅家倫",
+    "empId": "T0000060871",
+    "adminRole": "國際事務長（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "SSCI 國際期刊",
+    "title": "Scale for Assessing Understanding of Benefits and Risks of Using Complementary Therapies in Diabetes Management: Psychometric Evaluation",
+    "code": "Journal of Nursing Research(SSCI)",
+    "accCode": "PUB-JRN-2026-1613",
+    "disbursementRate": 100,
+    "amount": 2,
+    "metricNote": "SSCI 國際期刊 收錄 (刊物: Journal of Nursing Research(SSCI), 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康事業管理系"
+    ],
+    "id": "REC-114-330"
+  },
+  {
+    "year": "114",
+    "college": "醫學與健康學院",
+    "dept": "健康美容系",
+    "teacher": "李品軒",
+    "empId": "T0000112565",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第一作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "SCI 國際期刊",
+    "title": "Secondary metabolites of Cinnamomum cassia",
+    "code": "Chemistry of Natural Compounds Vol.61 No.6",
+    "accCode": "PUB-JRN-2025-0071",
+    "disbursementRate": 100,
+    "amount": 2,
+    "metricNote": "SCI 國際期刊 收錄 (刊物: Chemistry of Natural Compounds, 審稿: 是, 出版國: NATUSA)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康美容系"
+    ],
+    "id": "REC-114-331"
+  },
+  {
+    "year": "114",
+    "college": "醫學與健康學院",
+    "dept": "健康美容系",
+    "teacher": "陳中一",
+    "empId": "T0000054317",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "SCI 國際期刊",
+    "title": "Secondary metabolites of Cinnamomum philippinense",
+    "code": "Chemistry of Natural Compounds Vol.61 No.5",
+    "accCode": "PUB-JRN-2025-0077",
+    "disbursementRate": 100,
+    "amount": 2,
+    "metricNote": "SCI 國際期刊 收錄 (刊物: Chemistry of Natural Compounds, 審稿: 是, 出版國: NATUSA)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康美容系"
+    ],
+    "id": "REC-114-332"
+  },
+  {
+    "year": "114",
+    "college": "醫學與健康學院",
+    "dept": "健康美容系",
+    "teacher": "李杏丹",
+    "empId": "T0000038837",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "SCI 國際期刊",
+    "title": "Secondary metabolites of Haworthia cooperi var. truncata",
+    "code": "Chemistry of Natural Compounds Vol.61 No.5",
+    "accCode": "PUB-JRN-2025-0091",
+    "disbursementRate": 100,
+    "amount": 2,
+    "metricNote": "SCI 國際期刊 收錄 (刊物: Chemistry of Natural Compounds, 審稿: 是, 出版國: NATUSA)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康美容系"
+    ],
+    "id": "REC-114-333"
+  },
+  {
+    "year": "114",
+    "college": "醫學與健康學院",
+    "dept": "健康美容系",
+    "teacher": "陳中一",
+    "empId": "T0000054317",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "SCI 國際期刊",
+    "title": "Secondary metabolites of Helminthostachys zeylanica",
+    "code": "Chemistry of Natural Compounds Vol.61 No.6",
+    "accCode": "PUB-JRN-2025-0079",
+    "disbursementRate": 100,
+    "amount": 2,
+    "metricNote": "SCI 國際期刊 收錄 (刊物: Chemistry of Natural Compounds, 審稿: 是, 出版國: NATUSA)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康美容系"
+    ],
+    "id": "REC-114-334"
+  },
+  {
+    "year": "114",
+    "college": "醫學與健康學院",
+    "dept": "健康美容系",
+    "teacher": "李杏丹",
+    "empId": "T0000038837",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "SCI 國際期刊",
+    "title": "Secondary metabolites of Lycium chinense with antioxidant activity",
+    "code": "Chemistry of Natural Compounds Vol.61 No.5",
+    "accCode": "PUB-JRN-2025-0095",
+    "disbursementRate": 100,
+    "amount": 2,
+    "metricNote": "SCI 國際期刊 收錄 (刊物: Chemistry of Natural Compounds, 審稿: 是, 出版國: NATUSA)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康美容系"
+    ],
+    "id": "REC-114-335"
+  },
+  {
+    "year": "114",
+    "college": "醫學與健康學院",
+    "dept": "健康美容系",
+    "teacher": "李杏丹",
+    "empId": "T0000038837",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "SCI 國際期刊",
+    "title": "Secondary metabolites of Nelumbo nucifera cv. Rosa-plena",
+    "code": "Chemistry of Natural Compounds Vol.61 No.6",
+    "accCode": "PUB-JRN-2025-0097",
+    "disbursementRate": 100,
+    "amount": 2,
+    "metricNote": "SCI 國際期刊 收錄 (刊物: Chemistry of Natural Compounds, 審稿: 是, 出版國: NATUSA)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康美容系"
+    ],
+    "id": "REC-114-336"
+  },
+  {
+    "year": "114",
+    "college": "醫學與健康學院",
+    "dept": "健康美容系",
+    "teacher": "陳采秀",
+    "empId": "T0000121656",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第一作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "SCI 國際期刊",
+    "title": "Secondary metabolites of the flower of Michelia champaca",
+    "code": "Chemisrty of Natural Compounds Vol.61 No.6",
+    "accCode": "PUB-JRN-2025-0073",
+    "disbursementRate": 100,
+    "amount": 2,
+    "metricNote": "SCI 國際期刊 收錄 (刊物: Chemisrty of Natural Compounds, 審稿: 是, 出版國: NATUSA)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康美容系"
+    ],
+    "id": "REC-114-337"
+  },
+  {
+    "year": "114",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "鍾淑瑜",
+    "empId": "T0000038204",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "Sexual health, social support, social stigma, and quality of life in Chinese kidney recipients.",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2025-0352",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-114-338"
+  },
+  {
+    "year": "114",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "陳淑銘",
+    "empId": "T0000000530",
+    "adminRole": "教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第二作者兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "Sleep disturbance in breast cancer patients during chemotherapy: A concept analysis",
+    "code": "2025 International Healthcare Conference (高雄, NATTWN)",
+    "accCode": "PUB-CONF-2025-0063",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 2025 International Healthcare Conference, 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-114-339"
+  },
+  {
+    "year": "114",
+    "college": "醫學與健康學院",
+    "dept": "保健營養系",
+    "teacher": "蔡蕙芸",
+    "empId": "T0000098101",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "SCIE 國際期刊",
+    "title": "Sustainable Utilization of Cereal Waste To Increase its Added Value: Regulatory Effects of Djulis (Chenopodium formosanum) Hull on Blood Lipids.",
+    "code": "ACS Food Science & Technology",
+    "accCode": "PUB-JRN-2025-1400",
+    "disbursementRate": 100,
+    "amount": 2,
+    "metricNote": "SCIE 國際期刊 收錄 (刊物: ACS Food Science & Technology, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "保健營養系"
+    ],
+    "id": "REC-114-340"
+  },
+  {
+    "year": "114",
+    "college": "醫學與健康學院",
+    "dept": "保健營養系",
+    "teacher": "蔡蕙芸",
+    "empId": "T0000098101",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Tetragenococcus halophilus A003 altered microbiota and repressed the accumulation of biogenic amines in the fermentation of fish Sauce",
+    "code": "Letters in Applied Microbiology",
+    "accCode": "PUB-JRN-2025-1399",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Letters in Applied Microbiology, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "保健營養系"
+    ],
+    "id": "REC-114-341"
+  },
+  {
+    "year": "114",
+    "college": "醫學與健康學院",
+    "dept": "健康美容系",
+    "teacher": "陳中一",
+    "empId": "T0000054317",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "SCI 國際期刊",
+    "title": "The antimicrobial peptide Tilapia piscidin 4 induced the apoptosis of bladder cancer through ERK/SIRT1/PGC-1α signaling pathway",
+    "code": "Probiotics and Antimicrobial Proteins Vol.17 No.5",
+    "accCode": "PUB-JRN-2025-0089",
+    "disbursementRate": 100,
+    "amount": 2,
+    "metricNote": "SCI 國際期刊 收錄 (刊物: Probiotics and Antimicrobial Proteins, 審稿: 是, 出版國: NATUSA)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康美容系"
+    ],
+    "id": "REC-114-342"
+  },
+  {
+    "year": "114",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "張秀華",
+    "empId": "T0000010936",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第三作者 (25%)",
+    "weightRatio": 0.25,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "The effect of multi-component exercise training on functional fitness and sarcopenia",
+    "code": "2025 International Healthcare Conference(2025國際醫療保健研習會) (高雄市, NATTWN)",
+    "accCode": "PUB-CONF-2025-0073",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 2025 International Healthcare Conference(2025國際醫療保健研習會), 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-114-343"
+  },
+  {
+    "year": "114",
+    "college": "護理學院",
+    "dept": "高齡及長期照護事業系",
+    "teacher": "李碧玉",
+    "empId": "T0000093122",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第一作者兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國際研討會論文",
+    "title": "The Effectiveness of Applying Generative Artificial Intelligence in Elderly Activity Design Courses",
+    "code": "6th Asian-Pcific Congress in Nursing Education (澳洲布里斯本, NATAUS)",
+    "accCode": "PUB-CONF-2025-0070",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國際研討會論文 (發表於 6th Asian-Pcific Congress in Nursing Education, 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "高齡及長期照護事業系"
+    ],
+    "id": "REC-114-344"
+  },
+  {
+    "year": "114",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "邱宜令",
+    "empId": "T0000072457",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第一作者兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "The effectiveness of using an electronic book on menopausal care in the community for middle-aged women's menopausal care education",
+    "code": "2025 International Conference on Imagining the Future (林口長庚桃園, NATTWN)",
+    "accCode": "PUB-CONF-2025-0043",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 2025 International Conference on Imagining the Future, 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-114-345"
+  },
+  {
+    "year": "114",
+    "college": "護理學院",
+    "dept": "健康事業管理系",
+    "teacher": "楊鎮維",
+    "empId": "T0000028271",
+    "adminRole": "教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "The Effects of environmental turbulence on healthcare alliance formation in Taiwan: A multi-level model",
+    "code": "Journal of Health Organization and Management",
+    "accCode": "PUB-JRN-2026-1460",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Journal of Health Organization and Management, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康事業管理系"
+    ],
+    "id": "REC-114-346"
+  },
+  {
+    "year": "114",
+    "college": "環境與生命學院",
+    "dept": "職業安全衛生系",
+    "teacher": "鄭立新",
+    "empId": "T0000017031",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "SCIE 國際期刊",
+    "title": "The hidden hazard in kitchen environment: A preliminary study of health risks associated with inhaling acrylamide during French fries frying,  Ecotoxicology and Environmental Safety, 305: 119200.",
+    "code": "Environmental Science and Pollution Research",
+    "accCode": "PUB-JRN-2025-1878",
+    "disbursementRate": 100,
+    "amount": 2,
+    "metricNote": "SCIE 國際期刊 收錄 (刊物: Environmental Science and Pollution Research, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "職業安全衛生系"
+    ],
+    "id": "REC-114-347"
+  },
+  {
+    "year": "114",
+    "college": "人文與管理學院",
+    "dept": "幼兒保育暨產業系",
+    "teacher": "張義雄",
+    "empId": "T0000094730",
+    "adminRole": "教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "The Impact of Workload and Emotional Demands on Turnover Intentions: The Mediating and Moderating Effects of Job Burnout",
+    "code": "Frontiers in Psychology",
+    "accCode": "PUB-JRN-2025-3013",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Frontiers in Psychology, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "幼兒保育暨產業系"
+    ],
+    "id": "REC-114-348"
+  },
+  {
+    "year": "114",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "林佑樺",
+    "empId": "T0000120649",
+    "adminRole": "教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "The Mediating Effects of Resilience and Workplace Bullying on Clinical Internship Stress among Nursing Students",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2026-1882",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-114-349"
+  },
+  {
+    "year": "114",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "林佑樺",
+    "empId": "T0000120649",
+    "adminRole": "教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "The Mediating Effects of Sleep Quality and Fatigue on\r\nPost-Intensive Care Syndrome Among Intensive Care Unit Survivors",
+    "code": "International Journal of Nursing Practice",
+    "accCode": "PUB-JRN-2025-2374",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: International Journal of Nursing Practice, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-114-350"
+  },
+  {
+    "year": "114",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "林佑樺",
+    "empId": "T0000120649",
+    "adminRole": "教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "SSCI 國際期刊",
+    "title": "The Mediating Effects of Sleep Quality and Fatigue on Post-Intensive Care Syndrome among Intensive Care Unit Survivors",
+    "code": "International Journal of Nursing Practice Vol.31: No.e70047",
+    "accCode": "PUB-JRN-2025-0090",
+    "disbursementRate": 100,
+    "amount": 2,
+    "metricNote": "SSCI 國際期刊 收錄 (刊物: International Journal of Nursing Practice, 審稿: 是, 出版國: NATUSA)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-114-351"
+  },
+  {
+    "year": "114",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "葉蕙芳",
+    "empId": "T0000055001",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第一作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "SCI 國際期刊",
+    "title": "The Mediating Effects of Sleep Quality and Fatigue on Post-Intensive Care Syndrome Among Intensive Care Unit Survivors",
+    "code": "International Journal of Nursing Practice Vol.31 No.5",
+    "accCode": "PUB-JRN-2025-0070",
+    "disbursementRate": 100,
+    "amount": 2,
+    "metricNote": "SCI 國際期刊 收錄 (刊物: International Journal of Nursing Practice, 審稿: 是, 出版國: NATAUS)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-114-352"
+  },
+  {
+    "year": "114",
+    "college": "醫學與健康學院",
+    "dept": "保健營養系",
+    "teacher": "林佩瑩",
+    "empId": "T0000071516",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "The Taiwan Precision Medicine Initiative provides a cohort for large-scale studies",
+    "code": "Nature",
+    "accCode": "PUB-JRN-2025-1363",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Nature, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "保健營養系"
+    ],
+    "id": "REC-114-353"
+  },
+  {
+    "year": "114",
+    "college": "護理學院",
+    "dept": "高齡及長期照護事業系",
+    "teacher": "楊月頴",
+    "empId": "T0000097047",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第一作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "SSCI 國際期刊",
+    "title": "The WANT Intervention Model for behavioral and psychological symptoms of dementia",
+    "code": "Journal of Natural Therapy and Health Promotion Vol.4 No.1",
+    "accCode": "PUB-JRN-2025-0100",
+    "disbursementRate": 100,
+    "amount": 2,
+    "metricNote": "SSCI 國際期刊 收錄 (刊物: Journal of Natural Therapy and Health Promotion, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "高齡及長期照護事業系"
+    ],
+    "id": "REC-114-354"
+  },
+  {
+    "year": "114",
+    "college": "醫學與健康學院",
+    "dept": "健康美容系",
+    "teacher": "陳中一",
+    "empId": "T0000054317",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Threo-2,3-bis-(4-hydroxy-3-methoxyphenyl)-3-methoxypropanol (THMP) inhibits bladder cancer cell proliferation via oxidative stress-dependent apoptosis and DNA damage",
+    "code": "Planta Medica",
+    "accCode": "PUB-JRN-2026-2457",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Planta Medica, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康美容系"
+    ],
+    "id": "REC-114-355"
+  },
+  {
+    "year": "114",
+    "college": "護理學院",
+    "dept": "高齡及長期照護事業系",
+    "teacher": "楊月頴",
+    "empId": "T0000097047",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "To explore the distress of home care workers in implementing home care services and user satisfaction",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2025-2030",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "高齡及長期照護事業系"
+    ],
+    "id": "REC-114-356"
+  },
+  {
+    "year": "114",
+    "college": "護理學院",
+    "dept": "高齡及長期照護事業系",
+    "teacher": "林欣妤",
+    "empId": "T0000087685",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "Towards Enhancing Home-Based Reablement: Exploring Success Factors  for Older Adults: A Systematic Review",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2025-2013",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "高齡及長期照護事業系"
+    ],
+    "id": "REC-114-357"
+  },
+  {
+    "year": "114",
+    "college": "醫學與健康學院",
+    "dept": "健康美容系",
+    "teacher": "柯美華",
+    "empId": "T0000052468",
+    "adminRole": "副主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第一作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "SCI 國際期刊",
+    "title": "Two new pyridine alkaloids of Annona cheimola",
+    "code": "Chemisrty of Natural Compounds Vol.61 No.6",
+    "accCode": "PUB-JRN-2025-0086",
+    "disbursementRate": 100,
+    "amount": 2,
+    "metricNote": "SCI 國際期刊 收錄 (刊物: Chemisrty of Natural Compounds, 審稿: 是, 出版國: NATUSA)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康美容系"
+    ],
+    "id": "REC-114-358"
+  },
+  {
+    "year": "114",
+    "college": "醫學與健康學院",
+    "dept": "醫學檢驗生物技術系",
+    "teacher": "徐慧雯",
+    "empId": "T0000010908",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "UCHL3 promotes cisplatin resistance in NSCLC via the AKT-CyclinD1 pathway",
+    "code": "海峽兩岸檢驗醫學論壇 (台中, NATTWN)",
+    "accCode": "PUB-CONF-2025-0064",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 海峽兩岸檢驗醫學論壇, 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "醫學檢驗生物技術系"
+    ],
+    "id": "REC-114-359"
+  },
+  {
+    "year": "114",
+    "college": "人文與管理學院",
+    "dept": "資訊科技與管理系",
+    "teacher": "陳俊勳",
+    "empId": "T0000042494",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Unlocking sub-MW microgrids for ancillary services: A stochastic bilevel VPP framework with weighted Shapley allocation",
+    "code": "Energies",
+    "accCode": "PUB-JRN-2025-2906",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Energies, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "資訊科技與管理系"
+    ],
+    "id": "REC-114-360"
+  },
+  {
+    "year": "114",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "陳淑銘",
+    "empId": "T0000000530",
+    "adminRole": "教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第一作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "Using digital technology of evidence-based nursing program in the clinic nurses: The application and effectiveness",
+    "code": "2025 International Healthcare Conference (高雄, NATTWN)",
+    "accCode": "PUB-CONF-2025-0071",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 2025 International Healthcare Conference, 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-114-361"
+  },
+  {
+    "year": "114",
+    "college": "護理學院",
+    "dept": "健康事業管理系",
+    "teacher": "蘇斌光",
+    "empId": "T0000083499",
+    "adminRole": "副院長（依評鑑辦法第7條免受研究項目評鑑）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第三作者兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "Using the TrinetX Database to investigate the Association Between Dementia and the Heart-Spleen Deficiency Syndrome",
+    "code": "台灣中西整合醫學會2025年學術研討會 (Taipei, NATTWN)",
+    "accCode": "PUB-CONF-2025-0069",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 台灣中西整合醫學會2025年學術研討會, 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康事業管理系"
+    ],
+    "id": "REC-114-362"
+  },
+  {
+    "year": "114",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "顧雅利",
+    "empId": "T0000077888",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第一作者兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "Ya-Lie Ku (2025, November). An Innovative Nursing Journey: From Patents and Prototype Products to Empirical Testing.",
+    "code": "Asian and Pacific Congress for Nurse Practitioners 2025 (APCNP 2025) Conference (台北, NATTWN)",
+    "accCode": "PUB-CONF-2025-0048",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 Asian and Pacific Congress for Nurse Practitioners 2025 (APCNP 2025) Conference, 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-114-363"
+  },
+  {
+    "year": "114",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "顧雅利",
+    "empId": "T0000077888",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第一作者兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "Ya-Lie Ku, Shiuan-Dei Chen ,Ying-Ting Chen, Chih-Lung Hsieh (2025, November). Development and Implementation of Care Guidelines for Relocation Stress and Behavioral and Psychological Symptoms in Older Adults with Dementia.",
+    "code": "2025 International Healthcare Conference (高雄市, NATTWN)",
+    "accCode": "PUB-CONF-2025-0049",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 2025 International Healthcare Conference, 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-114-364"
+  },
+  {
+    "year": "114",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "顧雅利",
+    "empId": "T0000077888",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第二作者 (50%)",
+    "weightRatio": 0.5,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "Yu Chen Chang Chien, & Ya-Lie Ku (2025, November). Concept Analysis of Geriatric Depression.",
+    "code": "Asian and Pacific Congress for Nurse Practitioners 2025 (APCNP 2025) Conference (台北, NATTWN)",
+    "accCode": "PUB-CONF-2025-0051",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 Asian and Pacific Congress for Nurse Practitioners 2025 (APCNP 2025) Conference, 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-114-365"
   },
   {
     "year": "113",
@@ -8185,7 +13987,7 @@ var DATASET_111_115 = [
   {
     "year": "113",
     "college": "護理學院",
-    "dept": "護理系",
+    "dept": "共同教育中心",
     "teacher": "程紋貞",
     "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
     "isArticle7Exempt": true,
@@ -8208,7 +14010,7 @@ var DATASET_111_115 = [
       "失智症照護",
       "臨床護理",
       "教材研發",
-      "護理系"
+      "共同教育中心"
     ],
     "id": "REC-113-003"
   },
@@ -8243,7 +14045,7 @@ var DATASET_111_115 = [
   {
     "year": "113",
     "college": "護理學院",
-    "dept": "護理系",
+    "dept": "共同教育中心",
     "teacher": "程紋貞",
     "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
     "isArticle7Exempt": true,
@@ -8264,7 +14066,7 @@ var DATASET_111_115 = [
     "keywords": [
       "高齡長照",
       "失智症照護",
-      "護理系"
+      "共同教育中心"
     ],
     "id": "REC-113-005"
   },
@@ -8401,7 +14203,7 @@ var DATASET_111_115 = [
   {
     "year": "113",
     "college": "護理學院",
-    "dept": "護理系",
+    "dept": "共同教育中心",
     "teacher": "林欣妤",
     "adminRole": "專任教師",
     "isArticle7Exempt": false,
@@ -8422,14 +14224,14 @@ var DATASET_111_115 = [
     "keywords": [
       "高齡長照",
       "失智症照護",
-      "護理系"
+      "共同教育中心"
     ],
     "id": "REC-113-011"
   },
   {
     "year": "113",
     "college": "護理學院",
-    "dept": "護理系",
+    "dept": "共同教育中心",
     "teacher": "楊月頴",
     "adminRole": "專任教師",
     "isArticle7Exempt": false,
@@ -8450,7 +14252,7 @@ var DATASET_111_115 = [
     "keywords": [
       "高齡長照",
       "失智症照護",
-      "護理系"
+      "共同教育中心"
     ],
     "id": "REC-113-012"
   },
@@ -8650,6 +14452,33 @@ var DATASET_111_115 = [
   },
   {
     "year": "113",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "邱宜令",
+    "empId": "T0000072457",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "計畫主持人 (100%)",
+    "weightRatio": 1,
+    "category": "計畫案",
+    "subType": "國科會專題研究計畫",
+    "title": "35th International Nursing Research Congress",
+    "code": "NSTC-113-護理-122",
+    "accCode": "ACC-113-NSTC-122",
+    "disbursementRate": 100,
+    "amount": 2.5,
+    "metricNote": "國科會核定 NT$ 2.5 萬 (補助國內專家學者出席國際學術會議)",
+    "source": "TEACHER-WRITTING (表1-17 國科會計畫案)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已核定歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-113-020"
+  },
+  {
+    "year": "113",
     "college": "環境與生命學院",
     "dept": "環境工程與科學系",
     "teacher": "賴進興",
@@ -8672,7 +14501,7 @@ var DATASET_111_115 = [
     "keywords": [
       "環境工程與科學系"
     ],
-    "id": "REC-113-020"
+    "id": "REC-113-021"
   },
   {
     "year": "113",
@@ -8698,7 +14527,7 @@ var DATASET_111_115 = [
     "keywords": [
       "護理系"
     ],
-    "id": "REC-113-021"
+    "id": "REC-113-022"
   },
   {
     "year": "113",
@@ -8724,7 +14553,7 @@ var DATASET_111_115 = [
     "keywords": [
       "環境工程與科學系"
     ],
-    "id": "REC-113-022"
+    "id": "REC-113-023"
   },
   {
     "year": "113",
@@ -8752,7 +14581,7 @@ var DATASET_111_115 = [
       "公共托育",
       "幼兒保育暨產業系"
     ],
-    "id": "REC-113-023"
+    "id": "REC-113-024"
   },
   {
     "year": "113",
@@ -8778,7 +14607,7 @@ var DATASET_111_115 = [
     "keywords": [
       "幼兒保育暨產業系"
     ],
-    "id": "REC-113-024"
+    "id": "REC-113-025"
   },
   {
     "year": "113",
@@ -8804,12 +14633,12 @@ var DATASET_111_115 = [
     "keywords": [
       "幼兒保育暨產業系"
     ],
-    "id": "REC-113-025"
+    "id": "REC-113-026"
   },
   {
     "year": "113",
     "college": "環境與生命學院",
-    "dept": "護理系",
+    "dept": "共同教育中心",
     "teacher": "林雅菁",
     "adminRole": "教務長（依評鑑辦法第7條得僅評教學基本指標）",
     "isArticle7Exempt": true,
@@ -8828,9 +14657,36 @@ var DATASET_111_115 = [
     "group": "產學合作組",
     "status": "已結案",
     "keywords": [
-      "護理系"
+      "共同教育中心"
     ],
-    "id": "REC-113-026"
+    "id": "REC-113-027"
+  },
+  {
+    "year": "113",
+    "college": "醫學與健康學院",
+    "dept": "保健營養系",
+    "teacher": "蔡蕙芸",
+    "empId": "T0000098101",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "共同主持人 (50%)",
+    "weightRatio": 0.5,
+    "category": "計畫案",
+    "subType": "國科會專題研究計畫",
+    "title": "山苦瓜與台灣蜆保護胃黏膜之功效評估",
+    "code": "NSTC-113-食品科學-270",
+    "accCode": "ACC-113-NSTC-270",
+    "disbursementRate": 100,
+    "amount": 71,
+    "metricNote": "國科會核定 NT$ 71 萬 (專題研究計畫 (產學合作研究計畫))",
+    "source": "TEACHER-WRITTING (表1-17 國科會計畫案)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已核定歸檔",
+    "keywords": [
+      "保健營養系"
+    ],
+    "id": "REC-113-028"
   },
   {
     "year": "113",
@@ -8856,7 +14712,7 @@ var DATASET_111_115 = [
     "keywords": [
       "應用外語系"
     ],
-    "id": "REC-113-027"
+    "id": "REC-113-029"
   },
   {
     "year": "113",
@@ -8882,12 +14738,12 @@ var DATASET_111_115 = [
     "keywords": [
       "物理治療系"
     ],
-    "id": "REC-113-028"
+    "id": "REC-113-030"
   },
   {
     "year": "113",
     "college": "環境與生命學院",
-    "dept": "護理系",
+    "dept": "共同教育中心",
     "teacher": "李佩芳",
     "adminRole": "產學合作組組長（依評鑑辦法第7條得僅評教學基本指標）",
     "isArticle7Exempt": true,
@@ -8906,9 +14762,9 @@ var DATASET_111_115 = [
     "group": "產學合作組",
     "status": "已結案",
     "keywords": [
-      "護理系"
+      "共同教育中心"
     ],
-    "id": "REC-113-029"
+    "id": "REC-113-031"
   },
   {
     "year": "113",
@@ -8938,7 +14794,7 @@ var DATASET_111_115 = [
       "教材研發",
       "護理系"
     ],
-    "id": "REC-113-030"
+    "id": "REC-113-032"
   },
   {
     "year": "113",
@@ -8964,7 +14820,36 @@ var DATASET_111_115 = [
     "keywords": [
       "醫學檢驗生物技術系"
     ],
-    "id": "REC-113-031"
+    "id": "REC-113-033"
+  },
+  {
+    "year": "113",
+    "college": "環境與生命學院",
+    "dept": "職業安全衛生系",
+    "teacher": "鄭立新",
+    "empId": "T0000017031",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "共同主持人 (50%)",
+    "weightRatio": 0.5,
+    "category": "計畫案",
+    "subType": "國科會專題研究計畫",
+    "title": "火災燃燒塑膠所產生之不同粒徑中的污染成分及其對人體肺部細胞的毒性研究",
+    "code": "NSTC-113-職業安全衛生-487",
+    "accCode": "ACC-113-NSTC-487",
+    "disbursementRate": 100,
+    "amount": 290,
+    "metricNote": "國科會核定 NT$ 290 萬 (專題研究計畫 (一般研究計畫))",
+    "source": "TEACHER-WRITTING (表1-17 國科會計畫案)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已核定歸檔",
+    "keywords": [
+      "環境監測",
+      "淨零減碳",
+      "職業安全衛生系"
+    ],
+    "id": "REC-113-034"
   },
   {
     "year": "113",
@@ -8992,7 +14877,36 @@ var DATASET_111_115 = [
       "公共托育",
       "幼兒保育暨產業系"
     ],
-    "id": "REC-113-032"
+    "id": "REC-113-035"
+  },
+  {
+    "year": "113",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "董曉婷",
+    "empId": "T0000045947",
+    "adminRole": "主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "共同主持人 (50%)",
+    "weightRatio": 0.5,
+    "category": "計畫案",
+    "subType": "國科會專題研究計畫",
+    "title": "失智老人健康預測分析暨科技導入動態認知訓練及功能活化方案之發展與測試",
+    "code": "NSTC-113-護理-543",
+    "accCode": "ACC-113-NSTC-543",
+    "disbursementRate": 100,
+    "amount": 300,
+    "metricNote": "國科會核定 NT$ 300 萬 (專題研究計畫 (一般研究計畫))",
+    "source": "TEACHER-WRITTING (表1-17 國科會計畫案)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已核定歸檔",
+    "keywords": [
+      "高齡長照",
+      "失智症照護",
+      "護理系"
+    ],
+    "id": "REC-113-036"
   },
   {
     "year": "113",
@@ -9022,7 +14936,7 @@ var DATASET_111_115 = [
       "淨零減碳",
       "專利研發"
     ],
-    "id": "REC-113-033"
+    "id": "REC-113-037"
   },
   {
     "year": "113",
@@ -9048,7 +14962,7 @@ var DATASET_111_115 = [
     "keywords": [
       "醫學檢驗生物技術系"
     ],
-    "id": "REC-113-034"
+    "id": "REC-113-038"
   },
   {
     "year": "113",
@@ -9076,7 +14990,7 @@ var DATASET_111_115 = [
       "教材研發",
       "健康事業管理系"
     ],
-    "id": "REC-113-035"
+    "id": "REC-113-039"
   },
   {
     "year": "113",
@@ -9102,7 +15016,7 @@ var DATASET_111_115 = [
     "keywords": [
       "醫學檢驗生物技術系"
     ],
-    "id": "REC-113-036"
+    "id": "REC-113-040"
   },
   {
     "year": "113",
@@ -9132,7 +15046,7 @@ var DATASET_111_115 = [
       "數位轉型",
       "環境工程與科學系"
     ],
-    "id": "REC-113-037"
+    "id": "REC-113-041"
   },
   {
     "year": "113",
@@ -9160,7 +15074,7 @@ var DATASET_111_115 = [
       "機能食品",
       "醫學檢驗生物技術系"
     ],
-    "id": "REC-113-038"
+    "id": "REC-113-042"
   },
   {
     "year": "113",
@@ -9186,7 +15100,7 @@ var DATASET_111_115 = [
     "keywords": [
       "環境工程與科學系"
     ],
-    "id": "REC-113-039"
+    "id": "REC-113-043"
   },
   {
     "year": "113",
@@ -9212,7 +15126,7 @@ var DATASET_111_115 = [
     "keywords": [
       "應用外語系"
     ],
-    "id": "REC-113-040"
+    "id": "REC-113-044"
   },
   {
     "year": "113",
@@ -9242,7 +15156,38 @@ var DATASET_111_115 = [
       "數位轉型",
       "護理系"
     ],
-    "id": "REC-113-041"
+    "id": "REC-113-045"
+  },
+  {
+    "year": "113",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "梁菁萍",
+    "empId": "T0000117242",
+    "adminRole": "教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "計畫主持人 (100%)",
+    "weightRatio": 1,
+    "category": "計畫案",
+    "subType": "國科會專題研究計畫",
+    "title": "利用機器學習法整合政府跨部會資料建立河川水質預測模型",
+    "code": "NSTC-113-環境與資源管理-073",
+    "accCode": "ACC-113-NSTC-073",
+    "disbursementRate": 100,
+    "amount": 90.6,
+    "metricNote": "國科會核定 NT$ 90.6 萬 (專題研究計畫 (一般研究計畫))",
+    "source": "TEACHER-WRITTING (表1-17 國科會計畫案)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已核定歸檔",
+    "keywords": [
+      "環境監測",
+      "淨零減碳",
+      "AI智慧應用",
+      "數位轉型",
+      "護理系"
+    ],
+    "id": "REC-113-046"
   },
   {
     "year": "113",
@@ -9268,7 +15213,7 @@ var DATASET_111_115 = [
     "keywords": [
       "職業安全衛生系"
     ],
-    "id": "REC-113-042"
+    "id": "REC-113-047"
   },
   {
     "year": "113",
@@ -9294,7 +15239,7 @@ var DATASET_111_115 = [
     "keywords": [
       "保健營養系"
     ],
-    "id": "REC-113-043"
+    "id": "REC-113-048"
   },
   {
     "year": "113",
@@ -9322,7 +15267,7 @@ var DATASET_111_115 = [
       "淨零減碳",
       "環境工程與科學系"
     ],
-    "id": "REC-113-044"
+    "id": "REC-113-049"
   },
   {
     "year": "113",
@@ -9350,7 +15295,7 @@ var DATASET_111_115 = [
       "淨零減碳",
       "環境工程與科學系"
     ],
-    "id": "REC-113-045"
+    "id": "REC-113-050"
   },
   {
     "year": "113",
@@ -9378,7 +15323,7 @@ var DATASET_111_115 = [
       "公共托育",
       "幼兒保育暨產業系"
     ],
-    "id": "REC-113-046"
+    "id": "REC-113-051"
   },
   {
     "year": "113",
@@ -9404,7 +15349,7 @@ var DATASET_111_115 = [
     "keywords": [
       "幼兒保育暨產業系"
     ],
-    "id": "REC-113-047"
+    "id": "REC-113-052"
   },
   {
     "year": "113",
@@ -9430,7 +15375,34 @@ var DATASET_111_115 = [
     "keywords": [
       "健康事業管理系"
     ],
-    "id": "REC-113-048"
+    "id": "REC-113-053"
+  },
+  {
+    "year": "113",
+    "college": "護理學院",
+    "dept": "健康事業管理系",
+    "teacher": "羅家倫",
+    "empId": "T0000060871",
+    "adminRole": "國際事務長（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "計畫主持人 (100%)",
+    "weightRatio": 1,
+    "category": "計畫案",
+    "subType": "國科會專題研究計畫",
+    "title": "社會網絡分析法探究偏鄉地區長者信眾之擁擠與情緒感知對在虛擬實境宗教平台上使用意圖之影響",
+    "code": "NSTC-113-資訊管理-330",
+    "accCode": "ACC-113-NSTC-330",
+    "disbursementRate": 100,
+    "amount": 62,
+    "metricNote": "國科會核定 NT$ 62 萬 (專題研究計畫 (一般研究計畫))",
+    "source": "TEACHER-WRITTING (表1-17 國科會計畫案)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已核定歸檔",
+    "keywords": [
+      "健康事業管理系"
+    ],
+    "id": "REC-113-054"
   },
   {
     "year": "113",
@@ -9456,7 +15428,7 @@ var DATASET_111_115 = [
     "keywords": [
       "醫學檢驗生物技術系"
     ],
-    "id": "REC-113-049"
+    "id": "REC-113-055"
   },
   {
     "year": "113",
@@ -9484,7 +15456,7 @@ var DATASET_111_115 = [
       "教材研發",
       "護理系"
     ],
-    "id": "REC-113-050"
+    "id": "REC-113-056"
   },
   {
     "year": "113",
@@ -9510,7 +15482,7 @@ var DATASET_111_115 = [
     "keywords": [
       "環境工程與科學系"
     ],
-    "id": "REC-113-051"
+    "id": "REC-113-057"
   },
   {
     "year": "113",
@@ -9538,7 +15510,36 @@ var DATASET_111_115 = [
       "失智症照護",
       "高齡及長期照護事業系"
     ],
-    "id": "REC-113-052"
+    "id": "REC-113-058"
+  },
+  {
+    "year": "113",
+    "college": "護理學院",
+    "dept": "高齡及長期照護事業系",
+    "teacher": "劉一蓉",
+    "empId": "T0000055361",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "計畫主持人 (100%)",
+    "weightRatio": 1,
+    "category": "計畫案",
+    "subType": "國科會專題研究計畫",
+    "title": "長照居家服務員接受「靈性關懷陪伴」在職教育課程對提升靈性照顧實務知能之成效研究",
+    "code": "NSTC-113-宗教哲學-701",
+    "accCode": "ACC-113-NSTC-701",
+    "disbursementRate": 100,
+    "amount": 131.6,
+    "metricNote": "國科會核定 NT$ 131.6 萬 (專題研究計畫 (鼓勵女性從事科學及技術研究專案計畫))",
+    "source": "TEACHER-WRITTING (表1-17 國科會計畫案)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已核定歸檔",
+    "keywords": [
+      "高齡長照",
+      "失智症照護",
+      "高齡及長期照護事業系"
+    ],
+    "id": "REC-113-059"
   },
   {
     "year": "113",
@@ -9564,7 +15565,36 @@ var DATASET_111_115 = [
     "keywords": [
       "環境工程與科學系"
     ],
-    "id": "REC-113-053"
+    "id": "REC-113-060"
+  },
+  {
+    "year": "113",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "楊惠如",
+    "empId": "T0000030499",
+    "adminRole": "實習指導教師",
+    "isArticle7Exempt": false,
+    "authorOrder": "共同主持人 (50%)",
+    "weightRatio": 0.5,
+    "category": "計畫案",
+    "subType": "國科會專題研究計畫",
+    "title": "建構和驗證以EPA為本之麻醉科預立特定醫療流程標準化教材及麻醉專科護理師課程混成教育地圖優化",
+    "code": "NSTC-113-醫學教育-539",
+    "accCode": "ACC-113-NSTC-539",
+    "disbursementRate": 100,
+    "amount": 79,
+    "metricNote": "國科會核定 NT$ 79 萬 (專題研究計畫 (一般研究計畫))",
+    "source": "TEACHER-WRITTING (表1-17 國科會計畫案)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已核定歸檔",
+    "keywords": [
+      "臨床護理",
+      "教材研發",
+      "護理系"
+    ],
+    "id": "REC-113-061"
   },
   {
     "year": "113",
@@ -9590,7 +15620,61 @@ var DATASET_111_115 = [
     "keywords": [
       "健康事業管理系"
     ],
-    "id": "REC-113-054"
+    "id": "REC-113-062"
+  },
+  {
+    "year": "113",
+    "college": "護理學院",
+    "dept": "健康事業管理系",
+    "teacher": "黃傑康",
+    "empId": "T0000119634",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "計畫主持人 (100%)",
+    "weightRatio": 1,
+    "category": "計畫案",
+    "subType": "國科會專題研究計畫",
+    "title": "後疫情時代台灣民眾持續使用遠距看診行為之定量研究：結合任務-科技模式與整合科技接受模式之觀點",
+    "code": "NSTC-113-資訊管理-348",
+    "accCode": "ACC-113-NSTC-348",
+    "disbursementRate": 100,
+    "amount": 62,
+    "metricNote": "國科會核定 NT$ 62 萬 (專題研究計畫 (一般研究計畫))",
+    "source": "TEACHER-WRITTING (表1-17 國科會計畫案)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已核定歸檔",
+    "keywords": [
+      "健康事業管理系"
+    ],
+    "id": "REC-113-063"
+  },
+  {
+    "year": "113",
+    "college": "護理學院",
+    "dept": "健康事業管理系",
+    "teacher": "羅家倫",
+    "empId": "T0000060871",
+    "adminRole": "國際事務長（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "計畫主持人 (100%)",
+    "weightRatio": 1,
+    "category": "計畫案",
+    "subType": "國科會專題研究計畫",
+    "title": "洪澤權 Patrick CK Hung",
+    "code": "NSTC-113-資訊管理-331",
+    "accCode": "ACC-113-NSTC-331",
+    "disbursementRate": 100,
+    "amount": 10.86,
+    "metricNote": "國科會核定 NT$ 10.86 萬 (短訪計畫 (邀請國際科技人士短期訪問))",
+    "source": "TEACHER-WRITTING (表1-17 國科會計畫案)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已核定歸檔",
+    "keywords": [
+      "健康事業管理系"
+    ],
+    "id": "REC-113-064"
   },
   {
     "year": "113",
@@ -9618,12 +15702,12 @@ var DATASET_111_115 = [
       "產品開發",
       "健康美容系"
     ],
-    "id": "REC-113-055"
+    "id": "REC-113-065"
   },
   {
     "year": "113",
-    "college": "護理學院",
-    "dept": "護理系",
+    "college": "人文與管理學院",
+    "dept": "共同教育中心",
     "teacher": "主持人",
     "adminRole": "專任教師",
     "isArticle7Exempt": false,
@@ -9642,9 +15726,9 @@ var DATASET_111_115 = [
     "group": "研發創新組",
     "status": "已結案",
     "keywords": [
-      "護理系"
+      "共同教育中心"
     ],
-    "id": "REC-113-056"
+    "id": "REC-113-066"
   },
   {
     "year": "113",
@@ -9674,7 +15758,7 @@ var DATASET_111_115 = [
       "機能食品",
       "醫學檢驗生物技術系"
     ],
-    "id": "REC-113-057"
+    "id": "REC-113-067"
   },
   {
     "year": "113",
@@ -9700,7 +15784,34 @@ var DATASET_111_115 = [
     "keywords": [
       "職業安全衛生系"
     ],
-    "id": "REC-113-058"
+    "id": "REC-113-068"
+  },
+  {
+    "year": "113",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "陳舜華",
+    "empId": "T0000003564",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "共同主持人 (50%)",
+    "weightRatio": 0.5,
+    "category": "計畫案",
+    "subType": "國科會專題研究計畫",
+    "title": "探討台灣白及天然物對大腸直腸癌與嗜中性白血球交互作用之影響及其療效評估",
+    "code": "NSTC-113-中醫藥學-654",
+    "accCode": "ACC-113-NSTC-654",
+    "disbursementRate": 100,
+    "amount": 459,
+    "metricNote": "國科會核定 NT$ 459 萬 (專題研究計畫 (一般研究計畫))",
+    "source": "TEACHER-WRITTING (表1-17 國科會計畫案)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已核定歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-113-069"
   },
   {
     "year": "113",
@@ -9726,7 +15837,34 @@ var DATASET_111_115 = [
     "keywords": [
       "醫學檢驗生物技術系"
     ],
-    "id": "REC-113-059"
+    "id": "REC-113-070"
+  },
+  {
+    "year": "113",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "顏秀珍",
+    "empId": "T0000089142",
+    "adminRole": "實習指導教師",
+    "isArticle7Exempt": false,
+    "authorOrder": "計畫主持人 (100%)",
+    "weightRatio": 1,
+    "category": "計畫案",
+    "subType": "國科會專題研究計畫",
+    "title": "探勘時間間距頻繁情節",
+    "code": "NSTC-113-資料科學與網際網路技術-571",
+    "accCode": "ACC-113-NSTC-571",
+    "disbursementRate": 100,
+    "amount": 92.4,
+    "metricNote": "國科會核定 NT$ 92.4 萬 (專題研究計畫 (一般研究計畫))",
+    "source": "TEACHER-WRITTING (表1-17 國科會計畫案)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已核定歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-113-071"
   },
   {
     "year": "113",
@@ -9752,7 +15890,7 @@ var DATASET_111_115 = [
     "keywords": [
       "資訊科技與管理系"
     ],
-    "id": "REC-113-060"
+    "id": "REC-113-072"
   },
   {
     "year": "113",
@@ -9778,7 +15916,34 @@ var DATASET_111_115 = [
     "keywords": [
       "健康事業管理系"
     ],
-    "id": "REC-113-061"
+    "id": "REC-113-073"
+  },
+  {
+    "year": "113",
+    "college": "護理學院",
+    "dept": "健康事業管理系",
+    "teacher": "林政翰",
+    "empId": "T0000074995",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "計畫主持人 (100%)",
+    "weightRatio": 1,
+    "category": "計畫案",
+    "subType": "國科會專題研究計畫",
+    "title": "軟體定義網路使用模糊邏輯理論設計路由路徑之研究",
+    "code": "NSTC-113-計算機網路與網際網路-341",
+    "accCode": "ACC-113-NSTC-341",
+    "disbursementRate": 100,
+    "amount": 70,
+    "metricNote": "國科會核定 NT$ 70 萬 (專題研究計畫 (一般研究計畫))",
+    "source": "TEACHER-WRITTING (表1-17 國科會計畫案)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已核定歸檔",
+    "keywords": [
+      "健康事業管理系"
+    ],
+    "id": "REC-113-074"
   },
   {
     "year": "113",
@@ -9806,7 +15971,7 @@ var DATASET_111_115 = [
       "淨零減碳",
       "環境工程與科學系"
     ],
-    "id": "REC-113-062"
+    "id": "REC-113-075"
   },
   {
     "year": "113",
@@ -9832,7 +15997,63 @@ var DATASET_111_115 = [
     "keywords": [
       "環境工程與科學系"
     ],
-    "id": "REC-113-063"
+    "id": "REC-113-076"
+  },
+  {
+    "year": "113",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "蔡家梅",
+    "empId": "T0000095912",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "共同主持人 (50%)",
+    "weightRatio": 0.5,
+    "category": "計畫案",
+    "subType": "國科會專題研究計畫",
+    "title": "發展與驗證「臺灣介護食士」職能核心能力及職能為導向教育訓練之研究",
+    "code": "NSTC-113-醫學教育-068",
+    "accCode": "ACC-113-NSTC-068",
+    "disbursementRate": 100,
+    "amount": 84,
+    "metricNote": "國科會核定 NT$ 84 萬 (專題研究計畫 (新進人員研究計畫))",
+    "source": "TEACHER-WRITTING (表1-17 國科會計畫案)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已核定歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-113-077"
+  },
+  {
+    "year": "113",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "陳立庭",
+    "empId": "T0000036425",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "共同主持人 (50%)",
+    "weightRatio": 0.5,
+    "category": "計畫案",
+    "subType": "國科會專題研究計畫",
+    "title": "發展與驗證以認知行為治療理論基礎之APP設計：以大學生憂鬱症狀之精準照護為例",
+    "code": "NSTC-113-護理-032",
+    "accCode": "ACC-113-NSTC-032",
+    "disbursementRate": 100,
+    "amount": 136.12,
+    "metricNote": "國科會核定 NT$ 136.12 萬 (專題研究計畫 (新進人員研究計畫))",
+    "source": "TEACHER-WRITTING (表1-17 國科會計畫案)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已核定歸檔",
+    "keywords": [
+      "高齡長照",
+      "失智症照護",
+      "護理系"
+    ],
+    "id": "REC-113-078"
   },
   {
     "year": "113",
@@ -9858,7 +16079,7 @@ var DATASET_111_115 = [
     "keywords": [
       "助產與婦嬰健康照護系"
     ],
-    "id": "REC-113-064"
+    "id": "REC-113-079"
   },
   {
     "year": "113",
@@ -9884,7 +16105,7 @@ var DATASET_111_115 = [
     "keywords": [
       "應用外語系"
     ],
-    "id": "REC-113-065"
+    "id": "REC-113-080"
   },
   {
     "year": "113",
@@ -9910,7 +16131,34 @@ var DATASET_111_115 = [
     "keywords": [
       "護理系"
     ],
-    "id": "REC-113-066"
+    "id": "REC-113-081"
+  },
+  {
+    "year": "113",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "蔡宛玲",
+    "empId": "T0000121830",
+    "adminRole": "職能發展組副主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "計畫主持人 (100%)",
+    "weightRatio": 1,
+    "category": "計畫案",
+    "subType": "國科會專題研究計畫",
+    "title": "開發帕金森氏症輔助治療的新療法",
+    "code": "NSTC-113-神經內科-616",
+    "accCode": "ACC-113-NSTC-616",
+    "disbursementRate": 100,
+    "amount": 106,
+    "metricNote": "國科會核定 NT$ 106 萬 (專題研究計畫 (新進人員研究計畫))",
+    "source": "TEACHER-WRITTING (表1-17 國科會計畫案)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已核定歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-113-082"
   },
   {
     "year": "113",
@@ -9938,7 +16186,7 @@ var DATASET_111_115 = [
       "數位轉型",
       "資訊科技與管理系"
     ],
-    "id": "REC-113-067"
+    "id": "REC-113-083"
   },
   {
     "year": "113",
@@ -9964,7 +16212,7 @@ var DATASET_111_115 = [
     "keywords": [
       "健康美容系"
     ],
-    "id": "REC-113-068"
+    "id": "REC-113-084"
   },
   {
     "year": "113",
@@ -9990,7 +16238,7 @@ var DATASET_111_115 = [
     "keywords": [
       "高齡及長期照護事業系"
     ],
-    "id": "REC-113-069"
+    "id": "REC-113-085"
   },
   {
     "year": "113",
@@ -10018,7 +16266,34 @@ var DATASET_111_115 = [
       "淨零減碳",
       "環境工程與科學系"
     ],
-    "id": "REC-113-070"
+    "id": "REC-113-086"
+  },
+  {
+    "year": "113",
+    "college": "醫學與健康學院",
+    "dept": "物理治療系",
+    "teacher": "陳姝希",
+    "empId": "T0000069003",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "共同主持人 (50%)",
+    "weightRatio": 0.5,
+    "category": "計畫案",
+    "subType": "國科會專題研究計畫",
+    "title": "運用以概念為導向的學習方式提升物理治療醫學教育的縱向學習成效",
+    "code": "NSTC-113-醫學教育-236",
+    "accCode": "ACC-113-NSTC-236",
+    "disbursementRate": 100,
+    "amount": 60.8,
+    "metricNote": "國科會核定 NT$ 60.8 萬 (專題研究計畫 (一般研究計畫))",
+    "source": "TEACHER-WRITTING (表1-17 國科會計畫案)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已核定歸檔",
+    "keywords": [
+      "物理治療系"
+    ],
+    "id": "REC-113-087"
   },
   {
     "year": "113",
@@ -10044,7 +16319,34 @@ var DATASET_111_115 = [
     "keywords": [
       "物理治療系"
     ],
-    "id": "REC-113-071"
+    "id": "REC-113-088"
+  },
+  {
+    "year": "113",
+    "college": "醫學與健康學院",
+    "dept": "醫學檢驗生物技術系",
+    "teacher": "張美音",
+    "empId": "T0000049995",
+    "adminRole": "研發創新組組長（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "共同主持人 (50%)",
+    "weightRatio": 0.5,
+    "category": "計畫案",
+    "subType": "國科會專題研究計畫",
+    "title": "運動訓練對自然殺手細胞亞型分佈及對肺癌細胞毒殺之影響：輔以中草藥十神湯介入",
+    "code": "NSTC-113-復健-163",
+    "accCode": "ACC-113-NSTC-163",
+    "disbursementRate": 100,
+    "amount": 66,
+    "metricNote": "國科會核定 NT$ 66 萬 (專題研究計畫 (一般研究計畫))",
+    "source": "TEACHER-WRITTING (表1-17 國科會計畫案)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已核定歸檔",
+    "keywords": [
+      "醫學檢驗生物技術系"
+    ],
+    "id": "REC-113-089"
   },
   {
     "year": "113",
@@ -10070,7 +16372,36 @@ var DATASET_111_115 = [
     "keywords": [
       "醫學檢驗生物技術系"
     ],
-    "id": "REC-113-072"
+    "id": "REC-113-090"
+  },
+  {
+    "year": "113",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "陳淑銘",
+    "empId": "T0000000530",
+    "adminRole": "教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "共同主持人 (50%)",
+    "weightRatio": 0.5,
+    "category": "計畫案",
+    "subType": "國科會專題研究計畫",
+    "title": "慢性腎臟病患精準健康護理模式建立及成效探討",
+    "code": "NSTC-113-護理-002",
+    "accCode": "ACC-113-NSTC-002",
+    "disbursementRate": 100,
+    "amount": 62,
+    "metricNote": "國科會核定 NT$ 62 萬 (專題研究計畫 (新進人員研究計畫))",
+    "source": "TEACHER-WRITTING (表1-17 國科會計畫案)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已核定歸檔",
+    "keywords": [
+      "臨床護理",
+      "教材研發",
+      "護理系"
+    ],
+    "id": "REC-113-091"
   },
   {
     "year": "113",
@@ -10100,12 +16431,97 @@ var DATASET_111_115 = [
       "機能食品",
       "醫學檢驗生物技術系"
     ],
-    "id": "REC-113-073"
+    "id": "REC-113-092"
+  },
+  {
+    "year": "113",
+    "college": "醫學與健康學院",
+    "dept": "保健營養系",
+    "teacher": "蔡蕙芸",
+    "empId": "T0000098101",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "共同主持人 (50%)",
+    "weightRatio": 0.5,
+    "category": "計畫案",
+    "subType": "國科會專題研究計畫",
+    "title": "精準營養產業技術發展聯盟(3/3)",
+    "code": "NSTC-113-產學技術聯盟合作計畫-271",
+    "accCode": "ACC-113-NSTC-271",
+    "disbursementRate": 100,
+    "amount": 260,
+    "metricNote": "國科會核定 NT$ 260 萬 (專題研究計畫 (產學技術聯盟合作計畫))",
+    "source": "TEACHER-WRITTING (表1-17 國科會計畫案)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已核定歸檔",
+    "keywords": [
+      "精準醫療",
+      "分子檢測",
+      "保健營養",
+      "機能食品",
+      "保健營養系"
+    ],
+    "id": "REC-113-093"
+  },
+  {
+    "year": "113",
+    "college": "醫學與健康學院",
+    "dept": "物理治療系",
+    "teacher": "張薰文",
+    "empId": "T0000095983",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "計畫主持人 (100%)",
+    "weightRatio": 1,
+    "category": "計畫案",
+    "subType": "國科會專題研究計畫",
+    "title": "臺北醫學大學基礎研究核心設施共同使用服務計畫(4/5)",
+    "code": "NSTC-113-中心總計畫-243",
+    "accCode": "ACC-113-NSTC-243",
+    "disbursementRate": 100,
+    "amount": 77,
+    "metricNote": "國科會核定 NT$ 77 萬 (專題研究計畫 (附屬/支援單位補助計畫))",
+    "source": "TEACHER-WRITTING (表1-17 國科會計畫案)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已核定歸檔",
+    "keywords": [
+      "物理治療系"
+    ],
+    "id": "REC-113-094"
+  },
+  {
+    "year": "113",
+    "college": "人文與管理學院",
+    "dept": "共同教育中心",
+    "teacher": "李佩芳",
+    "empId": "T0000050192",
+    "adminRole": "產學合作組組長（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "計畫主持人 (100%)",
+    "weightRatio": 1,
+    "category": "計畫案",
+    "subType": "國科會專題研究計畫",
+    "title": "閩客漢人族群之社區關懷據點文化照顧實踐探究",
+    "code": "NSTC-113-社會福利制度發展-635",
+    "accCode": "ACC-113-NSTC-635",
+    "disbursementRate": 100,
+    "amount": 54.4,
+    "metricNote": "國科會核定 NT$ 54.4 萬 (專題研究計畫 (一般研究計畫))",
+    "source": "TEACHER-WRITTING (表1-17 國科會計畫案)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已核定歸檔",
+    "keywords": [
+      "共同教育中心"
+    ],
+    "id": "REC-113-095"
   },
   {
     "year": "113",
     "college": "護理學院",
-    "dept": "護理系",
+    "dept": "共同教育中心",
     "teacher": "程紋貞",
     "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
     "isArticle7Exempt": true,
@@ -10124,9 +16540,9 @@ var DATASET_111_115 = [
     "group": "產學合作組",
     "status": "已結案",
     "keywords": [
-      "護理系"
+      "共同教育中心"
     ],
-    "id": "REC-113-074"
+    "id": "REC-113-096"
   },
   {
     "year": "113",
@@ -10152,7 +16568,7 @@ var DATASET_111_115 = [
     "keywords": [
       "職業安全衛生系"
     ],
-    "id": "REC-113-075"
+    "id": "REC-113-097"
   },
   {
     "year": "113",
@@ -10178,7 +16594,34 @@ var DATASET_111_115 = [
     "keywords": [
       "職業安全衛生系"
     ],
-    "id": "REC-113-076"
+    "id": "REC-113-098"
+  },
+  {
+    "year": "113",
+    "college": "人文與管理學院",
+    "dept": "資訊科技與管理系",
+    "teacher": "陳俊勳",
+    "empId": "T0000042494",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "計畫主持人 (100%)",
+    "weightRatio": 1,
+    "category": "計畫案",
+    "subType": "國科會專題研究計畫",
+    "title": "鋰電池儲能站火災危害分析，安全評估與緊急應變之整合性策略及性能提升方案--鋰電池儲能站火災風險評估及設置基準探討研究(總計畫及子計畫一)(III)",
+    "code": "NSTC-113-災防跨域-749",
+    "accCode": "ACC-113-NSTC-749",
+    "disbursementRate": 100,
+    "amount": 141.5,
+    "metricNote": "國科會核定 NT$ 141.5 萬 (專題研究計畫 (一般研究計畫))",
+    "source": "TEACHER-WRITTING (表1-17 國科會計畫案)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已核定歸檔",
+    "keywords": [
+      "資訊科技與管理系"
+    ],
+    "id": "REC-113-099"
   },
   {
     "year": "113",
@@ -10204,7 +16647,7 @@ var DATASET_111_115 = [
     "keywords": [
       "職業安全衛生系"
     ],
-    "id": "REC-113-077"
+    "id": "REC-113-100"
   },
   {
     "year": "113",
@@ -10230,7 +16673,36 @@ var DATASET_111_115 = [
     "keywords": [
       "職業安全衛生系"
     ],
-    "id": "REC-113-078"
+    "id": "REC-113-101"
+  },
+  {
+    "year": "113",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "顏秀珍",
+    "empId": "T0000089142",
+    "adminRole": "實習指導教師",
+    "isArticle7Exempt": false,
+    "authorOrder": "共同主持人 (50%)",
+    "weightRatio": 0.5,
+    "category": "計畫案",
+    "subType": "國科會專題研究計畫",
+    "title": "整合非監督式及監督式的特徵轉換方法在分類模型效能提升上之研究",
+    "code": "NSTC-113-資料科學與網際網路技術-572",
+    "accCode": "ACC-113-NSTC-572",
+    "disbursementRate": 100,
+    "amount": 84.8,
+    "metricNote": "國科會核定 NT$ 84.8 萬 (專題研究計畫 (一般研究計畫))",
+    "source": "TEACHER-WRITTING (表1-17 國科會計畫案)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已核定歸檔",
+    "keywords": [
+      "AI智慧應用",
+      "數位轉型",
+      "護理系"
+    ],
+    "id": "REC-113-102"
   },
   {
     "year": "113",
@@ -10256,7 +16728,36 @@ var DATASET_111_115 = [
     "keywords": [
       "護理系"
     ],
-    "id": "REC-113-079"
+    "id": "REC-113-103"
+  },
+  {
+    "year": "113",
+    "college": "人文與管理學院",
+    "dept": "資訊科技與管理系",
+    "teacher": "葉富豪",
+    "empId": "T0000022629",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "共同主持人 (50%)",
+    "weightRatio": 0.5,
+    "category": "計畫案",
+    "subType": "國科會專題研究計畫",
+    "title": "雙載具及煙流偵測之固定污染源VOCs排放監測研發與應用",
+    "code": "NSTC-113-空氣-726",
+    "accCode": "ACC-113-NSTC-726",
+    "disbursementRate": 100,
+    "amount": 66,
+    "metricNote": "國科會核定 NT$ 66 萬 (專題研究計畫 (產學合作研究計畫))",
+    "source": "TEACHER-WRITTING (表1-17 國科會計畫案)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已核定歸檔",
+    "keywords": [
+      "環境監測",
+      "淨零減碳",
+      "資訊科技與管理系"
+    ],
+    "id": "REC-113-104"
   },
   {
     "year": "113",
@@ -10286,7 +16787,65 @@ var DATASET_111_115 = [
       "數位轉型",
       "臨床護理"
     ],
-    "id": "REC-113-080"
+    "id": "REC-113-105"
+  },
+  {
+    "year": "113",
+    "college": "護理學院",
+    "dept": "健康事業管理系",
+    "teacher": "羅家倫",
+    "empId": "T0000060871",
+    "adminRole": "國際事務長（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "共同主持人 (50%)",
+    "weightRatio": 0.5,
+    "category": "計畫案",
+    "subType": "國科會專題研究計畫",
+    "title": "護理學生執行照護技術動作精準之數位影像偵測系統之建構",
+    "code": "NSTC-113-應用科學教育-332",
+    "accCode": "ACC-113-NSTC-332",
+    "disbursementRate": 100,
+    "amount": 78.7,
+    "metricNote": "國科會核定 NT$ 78.7 萬 (專題研究計畫 (鼓勵技專校院從事實務型研究專案計畫))",
+    "source": "TEACHER-WRITTING (表1-17 國科會計畫案)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已核定歸檔",
+    "keywords": [
+      "高齡長照",
+      "失智症照護",
+      "AI智慧應用",
+      "數位轉型",
+      "臨床護理"
+    ],
+    "id": "REC-113-106"
+  },
+  {
+    "year": "113",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "陳淑銘",
+    "empId": "T0000000530",
+    "adminRole": "教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "計畫主持人 (100%)",
+    "weightRatio": 1,
+    "category": "計畫案",
+    "subType": "國科會專題研究計畫",
+    "title": "Chiung-Jung WU",
+    "code": "NSTC-113-護理-001",
+    "accCode": "ACC-113-NSTC-001",
+    "disbursementRate": 100,
+    "amount": 5.82,
+    "metricNote": "國科會核定 NT$ 5.82 萬 (短訪計畫 (邀請國際科技人士短期訪問))",
+    "source": "TEACHER-WRITTING (表1-17 國科會計畫案)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已核定歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-113-107"
   },
   {
     "year": "113",
@@ -10312,7 +16871,34 @@ var DATASET_111_115 = [
     "keywords": [
       "醫學檢驗生物技術系"
     ],
-    "id": "REC-113-081"
+    "id": "REC-113-108"
+  },
+  {
+    "year": "113",
+    "college": "醫學與健康學院",
+    "dept": "醫學檢驗生物技術系",
+    "teacher": "羅宏仁",
+    "empId": "T0000061310",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "計畫主持人 (100%)",
+    "weightRatio": 1,
+    "category": "計畫案",
+    "subType": "國科會專題研究計畫",
+    "title": "Hinokitiol對細菌毒力相關因子表現的影響與作用機制之探討",
+    "code": "NSTC-113-寄生蟲及醫技與實驗診斷-177",
+    "accCode": "ACC-113-NSTC-177",
+    "disbursementRate": 100,
+    "amount": 57.5,
+    "metricNote": "國科會核定 NT$ 57.5 萬 (專題研究計畫 (鼓勵技專校院從事實務型研究專案計畫))",
+    "source": "TEACHER-WRITTING (表1-17 國科會計畫案)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已核定歸檔",
+    "keywords": [
+      "醫學檢驗生物技術系"
+    ],
+    "id": "REC-113-109"
   },
   {
     "year": "113",
@@ -10338,7 +16924,7 @@ var DATASET_111_115 = [
     "keywords": [
       "資訊科技與管理系"
     ],
-    "id": "REC-113-082"
+    "id": "REC-113-110"
   },
   {
     "year": "113",
@@ -10364,7 +16950,7 @@ var DATASET_111_115 = [
     "keywords": [
       "護理系"
     ],
-    "id": "REC-113-083"
+    "id": "REC-113-111"
   },
   {
     "year": "113",
@@ -10390,7 +16976,7 @@ var DATASET_111_115 = [
     "keywords": [
       "護理系"
     ],
-    "id": "REC-113-084"
+    "id": "REC-113-112"
   },
   {
     "year": "113",
@@ -10416,7 +17002,7 @@ var DATASET_111_115 = [
     "keywords": [
       "護理系"
     ],
-    "id": "REC-113-085"
+    "id": "REC-113-113"
   },
   {
     "year": "113",
@@ -10442,7 +17028,7 @@ var DATASET_111_115 = [
     "keywords": [
       "護理系"
     ],
-    "id": "REC-113-086"
+    "id": "REC-113-114"
   },
   {
     "year": "113",
@@ -10469,7 +17055,7 @@ var DATASET_111_115 = [
       "專利研發",
       "職業安全衛生系"
     ],
-    "id": "REC-113-087"
+    "id": "REC-113-115"
   },
   {
     "year": "113",
@@ -10495,7 +17081,7 @@ var DATASET_111_115 = [
     "keywords": [
       "護理系"
     ],
-    "id": "REC-113-088"
+    "id": "REC-113-116"
   },
   {
     "year": "113",
@@ -10521,7 +17107,7 @@ var DATASET_111_115 = [
     "keywords": [
       "健康美容系"
     ],
-    "id": "REC-113-089"
+    "id": "REC-113-117"
   },
   {
     "year": "113",
@@ -10547,7 +17133,7 @@ var DATASET_111_115 = [
     "keywords": [
       "護理系"
     ],
-    "id": "REC-113-090"
+    "id": "REC-113-118"
   },
   {
     "year": "113",
@@ -10574,7 +17160,7 @@ var DATASET_111_115 = [
       "專利研發",
       "護理系"
     ],
-    "id": "REC-113-091"
+    "id": "REC-113-119"
   },
   {
     "year": "113",
@@ -10600,7 +17186,7 @@ var DATASET_111_115 = [
     "keywords": [
       "護理系"
     ],
-    "id": "REC-113-092"
+    "id": "REC-113-120"
   },
   {
     "year": "113",
@@ -10627,7 +17213,7 @@ var DATASET_111_115 = [
       "專利研發",
       "健康美容系"
     ],
-    "id": "REC-113-093"
+    "id": "REC-113-121"
   },
   {
     "year": "113",
@@ -10653,7 +17239,7 @@ var DATASET_111_115 = [
     "keywords": [
       "護理系"
     ],
-    "id": "REC-113-094"
+    "id": "REC-113-122"
   },
   {
     "year": "113",
@@ -10680,7 +17266,7 @@ var DATASET_111_115 = [
       "專利研發",
       "護理系"
     ],
-    "id": "REC-113-095"
+    "id": "REC-113-123"
   },
   {
     "year": "113",
@@ -10708,7 +17294,7 @@ var DATASET_111_115 = [
       "教材研發",
       "健康事業管理系"
     ],
-    "id": "REC-113-096"
+    "id": "REC-113-124"
   },
   {
     "year": "113",
@@ -10735,11 +17321,11 @@ var DATASET_111_115 = [
       "專利研發",
       "護理系"
     ],
-    "id": "REC-113-097"
+    "id": "REC-113-125"
   },
   {
     "year": "113",
-    "college": "醫學與健康學院",
+    "college": "護理學院",
     "dept": "健康事業管理系",
     "teacher": "李采瑄",
     "adminRole": "專任教師",
@@ -10765,7 +17351,7 @@ var DATASET_111_115 = [
       "數位轉型",
       "臨床護理"
     ],
-    "id": "REC-113-098"
+    "id": "REC-113-126"
   },
   {
     "year": "113",
@@ -10793,7 +17379,7 @@ var DATASET_111_115 = [
       "實務專題",
       "護理系"
     ],
-    "id": "REC-113-099"
+    "id": "REC-113-127"
   },
   {
     "year": "113",
@@ -10821,7 +17407,7 @@ var DATASET_111_115 = [
       "實務專題",
       "應用外語系"
     ],
-    "id": "REC-113-100"
+    "id": "REC-113-128"
   },
   {
     "year": "113",
@@ -10849,7 +17435,7 @@ var DATASET_111_115 = [
       "實務專題",
       "護理系"
     ],
-    "id": "REC-113-101"
+    "id": "REC-113-129"
   },
   {
     "year": "113",
@@ -10877,7 +17463,7 @@ var DATASET_111_115 = [
       "實務專題",
       "應用外語系"
     ],
-    "id": "REC-113-102"
+    "id": "REC-113-130"
   },
   {
     "year": "113",
@@ -10907,7 +17493,7 @@ var DATASET_111_115 = [
       "實務專題",
       "護理系"
     ],
-    "id": "REC-113-103"
+    "id": "REC-113-131"
   },
   {
     "year": "113",
@@ -10935,7 +17521,7 @@ var DATASET_111_115 = [
       "實務專題",
       "護理系"
     ],
-    "id": "REC-113-104"
+    "id": "REC-113-132"
   },
   {
     "year": "113",
@@ -10965,7 +17551,7 @@ var DATASET_111_115 = [
       "實務專題",
       "護理系"
     ],
-    "id": "REC-113-105"
+    "id": "REC-113-133"
   },
   {
     "year": "113",
@@ -10993,7 +17579,7 @@ var DATASET_111_115 = [
       "實務專題",
       "健康美容系"
     ],
-    "id": "REC-113-106"
+    "id": "REC-113-134"
   },
   {
     "year": "113",
@@ -11021,7 +17607,7 @@ var DATASET_111_115 = [
       "實務專題",
       "健康美容系"
     ],
-    "id": "REC-113-107"
+    "id": "REC-113-135"
   },
   {
     "year": "113",
@@ -11049,7 +17635,7 @@ var DATASET_111_115 = [
       "實務專題",
       "護理系"
     ],
-    "id": "REC-113-108"
+    "id": "REC-113-136"
   },
   {
     "year": "113",
@@ -11077,7 +17663,7 @@ var DATASET_111_115 = [
       "實務專題",
       "健康美容系"
     ],
-    "id": "REC-113-109"
+    "id": "REC-113-137"
   },
   {
     "year": "113",
@@ -11105,7 +17691,7 @@ var DATASET_111_115 = [
       "實務專題",
       "護理系"
     ],
-    "id": "REC-113-110"
+    "id": "REC-113-138"
   },
   {
     "year": "113",
@@ -11133,7 +17719,7 @@ var DATASET_111_115 = [
       "實務專題",
       "健康美容系"
     ],
-    "id": "REC-113-111"
+    "id": "REC-113-139"
   },
   {
     "year": "113",
@@ -11161,7 +17747,7 @@ var DATASET_111_115 = [
       "實務專題",
       "健康美容系"
     ],
-    "id": "REC-113-112"
+    "id": "REC-113-140"
   },
   {
     "year": "113",
@@ -11191,7 +17777,7 @@ var DATASET_111_115 = [
       "實務專題",
       "健康美容系"
     ],
-    "id": "REC-113-113"
+    "id": "REC-113-141"
   },
   {
     "year": "113",
@@ -11219,7 +17805,7 @@ var DATASET_111_115 = [
       "實務專題",
       "健康美容系"
     ],
-    "id": "REC-113-114"
+    "id": "REC-113-142"
   },
   {
     "year": "113",
@@ -11247,7 +17833,7 @@ var DATASET_111_115 = [
       "實務專題",
       "健康美容系"
     ],
-    "id": "REC-113-115"
+    "id": "REC-113-143"
   },
   {
     "year": "113",
@@ -11275,7 +17861,7 @@ var DATASET_111_115 = [
       "實務專題",
       "健康美容系"
     ],
-    "id": "REC-113-116"
+    "id": "REC-113-144"
   },
   {
     "year": "113",
@@ -11303,7 +17889,7 @@ var DATASET_111_115 = [
       "實務專題",
       "健康美容系"
     ],
-    "id": "REC-113-117"
+    "id": "REC-113-145"
   },
   {
     "year": "113",
@@ -11331,7 +17917,7 @@ var DATASET_111_115 = [
       "實務專題",
       "健康美容系"
     ],
-    "id": "REC-113-118"
+    "id": "REC-113-146"
   },
   {
     "year": "113",
@@ -11359,7 +17945,7 @@ var DATASET_111_115 = [
       "實務專題",
       "健康美容系"
     ],
-    "id": "REC-113-119"
+    "id": "REC-113-147"
   },
   {
     "year": "113",
@@ -11387,7 +17973,7 @@ var DATASET_111_115 = [
       "實務專題",
       "健康美容系"
     ],
-    "id": "REC-113-120"
+    "id": "REC-113-148"
   },
   {
     "year": "113",
@@ -11415,7 +18001,7 @@ var DATASET_111_115 = [
       "實務專題",
       "健康美容系"
     ],
-    "id": "REC-113-121"
+    "id": "REC-113-149"
   },
   {
     "year": "113",
@@ -11443,7 +18029,7 @@ var DATASET_111_115 = [
       "實務專題",
       "健康美容系"
     ],
-    "id": "REC-113-122"
+    "id": "REC-113-150"
   },
   {
     "year": "113",
@@ -11471,7 +18057,7 @@ var DATASET_111_115 = [
       "實務專題",
       "護理系"
     ],
-    "id": "REC-113-123"
+    "id": "REC-113-151"
   },
   {
     "year": "113",
@@ -11499,7 +18085,7 @@ var DATASET_111_115 = [
       "實務專題",
       "護理系"
     ],
-    "id": "REC-113-124"
+    "id": "REC-113-152"
   },
   {
     "year": "113",
@@ -11527,7 +18113,7 @@ var DATASET_111_115 = [
       "實務專題",
       "護理系"
     ],
-    "id": "REC-113-125"
+    "id": "REC-113-153"
   },
   {
     "year": "113",
@@ -11555,7 +18141,7 @@ var DATASET_111_115 = [
       "實務專題",
       "護理系"
     ],
-    "id": "REC-113-126"
+    "id": "REC-113-154"
   },
   {
     "year": "113",
@@ -11583,7 +18169,7 @@ var DATASET_111_115 = [
       "實務專題",
       "護理系"
     ],
-    "id": "REC-113-127"
+    "id": "REC-113-155"
   },
   {
     "year": "113",
@@ -11611,7 +18197,7 @@ var DATASET_111_115 = [
       "實務專題",
       "護理系"
     ],
-    "id": "REC-113-128"
+    "id": "REC-113-156"
   },
   {
     "year": "113",
@@ -11641,7 +18227,7 @@ var DATASET_111_115 = [
       "實務專題",
       "健康美容系"
     ],
-    "id": "REC-113-129"
+    "id": "REC-113-157"
   },
   {
     "year": "113",
@@ -11669,7 +18255,7 @@ var DATASET_111_115 = [
       "實務專題",
       "健康美容系"
     ],
-    "id": "REC-113-130"
+    "id": "REC-113-158"
   },
   {
     "year": "113",
@@ -11697,12 +18283,12 @@ var DATASET_111_115 = [
       "實務專題",
       "護理系"
     ],
-    "id": "REC-113-131"
+    "id": "REC-113-159"
   },
   {
     "year": "113",
-    "college": "護理學院",
-    "dept": "護理系",
+    "college": "人文與管理學院",
+    "dept": "共同教育中心",
     "teacher": "簡郁琪",
     "adminRole": "專任教師",
     "isArticle7Exempt": false,
@@ -11723,9 +18309,9 @@ var DATASET_111_115 = [
     "keywords": [
       "師生競賽",
       "實務專題",
-      "護理系"
+      "共同教育中心"
     ],
-    "id": "REC-113-132"
+    "id": "REC-113-160"
   },
   {
     "year": "113",
@@ -11755,7 +18341,7 @@ var DATASET_111_115 = [
       "實務專題",
       "健康美容系"
     ],
-    "id": "REC-113-133"
+    "id": "REC-113-161"
   },
   {
     "year": "113",
@@ -11783,7 +18369,7 @@ var DATASET_111_115 = [
       "實務專題",
       "健康美容系"
     ],
-    "id": "REC-113-134"
+    "id": "REC-113-162"
   },
   {
     "year": "113",
@@ -11811,7 +18397,1113 @@ var DATASET_111_115 = [
       "實務專題",
       "助產與婦嬰健康照護系"
     ],
-    "id": "REC-113-135"
+    "id": "REC-113-163"
+  },
+  {
+    "year": "113",
+    "college": "護理學院",
+    "dept": "健康事業管理系",
+    "teacher": "林增玉",
+    "empId": "T0000030327",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第一作者兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "#25 智慧健康與成功老化：自我決定理論觀點下的經濟保障角色與高齡者行為意圖 .............................150",
+    "code": "第二十屆國際健康資訊管理研討會暨 第七屆台灣長期照護管理研討會 (高雄市, NATTWN)",
+    "accCode": "PUB-CONF-2025-0041",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 第二十屆國際健康資訊管理研討會暨 第七屆台灣長期照護管理研討會, 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "高齡長照",
+      "失智症照護",
+      "AI智慧應用",
+      "數位轉型",
+      "健康事業管理系"
+    ],
+    "id": "REC-113-164"
+  },
+  {
+    "year": "113",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "楊君菁",
+    "empId": "T0000084253",
+    "adminRole": "實習指導教師",
+    "isArticle7Exempt": false,
+    "authorOrder": "第一作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "‧性別平等視角下的醫療品質提升性騷擾防治的挑戰與實踐",
+    "code": "醫療品質雜誌",
+    "accCode": "PUB-JRN-2025-0196",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: 醫療品質雜誌, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-113-165"
+  },
+  {
+    "year": "113",
+    "college": "環境與生命學院",
+    "dept": "環境工程與科學系",
+    "teacher": "賴進興",
+    "empId": "T0000038591",
+    "adminRole": "教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第一作者兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "工業區鄰近大氣環境致癌性空氣污染物之調查與風險值估算",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2024-1337",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "環境監測",
+      "淨零減碳",
+      "環境工程與科學系"
+    ],
+    "id": "REC-113-166"
+  },
+  {
+    "year": "113",
+    "college": "人文與管理學院",
+    "dept": "幼兒保育暨產業系",
+    "teacher": "宋邦珍",
+    "empId": "T0000089455",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第一作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "中文：宋詞「以詩為詞」的一種實踐─理趣詞的幾種題材呈現",
+    "code": "2025年歷史與文化暨通識教育學術研討會 (高雄市, NATTWN)",
+    "accCode": "PUB-CONF-2025-0034",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 2025年歷史與文化暨通識教育學術研討會, 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "幼兒保育暨產業系"
+    ],
+    "id": "REC-113-167"
+  },
+  {
+    "year": "113",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "謝玉惠",
+    "empId": "T0000053868",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第一作者兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "比較多元教學方式介入前後對學生學習結果的影響",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2024-0360",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-113-168"
+  },
+  {
+    "year": "113",
+    "college": "醫學與健康學院",
+    "dept": "物理治療系",
+    "teacher": "鄭夙珍",
+    "empId": "T0000026650",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第一作者兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "比較筋膜放鬆與面部按摩對拉提面部的成效",
+    "code": "2025國際健康芳療保健技藝競賽暨學術發表會 (高雄市, NATTWN)",
+    "accCode": "PUB-CONF-2025-0021",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 2025國際健康芳療保健技藝競賽暨學術發表會, 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "物理治療系"
+    ],
+    "id": "REC-113-169"
+  },
+  {
+    "year": "113",
+    "college": "護理學院",
+    "dept": "健康事業管理系",
+    "teacher": "黃傑康",
+    "empId": "T0000119634",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第一作者兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "以公平理論探討醫病共享決策對病患轉診行為之影響：以個人隱私為干擾變數",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2025-1307",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康事業管理系"
+    ],
+    "id": "REC-113-170"
+  },
+  {
+    "year": "113",
+    "college": "人文與管理學院",
+    "dept": "資訊科技與管理系",
+    "teacher": "郭添源",
+    "empId": "T0000091584",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第三作者兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "以桌遊輔助肌肉動作知識之可行性",
+    "code": "崇仁學報 No.16",
+    "accCode": "PUB-JRN-2025-0058",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: 崇仁學報, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "資訊科技與管理系"
+    ],
+    "id": "REC-113-171"
+  },
+  {
+    "year": "113",
+    "college": "醫學與健康學院",
+    "dept": "健康美容系",
+    "teacher": "陳采秀",
+    "empId": "T0000121656",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第一作者兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "以設計思考4D與Persona共伴成果導向學習",
+    "code": "2025教學實踐研究研討會 (高雄, NATTWN)",
+    "accCode": "PUB-CONF-2025-0035",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 2025教學實踐研究研討會, 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康美容系"
+    ],
+    "id": "REC-113-172"
+  },
+  {
+    "year": "113",
+    "college": "護理學院",
+    "dept": "健康事業管理系",
+    "teacher": "羅家倫",
+    "empId": "T0000060871",
+    "adminRole": "國際事務長（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第一作者兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "以資料分析探討入學兩階段轉換率與面試回饋之研究",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2025-1133",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康事業管理系"
+    ],
+    "id": "REC-113-173"
+  },
+  {
+    "year": "113",
+    "college": "護理學院",
+    "dept": "健康事業管理系",
+    "teacher": "林政翰",
+    "empId": "T0000074995",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第一作者兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "以醫療照護理論探討醫病關係對病患轉診行為之影響",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2025-1222",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "高齡長照",
+      "失智症照護",
+      "臨床護理",
+      "教材研發",
+      "健康事業管理系"
+    ],
+    "id": "REC-113-174"
+  },
+  {
+    "year": "113",
+    "college": "護理學院",
+    "dept": "高齡及長期照護事業系",
+    "teacher": "程紋貞",
+    "empId": "T0000093841",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第一作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "台灣偏鄉成人足部健康與健康生活品質之探討",
+    "code": "榮總護理VGH Nursing",
+    "accCode": "PUB-JRN-2024-2848",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: 榮總護理VGH Nursing, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "高齡及長期照護事業系"
+    ],
+    "id": "REC-113-175"
+  },
+  {
+    "year": "113",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "吳佳珍",
+    "empId": "T0000022425",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第二作者 (50%)",
+    "weightRatio": 0.5,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "正向心理介入對慢性精神病人自尊、希望感及幸福感成效之探討",
+    "code": "中華民國精神衛生護理學會 第21次論文發表會 (台北, NATTWN)",
+    "accCode": "PUB-CONF-2025-0040",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 中華民國精神衛生護理學會 第21次論文發表會, 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-113-176"
+  },
+  {
+    "year": "113",
+    "college": "醫學與健康學院",
+    "dept": "健康美容系",
+    "teacher": "陳采秀",
+    "empId": "T0000121656",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第一作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "專書/專書篇章",
+    "title": "生命教育與通識素養",
+    "code": "ISBN:9786263455986 (IGER)",
+    "accCode": "PUB-BOOK-2025-001",
+    "disbursementRate": 100,
+    "amount": 1.5,
+    "metricNote": "專書出版 (出版社: IGER, ISBN: 9786263455986)",
+    "source": "TEACHER-WRITTING (表1-11 專書)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康美容系"
+    ],
+    "id": "REC-113-177"
+  },
+  {
+    "year": "113",
+    "college": "醫學與健康學院",
+    "dept": "健康美容系",
+    "teacher": "蘇嘉宏",
+    "empId": "T0000063346",
+    "adminRole": "教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第一作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "專書/專書篇章",
+    "title": "因海制宜：我國海洋空間規劃與海洋產業發展之競合影響",
+    "code": "ISBN:9786267582176 (翰蘆圖書出版有限公司)",
+    "accCode": "PUB-BOOK-2025-002",
+    "disbursementRate": 100,
+    "amount": 1.5,
+    "metricNote": "專書出版 (出版社: 翰蘆圖書出版有限公司, ISBN: 9786267582176)",
+    "source": "TEACHER-WRITTING (表1-11 專書)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康美容系"
+    ],
+    "id": "REC-113-178"
+  },
+  {
+    "year": "113",
+    "college": "護理學院",
+    "dept": "健康事業管理系",
+    "teacher": "林政翰",
+    "empId": "T0000074995",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "在軟體定義網路上使用模糊控制器實現負載平衡",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2025-1220",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康事業管理系"
+    ],
+    "id": "REC-113-179"
+  },
+  {
+    "year": "113",
+    "college": "護理學院",
+    "dept": "健康事業管理系",
+    "teacher": "林政翰",
+    "empId": "T0000074995",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第一作者兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "在SDN-Hadoop中使用多路徑頻寬感知路由機制實現壅塞控制",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2025-1219",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康事業管理系"
+    ],
+    "id": "REC-113-180"
+  },
+  {
+    "year": "113",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "陳淑銘",
+    "empId": "T0000000530",
+    "adminRole": "教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第一作者兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "多媒體自我管理介入對癌症化療患者症狀困擾與不適之成效",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2024-0166",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "精準醫療",
+      "分子檢測",
+      "護理系"
+    ],
+    "id": "REC-113-181"
+  },
+  {
+    "year": "113",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "黃世惠",
+    "empId": "T0000079299",
+    "adminRole": "教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "成人攝取含糖飲料行為及影響因素之探討",
+    "code": "營養品質促進專案、論文個案壁報發表暨學術研討會 (高雄市, NATTWN)",
+    "accCode": "PUB-CONF-2025-0025",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 營養品質促進專案、論文個案壁報發表暨學術研討會, 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-113-182"
+  },
+  {
+    "year": "113",
+    "college": "護理學院",
+    "dept": "助產與婦嬰健康照護系",
+    "teacher": "王琳華",
+    "empId": "T0000021776",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第一作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "成為母親之母育訓練方案」於初產婦母育行為、母育信心及母嬰依附之成效",
+    "code": "新臺北護理期刊",
+    "accCode": "PUB-JRN-2024-0464",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: 新臺北護理期刊, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "助產與婦嬰健康照護系"
+    ],
+    "id": "REC-113-183"
+  },
+  {
+    "year": "113",
+    "college": "醫學與健康學院",
+    "dept": "健康美容系",
+    "teacher": "陳采秀",
+    "empId": "T0000121656",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第一作者兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "成就學生遇見更好的自己",
+    "code": "生命教育與通識素養",
+    "accCode": "PUB-JRN-2025-0002",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: 生命教育與通識素養, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康美容系"
+    ],
+    "id": "REC-113-184"
+  },
+  {
+    "year": "113",
+    "college": "醫學與健康學院",
+    "dept": "物理治療系",
+    "teacher": "康富傑",
+    "empId": "T0000060441",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "有無肩胛動作障礙之健康大學生在 肩胛肌肉力量的差異",
+    "code": "臺灣物理治療學會第89 次學術論文研討會 (新北市, NATTWN)",
+    "accCode": "PUB-CONF-2025-0024",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 臺灣物理治療學會第89 次學術論文研討會, 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "物理治療系"
+    ],
+    "id": "REC-113-185"
+  },
+  {
+    "year": "113",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "顧雅利",
+    "empId": "T0000077888",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第一作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "老人的個別及團體懷舊活動的實務研究經驗",
+    "code": "台灣老人保健學刊",
+    "accCode": "PUB-JRN-2024-0658",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: 台灣老人保健學刊, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-113-186"
+  },
+  {
+    "year": "113",
+    "college": "人文與管理學院",
+    "dept": "幼兒保育暨產業系",
+    "teacher": "張靖敏",
+    "empId": "T0000061081",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第一作者兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "低年級學習扶助在數位學習之學習成效分析",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2024-2135",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "AI智慧應用",
+      "數位轉型",
+      "幼兒保育暨產業系"
+    ],
+    "id": "REC-113-187"
+  },
+  {
+    "year": "113",
+    "college": "護理學院",
+    "dept": "高齡及長期照護事業系",
+    "teacher": "劉一蓉",
+    "empId": "T0000055361",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第一作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "住宿型長照機構對靈性照顧政策的認知、行為與困難之分析。",
+    "code": "社區發展季刊Community Development Journal",
+    "accCode": "PUB-JRN-2024-2834",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: 社區發展季刊Community Development Journal, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "高齡長照",
+      "失智症照護",
+      "高齡及長期照護事業系"
+    ],
+    "id": "REC-113-188"
+  },
+  {
+    "year": "113",
+    "college": "護理學院",
+    "dept": "高齡及長期照護事業系",
+    "teacher": "劉一蓉",
+    "empId": "T0000055361",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第一作者兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "佛教在台灣臨床醫療靈性照顧的回顧與前瞻",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2024-2004",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "臨床護理",
+      "教材研發",
+      "高齡及長期照護事業系"
+    ],
+    "id": "REC-113-189"
+  },
+  {
+    "year": "113",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "楊君菁",
+    "empId": "T0000084253",
+    "adminRole": "實習指導教師",
+    "isArticle7Exempt": false,
+    "authorOrder": "第一作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "初探室內園藝活動介入對社區據點長者幸福感及希望感之實證成效",
+    "code": "福祉科技與服務管理學刊",
+    "accCode": "PUB-JRN-2025-0197",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: 福祉科技與服務管理學刊, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-113-190"
+  },
+  {
+    "year": "113",
+    "college": "醫學與健康學院",
+    "dept": "健康美容系",
+    "teacher": "陳采秀",
+    "empId": "T0000121656",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第一作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "專書/專書篇章",
+    "title": "我國一般大學高教深耕計畫執行成效之評估研究",
+    "code": "ISBN:978-626-99125-3-7 (財團法人黃昆輝教授教育基金會)",
+    "accCode": "PUB-BOOK-2025-005",
+    "disbursementRate": 100,
+    "amount": 1.5,
+    "metricNote": "專書出版 (出版社: 財團法人黃昆輝教授教育基金會, ISBN: 978-626-99125-3-7)",
+    "source": "TEACHER-WRITTING (表1-11 專書)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康美容系"
+    ],
+    "id": "REC-113-191"
+  },
+  {
+    "year": "113",
+    "college": "護理學院",
+    "dept": "健康事業管理系",
+    "teacher": "林政翰",
+    "empId": "T0000074995",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第一作者兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "社會互動理論對醫病共享決策與病患安全感之影響",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2025-1223",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康事業管理系"
+    ],
+    "id": "REC-113-192"
+  },
+  {
+    "year": "113",
+    "college": "護理學院",
+    "dept": "健康事業管理系",
+    "teacher": "林增玉",
+    "empId": "T0000030327",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第三作者 (25%)",
+    "weightRatio": 0.25,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "長照機構服務創新對服務品質的影響:通訊軟體之應用",
+    "code": "2025經營管理暨健康照護國際研討會 (高雄市, NATTWN)",
+    "accCode": "PUB-CONF-2025-0042",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 2025經營管理暨健康照護國際研討會, 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "高齡長照",
+      "失智症照護",
+      "健康事業管理系"
+    ],
+    "id": "REC-113-193"
+  },
+  {
+    "year": "113",
+    "college": "醫學與健康學院",
+    "dept": "保健營養系",
+    "teacher": "翁玉娥",
+    "empId": "T0000100320",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第一作者兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "洛神花烘焙產品的開發",
+    "code": "台灣營養學會 第51屆年會暨學術研討會 (桃園, NATTWN)",
+    "accCode": "PUB-CONF-2025-0006",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 台灣營養學會 第51屆年會暨學術研討會, 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "保健營養系"
+    ],
+    "id": "REC-113-194"
+  },
+  {
+    "year": "113",
+    "college": "醫學與健康學院",
+    "dept": "保健營養系",
+    "teacher": "張月萍",
+    "empId": "T0000042987",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第一作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "為素食乳糖不耐者製作豆漿優格之研究",
+    "code": "2025國際健康芳療保健技藝競賽暨國際健康保健學術論文發表會 (高雄市, NATTWN)",
+    "accCode": "PUB-CONF-2025-0012",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 2025國際健康芳療保健技藝競賽暨國際健康保健學術論文發表會, 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "保健營養系"
+    ],
+    "id": "REC-113-195"
+  },
+  {
+    "year": "113",
+    "college": "醫學與健康學院",
+    "dept": "物理治療系",
+    "teacher": "張薰文",
+    "empId": "T0000095983",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "穿戴足弓智能襪對改善患有扁平足成人的足弓與動靜態站立平衡之影響",
+    "code": "臺灣物理治療學會第89次學術論文研討會 (桃園, NATTWN)",
+    "accCode": "PUB-CONF-2025-0020",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 臺灣物理治療學會第89次學術論文研討會, 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "物理治療系"
+    ],
+    "id": "REC-113-196"
+  },
+  {
+    "year": "113",
+    "college": "醫學與健康學院",
+    "dept": "健康美容系",
+    "teacher": "陳采秀",
+    "empId": "T0000121656",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第二作者 (50%)",
+    "weightRatio": 0.5,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "美容休閒 x 六感體驗：Namoh How Retreat的商業模式分析",
+    "code": "2025國際健康芳療保健技藝競賽暨學術發表會 (高雄, NATTWN)",
+    "accCode": "PUB-CONF-2025-0016",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 2025國際健康芳療保健技藝競賽暨學術發表會, 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康美容",
+      "產品開發",
+      "健康美容系"
+    ],
+    "id": "REC-113-197"
+  },
+  {
+    "year": "113",
+    "college": "醫學與健康學院",
+    "dept": "健康美容系",
+    "teacher": "陳采秀",
+    "empId": "T0000121656",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "美容休閒產業商業模式之分析－以Namoh How Retreat為例",
+    "code": "全國健康美容科技研討會專輯",
+    "accCode": "PUB-JRN-2025-0004",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: 全國健康美容科技研討會專輯, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康美容",
+      "產品開發",
+      "健康美容系"
+    ],
+    "id": "REC-113-198"
+  },
+  {
+    "year": "113",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "鄭志敏",
+    "empId": "T0000032915",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第一作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "唐代的貓形象及其相關論述",
+    "code": "博雅通識學報 No.13期",
+    "accCode": "PUB-JRN-2025-0065",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: 博雅通識學報, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-113-199"
+  },
+  {
+    "year": "113",
+    "college": "護理學院",
+    "dept": "健康事業管理系",
+    "teacher": "羅家倫",
+    "empId": "T0000060871",
+    "adminRole": "國際事務長（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第一作者兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "校務資料驅動下學科類群休退學風險與精準對策研究",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2025-1134",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康事業管理系"
+    ],
+    "id": "REC-113-200"
+  },
+  {
+    "year": "113",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "徐佩蘭",
+    "empId": "T0000115075",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第二作者 (50%)",
+    "weightRatio": 0.5,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "高風險慢性病患者的壓傷護理經驗",
+    "code": "第十一屆第三次會員代表大會暨第二十三屆長期照護學術研討會 (新北市, NATTWN)",
+    "accCode": "PUB-CONF-2025-0029",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 第十一屆第三次會員代表大會暨第二十三屆長期照護學術研討會, 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "臨床護理",
+      "教材研發",
+      "護理系"
+    ],
+    "id": "REC-113-201"
+  },
+  {
+    "year": "113",
+    "college": "護理學院",
+    "dept": "健康事業管理系",
+    "teacher": "許德進",
+    "empId": "T0000036451",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第二作者兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "健康產業服務創新對經營績效的影響",
+    "code": "2025經營管理暨健康照護國際研討會 (高雄市, NATTWN)",
+    "accCode": "PUB-CONF-2025-0030",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 2025經營管理暨健康照護國際研討會, 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康事業管理系"
+    ],
+    "id": "REC-113-202"
+  },
+  {
+    "year": "113",
+    "college": "醫學與健康學院",
+    "dept": "健康美容系",
+    "teacher": "李品軒",
+    "empId": "T0000112565",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第一作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "專書/專書篇章",
+    "title": "剪髮造型與設計實務應用（中）-以栗子頭為例",
+    "code": "ISBN:9789869868211 (卡登美髮屋)",
+    "accCode": "PUB-BOOK-2025-003",
+    "disbursementRate": 100,
+    "amount": 1.5,
+    "metricNote": "專書出版 (出版社: 卡登美髮屋, ISBN: 9789869868211)",
+    "source": "TEACHER-WRITTING (表1-11 專書)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康美容系"
+    ],
+    "id": "REC-113-203"
   },
   {
     "year": "113",
@@ -11840,7 +19532,2020 @@ var DATASET_111_115 = [
       "弱勢助學成效",
       "資訊科技與管理系"
     ],
-    "id": "REC-113-136"
+    "id": "REC-113-204"
+  },
+  {
+    "year": "113",
+    "college": "護理學院",
+    "dept": "健康事業管理系",
+    "teacher": "林政翰",
+    "empId": "T0000074995",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "基於鏈路使用率之軟體定義網路重新路由機制設計與效能評估",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2025-1221",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康事業管理系"
+    ],
+    "id": "REC-113-205"
+  },
+  {
+    "year": "113",
+    "college": "醫學與健康學院",
+    "dept": "保健營養系",
+    "teacher": "蔡蕙芸",
+    "empId": "T0000098101",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第一作者兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "從微生物態-腸-腦軸觀點探討台灣禾本科小麥胚芽萃取物及其活性成份γ-胺基丁酸對腸道菌叢失調與神經退化性疾病之影響",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2024-1012",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "保健營養系"
+    ],
+    "id": "REC-113-206"
+  },
+  {
+    "year": "113",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "洪瑄曼",
+    "empId": "T0000005248",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第二作者兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "探討周邊動脈阻塞中老年病人 日常生活自我照顧能力之相關因素",
+    "code": "澄 清 醫 護 管 理 雜 誌 Vol.22 No.1",
+    "accCode": "PUB-JRN-2025-0042",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: 澄 清 醫 護 管 理 雜 誌, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-113-207"
+  },
+  {
+    "year": "113",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "洪瑄曼",
+    "empId": "T0000005248",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第一作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "探討周邊動脈阻塞中老年病人日常生活自我照顧能力之相關因素",
+    "code": "澄清醫護管理雜誌",
+    "accCode": "PUB-JRN-2025-2326",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: 澄清醫護管理雜誌, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-113-208"
+  },
+  {
+    "year": "113",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "傅家芸",
+    "empId": "T0000090598",
+    "adminRole": "學習輔導組副主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第一作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "探討COVID-19疫情期間,台灣臨床護理人員之道德困境、 專業生活品質、韌性與離職意圖間之相關性與影響機制",
+    "code": "The 20th International Conference on Healthcare Information Management and The 7th Conference on Taiwan Long-term Care Management (高雄, NATTWN)",
+    "accCode": "PUB-CONF-2025-0027",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 The 20th International Conference on Healthcare Information Management and The 7th Conference on Taiwan Long-term Care Management, 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "臨床護理",
+      "教材研發",
+      "護理系"
+    ],
+    "id": "REC-113-209"
+  },
+  {
+    "year": "113",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "顧雅利",
+    "empId": "T0000077888",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第一作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "敘說眷村男性老人的生命故事",
+    "code": "高雄護理雜誌",
+    "accCode": "PUB-JRN-2024-0660",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: 高雄護理雜誌, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-113-210"
+  },
+  {
+    "year": "113",
+    "college": "醫學與健康學院",
+    "dept": "健康美容系",
+    "teacher": "陳采秀",
+    "empId": "T0000121656",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第一作者兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "教育敏捷：分析eduScrum在高等教育運用的研究",
+    "code": "台灣教育研究期刊 Vol.6 No.2",
+    "accCode": "PUB-JRN-2025-0044",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: 台灣教育研究期刊, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康美容系"
+    ],
+    "id": "REC-113-211"
+  },
+  {
+    "year": "113",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "邱宜令",
+    "empId": "T0000072457",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第三作者兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "產前檢查大富翁桌遊於婦產科護理學實習生之學習成效",
+    "code": "2025「孕產共照實踐」學術研討會 (台北市, NATTWN)",
+    "accCode": "PUB-CONF-2025-0017",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 2025「孕產共照實踐」學術研討會, 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "臨床護理",
+      "教材研發",
+      "護理系"
+    ],
+    "id": "REC-113-212"
+  },
+  {
+    "year": "113",
+    "college": "醫學與健康學院",
+    "dept": "物理治療系",
+    "teacher": "鄒瑞怡",
+    "empId": "T0000045916",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "眼球凝視動作對心律變異性的立即影響",
+    "code": "社團法人臺灣物理治療學會第八十九次學術論文研討會 (桃園, NATTWN)",
+    "accCode": "PUB-CONF-2025-0033",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 社團法人臺灣物理治療學會第八十九次學術論文研討會, 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "物理治療系"
+    ],
+    "id": "REC-113-213"
+  },
+  {
+    "year": "113",
+    "college": "醫學與健康學院",
+    "dept": "健康美容系",
+    "teacher": "陳采秀",
+    "empId": "T0000121656",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第三作者 (25%)",
+    "weightRatio": 0.25,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "智慧健康科技應用：智慧美體循環儀於肩頸按摩之舒壓與幸福感研究",
+    "code": "2025國際健康芳療保健技藝競賽暨學術發表會 (高雄, NATTWN)",
+    "accCode": "PUB-CONF-2025-0015",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 2025國際健康芳療保健技藝競賽暨學術發表會, 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "AI智慧應用",
+      "數位轉型",
+      "健康美容系"
+    ],
+    "id": "REC-113-214"
+  },
+  {
+    "year": "113",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "王月琴",
+    "empId": "T0000022217",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第一作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "專書/專書篇章",
+    "title": "發展護理能力鑑定課程",
+    "code": "ISBN:978-626-99318-3-5 (永大書局)",
+    "accCode": "PUB-BOOK-2025-004",
+    "disbursementRate": 100,
+    "amount": 1.5,
+    "metricNote": "專書出版 (出版社: 永大書局, ISBN: 978-626-99318-3-5)",
+    "source": "TEACHER-WRITTING (表1-11 專書)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "臨床護理",
+      "教材研發",
+      "護理系"
+    ],
+    "id": "REC-113-215"
+  },
+  {
+    "year": "113",
+    "college": "醫學與健康學院",
+    "dept": "物理治療系",
+    "teacher": "鄒瑞怡",
+    "empId": "T0000045916",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第三作者兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "貼紮對踝關節不穩定的排球運動員效益之系統性回顧",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2024-0901",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "物理治療系"
+    ],
+    "id": "REC-113-216"
+  },
+  {
+    "year": "113",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "蔡家梅",
+    "empId": "T0000095912",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "進食支持照顧服務員職能發展之初探研究",
+    "code": "長期照護雜誌 Vol.28 No.1",
+    "accCode": "PUB-JRN-2025-0066",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: 長期照護雜誌, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-113-217"
+  },
+  {
+    "year": "113",
+    "college": "護理學院",
+    "dept": "高齡及長期照護事業系",
+    "teacher": "楊月頴",
+    "empId": "T0000097047",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第一作者兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "溫水足浴對睡眠障礙之文獻回顧",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2025-2031",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "高齡及長期照護事業系"
+    ],
+    "id": "REC-113-218"
+  },
+  {
+    "year": "113",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "陳立庭",
+    "empId": "T0000036425",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第二作者 (50%)",
+    "weightRatio": 0.5,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "腦損傷病人之復原力",
+    "code": "護理雜誌",
+    "accCode": "PUB-JRN-2025-0520",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: 護理雜誌, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-113-219"
+  },
+  {
+    "year": "113",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "葉蕙芳",
+    "empId": "T0000055001",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第一作者兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "運用胸腔鏡術後之急性疼痛概念照護一位肺癌病人之護理經驗",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2024-0367",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "高齡長照",
+      "失智症照護",
+      "臨床護理",
+      "教材研發",
+      "護理系"
+    ],
+    "id": "REC-113-220"
+  },
+  {
+    "year": "113",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "楊君菁",
+    "empId": "T0000084253",
+    "adminRole": "實習指導教師",
+    "isArticle7Exempt": false,
+    "authorOrder": "第一作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "運用認知行為治療照顧一位糖尿病伴隨憂鬱症高齡病人之護理經驗",
+    "code": "若瑟醫護雜誌",
+    "accCode": "PUB-JRN-2025-0204",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: 若瑟醫護雜誌, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "高齡長照",
+      "失智症照護",
+      "臨床護理",
+      "教材研發",
+      "護理系"
+    ],
+    "id": "REC-113-221"
+  },
+  {
+    "year": "113",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "陳淑銘",
+    "empId": "T0000000530",
+    "adminRole": "教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第一作者兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "精進碩士生以行動科技導入成人健康照護特論課程",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2024-0165",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "高齡長照",
+      "失智症照護",
+      "護理系"
+    ],
+    "id": "REC-113-222"
+  },
+  {
+    "year": "113",
+    "college": "醫學與健康學院",
+    "dept": "健康美容系",
+    "teacher": "陳采秀",
+    "empId": "T0000121656",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第一作者兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "臺灣健康美容高等教育人才培育現況之分析",
+    "code": "2025國際健康芳療保健技藝競賽暨學術發表會 (高雄, NATTWN)",
+    "accCode": "PUB-CONF-2025-0014",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 2025國際健康芳療保健技藝競賽暨學術發表會, 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康美容",
+      "產品開發",
+      "健康美容系"
+    ],
+    "id": "REC-113-223"
+  },
+  {
+    "year": "113",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "陳淑銘",
+    "empId": "T0000000530",
+    "adminRole": "教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第一作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "數位多媒體足部潰瘍照護方案對糖尿病病人足部健康信念及自我照護行為之成效",
+    "code": "護理雜誌",
+    "accCode": "PUB-JRN-2024-0319",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: 護理雜誌, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "高齡長照",
+      "失智症照護",
+      "AI智慧應用",
+      "數位轉型",
+      "護理系"
+    ],
+    "id": "REC-113-224"
+  },
+  {
+    "year": "113",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "楊君菁",
+    "empId": "T0000084253",
+    "adminRole": "實習指導教師",
+    "isArticle7Exempt": false,
+    "authorOrder": "第一作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "數位科技與健康照護於網路正念訓練之運用",
+    "code": "源遠護理",
+    "accCode": "PUB-JRN-2024-0206",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: 源遠護理, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "高齡長照",
+      "失智症照護",
+      "AI智慧應用",
+      "數位轉型",
+      "護理系"
+    ],
+    "id": "REC-113-225"
+  },
+  {
+    "year": "113",
+    "college": "醫學與健康學院",
+    "dept": "物理治療系",
+    "teacher": "康富傑",
+    "empId": "T0000060441",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第一作者兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "複合式運動對於健康大學生頭部前傾、圓肩與駝背姿勢的影響",
+    "code": "台灣醫學 Vol.29 No.2",
+    "accCode": "PUB-JRN-2025-0059",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: 台灣醫學, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "物理治療系"
+    ],
+    "id": "REC-113-226"
+  },
+  {
+    "year": "113",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "蔡佳純",
+    "empId": "T0000063625",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第二作者 (50%)",
+    "weightRatio": 0.5,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "優化護理學生之數位技能：以編製數位友善的健康指導教材為例",
+    "code": "第二十屆國際健康資訊管理研討會暨第七屆台灣長期照護管理研討會 (高雄市, NATTWN)",
+    "accCode": "PUB-CONF-2025-0038",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 第二十屆國際健康資訊管理研討會暨第七屆台灣長期照護管理研討會, 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "AI智慧應用",
+      "數位轉型",
+      "臨床護理",
+      "教材研發",
+      "護理系"
+    ],
+    "id": "REC-113-227"
+  },
+  {
+    "year": "113",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "傅家芸",
+    "empId": "T0000090598",
+    "adminRole": "學習輔導組副主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第三作者 (25%)",
+    "weightRatio": 0.25,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "優化護理學⽣之數位技能：以編製數位友善的健康指導教材為例",
+    "code": "The 20th International Conference on Healthcare Information Management and The 7th Conference on Taiwan Long-term Care Management (高雄, NATTWN)",
+    "accCode": "PUB-CONF-2025-0028",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 The 20th International Conference on Healthcare Information Management and The 7th Conference on Taiwan Long-term Care Management, 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "AI智慧應用",
+      "數位轉型",
+      "臨床護理",
+      "教材研發",
+      "護理系"
+    ],
+    "id": "REC-113-228"
+  },
+  {
+    "year": "113",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "楊君菁",
+    "empId": "T0000084253",
+    "adminRole": "實習指導教師",
+    "isArticle7Exempt": false,
+    "authorOrder": "第一作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "擴增實境在長照在職教育中的教學應用、技術設計與挑戰：系統性文獻回顧",
+    "code": "福祉科技與服務管理學刊",
+    "accCode": "PUB-JRN-2025-0203",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: 福祉科技與服務管理學刊, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "高齡長照",
+      "失智症照護",
+      "護理系"
+    ],
+    "id": "REC-113-229"
+  },
+  {
+    "year": "113",
+    "college": "醫學與健康學院",
+    "dept": "健康美容系",
+    "teacher": "陳采秀",
+    "empId": "T0000121656",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "體驗智慧美體循環儀之幸福感研究—以肩頸舒壓為例",
+    "code": "全國健康美容科技研討會專輯",
+    "accCode": "PUB-JRN-2025-0003",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: 全國健康美容科技研討會專輯, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "AI智慧應用",
+      "數位轉型",
+      "健康美容系"
+    ],
+    "id": "REC-113-230"
+  },
+  {
+    "year": "113",
+    "college": "醫學與健康學院",
+    "dept": "健康美容系",
+    "teacher": "陳采秀",
+    "empId": "T0000121656",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第一作者兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "讓思考變得可見：以設計思考為途徑實踐成果導向學習",
+    "code": "2025教學實踐研究與創新線上研討會暨論文口頭發表競賽 (台中, NATTWN)",
+    "accCode": "PUB-CONF-2025-0036",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 2025教學實踐研究與創新線上研討會暨論文口頭發表競賽, 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康美容系"
+    ],
+    "id": "REC-113-231"
+  },
+  {
+    "year": "113",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "葉蕙芳",
+    "empId": "T0000055001",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第一作者兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "A 48-Year-Old Man Presenting with Dizziness",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2024-0368",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-113-232"
+  },
+  {
+    "year": "113",
+    "college": "護理學院",
+    "dept": "健康事業管理系",
+    "teacher": "林政翰",
+    "empId": "T0000074995",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "A Bandwidth-Aware Routing Mechanism to Control Hadoop Shuffle Traffic over SDN",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2025-1224",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康事業管理系"
+    ],
+    "id": "REC-113-233"
+  },
+  {
+    "year": "113",
+    "college": "護理學院",
+    "dept": "健康事業管理系",
+    "teacher": "林政翰",
+    "empId": "T0000074995",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "A game-based multimedia application to improve the ability of clinical nurses to perform geriatric care: A randomized controlled trial",
+    "code": "Nurse Education Today",
+    "accCode": "PUB-JRN-2024-1656",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Nurse Education Today, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康事業管理系"
+    ],
+    "id": "REC-113-234"
+  },
+  {
+    "year": "113",
+    "college": "醫學與健康學院",
+    "dept": "健康美容系",
+    "teacher": "陳中一",
+    "empId": "T0000054317",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第一作者兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "SCI 國際期刊",
+    "title": "A new benzenoid of Cinnamomum subavenium",
+    "code": "Chemistry of Natural Compounds Vol.61 No.3",
+    "accCode": "PUB-JRN-2025-0010",
+    "disbursementRate": 100,
+    "amount": 2,
+    "metricNote": "SCI 國際期刊 收錄 (刊物: Chemistry of Natural Compounds, 審稿: 是, 出版國: NATUSA)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康美容系"
+    ],
+    "id": "REC-113-235"
+  },
+  {
+    "year": "113",
+    "college": "醫學與健康學院",
+    "dept": "健康美容系",
+    "teacher": "李杏丹",
+    "empId": "T0000038837",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "SCI 國際期刊",
+    "title": "A new benzenoid of Litchi chinensis",
+    "code": "Chemistry of Natural Compounds Vol.61 No.2",
+    "accCode": "PUB-JRN-2025-0020",
+    "disbursementRate": 100,
+    "amount": 2,
+    "metricNote": "SCI 國際期刊 收錄 (刊物: Chemistry of Natural Compounds, 審稿: 是, 出版國: NATUSA)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康美容系"
+    ],
+    "id": "REC-113-236"
+  },
+  {
+    "year": "113",
+    "college": "醫學與健康學院",
+    "dept": "健康美容系",
+    "teacher": "陳中一",
+    "empId": "T0000054317",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第一作者兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "SCI 國際期刊",
+    "title": "A new catechol of Cucurbita pepo",
+    "code": "Chemistry of Natural Compounds Vol.61 No.1",
+    "accCode": "PUB-JRN-2025-0046",
+    "disbursementRate": 100,
+    "amount": 2,
+    "metricNote": "SCI 國際期刊 收錄 (刊物: Chemistry of Natural Compounds, 審稿: 是, 出版國: NATUSA)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康美容系"
+    ],
+    "id": "REC-113-237"
+  },
+  {
+    "year": "113",
+    "college": "醫學與健康學院",
+    "dept": "健康美容系",
+    "teacher": "李杏丹",
+    "empId": "T0000038837",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "SCI 國際期刊",
+    "title": "A new cyclolignan from Machilus zuihoensis var. mushaensis",
+    "code": "Chemistry of Natural Compounds Vol.61 No.3",
+    "accCode": "PUB-JRN-2025-0023",
+    "disbursementRate": 100,
+    "amount": 2,
+    "metricNote": "SCI 國際期刊 收錄 (刊物: Chemistry of Natural Compounds, 審稿: 是, 出版國: NATUSA)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康美容系"
+    ],
+    "id": "REC-113-238"
+  },
+  {
+    "year": "113",
+    "college": "醫學與健康學院",
+    "dept": "健康美容系",
+    "teacher": "陳中一",
+    "empId": "T0000054317",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第一作者兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "SCI 國際期刊",
+    "title": "A new furan of Synsepalum dulcificum",
+    "code": "Chemistry of Natural Compounds Vol.61 No.1",
+    "accCode": "PUB-JRN-2025-0047",
+    "disbursementRate": 100,
+    "amount": 2,
+    "metricNote": "SCI 國際期刊 收錄 (刊物: Chemistry of Natural Compounds, 審稿: 是, 出版國: NATUSA)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康美容系"
+    ],
+    "id": "REC-113-239"
+  },
+  {
+    "year": "113",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "李維真",
+    "empId": "T0000010059",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "SCI 國際期刊",
+    "title": "A NEW FURAN OF Synsepalum dulcificum",
+    "code": "Chemistry of Natural Compounds Vol.61 No.1",
+    "accCode": "PUB-JRN-2025-0052",
+    "disbursementRate": 100,
+    "amount": 2,
+    "metricNote": "SCI 國際期刊 收錄 (刊物: Chemistry of Natural Compounds, 審稿: 是, 出版國: NATUSA)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-113-240"
+  },
+  {
+    "year": "113",
+    "college": "醫學與健康學院",
+    "dept": "健康美容系",
+    "teacher": "李杏丹",
+    "empId": "T0000038837",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "SCI 國際期刊",
+    "title": "A new lignan from Machilus philippinensis",
+    "code": "Chemistry of Natural Compounds Vol.61 No.3",
+    "accCode": "PUB-JRN-2025-0022",
+    "disbursementRate": 100,
+    "amount": 2,
+    "metricNote": "SCI 國際期刊 收錄 (刊物: Chemistry of Natural Compounds, 審稿: 是, 出版國: NATUSA)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康美容系"
+    ],
+    "id": "REC-113-241"
+  },
+  {
+    "year": "113",
+    "college": "醫學與健康學院",
+    "dept": "健康美容系",
+    "teacher": "陳中一",
+    "empId": "T0000054317",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第一作者兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "SCI 國際期刊",
+    "title": "A new propanethioic acid of Houttuynia cordata",
+    "code": "Chemistry of Natural Compounds Vol.61 No.2",
+    "accCode": "PUB-JRN-2025-0007",
+    "disbursementRate": 100,
+    "amount": 2,
+    "metricNote": "SCI 國際期刊 收錄 (刊物: Chemistry of Natural Compounds, 審稿: 是, 出版國: NATUSA)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康美容系"
+    ],
+    "id": "REC-113-242"
+  },
+  {
+    "year": "113",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "李維真",
+    "empId": "T0000010059",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "SCI 國際期刊",
+    "title": "A NEW SUBSTITUTED PYRIDINE OF Elaeagnus grandifolia",
+    "code": "Chemistry of Natural Compounds Vol.61 No.4",
+    "accCode": "PUB-JRN-2025-0015",
+    "disbursementRate": 100,
+    "amount": 2,
+    "metricNote": "SCI 國際期刊 收錄 (刊物: Chemistry of Natural Compounds, 審稿: 是, 出版國: NATUSA)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-113-243"
+  },
+  {
+    "year": "113",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "吳靜宜",
+    "empId": "T0000029836",
+    "adminRole": "實習指導教師",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "A pilot study of using U-net for segmentation of labial salivary glands in OCT images",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2024-1620",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-113-244"
+  },
+  {
+    "year": "113",
+    "college": "醫學與健康學院",
+    "dept": "健康美容系",
+    "teacher": "陳采秀",
+    "empId": "T0000121656",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第一作者兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國際研討會論文",
+    "title": "A Study on the Effectiveness of Flipped Learning on Product Marketing and Management Applications for In-Service Students in the Health Beauty Department",
+    "code": "The 8th Eurasian Conference on Educational Innovation 2025 (ECEI 2025) (Bali, NATIDN)",
+    "accCode": "PUB-CONF-2025-0002",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國際研討會論文 (發表於 The 8th Eurasian Conference on Educational Innovation 2025 (ECEI 2025), 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康美容系"
+    ],
+    "id": "REC-113-245"
+  },
+  {
+    "year": "113",
+    "college": "護理學院",
+    "dept": "健康事業管理系",
+    "teacher": "羅家倫",
+    "empId": "T0000060871",
+    "adminRole": "國際事務長（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第一作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "SCIE 國際期刊",
+    "title": "AI-driven fall risk prediction in inpatients: Development, validation, and comparative evaluation",
+    "code": "Nursing Practice Today",
+    "accCode": "PUB-JRN-2025-0063",
+    "disbursementRate": 100,
+    "amount": 2,
+    "metricNote": "SCIE 國際期刊 收錄 (刊物: Nursing Practice Today, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "AI智慧應用",
+      "數位轉型",
+      "健康事業管理系"
+    ],
+    "id": "REC-113-246"
+  },
+  {
+    "year": "113",
+    "college": "護理學院",
+    "dept": "健康事業管理系",
+    "teacher": "羅家倫",
+    "empId": "T0000060871",
+    "adminRole": "國際事務長（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "Aligning Expectations with Reality: The Influence of Transparent Recruitment Practices on Nurse Retention in Health-Promoting Hospitals",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2024-1136",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康事業管理系"
+    ],
+    "id": "REC-113-247"
+  },
+  {
+    "year": "113",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "顏秀珍",
+    "empId": "T0000089142",
+    "adminRole": "實習指導教師",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "An Effective Hybrid Sampling Strategy for Single-Split Evaluation of Classifiers",
+    "code": "Electronics",
+    "accCode": "PUB-JRN-2025-2170",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Electronics, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-113-248"
+  },
+  {
+    "year": "113",
+    "college": "人文與管理學院",
+    "dept": "幼兒保育暨產業系",
+    "teacher": "張靖敏",
+    "empId": "T0000061081",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "An Evaluation of Current Early Childhood Education and Curriculum through the Can-Do Classroom Perspective.",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2024-2136",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "幼兒保育暨產業系"
+    ],
+    "id": "REC-113-249"
+  },
+  {
+    "year": "113",
+    "college": "醫學與健康學院",
+    "dept": "健康美容系",
+    "teacher": "陳中一",
+    "empId": "T0000054317",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "SCI 國際期刊",
+    "title": "An unidentified metabolite originating from Streptomyces sp",
+    "code": "Chemistry of Natural Compounds Vol.61 No.1",
+    "accCode": "PUB-JRN-2025-0048",
+    "disbursementRate": 100,
+    "amount": 2,
+    "metricNote": "SCI 國際期刊 收錄 (刊物: Chemistry of Natural Compounds, 審稿: 是, 出版國: NATUSA)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康美容系"
+    ],
+    "id": "REC-113-250"
+  },
+  {
+    "year": "113",
+    "college": "醫學與健康學院",
+    "dept": "醫學檢驗生物技術系",
+    "teacher": "林清江",
+    "empId": "T0000086327",
+    "adminRole": "教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第三作者 (25%)",
+    "weightRatio": 0.25,
+    "category": "論文",
+    "subType": "SCI 國際期刊",
+    "title": "Analysis of serotype distribution and characteristics of nonhemolytic and nonpigmented strains among group B Streptococcus isolates in a southern Taiwan local hospital",
+    "code": "European journal of clinical microbiology & infectious diseases Vol.44 No.2",
+    "accCode": "PUB-JRN-2025-0061",
+    "disbursementRate": 100,
+    "amount": 2,
+    "metricNote": "SCI 國際期刊 收錄 (刊物: European journal of clinical microbiology & infectious diseases, 審稿: 是, 出版國: NATUSA)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "醫學檢驗生物技術系"
+    ],
+    "id": "REC-113-251"
+  },
+  {
+    "year": "113",
+    "college": "醫學與健康學院",
+    "dept": "健康美容系",
+    "teacher": "陳中一",
+    "empId": "T0000054317",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "SCI 國際期刊",
+    "title": "Antioral cancer effects of ginger derivative 3-HDM exert oxidative stress-associated apoptosis and DNA damage",
+    "code": "Molecular Biology Reports Vol.52 No.52",
+    "accCode": "PUB-JRN-2025-0017",
+    "disbursementRate": 100,
+    "amount": 2,
+    "metricNote": "SCI 國際期刊 收錄 (刊物: Molecular Biology Reports, 審稿: 是, 出版國: NATUSA)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康美容系"
+    ],
+    "id": "REC-113-252"
+  },
+  {
+    "year": "113",
+    "college": "醫學與健康學院",
+    "dept": "醫學檢驗生物技術系",
+    "teacher": "曹德安",
+    "empId": "T0000095727",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第一作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "SCI 國際期刊",
+    "title": "ANTIOVARIAN-CANCER-ACTIVE METABOLITES OF THE PEELS OF Cucurbita maxima",
+    "code": "Chemistry of Natural Compounds Vol.61 No.3",
+    "accCode": "PUB-JRN-2025-0033",
+    "disbursementRate": 100,
+    "amount": 2,
+    "metricNote": "SCI 國際期刊 收錄 (刊物: Chemistry of Natural Compounds, 審稿: 是, 出版國: NATUSA)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "醫學檢驗生物技術系"
+    ],
+    "id": "REC-113-253"
+  },
+  {
+    "year": "113",
+    "college": "人文與管理學院",
+    "dept": "幼兒保育暨產業系",
+    "teacher": "張靖敏",
+    "empId": "T0000061081",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Application and Effectiveness Analysis of Digital Learning Environments in Early Childhood Education and Care (ECEC) Professional Courses",
+    "code": "International Journal of Learning Technology",
+    "accCode": "PUB-JRN-2025-2989",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: International Journal of Learning Technology, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "幼兒保育暨產業系"
+    ],
+    "id": "REC-113-254"
+  },
+  {
+    "year": "113",
+    "college": "人文與管理學院",
+    "dept": "幼兒保育暨產業系",
+    "teacher": "張靖敏",
+    "empId": "T0000061081",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第一作者兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "Application and Effectiveness Analysis of Digital Learning Environments in Early Childhood Education and Care (ECEC) Professional Courses",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2025-2134",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "幼兒保育暨產業系"
+    ],
+    "id": "REC-113-255"
+  },
+  {
+    "year": "113",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "楊君菁",
+    "empId": "T0000084253",
+    "adminRole": "實習指導教師",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Application of the fitness and nutrition program for seniors (FANS) to improve physical activity and kinanthropometric measures among community-dwelling older adults living with frailty: a quasi-experimental study.",
+    "code": "BMC geriatrics",
+    "accCode": "PUB-JRN-2025-0198",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: BMC geriatrics, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-113-256"
+  },
+  {
+    "year": "113",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "顏秀珍",
+    "empId": "T0000089142",
+    "adminRole": "實習指導教師",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "Applying Large Language Models to Content-based Recommender Systems",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2025-1687",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-113-257"
+  },
+  {
+    "year": "113",
+    "college": "護理學院",
+    "dept": "高齡及長期照護事業系",
+    "teacher": "楊月頴",
+    "empId": "T0000097047",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Applying the WANT model in the dementia education and training program to improve the dementia care competence of institutional care workers",
+    "code": "Educational Gerontology",
+    "accCode": "PUB-JRN-2024-2853",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Educational Gerontology, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "高齡及長期照護事業系"
+    ],
+    "id": "REC-113-258"
+  },
+  {
+    "year": "113",
+    "college": "醫學與健康學院",
+    "dept": "保健營養系",
+    "teacher": "林佩瑩",
+    "empId": "T0000071516",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "AptBCis1, An Aptamer-Cisplatin Conjugate, Is Effective in Lung Cancer Leptomeningeal Carcinomatosis",
+    "code": "ACS Nano",
+    "accCode": "PUB-JRN-2024-1365",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: ACS Nano, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "保健營養系"
+    ],
+    "id": "REC-113-259"
+  },
+  {
+    "year": "113",
+    "college": "人文與管理學院",
+    "dept": "應用外語系",
+    "teacher": "蔡瑤",
+    "empId": "T0000001738",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第一作者兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Asian students’ perceptions of English as a lingua franca arising from intercultural communication in the global society",
+    "code": "Journal of Education and Learning Vol.14 No.4",
+    "accCode": "PUB-JRN-2025-0039",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Journal of Education and Learning, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "應用外語系"
+    ],
+    "id": "REC-113-260"
+  },
+  {
+    "year": "113",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "吳靜宜",
+    "empId": "T0000029836",
+    "adminRole": "實習指導教師",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "SCIE 國際期刊",
+    "title": "Association between untreated caries and cariogenic bacteria in adolescents in Taiwan",
+    "code": "Journal of Dental Sciences",
+    "accCode": "PUB-JRN-2024-2053",
+    "disbursementRate": 100,
+    "amount": 2,
+    "metricNote": "SCIE 國際期刊 收錄 (刊物: Journal of Dental Sciences, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-113-261"
+  },
+  {
+    "year": "113",
+    "college": "醫學與健康學院",
+    "dept": "保健營養系",
+    "teacher": "林佩瑩",
+    "empId": "T0000071516",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Associations of COVID-19 vaccination with risks for post-infectious cardiovascular complications: A cohort study in cancer patients with SARS-CoV-2 infection",
+    "code": "Lancet Reg Health Am",
+    "accCode": "PUB-JRN-2025-1364",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Lancet Reg Health Am, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "保健營養系"
+    ],
+    "id": "REC-113-262"
+  },
+  {
+    "year": "113",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "楊君菁",
+    "empId": "T0000084253",
+    "adminRole": "實習指導教師",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Benefits of Non-Face-to-Face Mindfulness-Based Intervention for Patients With Cardiovascular Disease: A Meta-Analysis.",
+    "code": "Journal of Health Psychology",
+    "accCode": "PUB-JRN-2025-0199",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Journal of Health Psychology, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-113-263"
+  },
+  {
+    "year": "113",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "董曉婷",
+    "empId": "T0000045947",
+    "adminRole": "主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第一作者兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國際研討會論文",
+    "title": "Boosting Trauma First Aid Proficiency with Constructivist Self-Learning and Video Production",
+    "code": "36th International Nursing Research Congress (Seattle, NATUSA)",
+    "accCode": "PUB-CONF-2025-0003",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國際研討會論文 (發表於 36th International Nursing Research Congress, 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-113-264"
+  },
+  {
+    "year": "113",
+    "college": "醫學與健康學院",
+    "dept": "物理治療系",
+    "teacher": "陳麗秋",
+    "empId": "T0000048888",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第三作者 (25%)",
+    "weightRatio": 0.25,
+    "category": "論文",
+    "subType": "SCI 國際期刊",
+    "title": "Collaborative Goal-Setting Approaches to Support Participation of Children With Special Educational Needs",
+    "code": "Pediatric Physical Therapy Vol.37 No.3",
+    "accCode": "PUB-JRN-2025-0060",
+    "disbursementRate": 100,
+    "amount": 2,
+    "metricNote": "SCI 國際期刊 收錄 (刊物: Pediatric Physical Therapy, 審稿: 是, 出版國: NATUSA)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "物理治療系"
+    ],
+    "id": "REC-113-265"
+  },
+  {
+    "year": "113",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "林佑樺",
+    "empId": "T0000120649",
+    "adminRole": "教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "Comparing the effectiveness of Intermittent Nasogastric Feeding and Bolus Nasogastric Feeding on Gastric Emptying in Intensive Care Unit Patients.",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2024-1884",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-113-266"
+  },
+  {
+    "year": "113",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "黃芷苓",
+    "empId": "T0000093504",
+    "adminRole": "教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "Developing a dementia-friendly environment checklist in Taiwan",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2024-0686",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-113-267"
+  },
+  {
+    "year": "113",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "陳舜華",
+    "empId": "T0000003564",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Development of potent and selective tetrahydro-β-carboline-based HDAC6 inhibitors with promising activity against triple-negative breast cancer",
+    "code": "RSC Medicinal Chemistry",
+    "accCode": "PUB-JRN-2025-2299",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: RSC Medicinal Chemistry, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-113-268"
+  },
+  {
+    "year": "113",
+    "college": "醫學與健康學院",
+    "dept": "醫學檢驗生物技術系",
+    "teacher": "羅宏仁",
+    "empId": "T0000061310",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第一作者兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "SCI 國際期刊",
+    "title": "Dimercaptosuccinic acid with membrane-targeting activity against Pseudomonas aeruginosa",
+    "code": "Microbial pathogenesis",
+    "accCode": "PUB-JRN-2025-0056",
+    "disbursementRate": 100,
+    "amount": 2,
+    "metricNote": "SCI 國際期刊 收錄 (刊物: Microbial pathogenesis, 審稿: 是, 出版國: NATGBR)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "醫學檢驗生物技術系"
+    ],
+    "id": "REC-113-269"
+  },
+  {
+    "year": "113",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "陳舜華",
+    "empId": "T0000003564",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Discovery of a novel C2-functionalized chromen-4-one scaffold for the development of p38α MAPK signaling inhibitors to mitigate neutrophilic inflammatory responses",
+    "code": "Biochemical Pharmacology",
+    "accCode": "PUB-JRN-2025-2302",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Biochemical Pharmacology, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-113-270"
+  },
+  {
+    "year": "113",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "陳舜華",
+    "empId": "T0000003564",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Drug repurposing of cyclin-dependent kinase inhibitors for neutrophilic acute respiratory distress syndrome and psoriasis",
+    "code": "Journal of Advanced Research",
+    "accCode": "PUB-JRN-2025-2300",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Journal of Advanced Research, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-113-271"
+  },
+  {
+    "year": "113",
+    "college": "護理學院",
+    "dept": "助產與婦嬰健康照護系",
+    "teacher": "郭心怡",
+    "empId": "T0000005425",
+    "adminRole": "講師",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "SCIE 國際期刊",
+    "title": "Dynamic response of a nonlocal multiferroic laminated composite with interface stress imperfections",
+    "code": "CMES-Computer Modeling in Engineering & Sciences",
+    "accCode": "PUB-JRN-2025-0369",
+    "disbursementRate": 100,
+    "amount": 2,
+    "metricNote": "SCIE 國際期刊 收錄 (刊物: CMES-Computer Modeling in Engineering & Sciences, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "助產與婦嬰健康照護系"
+    ],
+    "id": "REC-113-272"
+  },
+  {
+    "year": "113",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "陳淑銘",
+    "empId": "T0000000530",
+    "adminRole": "教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "SCIE 國際期刊",
+    "title": "Educational challenges for post-graduate nursing students throughout the COVID-19 pandemic: A scoping review",
+    "code": "Nursing and Health Sciences",
+    "accCode": "PUB-JRN-2025-0318",
+    "disbursementRate": 100,
+    "amount": 2,
+    "metricNote": "SCIE 國際期刊 收錄 (刊物: Nursing and Health Sciences, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-113-273"
+  },
+  {
+    "year": "113",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "陳淑銘",
+    "empId": "T0000000530",
+    "adminRole": "教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第二作者 (50%)",
+    "weightRatio": 0.5,
+    "category": "論文",
+    "subType": "SCI 國際期刊",
+    "title": "Educational challenges for post-graduate nursing students throughout the COVID-19 pandemic: A scoping review.",
+    "code": "Nursing and Health Sciences Vol.27",
+    "accCode": "PUB-JRN-2025-0040",
+    "disbursementRate": 100,
+    "amount": 2,
+    "metricNote": "SCI 國際期刊 收錄 (刊物: Nursing and Health Sciences, 審稿: 是, 出版國: NATAUS)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-113-274"
+  },
+  {
+    "year": "113",
+    "college": "醫學與健康學院",
+    "dept": "醫學檢驗生物技術系",
+    "teacher": "郭順宇",
+    "empId": "T0000024975",
+    "adminRole": "教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "Effect of Celastrol on Intracellular Calcium Levels in Jurkat Cells",
+    "code": "2025 第8屆AAMLS年會 暨 第16屆亞太醫學檢驗科學國際研討會 (台北, NATTWN)",
+    "accCode": "PUB-CONF-2025-0018",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 2025 第8屆AAMLS年會 暨 第16屆亞太醫學檢驗科學國際研討會, 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "醫學檢驗生物技術系"
+    ],
+    "id": "REC-113-275"
+  },
+  {
+    "year": "113",
+    "college": "護理學院",
+    "dept": "助產與婦嬰健康照護系",
+    "teacher": "郭心怡",
+    "empId": "T0000005425",
+    "adminRole": "講師",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "Effect of dislocations on the piezoelectric-piezomagnetic laminates",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2024-0242",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "助產與婦嬰健康照護系"
+    ],
+    "id": "REC-113-276"
+  },
+  {
+    "year": "113",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "楊君菁",
+    "empId": "T0000084253",
+    "adminRole": "實習指導教師",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Effect of online mindfulness intervention on anxiety, depression, and stress in patients with chronic diseases.",
+    "code": "EXPLORE",
+    "accCode": "PUB-JRN-2025-0200",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: EXPLORE, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-113-277"
   },
   {
     "year": "113",
@@ -11869,7 +21574,904 @@ var DATASET_111_115 = [
       "產後自主權",
       "助產與婦嬰健康照護系"
     ],
-    "id": "REC-113-137"
+    "id": "REC-113-278"
+  },
+  {
+    "year": "113",
+    "college": "護理學院",
+    "dept": "健康事業管理系",
+    "teacher": "林政翰",
+    "empId": "T0000074995",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Effectiveness Study of a Cultural Adaptation of Cognitive-Behavioural Therapy-Based Application for Depressive Symptoms in College Students: A Randomised Controlled Trial",
+    "code": "Journal of Psychiatric and Mental Health Nursing",
+    "accCode": "PUB-JRN-2024-1655",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Journal of Psychiatric and Mental Health Nursing, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康事業管理系"
+    ],
+    "id": "REC-113-279"
+  },
+  {
+    "year": "113",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "陳淑銘",
+    "empId": "T0000000530",
+    "adminRole": "教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "Effects of a Theory-based Self-regulation Program to Improve Self-efficacy, Self-management for Diabetic-cardiac Comorbidity Patients",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2024-0164",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-113-280"
+  },
+  {
+    "year": "113",
+    "college": "醫學與健康學院",
+    "dept": "物理治療系",
+    "teacher": "陳怡璇",
+    "empId": "T0000115084",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第一作者兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "Effects of suspension exercise combined with traditional physical therapy on anterior pelvic tilt in young adults",
+    "code": "The 89th Scientific Conference of the Taiwan Physical Therapy Association (Taoyuan City, NATTWN)",
+    "accCode": "PUB-CONF-2025-0037",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 The 89th Scientific Conference of the Taiwan Physical Therapy Association, 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "物理治療系"
+    ],
+    "id": "REC-113-281"
+  },
+  {
+    "year": "113",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "方莉",
+    "empId": "T0000062021",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第一作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "SCI 國際期刊",
+    "title": "Effects of workplace bullying, authentic leadership, and workplace friendships on hospital nurses’ organizational citizenship behaviours: A cross-sectional study",
+    "code": "International Journal of Healthcare Management",
+    "accCode": "PUB-JRN-2025-0038",
+    "disbursementRate": 100,
+    "amount": 2,
+    "metricNote": "SCI 國際期刊 收錄 (刊物: International Journal of Healthcare Management, 審稿: 是, 出版國: NATGBR)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-113-282"
+  },
+  {
+    "year": "113",
+    "college": "醫學與健康學院",
+    "dept": "醫學檢驗生物技術系",
+    "teacher": "葉耀宗",
+    "empId": "T0000032139",
+    "adminRole": "主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第一作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "SCIE 國際期刊",
+    "title": "Eggerthella lenta down regulated flavone and flavonol biosynthesis promoted Kawasaki disease",
+    "code": "Virulence",
+    "accCode": "PUB-JRN-2025-0031",
+    "disbursementRate": 100,
+    "amount": 2,
+    "metricNote": "SCIE 國際期刊 收錄 (刊物: Virulence, 審稿: 是, 出版國: NATUSA)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "醫學檢驗生物技術系"
+    ],
+    "id": "REC-113-283"
+  },
+  {
+    "year": "113",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "張怡娟",
+    "empId": "T0000009100",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "Emergency Life Reversal: A Case Report on Managing Electrical Storm Post-Acute Myocardial Infarction and ICD Implantation.",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2024-0283",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-113-284"
+  },
+  {
+    "year": "113",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "楊君菁",
+    "empId": "T0000084253",
+    "adminRole": "實習指導教師",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Enhancing Frailty Status and Health-Related Quality of Life in Community-Dwelling Frail Older Adults.",
+    "code": "Gerontology",
+    "accCode": "PUB-JRN-2025-0201",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Gerontology, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-113-285"
+  },
+  {
+    "year": "113",
+    "college": "護理學院",
+    "dept": "健康事業管理系",
+    "teacher": "羅家倫",
+    "empId": "T0000060871",
+    "adminRole": "國際事務長（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第二作者兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國際研討會論文",
+    "title": "Enhancing Social Bonding and Wellbeing for the Elderly through AI-Powered Social Robot",
+    "code": "2025 Hawaii International Conference on SYstem Sciences (HICSS) (夏威夷, NATUSA)",
+    "accCode": "PUB-CONF-2025-0031",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國際研討會論文 (發表於 2025 Hawaii International Conference on SYstem Sciences (HICSS), 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "AI智慧應用",
+      "數位轉型",
+      "健康事業管理系"
+    ],
+    "id": "REC-113-286"
+  },
+  {
+    "year": "113",
+    "college": "護理學院",
+    "dept": "健康事業管理系",
+    "teacher": "羅家倫",
+    "empId": "T0000060871",
+    "adminRole": "國際事務長（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "Enhancing Social Bonding and Wellbeing for the Elderly through AI-Powered Social Robots",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2025-1135",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "AI智慧應用",
+      "數位轉型",
+      "健康事業管理系"
+    ],
+    "id": "REC-113-287"
+  },
+  {
+    "year": "113",
+    "college": "醫學與健康學院",
+    "dept": "醫學檢驗生物技術系",
+    "teacher": "王怡棻",
+    "empId": "T0000076255",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "Epigallocatechin gallate attenuates aspirin-induced HHV-8 lytic replication",
+    "code": "The 8th AAMLS & the 16th APFMLS (第8屆AAMLS年會暨 第16屆亞太醫學檢驗科學國際研討會) (Taipei, NATTWN)",
+    "accCode": "PUB-CONF-2025-0011",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 The 8th AAMLS & the 16th APFMLS (第8屆AAMLS年會暨 第16屆亞太醫學檢驗科學國際研討會), 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "醫學檢驗生物技術系"
+    ],
+    "id": "REC-113-288"
+  },
+  {
+    "year": "113",
+    "college": "護理學院",
+    "dept": "助產與婦嬰健康照護系",
+    "teacher": "王琳華",
+    "empId": "T0000021776",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第三作者兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "SSCI 國際期刊",
+    "title": "Experiences of Menopausal Transition among Vietnamese Women: A Grounded Theory Analysis.",
+    "code": "Research and Theory for Nursing Practice Vol.38 No.2",
+    "accCode": "PUB-JRN-2025-0043",
+    "disbursementRate": 100,
+    "amount": 2,
+    "metricNote": "SSCI 國際期刊 收錄 (刊物: Research and Theory for Nursing Practice, 審稿: 是, 出版國: NATUSA)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "助產與婦嬰健康照護系"
+    ],
+    "id": "REC-113-289"
+  },
+  {
+    "year": "113",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "方莉",
+    "empId": "T0000062021",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第一作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "SCI 國際期刊",
+    "title": "Exploring health influences and the moderating role of authentic leadership in workplace bullying: A cross-sectional study among hospital nurses",
+    "code": "International Nursing Review Vol.72 No.1",
+    "accCode": "PUB-JRN-2025-0064",
+    "disbursementRate": 100,
+    "amount": 2,
+    "metricNote": "SCI 國際期刊 收錄 (刊物: International Nursing Review, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-113-290"
+  },
+  {
+    "year": "113",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "陳淑銘",
+    "empId": "T0000000530",
+    "adminRole": "教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "Exploring predictive factors of physical activity, resilience and quality of life after the post-acute care program in patient with stroke",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2024-0161",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-113-291"
+  },
+  {
+    "year": "113",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "吳靜宜",
+    "empId": "T0000029836",
+    "adminRole": "實習指導教師",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Exploring the behavioural determinants of compliance in resilient high-caries-risk patients who improved caries severity",
+    "code": "BMC Psychology",
+    "accCode": "PUB-JRN-2024-2052",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: BMC Psychology, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-113-292"
+  },
+  {
+    "year": "113",
+    "college": "護理學院",
+    "dept": "健康事業管理系",
+    "teacher": "羅家倫",
+    "empId": "T0000060871",
+    "adminRole": "國際事務長（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "Exploring the Critical Success Factors of Anesthesia Information Management System Implementation from the Perspective of Nurse Anesthetists",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2025-1132",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康事業管理系"
+    ],
+    "id": "REC-113-293"
+  },
+  {
+    "year": "113",
+    "college": "護理學院",
+    "dept": "健康事業管理系",
+    "teacher": "包怡芬",
+    "empId": "T0000067834",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "Exploring the Effectiveness of Resistance Exercise Interventions on  Improving Sarcopenia in the Elderly",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2024-1208",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康事業管理系"
+    ],
+    "id": "REC-113-294"
+  },
+  {
+    "year": "113",
+    "college": "護理學院",
+    "dept": "高齡及長期照護事業系",
+    "teacher": "林欣妤",
+    "empId": "T0000087685",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第一作者兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "Exploring the effects of the health problems and care needs on the long-term care services utilization among the population on the outlying islands",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2024-2014",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "高齡及長期照護事業系"
+    ],
+    "id": "REC-113-295"
+  },
+  {
+    "year": "113",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "江季蓁",
+    "empId": "T0000066846",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "Exploring the Impact of Neighborhood Environments on Physical Activity among Adults in Taiwan",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2024-0469",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-113-296"
+  },
+  {
+    "year": "113",
+    "college": "醫學與健康學院",
+    "dept": "醫學檢驗生物技術系",
+    "teacher": "陳志良",
+    "empId": "T0000029576",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第三作者 (25%)",
+    "weightRatio": 0.25,
+    "category": "論文",
+    "subType": "國際研討會論文",
+    "title": "Exploring the relationship among academic hardiness, nursing learning self-efficacy and academic self-efficacy in nursing students",
+    "code": "ICN Congress 2025, 第30屆ICN國際護理大會 (赫爾辛基, NATFIN)",
+    "accCode": "PUB-CONF-2025-0013",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國際研討會論文 (發表於 ICN Congress 2025, 第30屆ICN國際護理大會, 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "醫學檢驗生物技術系"
+    ],
+    "id": "REC-113-297"
+  },
+  {
+    "year": "113",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "葉蕙芳",
+    "empId": "T0000055001",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "Exploring the relationship between health literacy and\r\nsymptom distress in heart failure patients.",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2025-0364",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-113-298"
+  },
+  {
+    "year": "113",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "洪瑄曼",
+    "empId": "T0000005248",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Exploring the Relationship of Well-Being\r\nand Resilience on Sense of Personal\r\nAccomplishment Among Nurse Practitioners:\r\nA Cross-Sectional Correlational Study.",
+    "code": "Journal of Nursing Research",
+    "accCode": "PUB-JRN-2025-2327",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Journal of Nursing Research, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-113-299"
+  },
+  {
+    "year": "113",
+    "college": "護理學院",
+    "dept": "健康事業管理系",
+    "teacher": "林惠賢",
+    "empId": "T0000060449",
+    "adminRole": "教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Factors associated with multiple geriatric conditions in community-dwelling older adults in Taiwan.",
+    "code": "International Journal of Gerontology",
+    "accCode": "PUB-JRN-2024-1499",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: International Journal of Gerontology, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康事業管理系"
+    ],
+    "id": "REC-113-300"
+  },
+  {
+    "year": "113",
+    "college": "環境與生命學院",
+    "dept": "環境工程與科學系",
+    "teacher": "賴進興",
+    "empId": "T0000038591",
+    "adminRole": "教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Fire Dynamics, Fire Generated Pollutants, and 1 Acute Health Implications: 2 A Scaling Law Analysis of Heavy-Fuel-Oil Pool fires",
+    "code": "Fuel",
+    "accCode": "PUB-JRN-2024-1726",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Fuel, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "環境工程與科學系"
+    ],
+    "id": "REC-113-301"
+  },
+  {
+    "year": "113",
+    "college": "環境與生命學院",
+    "dept": "職業安全衛生系",
+    "teacher": "鄭立新",
+    "empId": "T0000017031",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Fire dynamics, fire generated pollutants, and acute health implications: A scaling law analysis of heavy-fuel-oil pool fires",
+    "code": "Fuel",
+    "accCode": "PUB-JRN-2025-1879",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Fuel, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "職業安全衛生系"
+    ],
+    "id": "REC-113-302"
+  },
+  {
+    "year": "113",
+    "college": "人文與管理學院",
+    "dept": "幼兒保育暨產業系",
+    "teacher": "張義雄",
+    "empId": "T0000094730",
+    "adminRole": "教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Fostering Organizational Loyalty in Preschool Teachers: The Role of Sustainable Workplace, Social Responsibility, and Leadership",
+    "code": "Sustainability",
+    "accCode": "PUB-JRN-2025-3016",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Sustainability, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "幼兒保育暨產業系"
+    ],
+    "id": "REC-113-303"
+  },
+  {
+    "year": "113",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "張怡娟",
+    "empId": "T0000009100",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第一作者兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "From Passive to Active: Gamified Flipped Classroom Teaching in an Evidence-Based Nursing Course – Taking the Search for Empirical Literature as an Example.",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2024-0282",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-113-304"
+  },
+  {
+    "year": "113",
+    "college": "護理學院",
+    "dept": "健康事業管理系",
+    "teacher": "羅家倫",
+    "empId": "T0000060871",
+    "adminRole": "國際事務長（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第二作者兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "GAI-Augmented Integration of Nursing Narratives and Clinical Data for Predicting 14-Day Post-Readmission Mortality in Pulmonology Patients",
+    "code": "UHIMA & TLCMA 2025 (高雄, NATTWN)",
+    "accCode": "PUB-CONF-2025-0032",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 UHIMA & TLCMA 2025, 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "AI智慧應用",
+      "數位轉型",
+      "健康事業管理系"
+    ],
+    "id": "REC-113-305"
+  },
+  {
+    "year": "113",
+    "college": "護理學院",
+    "dept": "健康事業管理系",
+    "teacher": "羅家倫",
+    "empId": "T0000060871",
+    "adminRole": "國際事務長（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "Harmonizing Expectations with Actual COnditions: The Role of Transparent Recruitment in Enhancing Nurse Retention at Health Promoting Hospitals",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2024-1137",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康事業管理系"
+    ],
+    "id": "REC-113-306"
+  },
+  {
+    "year": "113",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "顏秀珍",
+    "empId": "T0000089142",
+    "adminRole": "實習指導教師",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "How Can Organizational Leadership Promote Environmental Behaviors through Corporate Social Responsibility Policy Adoption? The Moderating Role of Environmental Awareness",
+    "code": "Sustainability",
+    "accCode": "PUB-JRN-2024-2173",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Sustainability, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-113-307"
+  },
+  {
+    "year": "113",
+    "college": "人文與管理學院",
+    "dept": "幼兒保育暨產業系",
+    "teacher": "張義雄",
+    "empId": "T0000094730",
+    "adminRole": "教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "How Does Environmental Cognition Promote Low-Carbon Travel Intentions? The Mediating Role of Green Perceived Value and the Moderating Role of Electronic Word-of-Mouth",
+    "code": "Sustainability",
+    "accCode": "PUB-JRN-2025-3018",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Sustainability, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "幼兒保育暨產業系"
+    ],
+    "id": "REC-113-308"
+  },
+  {
+    "year": "113",
+    "college": "醫學與健康學院",
+    "dept": "醫學檢驗生物技術系",
+    "teacher": "邱敏熙",
+    "empId": "T0000089506",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Hyperbaric Oxygen Therapy Reduces the Traumatic Brain Injury–Mediated Neuroinflammation Through Enrichment of Prevotella Copri in the Gut of Male Rats",
+    "code": "Neurocritical Care",
+    "accCode": "PUB-JRN-2024-1196",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Neurocritical Care, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "醫學檢驗生物技術系"
+    ],
+    "id": "REC-113-309"
+  },
+  {
+    "year": "113",
+    "college": "護理學院",
+    "dept": "健康事業管理系",
+    "teacher": "楊鎮維",
+    "empId": "T0000028271",
+    "adminRole": "教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第一作者兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "SSCI 國際期刊",
+    "title": "Identifying categories of patient-driven health services innovation: insights from Taiwan’s health services sector",
+    "code": "Journal of Health Organization and Management",
+    "accCode": "PUB-JRN-2025-0041",
+    "disbursementRate": 100,
+    "amount": 2,
+    "metricNote": "SSCI 國際期刊 收錄 (刊物: Journal of Health Organization and Management, 審稿: 是, 出版國: NATUSA)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康事業管理系"
+    ],
+    "id": "REC-113-310"
+  },
+  {
+    "year": "113",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "顏秀珍",
+    "empId": "T0000089142",
+    "adminRole": "實習指導教師",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Illuminating the Black Box: An Interpretable Machine Learning Based on Ensemble Trees",
+    "code": "Expert Systems with Applications (ESWA)",
+    "accCode": "PUB-JRN-2025-2172",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Expert Systems with Applications (ESWA), 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-113-311"
   },
   {
     "year": "113",
@@ -11898,7 +22500,2491 @@ var DATASET_111_115 = [
       "用藥安全",
       "護理系"
     ],
-    "id": "REC-113-138"
+    "id": "REC-113-312"
+  },
+  {
+    "year": "113",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "邱宜令",
+    "empId": "T0000072457",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第一作者兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "Impact of Interactive Digital Instruction Combined with Peer Learning Groups on Students’ Motivation and Learning Outcomes in Midwifery Education",
+    "code": "2025教學實踐研究與創新線上研討會暨論文口頭發表 (台中市, NATTWN)",
+    "accCode": "PUB-CONF-2025-0039",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 2025教學實踐研究與創新線上研討會暨論文口頭發表, 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-113-313"
+  },
+  {
+    "year": "113",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "顏秀珍",
+    "empId": "T0000089142",
+    "adminRole": "實習指導教師",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "Improved Sampling Methods for Evaluation of Classification Performance",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2025-1688",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-113-314"
+  },
+  {
+    "year": "113",
+    "college": "醫學與健康學院",
+    "dept": "醫學檢驗生物技術系",
+    "teacher": "曹德安",
+    "empId": "T0000095727",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "In vitro and in vivo, Lycium barbarum Polysaccharide Extracted from\r\nWater Inhibited Lipopolysaccharide and Heavy Metal Inflammation",
+    "code": "Asian Journal of Pharmaceutical Research and Health Care",
+    "accCode": "PUB-JRN-2024-1215",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Asian Journal of Pharmaceutical Research and Health Care, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "醫學檢驗生物技術系"
+    ],
+    "id": "REC-113-315"
+  },
+  {
+    "year": "113",
+    "college": "醫學與健康學院",
+    "dept": "醫學檢驗生物技術系",
+    "teacher": "曹德安",
+    "empId": "T0000095727",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第一作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "SCI 國際期刊",
+    "title": "In vitro and in vivo, Lycium barbarum Polysaccharide Extracted from Water Inhibited Lipopolysaccharide and Heavy Metal Inflammation",
+    "code": "Asian Journal of Pharmaceutical Research and Health Care",
+    "accCode": "PUB-JRN-2025-0036",
+    "disbursementRate": 100,
+    "amount": 2,
+    "metricNote": "SCI 國際期刊 收錄 (刊物: Asian Journal of Pharmaceutical Research and Health Care, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "醫學檢驗生物技術系"
+    ],
+    "id": "REC-113-316"
+  },
+  {
+    "year": "113",
+    "college": "環境與生命學院",
+    "dept": "職業安全衛生系",
+    "teacher": "陳毅謙",
+    "empId": "T0000057449",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Innovative Thin PiG Plates Boost the Luminous Efficacy and Reliability of WLEDs for Vehicles",
+    "code": "Ceramics",
+    "accCode": "PUB-JRN-2024-1894",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Ceramics, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "職業安全衛生系"
+    ],
+    "id": "REC-113-317"
+  },
+  {
+    "year": "113",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "楊君菁",
+    "empId": "T0000084253",
+    "adminRole": "實習指導教師",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Integrating information and communication technology into nursing practice for resilience: A cross-sectional quantitative study.",
+    "code": "PLoS One",
+    "accCode": "PUB-JRN-2025-0202",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: PLoS One, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-113-318"
+  },
+  {
+    "year": "113",
+    "college": "醫學與健康學院",
+    "dept": "醫學檢驗生物技術系",
+    "teacher": "林清江",
+    "empId": "T0000086327",
+    "adminRole": "教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "SCIE 國際期刊",
+    "title": "Investigation and comparison of maternal pre-pregnancy body mass index coupled with gestational weight gain on maternal-fetal complications based on US and Chinese guidelines: A retrospective study.",
+    "code": "Reproductive sciences.",
+    "accCode": "PUB-JRN-2024-1141",
+    "disbursementRate": 100,
+    "amount": 2,
+    "metricNote": "SCIE 國際期刊 收錄 (刊物: Reproductive sciences., 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "醫學檢驗生物技術系"
+    ],
+    "id": "REC-113-319"
+  },
+  {
+    "year": "113",
+    "college": "人文與管理學院",
+    "dept": "休閒與遊憩事業管理系",
+    "teacher": "林澤民",
+    "empId": "T0000089887",
+    "adminRole": "教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Languages and Linkages: Explaining Diaspora Attitudes towards the Ancestral Homeland",
+    "code": "Journal of Race",
+    "accCode": "PUB-JRN-2025-0785",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Journal of Race, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "休閒與遊憩事業管理系"
+    ],
+    "id": "REC-113-320"
+  },
+  {
+    "year": "113",
+    "college": "醫學與健康學院",
+    "dept": "健康美容系",
+    "teacher": "李杏丹",
+    "empId": "T0000038837",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "SCI 國際期刊",
+    "title": "Lignans of Cinnamomum tenuifolium and Coix lachrymal-jobi",
+    "code": "Chemistry of Natural Compounds Vol.61 No.1",
+    "accCode": "PUB-JRN-2025-0018",
+    "disbursementRate": 100,
+    "amount": 2,
+    "metricNote": "SCI 國際期刊 收錄 (刊物: Chemistry of Natural Compounds, 審稿: 是, 出版國: NATUSA)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康美容系"
+    ],
+    "id": "REC-113-321"
+  },
+  {
+    "year": "113",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "李維真",
+    "empId": "T0000010059",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "SCI 國際期刊",
+    "title": "LIGNANS OF Cinnamomum tenuifolium AND Coix lachrymal-jobi",
+    "code": "Chemistry of Natural Compounds Vol.61 No.1",
+    "accCode": "PUB-JRN-2025-0051",
+    "disbursementRate": 100,
+    "amount": 2,
+    "metricNote": "SCI 國際期刊 收錄 (刊物: Chemistry of Natural Compounds, 審稿: 是, 出版國: NATUSA)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-113-322"
+  },
+  {
+    "year": "113",
+    "college": "醫學與健康學院",
+    "dept": "健康美容系",
+    "teacher": "陳中一",
+    "empId": "T0000054317",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第一作者兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "SCI 國際期刊",
+    "title": "Lignans of Cinnamomum tenuifolium and Coxi lachryma-jobi",
+    "code": "Chemistry of Natural Compounds Vol.61 No.1",
+    "accCode": "PUB-JRN-2025-0045",
+    "disbursementRate": 100,
+    "amount": 2,
+    "metricNote": "SCI 國際期刊 收錄 (刊物: Chemistry of Natural Compounds, 審稿: 是, 出版國: NATUSA)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康美容系"
+    ],
+    "id": "REC-113-323"
+  },
+  {
+    "year": "113",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "吳靜宜",
+    "empId": "T0000029836",
+    "adminRole": "實習指導教師",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "Localized gingival enlargement with herpetic infections: A case report",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2024-1621",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-113-324"
+  },
+  {
+    "year": "113",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "楊君菁",
+    "empId": "T0000084253",
+    "adminRole": "實習指導教師",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Long-Term Determinants of Depression Mood: A 19-Year Follow Up of 2344 Middle-Aged and Older Adults.",
+    "code": "Healthcare",
+    "accCode": "PUB-JRN-2024-0205",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Healthcare, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-113-325"
+  },
+  {
+    "year": "113",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "李維真",
+    "empId": "T0000010059",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "SCI 國際期刊",
+    "title": "METABOLITES FROM Cordyceps sinensis WITH ANTIOXIDANT ACTIVITY",
+    "code": "Chemistry of Natural Compounds Vol.61 No.4",
+    "accCode": "PUB-JRN-2025-0013",
+    "disbursementRate": 100,
+    "amount": 2,
+    "metricNote": "SCI 國際期刊 收錄 (刊物: Chemistry of Natural Compounds, 審稿: 是, 出版國: NATUSA)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-113-326"
+  },
+  {
+    "year": "113",
+    "college": "醫學與健康學院",
+    "dept": "健康美容系",
+    "teacher": "李杏丹",
+    "empId": "T0000038837",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "SCI 國際期刊",
+    "title": "Metabolites from Michelia alba with antioxidant activity",
+    "code": "Chemistry of Natural Compounds Vol.61 No.4",
+    "accCode": "PUB-JRN-2025-0029",
+    "disbursementRate": 100,
+    "amount": 2,
+    "metricNote": "SCI 國際期刊 收錄 (刊物: Chemistry of Natural Compounds, 審稿: 是, 出版國: NATUSA)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康美容系"
+    ],
+    "id": "REC-113-327"
+  },
+  {
+    "year": "113",
+    "college": "醫學與健康學院",
+    "dept": "健康美容系",
+    "teacher": "陳中一",
+    "empId": "T0000054317",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "SCI 國際期刊",
+    "title": "Metabolites from Plukenetia volubilis with antioxidant activity",
+    "code": "Chemistry of Natural Compounds Vol.61 No.1",
+    "accCode": "PUB-JRN-2025-0050",
+    "disbursementRate": 100,
+    "amount": 2,
+    "metricNote": "SCI 國際期刊 收錄 (刊物: Chemistry of Natural Compounds, 審稿: 是, 出版國: NATUSA)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康美容系"
+    ],
+    "id": "REC-113-328"
+  },
+  {
+    "year": "113",
+    "college": "醫學與健康學院",
+    "dept": "健康美容系",
+    "teacher": "陳中一",
+    "empId": "T0000054317",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "SCI 國際期刊",
+    "title": "Metabolites from the soil-derived fungus Trichoderma sp. BCRC-18F0056",
+    "code": "Chemistry of Natural Compounds Vol.61 No.2",
+    "accCode": "PUB-JRN-2025-0006",
+    "disbursementRate": 100,
+    "amount": 2,
+    "metricNote": "SCI 國際期刊 收錄 (刊物: Chemistry of Natural Compounds, 審稿: 是, 出版國: NATUSA)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康美容系"
+    ],
+    "id": "REC-113-329"
+  },
+  {
+    "year": "113",
+    "college": "醫學與健康學院",
+    "dept": "健康美容系",
+    "teacher": "李杏丹",
+    "empId": "T0000038837",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "SCI 國際期刊",
+    "title": "Metabolites from Zingiber mioga with antioxidant activity",
+    "code": "Chemistry of Natural Compounds Vol.61 No.3",
+    "accCode": "PUB-JRN-2025-0026",
+    "disbursementRate": 100,
+    "amount": 2,
+    "metricNote": "SCI 國際期刊 收錄 (刊物: Chemistry of Natural Compounds, 審稿: 是, 出版國: NATUSA)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康美容系"
+    ],
+    "id": "REC-113-330"
+  },
+  {
+    "year": "113",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "李維真",
+    "empId": "T0000010059",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "SCI 國際期刊",
+    "title": "METABOLITES FROM Zingiber zerumbet WITH ANTIOXIDANT ACTIVITY",
+    "code": "Chemistry of Natural Compounds Vol.61 No.3",
+    "accCode": "PUB-JRN-2025-0016",
+    "disbursementRate": 100,
+    "amount": 2,
+    "metricNote": "SCI 國際期刊 收錄 (刊物: Chemistry of Natural Compounds, 審稿: 是, 出版國: NATUSA)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-113-331"
+  },
+  {
+    "year": "113",
+    "college": "醫學與健康學院",
+    "dept": "醫學檢驗生物技術系",
+    "teacher": "曹德安",
+    "empId": "T0000095727",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第一作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "SCI 國際期刊",
+    "title": "METABOLITES OF Zingiber oligophyllum AND THEIR ANTILIVER CANCER ACTIVITY",
+    "code": "Chemistry of Natural Compounds Vol.61 No.2",
+    "accCode": "PUB-JRN-2025-0032",
+    "disbursementRate": 100,
+    "amount": 2,
+    "metricNote": "SCI 國際期刊 收錄 (刊物: Chemistry of Natural Compounds, 審稿: 是, 出版國: NATUSA)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "醫學檢驗生物技術系"
+    ],
+    "id": "REC-113-332"
+  },
+  {
+    "year": "113",
+    "college": "醫學與健康學院",
+    "dept": "醫學檢驗生物技術系",
+    "teacher": "曹德安",
+    "empId": "T0000095727",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第一作者兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "SCI 國際期刊",
+    "title": "Methyleugenol Enhances the Anticancer Effect of Chemotherapeutic Drug and Boosts Chemotherapy Drug Tolerance",
+    "code": "Indonesian Journal of pharmacy",
+    "accCode": "PUB-JRN-2025-0037",
+    "disbursementRate": 100,
+    "amount": 2,
+    "metricNote": "SCI 國際期刊 收錄 (刊物: Indonesian Journal of pharmacy, 審稿: 是, 出版國: NATIDN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "醫學檢驗生物技術系"
+    ],
+    "id": "REC-113-333"
+  },
+  {
+    "year": "113",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "顏秀珍",
+    "empId": "T0000089142",
+    "adminRole": "實習指導教師",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "Mining Quantitative Association Rules",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2024-1689",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-113-334"
+  },
+  {
+    "year": "113",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "陳舜華",
+    "empId": "T0000003564",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "Natural bibenzyl exerts mitotic inhibition in the treatment of nasopharyngeal carcinoma",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2025-1870",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-113-335"
+  },
+  {
+    "year": "113",
+    "college": "醫學與健康學院",
+    "dept": "健康美容系",
+    "teacher": "陳中一",
+    "empId": "T0000054317",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第一作者兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "SCI 國際期刊",
+    "title": "New tetraazacyclododecane from Ilex cornuta",
+    "code": "Chemistry of Natural Compounds Vol.61 No.2",
+    "accCode": "PUB-JRN-2025-0008",
+    "disbursementRate": 100,
+    "amount": 2,
+    "metricNote": "SCI 國際期刊 收錄 (刊物: Chemistry of Natural Compounds, 審稿: 是, 出版國: NATUSA)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康美容系"
+    ],
+    "id": "REC-113-336"
+  },
+  {
+    "year": "113",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "陳淑銘",
+    "empId": "T0000000530",
+    "adminRole": "教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "Nursing students’ knowledge and attitude toward diabetic foot care in Vietnam",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2024-0162",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-113-337"
+  },
+  {
+    "year": "113",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "葉蕙芳",
+    "empId": "T0000055001",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第二作者兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "SCI 國際期刊",
+    "title": "Patient Dignity on the Demoralization and Quality of Life of Inpatients with Cancer: Cross-sectional study.",
+    "code": "Florence Nightingale Journal of Nursing Vol.33",
+    "accCode": "PUB-JRN-2025-0062",
+    "disbursementRate": 100,
+    "amount": 2,
+    "metricNote": "SCI 國際期刊 收錄 (刊物: Florence Nightingale Journal of Nursing, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-113-338"
+  },
+  {
+    "year": "113",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "葉蕙芳",
+    "empId": "T0000055001",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Patient Dignity on the Demoralization and Quality of Life of Inpatients with Cancer:Cross-sectional study",
+    "code": "Florence Nightingale Journal of Nursing",
+    "accCode": "PUB-JRN-2025-0529",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Florence Nightingale Journal of Nursing, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-113-339"
+  },
+  {
+    "year": "113",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "洪瑄曼",
+    "empId": "T0000005248",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "SSCI 國際期刊",
+    "title": "Peer-assisted learning in critical care: a simulation-based approach for postgraduate medical training",
+    "code": "Medical Education Online Vol.30 No.1",
+    "accCode": "PUB-JRN-2025-0055",
+    "disbursementRate": 100,
+    "amount": 2,
+    "metricNote": "SSCI 國際期刊 收錄 (刊物: Medical Education Online, 審稿: 是, 出版國: NATGBR)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-113-340"
+  },
+  {
+    "year": "113",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "洪瑄曼",
+    "empId": "T0000005248",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Peer-assisted learning in critical care: A simulation-based approach for postgraduate medical training.",
+    "code": "Medical Education Online",
+    "accCode": "PUB-JRN-2025-2325",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Medical Education Online, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-113-341"
+  },
+  {
+    "year": "113",
+    "college": "醫學與健康學院",
+    "dept": "物理治療系",
+    "teacher": "陳麗秋",
+    "empId": "T0000048888",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第一作者兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國際研討會論文",
+    "title": "Physical fitness, self-perception and activity participation of Taiwanese preschool-aged children: Role of gender and motor competence",
+    "code": "World Physiotherapy Congress 2025 (Tokyo, NATJPN)",
+    "accCode": "PUB-CONF-2025-0026",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國際研討會論文 (發表於 World Physiotherapy Congress 2025, 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "物理治療系"
+    ],
+    "id": "REC-113-342"
+  },
+  {
+    "year": "113",
+    "college": "醫學與健康學院",
+    "dept": "物理治療系",
+    "teacher": "張薰文",
+    "empId": "T0000095983",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第三作者 (25%)",
+    "weightRatio": 0.25,
+    "category": "論文",
+    "subType": "國際研討會論文",
+    "title": "Physical fitness, self-perception and activity participation of Taiwanese preschool-aged children: Role of gender and motor competence.",
+    "code": "the World Physiotherapy Congress 2025 (東京, NATJPN)",
+    "accCode": "PUB-CONF-2025-0022",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國際研討會論文 (發表於 the World Physiotherapy Congress 2025, 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "物理治療系"
+    ],
+    "id": "REC-113-343"
+  },
+  {
+    "year": "113",
+    "college": "護理學院",
+    "dept": "助產與婦嬰健康照護系",
+    "teacher": "王琳華",
+    "empId": "T0000021776",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Psychometric Development and Evaluation of the Flow State Scale for Caregiving Tasks among Clinical Nurses",
+    "code": "The Journal of Nursing Research",
+    "accCode": "PUB-JRN-2024-0463",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: The Journal of Nursing Research, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "助產與婦嬰健康照護系"
+    ],
+    "id": "REC-113-344"
+  },
+  {
+    "year": "113",
+    "college": "護理學院",
+    "dept": "助產與婦嬰健康照護系",
+    "teacher": "郭心怡",
+    "empId": "T0000005425",
+    "adminRole": "講師",
+    "isArticle7Exempt": false,
+    "authorOrder": "第一作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國際研討會論文",
+    "title": "Psychometric Testing of Diet Functional Assessment Scale for Patients with Dementia",
+    "code": "2025. Western institute of Nursing Conference (Spokane, Washington, NATUSA)",
+    "accCode": "PUB-CONF-2025-0019",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國際研討會論文 (發表於 2025. Western institute of Nursing Conference, 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "助產與婦嬰健康照護系"
+    ],
+    "id": "REC-113-345"
+  },
+  {
+    "year": "113",
+    "college": "人文與管理學院",
+    "dept": "休閒與遊憩事業管理系",
+    "teacher": "林澤民",
+    "empId": "T0000089887",
+    "adminRole": "教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Public Goods, Expressive Values, and Protest Participation: Evidence From a Conjoint Experiment in Hong Kong",
+    "code": "Political Research Quarterly",
+    "accCode": "PUB-JRN-2024-0786",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Political Research Quarterly, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "休閒與遊憩事業管理系"
+    ],
+    "id": "REC-113-346"
+  },
+  {
+    "year": "113",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "葉蕙芳",
+    "empId": "T0000055001",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第一作者兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "Range of Motion limited after Arthroscopy of Rotator cuff tear：Concept Analysis",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2024-0365",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-113-347"
+  },
+  {
+    "year": "113",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "顏秀珍",
+    "empId": "T0000089142",
+    "adminRole": "實習指導教師",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "RealExp: Decoupling Correlation Bias in Shapley Values for Faithful Model Interpretations",
+    "code": "Information Processing & Management",
+    "accCode": "PUB-JRN-2025-2171",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Information Processing & Management, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-113-348"
+  },
+  {
+    "year": "113",
+    "college": "醫學與健康學院",
+    "dept": "醫學檢驗生物技術系",
+    "teacher": "曹德安",
+    "empId": "T0000095727",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Resveratrol Enhance Paclitaxel and Doxorubicin to Inhibit Human\r\nAdenocarcinoma (A549) Cell Proliferation through Wnt Pathway",
+    "code": "Asian Journal of Pharmaceutical Research and Health Care",
+    "accCode": "PUB-JRN-2025-1214",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Asian Journal of Pharmaceutical Research and Health Care, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "醫學檢驗生物技術系"
+    ],
+    "id": "REC-113-349"
+  },
+  {
+    "year": "113",
+    "college": "醫學與健康學院",
+    "dept": "醫學檢驗生物技術系",
+    "teacher": "曹德安",
+    "empId": "T0000095727",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第一作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "SCI 國際期刊",
+    "title": "Resveratrol Enhances Paclitaxel and Doxorubicin to Inhibit Human Adenocarcinoma (A549) Cells Proliferation through Wnt Pathway",
+    "code": "Asian Journal of Pharmaceutical Research and Health Care Vol.17 No.3",
+    "accCode": "PUB-JRN-2025-0035",
+    "disbursementRate": 100,
+    "amount": 2,
+    "metricNote": "SCI 國際期刊 收錄 (刊物: Asian Journal of Pharmaceutical Research and Health Care, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "醫學檢驗生物技術系"
+    ],
+    "id": "REC-113-350"
+  },
+  {
+    "year": "113",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "陳舜華",
+    "empId": "T0000003564",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Ribociclib leverages phosphodiesterase 4 inhibition in the treatment of neutrophilic inflammation and acute respiratory distress syndrome",
+    "code": "Journal of Advanced Research",
+    "accCode": "PUB-JRN-2024-2303",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Journal of Advanced Research, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-113-351"
+  },
+  {
+    "year": "113",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "張靜鳳",
+    "empId": "T0000057926",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第一作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "SCIE 國際期刊",
+    "title": "Risk factors and awareness of tobacco smoking and second-hand smoke exposure among pregnant women in Taiwan",
+    "code": "Journal of Perinatal Medicine",
+    "accCode": "PUB-JRN-2025-0067",
+    "disbursementRate": 100,
+    "amount": 2,
+    "metricNote": "SCIE 國際期刊 收錄 (刊物: Journal of Perinatal Medicine, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-113-352"
+  },
+  {
+    "year": "113",
+    "college": "醫學與健康學院",
+    "dept": "醫學檢驗生物技術系",
+    "teacher": "林清江",
+    "empId": "T0000086327",
+    "adminRole": "教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Risk factors and awareness of tobacco smoking and second-hand smoke exposure among pregnant women in Taiwan.",
+    "code": "Journal of perinatal medicine",
+    "accCode": "PUB-JRN-2025-1140",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Journal of perinatal medicine, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "醫學檢驗生物技術系"
+    ],
+    "id": "REC-113-353"
+  },
+  {
+    "year": "113",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "顧雅利",
+    "empId": "T0000077888",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "SCIE 國際期刊",
+    "title": "Scale of self-perceived listening, empathy, and presence (LEP) abilities in associate degree nursing students for aging care",
+    "code": "Geriatric Nursing                                       Impact Factor 2.5",
+    "accCode": "PUB-JRN-2024-0659",
+    "disbursementRate": 100,
+    "amount": 2,
+    "metricNote": "SCIE 國際期刊 收錄 (刊物: Geriatric Nursing                                       Impact Factor 2.5, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-113-354"
+  },
+  {
+    "year": "113",
+    "college": "醫學與健康學院",
+    "dept": "健康美容系",
+    "teacher": "吳惠敏",
+    "empId": "T0000066958",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第一作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "SCI 國際期刊",
+    "title": "SECONDARY METABOLITES OF Cinnamomum kotoense WITH ANTIOXIDANT ACTIVITY",
+    "code": "Chemistry of Natural Compounds Vol.61 No.4",
+    "accCode": "PUB-JRN-2025-0068",
+    "disbursementRate": 100,
+    "amount": 2,
+    "metricNote": "SCI 國際期刊 收錄 (刊物: Chemistry of Natural Compounds, 審稿: 是, 出版國: NATUSA)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康美容系"
+    ],
+    "id": "REC-113-355"
+  },
+  {
+    "year": "113",
+    "college": "醫學與健康學院",
+    "dept": "健康美容系",
+    "teacher": "陳中一",
+    "empId": "T0000054317",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第一作者兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "SCI 國際期刊",
+    "title": "Secondary metabolites of Coix lachryma-jobi var. ma-yuen hulls",
+    "code": "Chemistry of Natural Compounds Vol.61 No.1",
+    "accCode": "PUB-JRN-2025-0049",
+    "disbursementRate": 100,
+    "amount": 2,
+    "metricNote": "SCI 國際期刊 收錄 (刊物: Chemistry of Natural Compounds, 審稿: 是, 出版國: NATUSA)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康美容系"
+    ],
+    "id": "REC-113-356"
+  },
+  {
+    "year": "113",
+    "college": "醫學與健康學院",
+    "dept": "健康美容系",
+    "teacher": "陳中一",
+    "empId": "T0000054317",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "SCI 國際期刊",
+    "title": "Secondary metabolites of Cordyceps militaris",
+    "code": "Chemistry of Natural Compounds Vol.61 No.4",
+    "accCode": "PUB-JRN-2025-0012",
+    "disbursementRate": 100,
+    "amount": 2,
+    "metricNote": "SCI 國際期刊 收錄 (刊物: Chemistry of Natural Compounds, 審稿: 是, 出版國: NATUSA)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康美容系"
+    ],
+    "id": "REC-113-357"
+  },
+  {
+    "year": "113",
+    "college": "醫學與健康學院",
+    "dept": "健康美容系",
+    "teacher": "陳中一",
+    "empId": "T0000054317",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第一作者兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "SCI 國際期刊",
+    "title": "Secondary metabolites of Crithmum maritimum",
+    "code": "Chemistry of Natural Compounds Vol.61 No.2",
+    "accCode": "PUB-JRN-2025-0005",
+    "disbursementRate": 100,
+    "amount": 2,
+    "metricNote": "SCI 國際期刊 收錄 (刊物: Chemistry of Natural Compounds, 審稿: 是, 出版國: NATUSA)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康美容系"
+    ],
+    "id": "REC-113-358"
+  },
+  {
+    "year": "113",
+    "college": "醫學與健康學院",
+    "dept": "健康美容系",
+    "teacher": "李杏丹",
+    "empId": "T0000038837",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "SCI 國際期刊",
+    "title": "Secondary metabolites of Curcuma aromatica and their anti-liver cancer activity&#x0D;",
+    "code": "Chemistry of Natural Compounds Vol.61 No.3",
+    "accCode": "PUB-JRN-2025-0025",
+    "disbursementRate": 100,
+    "amount": 2,
+    "metricNote": "SCI 國際期刊 收錄 (刊物: Chemistry of Natural Compounds, 審稿: 是, 出版國: NATUSA)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康美容系"
+    ],
+    "id": "REC-113-359"
+  },
+  {
+    "year": "113",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "李維真",
+    "empId": "T0000010059",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "SCI 國際期刊",
+    "title": "SECONDARY METABOLITES OF Daucus carota",
+    "code": "Chemistry of Natural Compounds Vol.61 No.4",
+    "accCode": "PUB-JRN-2025-0014",
+    "disbursementRate": 100,
+    "amount": 2,
+    "metricNote": "SCI 國際期刊 收錄 (刊物: Chemistry of Natural Compounds, 審稿: 是, 出版國: NATUSA)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-113-360"
+  },
+  {
+    "year": "113",
+    "college": "醫學與健康學院",
+    "dept": "健康美容系",
+    "teacher": "李杏丹",
+    "empId": "T0000038837",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "SCI 國際期刊",
+    "title": "Secondary metabolites of Ficus benjamina",
+    "code": "Chemistry of Natural Compounds Vol.61 No.2",
+    "accCode": "PUB-JRN-2025-0021",
+    "disbursementRate": 100,
+    "amount": 2,
+    "metricNote": "SCI 國際期刊 收錄 (刊物: Chemistry of Natural Compounds, 審稿: 是, 出版國: NATUSA)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康美容系"
+    ],
+    "id": "REC-113-361"
+  },
+  {
+    "year": "113",
+    "college": "醫學與健康學院",
+    "dept": "健康美容系",
+    "teacher": "李杏丹",
+    "empId": "T0000038837",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "SCI 國際期刊",
+    "title": "Secondary metabolites of Ficus religiosa",
+    "code": "Chemistry of Natural Compounds Vol.61 No.1",
+    "accCode": "PUB-JRN-2025-0019",
+    "disbursementRate": 100,
+    "amount": 2,
+    "metricNote": "SCI 國際期刊 收錄 (刊物: Chemistry of Natural Compounds, 審稿: 是, 出版國: NATUSA)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康美容系"
+    ],
+    "id": "REC-113-362"
+  },
+  {
+    "year": "113",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "李維真",
+    "empId": "T0000010059",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "SCI 國際期刊",
+    "title": "SECONDARY METABOLITES OF Ficus religiosa",
+    "code": "Chemistry of Natural Compounds Vol.61 No.1",
+    "accCode": "PUB-JRN-2025-0053",
+    "disbursementRate": 100,
+    "amount": 2,
+    "metricNote": "SCI 國際期刊 收錄 (刊物: Chemistry of Natural Compounds, 審稿: 是, 出版國: NATUSA)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-113-363"
+  },
+  {
+    "year": "113",
+    "college": "醫學與健康學院",
+    "dept": "健康美容系",
+    "teacher": "李杏丹",
+    "empId": "T0000038837",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "SCI 國際期刊",
+    "title": "Secondary metabolites of Foeniculum vulgare",
+    "code": "Chemistry of Natural Compounds Vol.61 No.4",
+    "accCode": "PUB-JRN-2025-0030",
+    "disbursementRate": 100,
+    "amount": 2,
+    "metricNote": "SCI 國際期刊 收錄 (刊物: Chemistry of Natural Compounds, 審稿: 是, 出版國: NATUSA)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康美容系"
+    ],
+    "id": "REC-113-364"
+  },
+  {
+    "year": "113",
+    "college": "醫學與健康學院",
+    "dept": "健康美容系",
+    "teacher": "陳中一",
+    "empId": "T0000054317",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "SCI 國際期刊",
+    "title": "Secondary metabolites of Haworthia cooperi.",
+    "code": "Chemistry of Natural Compounds Vol.61 No.2",
+    "accCode": "PUB-JRN-2025-0009",
+    "disbursementRate": 100,
+    "amount": 2,
+    "metricNote": "SCI 國際期刊 收錄 (刊物: Chemistry of Natural Compounds, 審稿: 是, 出版國: NATUSA)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康美容系"
+    ],
+    "id": "REC-113-365"
+  },
+  {
+    "year": "113",
+    "college": "醫學與健康學院",
+    "dept": "健康美容系",
+    "teacher": "李杏丹",
+    "empId": "T0000038837",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "SCI 國際期刊",
+    "title": "Secondary metabolites of Kalanchoe beharensis",
+    "code": "Chemistry of Natural Compounds Vol.61 No.4",
+    "accCode": "PUB-JRN-2025-0028",
+    "disbursementRate": 100,
+    "amount": 2,
+    "metricNote": "SCI 國際期刊 收錄 (刊物: Chemistry of Natural Compounds, 審稿: 是, 出版國: NATUSA)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康美容系"
+    ],
+    "id": "REC-113-366"
+  },
+  {
+    "year": "113",
+    "college": "醫學與健康學院",
+    "dept": "健康美容系",
+    "teacher": "李杏丹",
+    "empId": "T0000038837",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "SCI 國際期刊",
+    "title": "Secondary metabolites of the fruits of Cananga odorata",
+    "code": "Chemistry of Natural Compounds Vol.61 No.3",
+    "accCode": "PUB-JRN-2025-0024",
+    "disbursementRate": 100,
+    "amount": 2,
+    "metricNote": "SCI 國際期刊 收錄 (刊物: Chemistry of Natural Compounds, 審稿: 是, 出版國: NATUSA)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康美容系"
+    ],
+    "id": "REC-113-367"
+  },
+  {
+    "year": "113",
+    "college": "醫學與健康學院",
+    "dept": "健康美容系",
+    "teacher": "李杏丹",
+    "empId": "T0000038837",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "SCI 國際期刊",
+    "title": "Secondary metabolites of Vitis amurensis",
+    "code": "Chemistry of Natural Compounds Vol.61 No.4",
+    "accCode": "PUB-JRN-2025-0027",
+    "disbursementRate": 100,
+    "amount": 2,
+    "metricNote": "SCI 國際期刊 收錄 (刊物: Chemistry of Natural Compounds, 審稿: 是, 出版國: NATUSA)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康美容系"
+    ],
+    "id": "REC-113-368"
+  },
+  {
+    "year": "113",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "顧雅利",
+    "empId": "T0000077888",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第二作者 (50%)",
+    "weightRatio": 0.5,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "Stages, Age, Sex, and Risk Factors of Chronic Kidney Disease Patients in the OPD of A Hospital in Southern Taiwan",
+    "code": "ICN Congress 2025 (Helsinki, Finland, NATTWN)",
+    "accCode": "PUB-CONF-2025-0008",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 ICN Congress 2025, 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-113-369"
+  },
+  {
+    "year": "113",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "陳立庭",
+    "empId": "T0000036425",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Systematic review: The integration of artificial intelligence-powered\r\ncognitive-behavioural therapy for autonomous mental health management",
+    "code": "Archives of Psychiatric Nursing",
+    "accCode": "PUB-JRN-2025-0519",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Archives of Psychiatric Nursing, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-113-370"
+  },
+  {
+    "year": "113",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "陳立庭",
+    "empId": "T0000036425",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第一作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "SSCI 國際期刊",
+    "title": "Systematic review: The integration of artificial intelligence-powered cognitive-behavioural therapy for autonomous mental health management",
+    "code": "Archives of Psychiatric Nursing No.57",
+    "accCode": "PUB-JRN-2025-0034",
+    "disbursementRate": 100,
+    "amount": 2,
+    "metricNote": "SSCI 國際期刊 收錄 (刊物: Archives of Psychiatric Nursing, 審稿: 是, 出版國: NATUSA)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-113-371"
+  },
+  {
+    "year": "113",
+    "college": "人文與管理學院",
+    "dept": "應用外語系",
+    "teacher": "楊玉琦",
+    "empId": "T0000038233",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第一作者兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Teaching EFL Vocabulary through Analyzing the Structure of Words Coupled with Using Crossword Puzzles",
+    "code": "International Journal of TESOL & Education Vol.5 No.2",
+    "accCode": "PUB-JRN-2025-0057",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: International Journal of TESOL & Education, 審稿: 是, 出版國: NATUSA)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "應用外語系"
+    ],
+    "id": "REC-113-372"
+  },
+  {
+    "year": "113",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "洪瑄曼",
+    "empId": "T0000005248",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第三作者 (25%)",
+    "weightRatio": 0.25,
+    "category": "論文",
+    "subType": "SCI 國際期刊",
+    "title": "Temporal trends in quality of work life, burnout, resilience, and turnover intention among newly employed nurses",
+    "code": "Applied Nursing Research Vol.83",
+    "accCode": "PUB-JRN-2025-0054",
+    "disbursementRate": 100,
+    "amount": 2,
+    "metricNote": "SCI 國際期刊 收錄 (刊物: Applied Nursing Research, 審稿: 是, 出版國: NATUSA)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-113-373"
+  },
+  {
+    "year": "113",
+    "college": "護理學院",
+    "dept": "健康事業管理系",
+    "teacher": "黃傑康",
+    "empId": "T0000119634",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "The Antecedent Factors of Medical Shared Decision-making on Patients’ Psychological Safety in Taiwan Medical Institutions",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2024-1308",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康事業管理系"
+    ],
+    "id": "REC-113-374"
+  },
+  {
+    "year": "113",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "施芊卉",
+    "empId": "T0000084532",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "The application of augmented reality in cultural care: Enhancing fall prevention training for indigenous long-term care staff.",
+    "code": "Journal of Mechanics in Medicine and Biology",
+    "accCode": "PUB-JRN-2025-0778",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Journal of Mechanics in Medicine and Biology, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-113-375"
+  },
+  {
+    "year": "113",
+    "college": "醫學與健康學院",
+    "dept": "物理治療系",
+    "teacher": "李美誼",
+    "empId": "T0000022109",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第二作者兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "The Benefits of Incorporating Handmade Miniature Models into Specific Units of Anatomy Courses.",
+    "code": "The 89th Annual Academic Conference of Taiwan Physical Therapy Association (桃園市, NATTWN)",
+    "accCode": "PUB-CONF-2025-0005",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 The 89th Annual Academic Conference of Taiwan Physical Therapy Association, 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "物理治療系"
+    ],
+    "id": "REC-113-376"
+  },
+  {
+    "year": "113",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "葉蕙芳",
+    "empId": "T0000055001",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第一作者兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "The Body Image Disturbance due to Acute Limb Ischemia and Bilateral Above Knee Amputation - a case report.",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2024-0366",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-113-377"
+  },
+  {
+    "year": "113",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "林佑樺",
+    "empId": "T0000120649",
+    "adminRole": "教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "The Changing Trends in Post-Intensive Care Syndrome Among Survivors Transferred out of the Intensive Care Unit",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2025-1883",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-113-378"
+  },
+  {
+    "year": "113",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "楊君菁",
+    "empId": "T0000084253",
+    "adminRole": "實習指導教師",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "The effect of digital reminiscence therapy on people with mild and moderate dementia: A randomized controlled trial.",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2025-0076",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-113-379"
+  },
+  {
+    "year": "113",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "張怡娟",
+    "empId": "T0000009100",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "The Effect of Electrical stimulation and Biofeedback Interventions on anal incontinence in Rectal cancer after surgery: A Randomized Controlled Trial.",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2024-0284",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-113-380"
+  },
+  {
+    "year": "113",
+    "college": "醫學與健康學院",
+    "dept": "物理治療系",
+    "teacher": "康富傑",
+    "empId": "T0000060441",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "The effect of exercise intervention on forward head posture and round shoulder posture in competitive swimmer：a randomized control trail.",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2024-0943",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "物理治療系"
+    ],
+    "id": "REC-113-381"
+  },
+  {
+    "year": "113",
+    "college": "醫學與健康學院",
+    "dept": "物理治療系",
+    "teacher": "康富傑",
+    "empId": "T0000060441",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "The effect of exercise intervention on scapular kinematics and round shoulder posture in competitive swimmer：a randomized control trail",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2025-0942",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "物理治療系"
+    ],
+    "id": "REC-113-382"
+  },
+  {
+    "year": "113",
+    "college": "醫學與健康學院",
+    "dept": "醫學檢驗生物技術系",
+    "teacher": "徐慧雯",
+    "empId": "T0000010908",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "The effect of protein-bound uremic toxins on cell proliferation and migration",
+    "code": "第三十九屆生物醫學聯合學術年會 (台北, NATTWN)",
+    "accCode": "PUB-CONF-2025-0009",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 第三十九屆生物醫學聯合學術年會, 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "醫學檢驗生物技術系"
+    ],
+    "id": "REC-113-383"
+  },
+  {
+    "year": "113",
+    "college": "醫學與健康學院",
+    "dept": "醫學檢驗生物技術系",
+    "teacher": "徐慧雯",
+    "empId": "T0000010908",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "The effect of protein-bound uremic toxins on H1299 cell proliferation and EMT",
+    "code": "2025 第8屆AAMLS年會暨第16屆亞太醫學檢驗科學國際研討會 (台北, NATTWN)",
+    "accCode": "PUB-CONF-2025-0010",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 2025 第8屆AAMLS年會暨第16屆亞太醫學檢驗科學國際研討會, 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "醫學檢驗生物技術系"
+    ],
+    "id": "REC-113-384"
+  },
+  {
+    "year": "113",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "楊君菁",
+    "empId": "T0000084253",
+    "adminRole": "實習指導教師",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "The Effectiveness of Augmented Reality Technology in Gender Empowerment Programs for Long-term Care Workers.",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2025-0075",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-113-385"
+  },
+  {
+    "year": "113",
+    "college": "護理學院",
+    "dept": "高齡及長期照護事業系",
+    "teacher": "楊月頴",
+    "empId": "T0000097047",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "The effectiveness of muscle-stretching exercises program to Prevent or Delay Disability in the Community Care Center",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2024-2032",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "高齡及長期照護事業系"
+    ],
+    "id": "REC-113-386"
+  },
+  {
+    "year": "113",
+    "college": "醫學與健康學院",
+    "dept": "物理治療系",
+    "teacher": "康富傑",
+    "empId": "T0000060441",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第一作者兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國際研討會論文",
+    "title": "The effects of exercise intervention on scapular kinematics and round shoulder posture in competitive swimmer: a randomized control trial",
+    "code": "WCPT 2025 congress (東京, NATJPN)",
+    "accCode": "PUB-CONF-2025-0023",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國際研討會論文 (發表於 WCPT 2025 congress, 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "物理治療系"
+    ],
+    "id": "REC-113-387"
+  },
+  {
+    "year": "113",
+    "college": "醫學與健康學院",
+    "dept": "物理治療系",
+    "teacher": "李美誼",
+    "empId": "T0000022109",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "The Effects of Soybean Stick Tapping Exercise on Human Meridian Systems.",
+    "code": "The 89th Annual Academic Conference of Taiwan Physical Therapy Association (桃園市, NATTWN)",
+    "accCode": "PUB-CONF-2025-0004",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 The 89th Annual Academic Conference of Taiwan Physical Therapy Association, 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "物理治療系"
+    ],
+    "id": "REC-113-388"
+  },
+  {
+    "year": "113",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "楊君菁",
+    "empId": "T0000084253",
+    "adminRole": "實習指導教師",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "The efficacy of abdominal binder in women undergoing cesarean delivery: A meta-analysis of randomized controlled trials.",
+    "code": "Midwifery",
+    "accCode": "PUB-JRN-2025-0195",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Midwifery, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-113-389"
+  },
+  {
+    "year": "113",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "謝玉惠",
+    "empId": "T0000053868",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第一作者兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "The impact of experiential teaching for nursing students",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2024-0359",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-113-390"
+  },
+  {
+    "year": "113",
+    "college": "護理學院",
+    "dept": "健康事業管理系",
+    "teacher": "黃傑康",
+    "empId": "T0000119634",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "The Impact of Internet Celebrity Characteristics on Fans’ Continuous Following Behavior",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2025-1306",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康事業管理系"
+    ],
+    "id": "REC-113-391"
+  },
+  {
+    "year": "113",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "林佑樺",
+    "empId": "T0000120649",
+    "adminRole": "教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "The psychometrics test of Chinese version of post-intensive care syndrome scale.",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2024-1885",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-113-392"
+  },
+  {
+    "year": "113",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "楊君菁",
+    "empId": "T0000084253",
+    "adminRole": "實習指導教師",
+    "isArticle7Exempt": false,
+    "authorOrder": "第一作者兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國際研討會論文",
+    "title": "The relationship between community residents’s spraying of infectious disease and sense of community: use dengue fever as an example",
+    "code": "15th International Nursing Conference (INC) & 28th East Asian Forum of Nursing Scholars (EAFONS) (首爾, NATKOR)",
+    "accCode": "PUB-CONF-2025-0001",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國際研討會論文 (發表於 15th International Nursing Conference (INC) & 28th East Asian Forum of Nursing Scholars (EAFONS), 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-113-393"
+  },
+  {
+    "year": "113",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "陳淑銘",
+    "empId": "T0000000530",
+    "adminRole": "教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "Transitional anxiety: A concept analysis",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2024-0163",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-113-394"
+  },
+  {
+    "year": "113",
+    "college": "醫學與健康學院",
+    "dept": "健康美容系",
+    "teacher": "陳中一",
+    "empId": "T0000054317",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第一作者兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "SCI 國際期刊",
+    "title": "Two new phenylalkaloids of Alpinia officinarum and Zingiber oligophyllum",
+    "code": "Chemistry of Natural Compounds Vol.61 No.3",
+    "accCode": "PUB-JRN-2025-0011",
+    "disbursementRate": 100,
+    "amount": 2,
+    "metricNote": "SCI 國際期刊 收錄 (刊物: Chemistry of Natural Compounds, 審稿: 是, 出版國: NATUSA)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康美容系"
+    ],
+    "id": "REC-113-395"
+  },
+  {
+    "year": "113",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "陳舜華",
+    "empId": "T0000003564",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Unlocking the potential of novel Tetrahydro-β-Carboline-based HDAC6 inhibitors for colorectal Cancer therapy: Design, synthesis and biological evaluation",
+    "code": "Bioorganic Chemistry",
+    "accCode": "PUB-JRN-2025-2301",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Bioorganic Chemistry, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-113-396"
+  },
+  {
+    "year": "113",
+    "college": "護理學院",
+    "dept": "健康事業管理系",
+    "teacher": "林政翰",
+    "empId": "T0000074995",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "Using fuzzy control routing for dynamic load balancing over Software-Defined Networks",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2025-1225",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康事業管理系"
+    ],
+    "id": "REC-113-397"
+  },
+  {
+    "year": "113",
+    "college": "人文與管理學院",
+    "dept": "幼兒保育暨產業系",
+    "teacher": "張義雄",
+    "empId": "T0000094730",
+    "adminRole": "教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Using gesture recognition with the memory strategy to improve preschoolers’ learning performance, motor skills, and executive function",
+    "code": "Educational Technology Research and Development",
+    "accCode": "PUB-JRN-2025-3017",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Educational Technology Research and Development, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "幼兒保育暨產業系"
+    ],
+    "id": "REC-113-398"
+  },
+  {
+    "year": "113",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "梁菁萍",
+    "empId": "T0000117242",
+    "adminRole": "教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Using Machine Learning to Develop a Surrogate Model for Simulating Multispecies Contaminant Transport in Groundwater",
+    "code": "Hydrology",
+    "accCode": "PUB-JRN-2025-0879",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Hydrology, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-113-399"
+  },
+  {
+    "year": "113",
+    "college": "護理學院",
+    "dept": "健康事業管理系",
+    "teacher": "羅家倫",
+    "empId": "T0000060871",
+    "adminRole": "國際事務長（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "SCI 國際期刊",
+    "title": "Utilizing lead isotopes in airborne particulates and soils to trace lead sources: A case\r\nstudy from southern Taiwan",
+    "code": "Atmospheric Pollution Research(SCI)",
+    "accCode": "PUB-JRN-2024-1614",
+    "disbursementRate": 100,
+    "amount": 2,
+    "metricNote": "SCI 國際期刊 收錄 (刊物: Atmospheric Pollution Research(SCI), 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康事業管理系"
+    ],
+    "id": "REC-113-400"
+  },
+  {
+    "year": "113",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "葉蕙芳",
+    "empId": "T0000055001",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Validation of a Locomotive Syndrome Evaluation Scale in Chinese Population by Delphi Method.",
+    "code": "Aging Medicine and Healthcare",
+    "accCode": "PUB-JRN-2025-0528",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Aging Medicine and Healthcare, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-113-401"
+  },
+  {
+    "year": "113",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "蔡家梅",
+    "empId": "T0000095912",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第一作者兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國際研討會論文",
+    "title": "Virtual reality program to support formal caregivers empathize BPSD for community-dwelling older adults with mild and moderate dementia: A qualitative study",
+    "code": "28th EAFONS & 15th INC 2025 (首爾, NATKOR)",
+    "accCode": "PUB-CONF-2025-0007",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國際研討會論文 (發表於 28th EAFONS & 15th INC 2025, 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-113-402"
+  },
+  {
+    "year": "113",
+    "college": "護理學院",
+    "dept": "助產與婦嬰健康照護系",
+    "teacher": "郭心怡",
+    "empId": "T0000005425",
+    "adminRole": "講師",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "Wave features of nonlocal multiferroic laminated composites with imperfect interfaces",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2024-0243",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "助產與婦嬰健康照護系"
+    ],
+    "id": "REC-113-403"
+  },
+  {
+    "year": "113",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "莊麗玉",
+    "empId": "T0000009267",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第一作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "SCI 國際期刊",
+    "title": "Your Body, My Business: Risk Governance in A Psychiatric Nursing Home.",
+    "code": "Journal of Psychiatric and Mental Health Nursing Vol.32 No.3",
+    "accCode": "PUB-JRN-2025-0001",
+    "disbursementRate": 100,
+    "amount": 2,
+    "metricNote": "SCI 國際期刊 收錄 (刊物: Journal of Psychiatric and Mental Health Nursing, 審稿: 是, 出版國: NATAUS)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-113-404"
   },
   {
     "year": "112",
@@ -12074,7 +25160,7 @@ var DATASET_111_115 = [
   {
     "year": "112",
     "college": "護理學院",
-    "dept": "護理系",
+    "dept": "共同教育中心",
     "teacher": "程紋貞",
     "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
     "isArticle7Exempt": true,
@@ -12095,7 +25181,7 @@ var DATASET_111_115 = [
     "keywords": [
       "高齡長照",
       "失智症照護",
-      "護理系"
+      "共同教育中心"
     ],
     "id": "REC-112-007"
   },
@@ -12182,7 +25268,7 @@ var DATASET_111_115 = [
   {
     "year": "112",
     "college": "護理學院",
-    "dept": "護理系",
+    "dept": "共同教育中心",
     "teacher": "李碧玉",
     "adminRole": "專任教師",
     "isArticle7Exempt": false,
@@ -12201,7 +25287,7 @@ var DATASET_111_115 = [
     "group": "產學合作組",
     "status": "已結案",
     "keywords": [
-      "護理系"
+      "共同教育中心"
     ],
     "id": "REC-112-011"
   },
@@ -12431,6 +25517,33 @@ var DATASET_111_115 = [
   },
   {
     "year": "112",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "邱宜令",
+    "empId": "T0000072457",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "計畫主持人 (100%)",
+    "weightRatio": 1,
+    "category": "計畫案",
+    "subType": "國科會專題研究計畫",
+    "title": "34th International Nursing Research Congress",
+    "code": "NSTC-112-護理-123",
+    "accCode": "ACC-112-NSTC-123",
+    "disbursementRate": 100,
+    "amount": 2.5,
+    "metricNote": "國科會核定 NT$ 2.5 萬 (補助國內專家學者出席國際學術會議)",
+    "source": "TEACHER-WRITTING (表1-17 國科會計畫案)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已核定歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-112-020"
+  },
+  {
+    "year": "112",
     "college": "醫學與健康學院",
     "dept": "醫學檢驗生物技術系",
     "teacher": "郭順宇",
@@ -12453,7 +25566,7 @@ var DATASET_111_115 = [
     "keywords": [
       "醫學檢驗生物技術系"
     ],
-    "id": "REC-112-020"
+    "id": "REC-112-021"
   },
   {
     "year": "112",
@@ -12479,7 +25592,7 @@ var DATASET_111_115 = [
     "keywords": [
       "環境工程與科學系"
     ],
-    "id": "REC-112-021"
+    "id": "REC-112-022"
   },
   {
     "year": "112",
@@ -12505,7 +25618,7 @@ var DATASET_111_115 = [
     "keywords": [
       "環境工程與科學系"
     ],
-    "id": "REC-112-022"
+    "id": "REC-112-023"
   },
   {
     "year": "112",
@@ -12533,7 +25646,7 @@ var DATASET_111_115 = [
       "公共托育",
       "幼兒保育暨產業系"
     ],
-    "id": "REC-112-023"
+    "id": "REC-112-024"
   },
   {
     "year": "112",
@@ -12559,7 +25672,7 @@ var DATASET_111_115 = [
     "keywords": [
       "幼兒保育暨產業系"
     ],
-    "id": "REC-112-024"
+    "id": "REC-112-025"
   },
   {
     "year": "112",
@@ -12585,7 +25698,7 @@ var DATASET_111_115 = [
     "keywords": [
       "環境工程與科學系"
     ],
-    "id": "REC-112-025"
+    "id": "REC-112-026"
   },
   {
     "year": "112",
@@ -12613,7 +25726,7 @@ var DATASET_111_115 = [
       "失智症照護",
       "物理治療系"
     ],
-    "id": "REC-112-026"
+    "id": "REC-112-027"
   },
   {
     "year": "112",
@@ -12639,7 +25752,34 @@ var DATASET_111_115 = [
     "keywords": [
       "健康事業管理系"
     ],
-    "id": "REC-112-027"
+    "id": "REC-112-028"
+  },
+  {
+    "year": "112",
+    "college": "護理學院",
+    "dept": "健康事業管理系",
+    "teacher": "羅家倫",
+    "empId": "T0000060871",
+    "adminRole": "國際事務長（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "計畫主持人 (100%)",
+    "weightRatio": 1,
+    "category": "計畫案",
+    "subType": "國科會專題研究計畫",
+    "title": "以情感分析技術整合網路口碑語意為基礎之個人化醫院及醫師推薦方法研究",
+    "code": "NSTC-112-資訊管理-333",
+    "accCode": "ACC-112-NSTC-333",
+    "disbursementRate": 100,
+    "amount": 65,
+    "metricNote": "國科會核定 NT$ 65 萬 (專題研究計畫 (一般研究計畫))",
+    "source": "TEACHER-WRITTING (表1-17 國科會計畫案)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已核定歸檔",
+    "keywords": [
+      "健康事業管理系"
+    ],
+    "id": "REC-112-029"
   },
   {
     "year": "112",
@@ -12665,7 +25805,34 @@ var DATASET_111_115 = [
     "keywords": [
       "健康事業管理系"
     ],
-    "id": "REC-112-028"
+    "id": "REC-112-030"
+  },
+  {
+    "year": "112",
+    "college": "護理學院",
+    "dept": "健康事業管理系",
+    "teacher": "黃傑康",
+    "empId": "T0000119634",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "計畫主持人 (100%)",
+    "weightRatio": 1,
+    "category": "計畫案",
+    "subType": "國科會專題研究計畫",
+    "title": "以推-拉-繫留（Push-Pull-Mooring）模式探討台灣民眾在分級醫療政策下的轉診行為之定量研究：知覺罹患性為干擾因素",
+    "code": "NSTC-112-資訊管理-349",
+    "accCode": "ACC-112-NSTC-349",
+    "disbursementRate": 100,
+    "amount": 81,
+    "metricNote": "國科會核定 NT$ 81 萬 (專題研究計畫 (新進人員研究計畫))",
+    "source": "TEACHER-WRITTING (表1-17 國科會計畫案)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已核定歸檔",
+    "keywords": [
+      "健康事業管理系"
+    ],
+    "id": "REC-112-031"
   },
   {
     "year": "112",
@@ -12691,7 +25858,63 @@ var DATASET_111_115 = [
     "keywords": [
       "醫學檢驗生物技術系"
     ],
-    "id": "REC-112-029"
+    "id": "REC-112-032"
+  },
+  {
+    "year": "112",
+    "college": "醫學與健康學院",
+    "dept": "保健營養系",
+    "teacher": "蔡蕙芸",
+    "empId": "T0000098101",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "共同主持人 (50%)",
+    "weightRatio": 0.5,
+    "category": "計畫案",
+    "subType": "國科會專題研究計畫",
+    "title": "台灣香檬果皮及其活性成分對胃黏膜損傷之改善作用",
+    "code": "NSTC-112-食品科學-272",
+    "accCode": "ACC-112-NSTC-272",
+    "disbursementRate": 100,
+    "amount": 110,
+    "metricNote": "國科會核定 NT$ 110 萬 (專題研究計畫 (一般研究計畫))",
+    "source": "TEACHER-WRITTING (表1-17 國科會計畫案)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已核定歸檔",
+    "keywords": [
+      "保健營養系"
+    ],
+    "id": "REC-112-033"
+  },
+  {
+    "year": "112",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "董曉婷",
+    "empId": "T0000045947",
+    "adminRole": "主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "共同主持人 (50%)",
+    "weightRatio": 0.5,
+    "category": "計畫案",
+    "subType": "國科會專題研究計畫",
+    "title": "失智老人核心健康指標、整合性健康評估套組及健康促進方案之發展、建置與測試",
+    "code": "NSTC-112-護理-544",
+    "accCode": "ACC-112-NSTC-544",
+    "disbursementRate": 100,
+    "amount": 80,
+    "metricNote": "國科會核定 NT$ 80 萬 (專題研究計畫 (一般研究計畫))",
+    "source": "TEACHER-WRITTING (表1-17 國科會計畫案)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已核定歸檔",
+    "keywords": [
+      "高齡長照",
+      "失智症照護",
+      "護理系"
+    ],
+    "id": "REC-112-034"
   },
   {
     "year": "112",
@@ -12720,12 +25943,12 @@ var DATASET_111_115 = [
       "專利研發",
       "護理系"
     ],
-    "id": "REC-112-030"
+    "id": "REC-112-035"
   },
   {
     "year": "112",
-    "college": "護理學院",
-    "dept": "護理系",
+    "college": "人文與管理學院",
+    "dept": "共同教育中心",
     "teacher": "邱敏熙",
     "adminRole": "專任教師",
     "isArticle7Exempt": false,
@@ -12748,14 +25971,14 @@ var DATASET_111_115 = [
       "分子檢測",
       "臨床護理",
       "教材研發",
-      "護理系"
+      "共同教育中心"
     ],
-    "id": "REC-112-031"
+    "id": "REC-112-036"
   },
   {
     "year": "112",
-    "college": "護理學院",
-    "dept": "護理系",
+    "college": "人文與管理學院",
+    "dept": "共同教育中心",
     "teacher": "葉耀宗",
     "adminRole": "主任（依評鑑辦法第7條得僅評教學基本指標）",
     "isArticle7Exempt": true,
@@ -12778,9 +26001,38 @@ var DATASET_111_115 = [
       "分子檢測",
       "臨床護理",
       "教材研發",
+      "共同教育中心"
+    ],
+    "id": "REC-112-037"
+  },
+  {
+    "year": "112",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "梁菁萍",
+    "empId": "T0000117242",
+    "adminRole": "教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "共同主持人 (50%)",
+    "weightRatio": 0.5,
+    "category": "計畫案",
+    "subType": "國科會專題研究計畫",
+    "title": "多重滲透性反應牆系統整治原始污染物與其降解生成污染物共存地下水污染的解析模擬與功能評估",
+    "code": "NSTC-112-水文學-075",
+    "accCode": "ACC-112-NSTC-075",
+    "disbursementRate": 100,
+    "amount": 405.8,
+    "metricNote": "國科會核定 NT$ 405.8 萬 (專題研究計畫 (一般研究計畫))",
+    "source": "TEACHER-WRITTING (表1-17 國科會計畫案)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已核定歸檔",
+    "keywords": [
+      "環境監測",
+      "淨零減碳",
       "護理系"
     ],
-    "id": "REC-112-032"
+    "id": "REC-112-038"
   },
   {
     "year": "112",
@@ -12806,7 +26058,38 @@ var DATASET_111_115 = [
     "keywords": [
       "護理系"
     ],
-    "id": "REC-112-033"
+    "id": "REC-112-039"
+  },
+  {
+    "year": "112",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "吳靜宜",
+    "empId": "T0000029836",
+    "adminRole": "實習指導教師",
+    "isArticle7Exempt": false,
+    "authorOrder": "計畫主持人 (100%)",
+    "weightRatio": 1,
+    "category": "計畫案",
+    "subType": "國科會專題研究計畫",
+    "title": "低氧環境如何影響受感染牙髓纖維母細胞表現非編碼核糖核酸與細胞功能之影響",
+    "code": "NSTC-112-牙醫-522",
+    "accCode": "ACC-112-NSTC-522",
+    "disbursementRate": 100,
+    "amount": 131,
+    "metricNote": "國科會核定 NT$ 131 萬 (專題研究計畫 (一般研究計畫))",
+    "source": "TEACHER-WRITTING (表1-17 國科會計畫案)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已核定歸檔",
+    "keywords": [
+      "環境監測",
+      "淨零減碳",
+      "精準醫療",
+      "分子檢測",
+      "護理系"
+    ],
+    "id": "REC-112-040"
   },
   {
     "year": "112",
@@ -12834,7 +26117,36 @@ var DATASET_111_115 = [
       "淨零減碳",
       "護理系"
     ],
-    "id": "REC-112-034"
+    "id": "REC-112-041"
+  },
+  {
+    "year": "112",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "梁菁萍",
+    "empId": "T0000117242",
+    "adminRole": "教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "計畫主持人 (100%)",
+    "weightRatio": 1,
+    "category": "計畫案",
+    "subType": "國科會專題研究計畫",
+    "title": "序列應用因子和群集分析綜合評估河川水質特性與永續水質與土地利用管理之應用",
+    "code": "NSTC-112-環境與資源管理-074",
+    "accCode": "ACC-112-NSTC-074",
+    "disbursementRate": 100,
+    "amount": 76.3,
+    "metricNote": "國科會核定 NT$ 76.3 萬 (專題研究計畫 (一般研究計畫))",
+    "source": "TEACHER-WRITTING (表1-17 國科會計畫案)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已核定歸檔",
+    "keywords": [
+      "環境監測",
+      "淨零減碳",
+      "護理系"
+    ],
+    "id": "REC-112-042"
   },
   {
     "year": "112",
@@ -12862,7 +26174,92 @@ var DATASET_111_115 = [
       "產品開發",
       "護理系"
     ],
-    "id": "REC-112-035"
+    "id": "REC-112-043"
+  },
+  {
+    "year": "112",
+    "college": "醫學與健康學院",
+    "dept": "醫學檢驗生物技術系",
+    "teacher": "邱敏熙",
+    "empId": "T0000089506",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "共同主持人 (50%)",
+    "weightRatio": 0.5,
+    "category": "計畫案",
+    "subType": "國科會專題研究計畫",
+    "title": "辛伐他汀對高血脂症雄性大鼠於中度腦外傷後大腦和腸道的影響-聚焦在憂鬱樣行為",
+    "code": "NSTC-112-神經外科-197",
+    "accCode": "ACC-112-NSTC-197",
+    "disbursementRate": 100,
+    "amount": 116.7,
+    "metricNote": "國科會核定 NT$ 116.7 萬 (專題研究計畫 (一般研究計畫))",
+    "source": "TEACHER-WRITTING (表1-17 國科會計畫案)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已核定歸檔",
+    "keywords": [
+      "醫學檢驗生物技術系"
+    ],
+    "id": "REC-112-044"
+  },
+  {
+    "year": "112",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "顏秀珍",
+    "empId": "T0000089142",
+    "adminRole": "實習指導教師",
+    "isArticle7Exempt": false,
+    "authorOrder": "共同主持人 (50%)",
+    "weightRatio": 0.5,
+    "category": "計畫案",
+    "subType": "國科會專題研究計畫",
+    "title": "使用關聯規則及類神經網路去發掘屬性間的關聯性以改善分類效能之研究",
+    "code": "NSTC-112-資料庫與資料探勘-573",
+    "accCode": "ACC-112-NSTC-573",
+    "disbursementRate": 100,
+    "amount": 69.8,
+    "metricNote": "國科會核定 NT$ 69.8 萬 (專題研究計畫 (一般研究計畫))",
+    "source": "TEACHER-WRITTING (表1-17 國科會計畫案)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已核定歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-112-045"
+  },
+  {
+    "year": "112",
+    "college": "護理學院",
+    "dept": "健康事業管理系",
+    "teacher": "林惠賢",
+    "empId": "T0000060449",
+    "adminRole": "教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "計畫主持人 (100%)",
+    "weightRatio": 1,
+    "category": "計畫案",
+    "subType": "國科會專題研究計畫",
+    "title": "兒童病人萬古黴素臨床最佳化給藥劑量系統之建構及臨床試驗療效與安全性評估：以生理學為基礎的藥物動力學模型(2/2)",
+    "code": "NSTC-112-醫務管理-316",
+    "accCode": "ACC-112-NSTC-316",
+    "disbursementRate": 100,
+    "amount": 80,
+    "metricNote": "國科會核定 NT$ 80 萬 (專題研究計畫 (鼓勵技專校院從事實務型研究專案計畫))",
+    "source": "TEACHER-WRITTING (表1-17 國科會計畫案)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已核定歸檔",
+    "keywords": [
+      "AI智慧應用",
+      "數位轉型",
+      "臨床護理",
+      "教材研發",
+      "健康事業管理系"
+    ],
+    "id": "REC-112-046"
   },
   {
     "year": "112",
@@ -12892,7 +26289,7 @@ var DATASET_111_115 = [
       "教材研發",
       "健康事業管理系"
     ],
-    "id": "REC-112-036"
+    "id": "REC-112-047"
   },
   {
     "year": "112",
@@ -12919,7 +26316,35 @@ var DATASET_111_115 = [
       "專利研發",
       "職業安全衛生系"
     ],
-    "id": "REC-112-037"
+    "id": "REC-112-048"
+  },
+  {
+    "year": "112",
+    "college": "環境與生命學院",
+    "dept": "職業安全衛生系",
+    "teacher": "陳毅謙",
+    "empId": "T0000057449",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "計畫主持人 (100%)",
+    "weightRatio": 1,
+    "category": "計畫案",
+    "subType": "國科會專題研究計畫",
+    "title": "具深度學習之多階層自由曲面透鏡結合CSP雷射光學系統模組設計與開發(2/2)",
+    "code": "NSTC-112-新興機械工程技術-504",
+    "accCode": "ACC-112-NSTC-504",
+    "disbursementRate": 100,
+    "amount": 114.2,
+    "metricNote": "國科會核定 NT$ 114.2 萬 (專題研究計畫 (鼓勵女性從事科學及技術研究專案計畫))",
+    "source": "TEACHER-WRITTING (表1-17 國科會計畫案)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已核定歸檔",
+    "keywords": [
+      "專利研發",
+      "職業安全衛生系"
+    ],
+    "id": "REC-112-049"
   },
   {
     "year": "112",
@@ -12947,7 +26372,7 @@ var DATASET_111_115 = [
       "淨零減碳",
       "環境工程與科學系"
     ],
-    "id": "REC-112-038"
+    "id": "REC-112-050"
   },
   {
     "year": "112",
@@ -12975,7 +26400,7 @@ var DATASET_111_115 = [
       "公共托育",
       "幼兒保育暨產業系"
     ],
-    "id": "REC-112-039"
+    "id": "REC-112-051"
   },
   {
     "year": "112",
@@ -13001,7 +26426,7 @@ var DATASET_111_115 = [
     "keywords": [
       "幼兒保育暨產業系"
     ],
-    "id": "REC-112-040"
+    "id": "REC-112-052"
   },
   {
     "year": "112",
@@ -13027,12 +26452,39 @@ var DATASET_111_115 = [
     "keywords": [
       "物理治療系"
     ],
-    "id": "REC-112-041"
+    "id": "REC-112-053"
   },
   {
     "year": "112",
     "college": "護理學院",
-    "dept": "護理系",
+    "dept": "助產與婦嬰健康照護系",
+    "teacher": "郭心怡",
+    "empId": "T0000005425",
+    "adminRole": "講師",
+    "isArticle7Exempt": false,
+    "authorOrder": "計畫主持人 (100%)",
+    "weightRatio": 1,
+    "category": "計畫案",
+    "subType": "國科會專題研究計畫",
+    "title": "非完美磁-電-彈準晶複合層板之解析與數值分析",
+    "code": "NSTC-112-結構應力-011",
+    "accCode": "ACC-112-NSTC-011",
+    "disbursementRate": 100,
+    "amount": 272.4,
+    "metricNote": "國科會核定 NT$ 272.4 萬 (專題研究計畫 (優秀年輕學者研究計畫))",
+    "source": "TEACHER-WRITTING (表1-17 國科會計畫案)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已核定歸檔",
+    "keywords": [
+      "助產與婦嬰健康照護系"
+    ],
+    "id": "REC-112-054"
+  },
+  {
+    "year": "112",
+    "college": "護理學院",
+    "dept": "共同教育中心",
     "teacher": "游秋燕",
     "adminRole": "副主任（依評鑑辦法第7條得僅評教學基本指標）",
     "isArticle7Exempt": true,
@@ -13053,9 +26505,9 @@ var DATASET_111_115 = [
     "keywords": [
       "臨床護理",
       "教材研發",
-      "護理系"
+      "共同教育中心"
     ],
-    "id": "REC-112-042"
+    "id": "REC-112-055"
   },
   {
     "year": "112",
@@ -13081,12 +26533,12 @@ var DATASET_111_115 = [
     "keywords": [
       "環境工程與科學系"
     ],
-    "id": "REC-112-043"
+    "id": "REC-112-056"
   },
   {
     "year": "112",
-    "college": "護理學院",
-    "dept": "護理系",
+    "college": "人文與管理學院",
+    "dept": "共同教育中心",
     "teacher": "蔡蕙芸",
     "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
     "isArticle7Exempt": true,
@@ -13108,14 +26560,14 @@ var DATASET_111_115 = [
       "保健營養",
       "機能食品",
       "專利研發",
-      "護理系"
+      "共同教育中心"
     ],
-    "id": "REC-112-044"
+    "id": "REC-112-057"
   },
   {
     "year": "112",
-    "college": "護理學院",
-    "dept": "護理系",
+    "college": "人文與管理學院",
+    "dept": "共同教育中心",
     "teacher": "蔡蕙芸",
     "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
     "isArticle7Exempt": true,
@@ -13137,9 +26589,9 @@ var DATASET_111_115 = [
       "保健營養",
       "機能食品",
       "專利研發",
-      "護理系"
+      "共同教育中心"
     ],
-    "id": "REC-112-045"
+    "id": "REC-112-058"
   },
   {
     "year": "112",
@@ -13167,7 +26619,7 @@ var DATASET_111_115 = [
       "數位轉型",
       "環境工程與科學系"
     ],
-    "id": "REC-112-046"
+    "id": "REC-112-059"
   },
   {
     "year": "112",
@@ -13195,7 +26647,7 @@ var DATASET_111_115 = [
       "淨零減碳",
       "環境工程與科學系"
     ],
-    "id": "REC-112-047"
+    "id": "REC-112-060"
   },
   {
     "year": "112",
@@ -13223,7 +26675,38 @@ var DATASET_111_115 = [
       "教材研發",
       "護理系"
     ],
-    "id": "REC-112-048"
+    "id": "REC-112-061"
+  },
+  {
+    "year": "112",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "郭詩憲",
+    "empId": "T0000049611",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "共同主持人 (50%)",
+    "weightRatio": 0.5,
+    "category": "計畫案",
+    "subType": "國科會專題研究計畫",
+    "title": "後疫情時代的孕期疫苗接種行為：孕婦接種流感疫苗之壓力經驗、照護需求、知識與態度及「接種流感疫苗行動應用程式」介入之成效(第二、三年)",
+    "code": "NSTC-112-護理-661",
+    "accCode": "ACC-112-NSTC-661",
+    "disbursementRate": 100,
+    "amount": 74,
+    "metricNote": "國科會核定 NT$ 74 萬 (專題研究計畫 (一般研究計畫))",
+    "source": "TEACHER-WRITTING (表1-17 國科會計畫案)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已核定歸檔",
+    "keywords": [
+      "高齡長照",
+      "失智症照護",
+      "精準醫療",
+      "分子檢測",
+      "護理系"
+    ],
+    "id": "REC-112-062"
   },
   {
     "year": "112",
@@ -13249,7 +26732,7 @@ var DATASET_111_115 = [
     "keywords": [
       "保健營養系"
     ],
-    "id": "REC-112-049"
+    "id": "REC-112-063"
   },
   {
     "year": "112",
@@ -13277,7 +26760,63 @@ var DATASET_111_115 = [
       "淨零減碳",
       "環境工程與科學系"
     ],
-    "id": "REC-112-050"
+    "id": "REC-112-064"
+  },
+  {
+    "year": "112",
+    "college": "環境與生命學院",
+    "dept": "環境工程與科學系",
+    "teacher": "賴進興",
+    "empId": "T0000038591",
+    "adminRole": "教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "計畫主持人 (100%)",
+    "weightRatio": 1,
+    "category": "計畫案",
+    "subType": "國科會專題研究計畫",
+    "title": "研發連續進流高濃度氨氮廢水氣提與循環回收氯化銨之設備",
+    "code": "NSTC-112-水-383",
+    "accCode": "ACC-112-NSTC-383",
+    "disbursementRate": 100,
+    "amount": 65,
+    "metricNote": "國科會核定 NT$ 65 萬 (專題研究計畫 (產學合作研究計畫))",
+    "source": "TEACHER-WRITTING (表1-17 國科會計畫案)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已核定歸檔",
+    "keywords": [
+      "環境監測",
+      "淨零減碳",
+      "環境工程與科學系"
+    ],
+    "id": "REC-112-065"
+  },
+  {
+    "year": "112",
+    "college": "護理學院",
+    "dept": "健康事業管理系",
+    "teacher": "鄭南玉",
+    "empId": "T0000016973",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "共同主持人 (50%)",
+    "weightRatio": 0.5,
+    "category": "計畫案",
+    "subType": "國科會專題研究計畫",
+    "title": "科普活動：112年高雄市偏鄉科普教育(主題四)",
+    "code": "NSTC-112-科普活動計畫-290",
+    "accCode": "ACC-112-NSTC-290",
+    "disbursementRate": 100,
+    "amount": 75,
+    "metricNote": "國科會核定 NT$ 75 萬 (專題研究計畫 (大眾科學教育計畫))",
+    "source": "TEACHER-WRITTING (表1-17 國科會計畫案)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已核定歸檔",
+    "keywords": [
+      "健康事業管理系"
+    ],
+    "id": "REC-112-066"
   },
   {
     "year": "112",
@@ -13305,7 +26844,7 @@ var DATASET_111_115 = [
       "淨零減碳",
       "環境工程與科學系"
     ],
-    "id": "REC-112-051"
+    "id": "REC-112-067"
   },
   {
     "year": "112",
@@ -13331,12 +26870,12 @@ var DATASET_111_115 = [
     "keywords": [
       "應用外語系"
     ],
-    "id": "REC-112-052"
+    "id": "REC-112-068"
   },
   {
     "year": "112",
-    "college": "護理學院",
-    "dept": "護理系",
+    "college": "人文與管理學院",
+    "dept": "共同教育中心",
     "teacher": "主持人",
     "adminRole": "專任教師",
     "isArticle7Exempt": false,
@@ -13355,9 +26894,9 @@ var DATASET_111_115 = [
     "group": "研發創新組",
     "status": "已結案",
     "keywords": [
-      "護理系"
+      "共同教育中心"
     ],
-    "id": "REC-112-053"
+    "id": "REC-112-069"
   },
   {
     "year": "112",
@@ -13387,7 +26926,7 @@ var DATASET_111_115 = [
       "機能食品",
       "醫學檢驗生物技術系"
     ],
-    "id": "REC-112-054"
+    "id": "REC-112-070"
   },
   {
     "year": "112",
@@ -13413,7 +26952,7 @@ var DATASET_111_115 = [
     "keywords": [
       "生物科技系"
     ],
-    "id": "REC-112-055"
+    "id": "REC-112-071"
   },
   {
     "year": "112",
@@ -13439,7 +26978,7 @@ var DATASET_111_115 = [
     "keywords": [
       "幼兒保育暨產業系"
     ],
-    "id": "REC-112-056"
+    "id": "REC-112-072"
   },
   {
     "year": "112",
@@ -13465,7 +27004,7 @@ var DATASET_111_115 = [
     "keywords": [
       "應用化學及材料科學系"
     ],
-    "id": "REC-112-057"
+    "id": "REC-112-073"
   },
   {
     "year": "112",
@@ -13493,7 +27032,7 @@ var DATASET_111_115 = [
       "淨零減碳",
       "環境工程與科學系"
     ],
-    "id": "REC-112-058"
+    "id": "REC-112-074"
   },
   {
     "year": "112",
@@ -13519,7 +27058,7 @@ var DATASET_111_115 = [
     "keywords": [
       "健康事業管理系"
     ],
-    "id": "REC-112-059"
+    "id": "REC-112-075"
   },
   {
     "year": "112",
@@ -13545,7 +27084,34 @@ var DATASET_111_115 = [
     "keywords": [
       "職業安全衛生系"
     ],
-    "id": "REC-112-060"
+    "id": "REC-112-076"
+  },
+  {
+    "year": "112",
+    "college": "環境與生命學院",
+    "dept": "職業安全衛生系",
+    "teacher": "陳毅謙",
+    "empId": "T0000057449",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "計畫主持人 (100%)",
+    "weightRatio": 1,
+    "category": "計畫案",
+    "subType": "國科會專題研究計畫",
+    "title": "基於EfficientNet卷積神經網絡建模預測室內動態熱氣體粒子傳輸與新風系統能源效率分析",
+    "code": "NSTC-112-職業安全衛生-503",
+    "accCode": "ACC-112-NSTC-503",
+    "disbursementRate": 100,
+    "amount": 41.6,
+    "metricNote": "國科會核定 NT$ 41.6 萬 (專題研究計畫 (一般研究計畫))",
+    "source": "TEACHER-WRITTING (表1-17 國科會計畫案)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已核定歸檔",
+    "keywords": [
+      "職業安全衛生系"
+    ],
+    "id": "REC-112-077"
   },
   {
     "year": "112",
@@ -13571,7 +27137,34 @@ var DATASET_111_115 = [
     "keywords": [
       "保健營養系"
     ],
-    "id": "REC-112-061"
+    "id": "REC-112-078"
+  },
+  {
+    "year": "112",
+    "college": "醫學與健康學院",
+    "dept": "保健營養系",
+    "teacher": "蔡蕙芸",
+    "empId": "T0000098101",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "計畫主持人 (100%)",
+    "weightRatio": 1,
+    "category": "計畫案",
+    "subType": "國科會專題研究計畫",
+    "title": "從微生物態-腸-腦軸觀點探討台灣禾本科小麥胚芽萃取物及其活性成份γ-胺基丁酸對腸道菌叢失調與神經退化性疾病之影響",
+    "code": "NSTC-112-食品科學-273",
+    "accCode": "ACC-112-NSTC-273",
+    "disbursementRate": 100,
+    "amount": 115,
+    "metricNote": "國科會核定 NT$ 115 萬 (專題研究計畫 (一般研究計畫))",
+    "source": "TEACHER-WRITTING (表1-17 國科會計畫案)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已核定歸檔",
+    "keywords": [
+      "保健營養系"
+    ],
+    "id": "REC-112-079"
   },
   {
     "year": "112",
@@ -13599,7 +27192,36 @@ var DATASET_111_115 = [
       "分子檢測",
       "護理系"
     ],
-    "id": "REC-112-062"
+    "id": "REC-112-080"
+  },
+  {
+    "year": "112",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "吳靜宜",
+    "empId": "T0000029836",
+    "adminRole": "實習指導教師",
+    "isArticle7Exempt": false,
+    "authorOrder": "共同主持人 (50%)",
+    "weightRatio": 0.5,
+    "category": "計畫案",
+    "subType": "國科會專題研究計畫",
+    "title": "探討單純皰疹病毒及口腔致病菌的混合感染對於口腔上皮細胞的影響及可能的調控機轉–利用體外細胞培養及三維黏膜器官培養模型",
+    "code": "NSTC-112-牙醫-523",
+    "accCode": "ACC-112-NSTC-523",
+    "disbursementRate": 100,
+    "amount": 275.2,
+    "metricNote": "國科會核定 NT$ 275.2 萬 (專題研究計畫 (一般研究計畫))",
+    "source": "TEACHER-WRITTING (表1-17 國科會計畫案)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已核定歸檔",
+    "keywords": [
+      "AI智慧應用",
+      "數位轉型",
+      "護理系"
+    ],
+    "id": "REC-112-081"
   },
   {
     "year": "112",
@@ -13627,7 +27249,7 @@ var DATASET_111_115 = [
       "教材研發",
       "護理系"
     ],
-    "id": "REC-112-063"
+    "id": "REC-112-082"
   },
   {
     "year": "112",
@@ -13655,7 +27277,36 @@ var DATASET_111_115 = [
       "失智症照護",
       "高齡及長期照護事業系"
     ],
-    "id": "REC-112-064"
+    "id": "REC-112-083"
+  },
+  {
+    "year": "112",
+    "college": "護理學院",
+    "dept": "高齡及長期照護事業系",
+    "teacher": "楊月頴",
+    "empId": "T0000097047",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "計畫主持人 (100%)",
+    "weightRatio": 1,
+    "category": "計畫案",
+    "subType": "國科會專題研究計畫",
+    "title": "探討WANT模式提升家庭照顧者失智症照護能力成效",
+    "code": "NSTC-112-護理-712",
+    "accCode": "ACC-112-NSTC-712",
+    "disbursementRate": 100,
+    "amount": 100,
+    "metricNote": "國科會核定 NT$ 100 萬 (專題研究計畫 (新進人員研究計畫))",
+    "source": "TEACHER-WRITTING (表1-17 國科會計畫案)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已核定歸檔",
+    "keywords": [
+      "高齡長照",
+      "失智症照護",
+      "高齡及長期照護事業系"
+    ],
+    "id": "REC-112-084"
   },
   {
     "year": "112",
@@ -13681,7 +27332,7 @@ var DATASET_111_115 = [
     "keywords": [
       "職業安全衛生系"
     ],
-    "id": "REC-112-065"
+    "id": "REC-112-085"
   },
   {
     "year": "112",
@@ -13707,7 +27358,7 @@ var DATASET_111_115 = [
     "keywords": [
       "職業安全衛生系"
     ],
-    "id": "REC-112-066"
+    "id": "REC-112-086"
   },
   {
     "year": "112",
@@ -13737,7 +27388,38 @@ var DATASET_111_115 = [
       "教材研發",
       "護理系"
     ],
-    "id": "REC-112-067"
+    "id": "REC-112-087"
+  },
+  {
+    "year": "112",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "陳立庭",
+    "empId": "T0000036425",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "計畫主持人 (100%)",
+    "weightRatio": 1,
+    "category": "計畫案",
+    "subType": "國科會專題研究計畫",
+    "title": "透過翻轉教育模式發展精準護理衛教提升年輕大腸癌存活者的生活品質",
+    "code": "NSTC-112-護理-033",
+    "accCode": "ACC-112-NSTC-033",
+    "disbursementRate": 100,
+    "amount": 68.5,
+    "metricNote": "國科會核定 NT$ 68.5 萬 (專題研究計畫 (新進人員研究計畫))",
+    "source": "TEACHER-WRITTING (表1-17 國科會計畫案)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已核定歸檔",
+    "keywords": [
+      "精準醫療",
+      "分子檢測",
+      "臨床護理",
+      "教材研發",
+      "護理系"
+    ],
+    "id": "REC-112-088"
   },
   {
     "year": "112",
@@ -13763,7 +27445,34 @@ var DATASET_111_115 = [
     "keywords": [
       "應用化學及材料科學系"
     ],
-    "id": "REC-112-068"
+    "id": "REC-112-089"
+  },
+  {
+    "year": "112",
+    "college": "環境與生命學院",
+    "dept": "應用化學及材料科學系",
+    "teacher": "王麗芬",
+    "empId": "T0000062452",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "計畫主持人 (100%)",
+    "weightRatio": 1,
+    "category": "計畫案",
+    "subType": "國科會專題研究計畫",
+    "title": "最適反應路徑法應用於光致變色高分子之開發",
+    "code": "NSTC-112-物理與光電及能源應用及複合與混成材料-471",
+    "accCode": "ACC-112-NSTC-471",
+    "disbursementRate": 100,
+    "amount": 95,
+    "metricNote": "國科會核定 NT$ 95 萬 (專題研究計畫 (鼓勵女性從事科學及技術研究專案計畫))",
+    "source": "TEACHER-WRITTING (表1-17 國科會計畫案)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已核定歸檔",
+    "keywords": [
+      "應用化學及材料科學系"
+    ],
+    "id": "REC-112-090"
   },
   {
     "year": "112",
@@ -13789,7 +27498,7 @@ var DATASET_111_115 = [
     "keywords": [
       "醫學檢驗生物技術系"
     ],
-    "id": "REC-112-069"
+    "id": "REC-112-091"
   },
   {
     "year": "112",
@@ -13815,7 +27524,36 @@ var DATASET_111_115 = [
     "keywords": [
       "醫學檢驗生物技術系"
     ],
-    "id": "REC-112-070"
+    "id": "REC-112-092"
+  },
+  {
+    "year": "112",
+    "college": "環境與生命學院",
+    "dept": "職業安全衛生系",
+    "teacher": "楊元彰",
+    "empId": "T0000110984",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "共同主持人 (50%)",
+    "weightRatio": 0.5,
+    "category": "計畫案",
+    "subType": "國科會專題研究計畫",
+    "title": "智慧型混合實境上肢復健訓練與分析系統之研製與應用Ⅱ--混合實境復健訓練配合人工智慧分析軟體應用於中風患者上肢復健之療效與評估",
+    "code": "NSTC-112-復健-508",
+    "accCode": "ACC-112-NSTC-508",
+    "disbursementRate": 100,
+    "amount": 100,
+    "metricNote": "國科會核定 NT$ 100 萬 (專題研究計畫 (產學合作研究計畫))",
+    "source": "TEACHER-WRITTING (表1-17 國科會計畫案)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已核定歸檔",
+    "keywords": [
+      "AI智慧應用",
+      "數位轉型",
+      "職業安全衛生系"
+    ],
+    "id": "REC-112-093"
   },
   {
     "year": "112",
@@ -13841,12 +27579,12 @@ var DATASET_111_115 = [
     "keywords": [
       "醫學檢驗生物技術系"
     ],
-    "id": "REC-112-071"
+    "id": "REC-112-094"
   },
   {
     "year": "112",
-    "college": "護理學院",
-    "dept": "護理系",
+    "college": "人文與管理學院",
+    "dept": "共同教育中心",
     "teacher": "邱敏熙",
     "adminRole": "專任教師",
     "isArticle7Exempt": false,
@@ -13866,9 +27604,9 @@ var DATASET_111_115 = [
     "status": "已結案",
     "keywords": [
       "專利研發",
-      "護理系"
+      "共同教育中心"
     ],
-    "id": "REC-112-072"
+    "id": "REC-112-095"
   },
   {
     "year": "112",
@@ -13896,7 +27634,7 @@ var DATASET_111_115 = [
       "數位轉型",
       "資訊科技與管理系"
     ],
-    "id": "REC-112-073"
+    "id": "REC-112-096"
   },
   {
     "year": "112",
@@ -13922,7 +27660,7 @@ var DATASET_111_115 = [
     "keywords": [
       "環境工程與科學系"
     ],
-    "id": "REC-112-074"
+    "id": "REC-112-097"
   },
   {
     "year": "112",
@@ -13950,7 +27688,7 @@ var DATASET_111_115 = [
       "淨零減碳",
       "環境工程與科學系"
     ],
-    "id": "REC-112-075"
+    "id": "REC-112-098"
   },
   {
     "year": "112",
@@ -13980,7 +27718,7 @@ var DATASET_111_115 = [
       "教材研發",
       "專利研發"
     ],
-    "id": "REC-112-076"
+    "id": "REC-112-099"
   },
   {
     "year": "112",
@@ -14006,7 +27744,34 @@ var DATASET_111_115 = [
     "keywords": [
       "物理治療系"
     ],
-    "id": "REC-112-077"
+    "id": "REC-112-100"
+  },
+  {
+    "year": "112",
+    "college": "醫學與健康學院",
+    "dept": "物理治療系",
+    "teacher": "康富傑",
+    "empId": "T0000060441",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "計畫主持人 (100%)",
+    "weightRatio": 1,
+    "category": "計畫案",
+    "subType": "國科會專題研究計畫",
+    "title": "運動介入針對於有肩痛且合併有圓肩與頭部前傾姿勢的競技游泳選手的影響：隨機對照實驗",
+    "code": "NSTC-112-運動生物力學-235",
+    "accCode": "ACC-112-NSTC-235",
+    "disbursementRate": 100,
+    "amount": 66,
+    "metricNote": "國科會核定 NT$ 66 萬 (專題研究計畫 (新進人員研究計畫))",
+    "source": "TEACHER-WRITTING (表1-17 國科會計畫案)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已核定歸檔",
+    "keywords": [
+      "物理治療系"
+    ],
+    "id": "REC-112-101"
   },
   {
     "year": "112",
@@ -14032,7 +27797,7 @@ var DATASET_111_115 = [
     "keywords": [
       "生物科技系"
     ],
-    "id": "REC-112-078"
+    "id": "REC-112-102"
   },
   {
     "year": "112",
@@ -14062,12 +27827,39 @@ var DATASET_111_115 = [
       "機能食品",
       "醫學檢驗生物技術系"
     ],
-    "id": "REC-112-079"
+    "id": "REC-112-103"
+  },
+  {
+    "year": "112",
+    "college": "醫學與健康學院",
+    "dept": "物理治療系",
+    "teacher": "張薰文",
+    "empId": "T0000095983",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "計畫主持人 (100%)",
+    "weightRatio": 1,
+    "category": "計畫案",
+    "subType": "國科會專題研究計畫",
+    "title": "臺北醫學大學基礎研究核心設施共同使用服務計畫(3/5)",
+    "code": "NSTC-112-中心總計畫-244",
+    "accCode": "ACC-112-NSTC-244",
+    "disbursementRate": 100,
+    "amount": 73.1,
+    "metricNote": "國科會核定 NT$ 73.1 萬 (專題研究計畫 (附屬/支援單位補助計畫))",
+    "source": "TEACHER-WRITTING (表1-17 國科會計畫案)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已核定歸檔",
+    "keywords": [
+      "物理治療系"
+    ],
+    "id": "REC-112-104"
   },
   {
     "year": "112",
     "college": "護理學院",
-    "dept": "護理系",
+    "dept": "共同教育中心",
     "teacher": "程紋貞",
     "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
     "isArticle7Exempt": true,
@@ -14086,9 +27878,9 @@ var DATASET_111_115 = [
     "group": "產學合作組",
     "status": "已結案",
     "keywords": [
-      "護理系"
+      "共同教育中心"
     ],
-    "id": "REC-112-080"
+    "id": "REC-112-105"
   },
   {
     "year": "112",
@@ -14114,7 +27906,34 @@ var DATASET_111_115 = [
     "keywords": [
       "資訊科技與管理系"
     ],
-    "id": "REC-112-081"
+    "id": "REC-112-106"
+  },
+  {
+    "year": "112",
+    "college": "人文與管理學院",
+    "dept": "資訊科技與管理系",
+    "teacher": "陳俊勳",
+    "empId": "T0000042494",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "計畫主持人 (100%)",
+    "weightRatio": 1,
+    "category": "計畫案",
+    "subType": "國科會專題研究計畫",
+    "title": "鋰電池儲能站火災危害分析、安全評估與緊急應變之整合性策略及性能提升方案--鋰電池儲能站火災風險評估及設置基準探討研究(總計畫及子計畫一)(II)",
+    "code": "NSTC-112-災防跨域-750",
+    "accCode": "ACC-112-NSTC-750",
+    "disbursementRate": 100,
+    "amount": 74.3,
+    "metricNote": "國科會核定 NT$ 74.3 萬 (專題研究計畫 (一般研究計畫))",
+    "source": "TEACHER-WRITTING (表1-17 國科會計畫案)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已核定歸檔",
+    "keywords": [
+      "資訊科技與管理系"
+    ],
+    "id": "REC-112-107"
   },
   {
     "year": "112",
@@ -14144,7 +27963,7 @@ var DATASET_111_115 = [
       "分子檢測",
       "臨床護理"
     ],
-    "id": "REC-112-082"
+    "id": "REC-112-108"
   },
   {
     "year": "112",
@@ -14172,7 +27991,7 @@ var DATASET_111_115 = [
       "教材研發",
       "護理系"
     ],
-    "id": "REC-112-083"
+    "id": "REC-112-109"
   },
   {
     "year": "112",
@@ -14198,7 +28017,34 @@ var DATASET_111_115 = [
     "keywords": [
       "健康事業管理系"
     ],
-    "id": "REC-112-084"
+    "id": "REC-112-110"
+  },
+  {
+    "year": "112",
+    "college": "護理學院",
+    "dept": "健康事業管理系",
+    "teacher": "楊鎮維",
+    "empId": "T0000028271",
+    "adminRole": "教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "計畫主持人 (100%)",
+    "weightRatio": 1,
+    "category": "計畫案",
+    "subType": "國科會專題研究計畫",
+    "title": "醫療聯盟之形成、治理與知識共創：台灣醫療產業實證研究",
+    "code": "NSTC-112-科技管理-293",
+    "accCode": "ACC-112-NSTC-293",
+    "disbursementRate": 100,
+    "amount": 55,
+    "metricNote": "國科會核定 NT$ 55 萬 (專題研究計畫 (一般研究計畫))",
+    "source": "TEACHER-WRITTING (表1-17 國科會計畫案)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已核定歸檔",
+    "keywords": [
+      "健康事業管理系"
+    ],
+    "id": "REC-112-111"
   },
   {
     "year": "112",
@@ -14224,7 +28070,7 @@ var DATASET_111_115 = [
     "keywords": [
       "護理系"
     ],
-    "id": "REC-112-085"
+    "id": "REC-112-112"
   },
   {
     "year": "112",
@@ -14250,7 +28096,7 @@ var DATASET_111_115 = [
     "keywords": [
       "休閒與遊憩事業管理系"
     ],
-    "id": "REC-112-086"
+    "id": "REC-112-113"
   },
   {
     "year": "112",
@@ -14276,7 +28122,7 @@ var DATASET_111_115 = [
     "keywords": [
       "健康美容系"
     ],
-    "id": "REC-112-087"
+    "id": "REC-112-114"
   },
   {
     "year": "112",
@@ -14302,7 +28148,7 @@ var DATASET_111_115 = [
     "keywords": [
       "醫學檢驗生物技術系"
     ],
-    "id": "REC-112-088"
+    "id": "REC-112-115"
   },
   {
     "year": "112",
@@ -14330,7 +28176,7 @@ var DATASET_111_115 = [
       "淨零減碳",
       "環境工程與科學系"
     ],
-    "id": "REC-112-089"
+    "id": "REC-112-116"
   },
   {
     "year": "112",
@@ -14358,7 +28204,7 @@ var DATASET_111_115 = [
       "淨零減碳",
       "護理系"
     ],
-    "id": "REC-112-090"
+    "id": "REC-112-117"
   },
   {
     "year": "112",
@@ -14384,7 +28230,7 @@ var DATASET_111_115 = [
     "keywords": [
       "護理系"
     ],
-    "id": "REC-112-091"
+    "id": "REC-112-118"
   },
   {
     "year": "112",
@@ -14410,7 +28256,7 @@ var DATASET_111_115 = [
     "keywords": [
       "護理系"
     ],
-    "id": "REC-112-092"
+    "id": "REC-112-119"
   },
   {
     "year": "112",
@@ -14437,7 +28283,7 @@ var DATASET_111_115 = [
       "專利研發",
       "護理系"
     ],
-    "id": "REC-112-093"
+    "id": "REC-112-120"
   },
   {
     "year": "112",
@@ -14464,7 +28310,7 @@ var DATASET_111_115 = [
       "專利研發",
       "健康美容系"
     ],
-    "id": "REC-112-094"
+    "id": "REC-112-121"
   },
   {
     "year": "112",
@@ -14490,7 +28336,7 @@ var DATASET_111_115 = [
     "keywords": [
       "護理系"
     ],
-    "id": "REC-112-095"
+    "id": "REC-112-122"
   },
   {
     "year": "112",
@@ -14516,7 +28362,7 @@ var DATASET_111_115 = [
     "keywords": [
       "應用化學及材料科學系"
     ],
-    "id": "REC-112-096"
+    "id": "REC-112-123"
   },
   {
     "year": "112",
@@ -14542,7 +28388,7 @@ var DATASET_111_115 = [
     "keywords": [
       "護理系"
     ],
-    "id": "REC-112-097"
+    "id": "REC-112-124"
   },
   {
     "year": "112",
@@ -14568,7 +28414,7 @@ var DATASET_111_115 = [
     "keywords": [
       "環境工程與科學系"
     ],
-    "id": "REC-112-098"
+    "id": "REC-112-125"
   },
   {
     "year": "112",
@@ -14594,7 +28440,7 @@ var DATASET_111_115 = [
     "keywords": [
       "健康美容系"
     ],
-    "id": "REC-112-099"
+    "id": "REC-112-126"
   },
   {
     "year": "112",
@@ -14621,7 +28467,7 @@ var DATASET_111_115 = [
       "專利研發",
       "護理系"
     ],
-    "id": "REC-112-100"
+    "id": "REC-112-127"
   },
   {
     "year": "112",
@@ -14648,7 +28494,7 @@ var DATASET_111_115 = [
       "專利研發",
       "護理系"
     ],
-    "id": "REC-112-101"
+    "id": "REC-112-128"
   },
   {
     "year": "112",
@@ -14676,7 +28522,7 @@ var DATASET_111_115 = [
       "實務專題",
       "健康美容系"
     ],
-    "id": "REC-112-102"
+    "id": "REC-112-129"
   },
   {
     "year": "112",
@@ -14704,7 +28550,7 @@ var DATASET_111_115 = [
       "實務專題",
       "健康美容系"
     ],
-    "id": "REC-112-103"
+    "id": "REC-112-130"
   },
   {
     "year": "112",
@@ -14734,11 +28580,11 @@ var DATASET_111_115 = [
       "實務專題",
       "護理系"
     ],
-    "id": "REC-112-104"
+    "id": "REC-112-131"
   },
   {
     "year": "112",
-    "college": "醫學與健康學院",
+    "college": "護理學院",
     "dept": "健康事業管理系",
     "teacher": "林政翰",
     "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
@@ -14763,7 +28609,7 @@ var DATASET_111_115 = [
       "實務專題",
       "健康事業管理系"
     ],
-    "id": "REC-112-105"
+    "id": "REC-112-132"
   },
   {
     "year": "112",
@@ -14793,7 +28639,7 @@ var DATASET_111_115 = [
       "實務專題",
       "護理系"
     ],
-    "id": "REC-112-106"
+    "id": "REC-112-133"
   },
   {
     "year": "112",
@@ -14823,7 +28669,7 @@ var DATASET_111_115 = [
       "實務專題",
       "護理系"
     ],
-    "id": "REC-112-107"
+    "id": "REC-112-134"
   },
   {
     "year": "112",
@@ -14853,7 +28699,7 @@ var DATASET_111_115 = [
       "實務專題",
       "護理系"
     ],
-    "id": "REC-112-108"
+    "id": "REC-112-135"
   },
   {
     "year": "112",
@@ -14881,7 +28727,7 @@ var DATASET_111_115 = [
       "實務專題",
       "護理系"
     ],
-    "id": "REC-112-109"
+    "id": "REC-112-136"
   },
   {
     "year": "112",
@@ -14909,7 +28755,7 @@ var DATASET_111_115 = [
       "實務專題",
       "職業安全衛生系"
     ],
-    "id": "REC-112-110"
+    "id": "REC-112-137"
   },
   {
     "year": "112",
@@ -14939,7 +28785,7 @@ var DATASET_111_115 = [
       "實務專題",
       "護理系"
     ],
-    "id": "REC-112-111"
+    "id": "REC-112-138"
   },
   {
     "year": "112",
@@ -14967,7 +28813,7 @@ var DATASET_111_115 = [
       "實務專題",
       "健康美容系"
     ],
-    "id": "REC-112-112"
+    "id": "REC-112-139"
   },
   {
     "year": "112",
@@ -14995,7 +28841,7 @@ var DATASET_111_115 = [
       "實務專題",
       "健康美容系"
     ],
-    "id": "REC-112-113"
+    "id": "REC-112-140"
   },
   {
     "year": "112",
@@ -15023,7 +28869,7 @@ var DATASET_111_115 = [
       "實務專題",
       "護理系"
     ],
-    "id": "REC-112-114"
+    "id": "REC-112-141"
   },
   {
     "year": "112",
@@ -15052,7 +28898,7 @@ var DATASET_111_115 = [
       "實務專題",
       "護理系"
     ],
-    "id": "REC-112-115"
+    "id": "REC-112-142"
   },
   {
     "year": "112",
@@ -15080,7 +28926,7 @@ var DATASET_111_115 = [
       "實務專題",
       "護理系"
     ],
-    "id": "REC-112-116"
+    "id": "REC-112-143"
   },
   {
     "year": "112",
@@ -15109,7 +28955,7 @@ var DATASET_111_115 = [
       "實務專題",
       "護理系"
     ],
-    "id": "REC-112-117"
+    "id": "REC-112-144"
   },
   {
     "year": "112",
@@ -15137,7 +28983,7 @@ var DATASET_111_115 = [
       "實務專題",
       "健康美容系"
     ],
-    "id": "REC-112-118"
+    "id": "REC-112-145"
   },
   {
     "year": "112",
@@ -15165,7 +29011,7 @@ var DATASET_111_115 = [
       "實務專題",
       "健康美容系"
     ],
-    "id": "REC-112-119"
+    "id": "REC-112-146"
   },
   {
     "year": "112",
@@ -15195,7 +29041,7 @@ var DATASET_111_115 = [
       "實務專題",
       "健康美容系"
     ],
-    "id": "REC-112-120"
+    "id": "REC-112-147"
   },
   {
     "year": "112",
@@ -15225,7 +29071,7 @@ var DATASET_111_115 = [
       "實務專題",
       "健康美容系"
     ],
-    "id": "REC-112-121"
+    "id": "REC-112-148"
   },
   {
     "year": "112",
@@ -15253,7 +29099,7 @@ var DATASET_111_115 = [
       "實務專題",
       "應用化學及材料科學系"
     ],
-    "id": "REC-112-122"
+    "id": "REC-112-149"
   },
   {
     "year": "112",
@@ -15281,7 +29127,7 @@ var DATASET_111_115 = [
       "實務專題",
       "健康美容系"
     ],
-    "id": "REC-112-123"
+    "id": "REC-112-150"
   },
   {
     "year": "112",
@@ -15309,7 +29155,7 @@ var DATASET_111_115 = [
       "實務專題",
       "健康美容系"
     ],
-    "id": "REC-112-124"
+    "id": "REC-112-151"
   },
   {
     "year": "112",
@@ -15337,11 +29183,11 @@ var DATASET_111_115 = [
       "實務專題",
       "健康美容系"
     ],
-    "id": "REC-112-125"
+    "id": "REC-112-152"
   },
   {
     "year": "112",
-    "college": "醫學與健康學院",
+    "college": "護理學院",
     "dept": "健康事業管理系",
     "teacher": "林政翰",
     "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
@@ -15365,7 +29211,7 @@ var DATASET_111_115 = [
       "實務專題",
       "健康事業管理系"
     ],
-    "id": "REC-112-126"
+    "id": "REC-112-153"
   },
   {
     "year": "112",
@@ -15393,7 +29239,7 @@ var DATASET_111_115 = [
       "實務專題",
       "健康美容系"
     ],
-    "id": "REC-112-127"
+    "id": "REC-112-154"
   },
   {
     "year": "112",
@@ -15421,7 +29267,7 @@ var DATASET_111_115 = [
       "實務專題",
       "健康美容系"
     ],
-    "id": "REC-112-128"
+    "id": "REC-112-155"
   },
   {
     "year": "112",
@@ -15449,7 +29295,7 @@ var DATASET_111_115 = [
       "實務專題",
       "保健營養系"
     ],
-    "id": "REC-112-129"
+    "id": "REC-112-156"
   },
   {
     "year": "112",
@@ -15477,7 +29323,7 @@ var DATASET_111_115 = [
       "實務專題",
       "護理系"
     ],
-    "id": "REC-112-130"
+    "id": "REC-112-157"
   },
   {
     "year": "112",
@@ -15505,7 +29351,7 @@ var DATASET_111_115 = [
       "實務專題",
       "護理系"
     ],
-    "id": "REC-112-131"
+    "id": "REC-112-158"
   },
   {
     "year": "112",
@@ -15533,7 +29379,7 @@ var DATASET_111_115 = [
       "實務專題",
       "護理系"
     ],
-    "id": "REC-112-132"
+    "id": "REC-112-159"
   },
   {
     "year": "112",
@@ -15561,7 +29407,7 @@ var DATASET_111_115 = [
       "實務專題",
       "護理系"
     ],
-    "id": "REC-112-133"
+    "id": "REC-112-160"
   },
   {
     "year": "112",
@@ -15589,7 +29435,7 @@ var DATASET_111_115 = [
       "實務專題",
       "應用外語系"
     ],
-    "id": "REC-112-134"
+    "id": "REC-112-161"
   },
   {
     "year": "112",
@@ -15617,7 +29463,7 @@ var DATASET_111_115 = [
       "實務專題",
       "應用外語系"
     ],
-    "id": "REC-112-135"
+    "id": "REC-112-162"
   },
   {
     "year": "112",
@@ -15645,7 +29491,7 @@ var DATASET_111_115 = [
       "實務專題",
       "護理系"
     ],
-    "id": "REC-112-136"
+    "id": "REC-112-163"
   },
   {
     "year": "112",
@@ -15673,7 +29519,7 @@ var DATASET_111_115 = [
       "實務專題",
       "護理系"
     ],
-    "id": "REC-112-137"
+    "id": "REC-112-164"
   },
   {
     "year": "112",
@@ -15701,7 +29547,7 @@ var DATASET_111_115 = [
       "實務專題",
       "護理系"
     ],
-    "id": "REC-112-138"
+    "id": "REC-112-165"
   },
   {
     "year": "112",
@@ -15729,7 +29575,7 @@ var DATASET_111_115 = [
       "實務專題",
       "護理系"
     ],
-    "id": "REC-112-139"
+    "id": "REC-112-166"
   },
   {
     "year": "112",
@@ -15757,7 +29603,7 @@ var DATASET_111_115 = [
       "實務專題",
       "護理系"
     ],
-    "id": "REC-112-140"
+    "id": "REC-112-167"
   },
   {
     "year": "112",
@@ -15785,7 +29631,7 @@ var DATASET_111_115 = [
       "實務專題",
       "護理系"
     ],
-    "id": "REC-112-141"
+    "id": "REC-112-168"
   },
   {
     "year": "112",
@@ -15813,11 +29659,11 @@ var DATASET_111_115 = [
       "實務專題",
       "健康美容系"
     ],
-    "id": "REC-112-142"
+    "id": "REC-112-169"
   },
   {
     "year": "112",
-    "college": "醫學與健康學院",
+    "college": "護理學院",
     "dept": "健康事業管理系",
     "teacher": "林政翰",
     "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
@@ -15843,7 +29689,7 @@ var DATASET_111_115 = [
       "實務專題",
       "健康事業管理系"
     ],
-    "id": "REC-112-143"
+    "id": "REC-112-170"
   },
   {
     "year": "112",
@@ -15871,7 +29717,7 @@ var DATASET_111_115 = [
       "實務專題",
       "健康美容系"
     ],
-    "id": "REC-112-144"
+    "id": "REC-112-171"
   },
   {
     "year": "112",
@@ -15899,7 +29745,7 @@ var DATASET_111_115 = [
       "實務專題",
       "健康美容系"
     ],
-    "id": "REC-112-145"
+    "id": "REC-112-172"
   },
   {
     "year": "112",
@@ -15928,7 +29774,7 @@ var DATASET_111_115 = [
       "實務專題",
       "護理系"
     ],
-    "id": "REC-112-146"
+    "id": "REC-112-173"
   },
   {
     "year": "112",
@@ -15958,11 +29804,11 @@ var DATASET_111_115 = [
       "實務專題",
       "護理系"
     ],
-    "id": "REC-112-147"
+    "id": "REC-112-174"
   },
   {
     "year": "112",
-    "college": "醫學與健康學院",
+    "college": "護理學院",
     "dept": "健康事業管理系",
     "teacher": "黃曉玲",
     "adminRole": "專任教師",
@@ -15987,11 +29833,11 @@ var DATASET_111_115 = [
       "實務專題",
       "健康事業管理系"
     ],
-    "id": "REC-112-148"
+    "id": "REC-112-175"
   },
   {
     "year": "112",
-    "college": "醫學與健康學院",
+    "college": "護理學院",
     "dept": "健康事業管理系",
     "teacher": "王郁綺",
     "adminRole": "專任教師",
@@ -16015,7 +29861,7 @@ var DATASET_111_115 = [
       "實務專題",
       "健康事業管理系"
     ],
-    "id": "REC-112-149"
+    "id": "REC-112-176"
   },
   {
     "year": "112",
@@ -16044,7 +29890,7 @@ var DATASET_111_115 = [
       "實務專題",
       "護理系"
     ],
-    "id": "REC-112-150"
+    "id": "REC-112-177"
   },
   {
     "year": "112",
@@ -16072,7 +29918,7 @@ var DATASET_111_115 = [
       "實務專題",
       "健康美容系"
     ],
-    "id": "REC-112-151"
+    "id": "REC-112-178"
   },
   {
     "year": "112",
@@ -16100,7 +29946,7 @@ var DATASET_111_115 = [
       "實務專題",
       "助產與婦嬰健康照護系"
     ],
-    "id": "REC-112-152"
+    "id": "REC-112-179"
   },
   {
     "year": "112",
@@ -16128,7 +29974,7 @@ var DATASET_111_115 = [
       "實務專題",
       "健康美容系"
     ],
-    "id": "REC-112-153"
+    "id": "REC-112-180"
   },
   {
     "year": "112",
@@ -16157,11 +30003,11 @@ var DATASET_111_115 = [
       "實務專題",
       "護理系"
     ],
-    "id": "REC-112-154"
+    "id": "REC-112-181"
   },
   {
     "year": "112",
-    "college": "醫學與健康學院",
+    "college": "護理學院",
     "dept": "健康事業管理系",
     "teacher": "王郁綺",
     "adminRole": "專任教師",
@@ -16185,7 +30031,7 @@ var DATASET_111_115 = [
       "實務專題",
       "健康事業管理系"
     ],
-    "id": "REC-112-155"
+    "id": "REC-112-182"
   },
   {
     "year": "112",
@@ -16213,7 +30059,7 @@ var DATASET_111_115 = [
       "實務專題",
       "應用外語系"
     ],
-    "id": "REC-112-156"
+    "id": "REC-112-183"
   },
   {
     "year": "112",
@@ -16241,7 +30087,7 @@ var DATASET_111_115 = [
       "實務專題",
       "應用外語系"
     ],
-    "id": "REC-112-157"
+    "id": "REC-112-184"
   },
   {
     "year": "112",
@@ -16271,7 +30117,239 @@ var DATASET_111_115 = [
       "實務專題",
       "應用外語系"
     ],
-    "id": "REC-112-158"
+    "id": "REC-112-185"
+  },
+  {
+    "year": "112",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "楊君菁",
+    "empId": "T0000084253",
+    "adminRole": "實習指導教師",
+    "isArticle7Exempt": false,
+    "authorOrder": "第一作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "人工智慧技術與性別平等於醫療照護場域之實踐與挑戰",
+    "code": "領導護理",
+    "accCode": "PUB-JRN-2024-0207",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: 領導護理, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "高齡長照",
+      "失智症照護",
+      "AI智慧應用",
+      "數位轉型",
+      "護理系"
+    ],
+    "id": "REC-112-186"
+  },
+  {
+    "year": "112",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "楊君菁",
+    "empId": "T0000084253",
+    "adminRole": "實習指導教師",
+    "isArticle7Exempt": false,
+    "authorOrder": "第一作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "中文版實證護理能力量表於精神衛生護理人員之信效度檢驗",
+    "code": "精神衛生護理雜誌",
+    "accCode": "PUB-JRN-2024-0211",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: 精神衛生護理雜誌, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "精準醫療",
+      "分子檢測",
+      "臨床護理",
+      "教材研發",
+      "護理系"
+    ],
+    "id": "REC-112-187"
+  },
+  {
+    "year": "112",
+    "college": "醫學與健康學院",
+    "dept": "物理治療系",
+    "teacher": "鄒瑞怡",
+    "empId": "T0000045916",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "比較三種不同伸展方法對肩頸活動度與柔軟度的立即影響",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2023-0903",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "物理治療系"
+    ],
+    "id": "REC-112-188"
+  },
+  {
+    "year": "112",
+    "college": "人文與管理學院",
+    "dept": "幼兒保育暨產業系",
+    "teacher": "張靖敏",
+    "empId": "T0000061081",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第一作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "以 Can-Do教室觀點來看目前幼兒課程與教學",
+    "code": "幼兒課程與教學論文集",
+    "accCode": "PUB-JRN-2023-2990",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: 幼兒課程與教學論文集, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "幼兒教育",
+      "公共托育",
+      "幼兒保育暨產業系"
+    ],
+    "id": "REC-112-189"
+  },
+  {
+    "year": "112",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "方莉",
+    "empId": "T0000062021",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第一作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "以系統性文獻回顧及統合分析法探討芳香療法對於緩解護理人員工作壓力的效果。",
+    "code": "台灣公共衛生雜誌",
+    "accCode": "PUB-JRN-2023-0561",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: 台灣公共衛生雜誌, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "臨床護理",
+      "教材研發",
+      "護理系"
+    ],
+    "id": "REC-112-190"
+  },
+  {
+    "year": "112",
+    "college": "護理學院",
+    "dept": "健康事業管理系",
+    "teacher": "楊鎮維",
+    "empId": "T0000028271",
+    "adminRole": "教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第一作者兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "以領導風格探討服務創新對組織績效的影響",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2024-1048",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康事業管理系"
+    ],
+    "id": "REC-112-191"
+  },
+  {
+    "year": "112",
+    "college": "人文與管理學院",
+    "dept": "幼兒保育暨產業系",
+    "teacher": "張靖敏",
+    "empId": "T0000061081",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第一作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "台灣共融式遊戲場特色及功能性檢驗之研究",
+    "code": "休閒運動健康評論",
+    "accCode": "PUB-JRN-2023-2991",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: 休閒運動健康評論, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "精準醫療",
+      "分子檢測",
+      "幼兒保育暨產業系"
+    ],
+    "id": "REC-112-192"
+  },
+  {
+    "year": "112",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "顧雅利",
+    "empId": "T0000077888",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第一作者兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "失智患者自我照顧能力的概念分析",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2023-0589",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "高齡長照",
+      "失智症照護",
+      "護理系"
+    ],
+    "id": "REC-112-193"
   },
   {
     "year": "112",
@@ -16300,7 +30378,3698 @@ var DATASET_111_115 = [
       "幼兒發展篩檢",
       "幼兒保育暨產業系"
     ],
-    "id": "REC-112-159"
+    "id": "REC-112-194"
+  },
+  {
+    "year": "112",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "顧雅利",
+    "empId": "T0000077888",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第一作者兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "老人靈性狀態的概念分析",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2023-0592",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-112-195"
+  },
+  {
+    "year": "112",
+    "college": "護理學院",
+    "dept": "高齡及長期照護事業系",
+    "teacher": "劉一蓉",
+    "empId": "T0000055361",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第一作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "宗教認知行為療法融入高齡靈性照顧",
+    "code": "長期照護雜誌The Journal of Long-Term Care",
+    "accCode": "PUB-JRN-2024-2835",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: 長期照護雜誌The Journal of Long-Term Care, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "高齡長照",
+      "失智症照護",
+      "高齡及長期照護事業系"
+    ],
+    "id": "REC-112-196"
+  },
+  {
+    "year": "112",
+    "college": "護理學院",
+    "dept": "健康事業管理系",
+    "teacher": "包怡芬",
+    "empId": "T0000067834",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第二作者兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "居家護理師導入「足部照護」訓練於居家照顧服務員之成效探討",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2023-1211",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "高齡長照",
+      "失智症照護",
+      "臨床護理",
+      "教材研發",
+      "健康事業管理系"
+    ],
+    "id": "REC-112-197"
+  },
+  {
+    "year": "112",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "楊君菁",
+    "empId": "T0000084253",
+    "adminRole": "實習指導教師",
+    "isArticle7Exempt": false,
+    "authorOrder": "第一作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "長期照護場域的性騷擾防治策略",
+    "code": "領導護理",
+    "accCode": "PUB-JRN-2024-0209",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: 領導護理, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "高齡長照",
+      "失智症照護",
+      "護理系"
+    ],
+    "id": "REC-112-198"
+  },
+  {
+    "year": "112",
+    "college": "護理學院",
+    "dept": "健康事業管理系",
+    "teacher": "包怡芬",
+    "empId": "T0000067834",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第二作者兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "長照機構服務員工作壓力源初探",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2023-1212",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "高齡長照",
+      "失智症照護",
+      "健康事業管理系"
+    ],
+    "id": "REC-112-199"
+  },
+  {
+    "year": "112",
+    "college": "護理學院",
+    "dept": "高齡及長期照護事業系",
+    "teacher": "田奇玉",
+    "empId": "T0000113236",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第一作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "青銀代間學習策略融入性別平等教育之學習歷程與成效研究",
+    "code": "弘光學報",
+    "accCode": "PUB-JRN-2024-2866",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: 弘光學報, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "高齡及長期照護事業系"
+    ],
+    "id": "REC-112-200"
+  },
+  {
+    "year": "112",
+    "college": "環境與生命學院",
+    "dept": "環境工程與科學系",
+    "teacher": "賴進興",
+    "empId": "T0000038591",
+    "adminRole": "教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第一作者兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "南部特殊性工業區鄰近環境大氣有害空氣污染物之濃度分布",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2023-1338",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "環境監測",
+      "淨零減碳",
+      "環境工程與科學系"
+    ],
+    "id": "REC-112-201"
+  },
+  {
+    "year": "112",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "顧雅利",
+    "empId": "T0000077888",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第一作者兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "建構一個簡易版老人自覺譫妄、失智、憂鬱(3D)評估量表的信效度",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2023-0590",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "高齡長照",
+      "失智症照護",
+      "護理系"
+    ],
+    "id": "REC-112-202"
+  },
+  {
+    "year": "112",
+    "college": "人文與管理學院",
+    "dept": "幼兒保育暨產業系",
+    "teacher": "張義雄",
+    "empId": "T0000094730",
+    "adminRole": "教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第一作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "桃園市公共化及準公共幼兒園之推動情形與地區分布",
+    "code": "教育政策論壇",
+    "accCode": "PUB-JRN-2023-3023",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: 教育政策論壇, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "幼兒教育",
+      "公共托育",
+      "幼兒保育暨產業系"
+    ],
+    "id": "REC-112-203"
+  },
+  {
+    "year": "112",
+    "college": "醫學與健康學院",
+    "dept": "物理治療系",
+    "teacher": "康富傑",
+    "empId": "T0000060441",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第一作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "健康大學生智慧型手機成癮對頭部前傾、圓肩與駝背姿勢的影響",
+    "code": "台東大學體育學報",
+    "accCode": "PUB-JRN-2024-1316",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: 台東大學體育學報, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "AI智慧應用",
+      "數位轉型",
+      "物理治療系"
+    ],
+    "id": "REC-112-204"
+  },
+  {
+    "year": "112",
+    "college": "護理學院",
+    "dept": "健康事業管理系",
+    "teacher": "楊鎮維",
+    "empId": "T0000028271",
+    "adminRole": "教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第一作者兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "健康意識與新冠肺炎風險知覺對使用意願關聯性之研究:以遠距醫療服務品質為中介變項",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2024-1049",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康事業管理系"
+    ],
+    "id": "REC-112-205"
+  },
+  {
+    "year": "112",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "陳淑銘",
+    "empId": "T0000000530",
+    "adminRole": "教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第一作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "動機式晤談介入於第二型糖尿病病人自我效能、自我照顧行為及血糖控制之成效",
+    "code": "護理雜誌",
+    "accCode": "PUB-JRN-2023-0322",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: 護理雜誌, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-112-206"
+  },
+  {
+    "year": "112",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "楊君菁",
+    "empId": "T0000084253",
+    "adminRole": "實習指導教師",
+    "isArticle7Exempt": false,
+    "authorOrder": "第一作者兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "專責病房病患的身心健康照護與護理管理：一項三年的觀察性研究",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2024-0082",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "高齡長照",
+      "失智症照護",
+      "臨床護理",
+      "教材研發",
+      "護理系"
+    ],
+    "id": "REC-112-207"
+  },
+  {
+    "year": "112",
+    "college": "人文與管理學院",
+    "dept": "幼兒保育暨產業系",
+    "teacher": "張靖敏",
+    "empId": "T0000061081",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第一作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "探究學習於幼兒園統整性主題課程之實踐研究",
+    "code": "幼兒課程與教學論文集",
+    "accCode": "PUB-JRN-2023-2992",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: 幼兒課程與教學論文集, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "幼兒教育",
+      "公共托育",
+      "幼兒保育暨產業系"
+    ],
+    "id": "REC-112-208"
+  },
+  {
+    "year": "112",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "楊君菁",
+    "empId": "T0000084253",
+    "adminRole": "實習指導教師",
+    "isArticle7Exempt": false,
+    "authorOrder": "第一作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "探討社區中、老年人的健康資訊取得對健康識能的影響",
+    "code": "台灣健康照顧研究學刊",
+    "accCode": "PUB-JRN-2024-0215",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: 台灣健康照顧研究學刊, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-112-209"
+  },
+  {
+    "year": "112",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "楊君菁",
+    "empId": "T0000084253",
+    "adminRole": "實習指導教師",
+    "isArticle7Exempt": false,
+    "authorOrder": "第一作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "探討社探討社區失智長者懷舊團體介入之社會參與的主體經驗區",
+    "code": "中華心理衛生學刊",
+    "accCode": "PUB-JRN-2024-0216",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: 中華心理衛生學刊, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "高齡長照",
+      "失智症照護",
+      "護理系"
+    ],
+    "id": "REC-112-210"
+  },
+  {
+    "year": "112",
+    "college": "護理學院",
+    "dept": "健康事業管理系",
+    "teacher": "楊鎮維",
+    "empId": "T0000028271",
+    "adminRole": "教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第一作者兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "探討組織服務創新對服務品質的影響",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2024-1050",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康事業管理系"
+    ],
+    "id": "REC-112-211"
+  },
+  {
+    "year": "112",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "顧雅利",
+    "empId": "T0000077888",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第一作者兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "探討護理人員使用新舊款約束帶後之評量成效",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2023-0591",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "臨床護理",
+      "教材研發",
+      "護理系"
+    ],
+    "id": "REC-112-212"
+  },
+  {
+    "year": "112",
+    "college": "人文與管理學院",
+    "dept": "幼兒保育暨產業系",
+    "teacher": "張義雄",
+    "empId": "T0000094730",
+    "adminRole": "教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第一作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "探討體感互動遊戲對幼兒園大班幼兒數學學習及動作技能影響之研究",
+    "code": "數位學習科技期刊",
+    "accCode": "PUB-JRN-2024-3020",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: 數位學習科技期刊, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "幼兒教育",
+      "公共托育",
+      "幼兒保育暨產業系"
+    ],
+    "id": "REC-112-213"
+  },
+  {
+    "year": "112",
+    "college": "護理學院",
+    "dept": "健康事業管理系",
+    "teacher": "林政翰",
+    "empId": "T0000074995",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第一作者兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "軟體定義網路中基於迭代深度優先搜尋演法的路徑選擇",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2023-1227",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康事業管理系"
+    ],
+    "id": "REC-112-214"
+  },
+  {
+    "year": "112",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "江季蓁",
+    "empId": "T0000066846",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第一作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "照顧服務員之病人安全態度調查：以南部某二家區域教學醫院為例",
+    "code": "長期照護雜誌",
+    "accCode": "PUB-JRN-2023-0601",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: 長期照護雜誌, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-112-215"
+  },
+  {
+    "year": "112",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "楊君菁",
+    "empId": "T0000084253",
+    "adminRole": "實習指導教師",
+    "isArticle7Exempt": false,
+    "authorOrder": "第一作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "落實性別友善環境營造之行動里程碑：以護理師面對性騷擾事件為例",
+    "code": "領導護理",
+    "accCode": "PUB-JRN-2024-0208",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: 領導護理, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "環境監測",
+      "淨零減碳",
+      "臨床護理",
+      "教材研發",
+      "護理系"
+    ],
+    "id": "REC-112-216"
+  },
+  {
+    "year": "112",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "陳淑銘",
+    "empId": "T0000000530",
+    "adminRole": "教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第一作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "運用動機式會談照護一位糖尿病病人於體重管理之照護經驗",
+    "code": "安泰醫護雜誌",
+    "accCode": "PUB-JRN-2023-0323",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: 安泰醫護雜誌, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "高齡長照",
+      "失智症照護",
+      "護理系"
+    ],
+    "id": "REC-112-217"
+  },
+  {
+    "year": "112",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "楊君菁",
+    "empId": "T0000084253",
+    "adminRole": "實習指導教師",
+    "isArticle7Exempt": false,
+    "authorOrder": "第一作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "運用斜倚運動於吞嚥困難老人之實證護理經驗",
+    "code": "源遠護理",
+    "accCode": "PUB-JRN-2023-0217",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: 源遠護理, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "臨床護理",
+      "教材研發",
+      "護理系"
+    ],
+    "id": "REC-112-218"
+  },
+  {
+    "year": "112",
+    "college": "醫學與健康學院",
+    "dept": "物理治療系",
+    "teacher": "康富傑",
+    "empId": "T0000060441",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第一作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "臺灣肌肉骨骼物理治療核心能力探討",
+    "code": "物理治療Formosan Journal of Physical Therapy",
+    "accCode": "PUB-JRN-2024-1317",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: 物理治療Formosan Journal of Physical Therapy, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "物理治療系"
+    ],
+    "id": "REC-112-219"
+  },
+  {
+    "year": "112",
+    "college": "醫學與健康學院",
+    "dept": "物理治療系",
+    "teacher": "鄒瑞怡",
+    "empId": "T0000045916",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "彈力帶運動合併伸展運動對於改善大學生圓肩姿勢效果",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2024-0902",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "物理治療系"
+    ],
+    "id": "REC-112-220"
+  },
+  {
+    "year": "112",
+    "college": "護理學院",
+    "dept": "健康事業管理系",
+    "teacher": "林政翰",
+    "empId": "T0000074995",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第一作者兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "適用於軟體定義網路使用模糊邏輯的路由機制",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2023-1228",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康事業管理系"
+    ],
+    "id": "REC-112-221"
+  },
+  {
+    "year": "112",
+    "college": "護理學院",
+    "dept": "健康事業管理系",
+    "teacher": "羅家倫",
+    "empId": "T0000060871",
+    "adminRole": "國際事務長（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第一作者兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "機器學習為基礎之發炎性腸道疾病進展預測模型",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2023-1144",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "AI智慧應用",
+      "數位轉型",
+      "健康事業管理系"
+    ],
+    "id": "REC-112-222"
+  },
+  {
+    "year": "112",
+    "college": "環境與生命學院",
+    "dept": "環境工程與科學系",
+    "teacher": "賴進興",
+    "empId": "T0000038591",
+    "adminRole": "教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第一作者兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "應用氣提與結晶技術回收高純度氯化銨",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2023-1339",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "環境工程與科學系"
+    ],
+    "id": "REC-112-223"
+  },
+  {
+    "year": "112",
+    "college": "護理學院",
+    "dept": "健康事業管理系",
+    "teacher": "羅家倫",
+    "empId": "T0000060871",
+    "adminRole": "國際事務長（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第一作者兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "應用設計思考流程改善偏鄉長者就醫痛點之創新服務模式",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2023-1143",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康事業管理系"
+    ],
+    "id": "REC-112-224"
+  },
+  {
+    "year": "112",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "江季蓁",
+    "empId": "T0000066846",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第一作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "醫院護理人員肌肉骨骼不適之相關因素探討",
+    "code": "護理雜誌",
+    "accCode": "PUB-JRN-2024-0600",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: 護理雜誌, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "臨床護理",
+      "教材研發",
+      "護理系"
+    ],
+    "id": "REC-112-225"
+  },
+  {
+    "year": "112",
+    "college": "護理學院",
+    "dept": "健康事業管理系",
+    "teacher": "楊鎮維",
+    "empId": "T0000028271",
+    "adminRole": "教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第一作者兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "醫療服務品質與病患就醫滿意之研究：以病人安全為調節變項",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2024-1051",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康事業管理系"
+    ],
+    "id": "REC-112-226"
+  },
+  {
+    "year": "112",
+    "college": "護理學院",
+    "dept": "健康事業管理系",
+    "teacher": "楊鎮維",
+    "empId": "T0000028271",
+    "adminRole": "教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第一作者兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "醫療品質管理和共享決策之相關性探討",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2024-1052",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康事業管理系"
+    ],
+    "id": "REC-112-227"
+  },
+  {
+    "year": "112",
+    "college": "護理學院",
+    "dept": "健康事業管理系",
+    "teacher": "羅家倫",
+    "empId": "T0000060871",
+    "adminRole": "國際事務長（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第二作者兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "鑄造成功之路：以層級分析法比較機構式與居家式長照之創業因素",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2024-1140",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "高齡長照",
+      "失智症照護",
+      "健康事業管理系"
+    ],
+    "id": "REC-112-228"
+  },
+  {
+    "year": "112",
+    "college": "護理學院",
+    "dept": "健康事業管理系",
+    "teacher": "黃傑康",
+    "empId": "T0000119634",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "A consumption value evaluation and environmental consciousness of rental preference on Long-term rental YouBikes in Taiwan",
+    "code": "Research in Transportation Business & Management",
+    "accCode": "PUB-JRN-2023-1687",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Research in Transportation Business & Management, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康事業管理系"
+    ],
+    "id": "REC-112-229"
+  },
+  {
+    "year": "112",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "黃芷苓",
+    "empId": "T0000093504",
+    "adminRole": "教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "A descriptive study of attitudes of patient safety among nurse aids: An example of two regional teaching hospitals in southern Taiwan",
+    "code": "The Journal of Long-Term Care",
+    "accCode": "PUB-JRN-2023-0818",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: The Journal of Long-Term Care, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-112-230"
+  },
+  {
+    "year": "112",
+    "college": "護理學院",
+    "dept": "健康事業管理系",
+    "teacher": "林政翰",
+    "empId": "T0000074995",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "A Fast Handoff Scheme with Load Balancing in Software Defined Wireless Networks",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2024-1226",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康事業管理系"
+    ],
+    "id": "REC-112-231"
+  },
+  {
+    "year": "112",
+    "college": "護理學院",
+    "dept": "健康事業管理系",
+    "teacher": "楊鎮維",
+    "empId": "T0000028271",
+    "adminRole": "教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "A Multi-Level Model of Institutional Innovation and Knowledge Creation Capabilities: Insights from The Development of Taiwan's Nation Health Insurance",
+    "code": "INQUIRY-THE JOURNAL OF HEALTH CARE ORGANIZATION PROVISION AND FINANCING",
+    "accCode": "PUB-JRN-2024-1462",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: INQUIRY-THE JOURNAL OF HEALTH CARE ORGANIZATION PROVISION AND FINANCING, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康事業管理系"
+    ],
+    "id": "REC-112-232"
+  },
+  {
+    "year": "112",
+    "college": "醫學與健康學院",
+    "dept": "健康美容系",
+    "teacher": "陳中一",
+    "empId": "T0000054317",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "A new alkaloid of Nelumbo nucifera",
+    "code": "Chem. Nat. Compd.",
+    "accCode": "PUB-JRN-2024-2460",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Chem. Nat. Compd., 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康美容系"
+    ],
+    "id": "REC-112-233"
+  },
+  {
+    "year": "112",
+    "college": "醫學與健康學院",
+    "dept": "健康美容系",
+    "teacher": "陳中一",
+    "empId": "T0000054317",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "A new antrobutenone of Synsepalum dulcificum",
+    "code": "Chem. Nat. Compd.",
+    "accCode": "PUB-JRN-2024-2461",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Chem. Nat. Compd., 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康美容系"
+    ],
+    "id": "REC-112-234"
+  },
+  {
+    "year": "112",
+    "college": "醫學與健康學院",
+    "dept": "健康美容系",
+    "teacher": "陳中一",
+    "empId": "T0000054317",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "A new benzenoid of Cordyceps sinensis",
+    "code": "Chem. Nat. Compd.",
+    "accCode": "PUB-JRN-2024-2462",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Chem. Nat. Compd., 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康美容系"
+    ],
+    "id": "REC-112-235"
+  },
+  {
+    "year": "112",
+    "college": "醫學與健康學院",
+    "dept": "健康美容系",
+    "teacher": "陳中一",
+    "empId": "T0000054317",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "A new benzenoid of Crithmum maritimum",
+    "code": "Chem. Nat. Compd.",
+    "accCode": "PUB-JRN-2024-2463",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Chem. Nat. Compd., 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康美容系"
+    ],
+    "id": "REC-112-236"
+  },
+  {
+    "year": "112",
+    "college": "醫學與健康學院",
+    "dept": "健康美容系",
+    "teacher": "陳中一",
+    "empId": "T0000054317",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "A new benzenoid of Elaeaguns grandifolia",
+    "code": "Chem. Nat. Compd.",
+    "accCode": "PUB-JRN-2024-2459",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Chem. Nat. Compd., 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康美容系"
+    ],
+    "id": "REC-112-237"
+  },
+  {
+    "year": "112",
+    "college": "醫學與健康學院",
+    "dept": "健康美容系",
+    "teacher": "陳中一",
+    "empId": "T0000054317",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "A new benzylisoqinoline of Michelia compressa var. compressa",
+    "code": "Chem. Nat. Compd.",
+    "accCode": "PUB-JRN-2024-2464",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Chem. Nat. Compd., 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康美容系"
+    ],
+    "id": "REC-112-238"
+  },
+  {
+    "year": "112",
+    "college": "醫學與健康學院",
+    "dept": "健康美容系",
+    "teacher": "陳中一",
+    "empId": "T0000054317",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "A new benzylisoquinoline of Nelumbo nucifera cv. Rosa-plena",
+    "code": "Chem. Nat. Compd.",
+    "accCode": "PUB-JRN-2024-2465",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Chem. Nat. Compd., 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康美容系"
+    ],
+    "id": "REC-112-239"
+  },
+  {
+    "year": "112",
+    "college": "醫學與健康學院",
+    "dept": "健康美容系",
+    "teacher": "陳中一",
+    "empId": "T0000054317",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "A new crown ether of Mahonia fortunei",
+    "code": "Chem. Nat. Compd.",
+    "accCode": "PUB-JRN-2024-2466",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Chem. Nat. Compd., 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康美容系"
+    ],
+    "id": "REC-112-240"
+  },
+  {
+    "year": "112",
+    "college": "醫學與健康學院",
+    "dept": "健康美容系",
+    "teacher": "陳中一",
+    "empId": "T0000054317",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "A new hydroquinone of Cucurbita pepo",
+    "code": "Chem. Nat. Compd.",
+    "accCode": "PUB-JRN-2024-2467",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Chem. Nat. Compd., 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康美容系"
+    ],
+    "id": "REC-112-241"
+  },
+  {
+    "year": "112",
+    "college": "醫學與健康學院",
+    "dept": "健康美容系",
+    "teacher": "陳中一",
+    "empId": "T0000054317",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "A new ionone compound from Liriodendron tulipifera",
+    "code": "Chem. Nat. Compd.",
+    "accCode": "PUB-JRN-2024-2468",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Chem. Nat. Compd., 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康美容系"
+    ],
+    "id": "REC-112-242"
+  },
+  {
+    "year": "112",
+    "college": "醫學與健康學院",
+    "dept": "健康美容系",
+    "teacher": "陳中一",
+    "empId": "T0000054317",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "A new sesquiterpenoid of Curcuma longa",
+    "code": "Chem. Nat. Compd.",
+    "accCode": "PUB-JRN-2024-2469",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Chem. Nat. Compd., 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康美容系"
+    ],
+    "id": "REC-112-243"
+  },
+  {
+    "year": "112",
+    "college": "醫學與健康學院",
+    "dept": "健康美容系",
+    "teacher": "陳中一",
+    "empId": "T0000054317",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "A new sesquiterpenoid of Zingiber officinale",
+    "code": "Chem. Nat. Compd.",
+    "accCode": "PUB-JRN-2024-2470",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Chem. Nat. Compd., 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康美容系"
+    ],
+    "id": "REC-112-244"
+  },
+  {
+    "year": "112",
+    "college": "醫學與健康學院",
+    "dept": "健康美容系",
+    "teacher": "陳中一",
+    "empId": "T0000054317",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "A new β-ionone of Michelia champaca",
+    "code": "Chem. Nat. Compd.",
+    "accCode": "PUB-JRN-2024-2471",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Chem. Nat. Compd., 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康美容系"
+    ],
+    "id": "REC-112-245"
+  },
+  {
+    "year": "112",
+    "college": "醫學與健康學院",
+    "dept": "健康美容系",
+    "teacher": "陳中一",
+    "empId": "T0000054317",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "A novel bibenzyl derivative of Hydrangea chinensis",
+    "code": "Chem. Nat. Compd.",
+    "accCode": "PUB-JRN-2024-2472",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Chem. Nat. Compd., 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康美容系"
+    ],
+    "id": "REC-112-246"
+  },
+  {
+    "year": "112",
+    "college": "醫學與健康學院",
+    "dept": "物理治療系",
+    "teacher": "鄒瑞怡",
+    "empId": "T0000045916",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "A novel CPR-assist device vs. established chest compression techniques in infant CPR: A manikin study",
+    "code": "The American Journal of Emergency Medicine",
+    "accCode": "PUB-JRN-2023-1245",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: The American Journal of Emergency Medicine, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "物理治療系"
+    ],
+    "id": "REC-112-247"
+  },
+  {
+    "year": "112",
+    "college": "醫學與健康學院",
+    "dept": "健康美容系",
+    "teacher": "陳中一",
+    "empId": "T0000054317",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "A novel metabolite of Cinnamomum burmani",
+    "code": "Chem. Pharm. Res.",
+    "accCode": "PUB-JRN-2024-2473",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Chem. Pharm. Res., 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康美容系"
+    ],
+    "id": "REC-112-248"
+  },
+  {
+    "year": "112",
+    "college": "護理學院",
+    "dept": "健康事業管理系",
+    "teacher": "林政翰",
+    "empId": "T0000074995",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "A Rapidly Adaptive Collision Backoff Algorithm for Improving the Throughput in WLANs",
+    "code": "Electronics",
+    "accCode": "PUB-JRN-2023-1657",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Electronics, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康事業管理系"
+    ],
+    "id": "REC-112-249"
+  },
+  {
+    "year": "112",
+    "college": "護理學院",
+    "dept": "健康事業管理系",
+    "teacher": "鄭南玉",
+    "empId": "T0000016973",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "A Study on Child Malnutrition in Developing Countries: The Case of Cambodia",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2023-1042",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康事業管理系"
+    ],
+    "id": "REC-112-250"
+  },
+  {
+    "year": "112",
+    "college": "護理學院",
+    "dept": "健康事業管理系",
+    "teacher": "楊鎮維",
+    "empId": "T0000028271",
+    "adminRole": "教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第一作者兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "A Treatment Strategy for Late Stage of Knee Osteoarthritis in Older People with Comorbidities -- Cases Report and Literature Review 針對有合併症之老年人的晚期膝關節退化性關節炎之治療策略----案例報告及文獻回顧",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2023-1053",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康事業管理系"
+    ],
+    "id": "REC-112-251"
+  },
+  {
+    "year": "112",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "蔡家梅",
+    "empId": "T0000095912",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "A virtual reality intervention to improve formal caregivers’ understanding of community-dwelling people with dementia: A pilot study.",
+    "code": "Contemporary Nurse",
+    "accCode": "PUB-JRN-2023-0872",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Contemporary Nurse, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-112-252"
+  },
+  {
+    "year": "112",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "顏秀珍",
+    "empId": "T0000089142",
+    "adminRole": "實習指導教師",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "SCIE 國際期刊",
+    "title": "An Efficient Approach for Discovering and Maintaining Sequential Patterns",
+    "code": "Journal of Information Science and Engineering (JISE)",
+    "accCode": "PUB-JRN-2024-2175",
+    "disbursementRate": 100,
+    "amount": 2,
+    "metricNote": "SCIE 國際期刊 收錄 (刊物: Journal of Information Science and Engineering (JISE), 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-112-253"
+  },
+  {
+    "year": "112",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "顏秀珍",
+    "empId": "T0000089142",
+    "adminRole": "實習指導教師",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "An Efficient Approach for Maintaining and Mining Frequent Episodes",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2024-1691",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-112-254"
+  },
+  {
+    "year": "112",
+    "college": "護理學院",
+    "dept": "高齡及長期照護事業系",
+    "teacher": "林欣妤",
+    "empId": "T0000087685",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "Analyzing the user characteristics of the long-term care services utilization in the rural city",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2024-2015",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "高齡及長期照護事業系"
+    ],
+    "id": "REC-112-255"
+  },
+  {
+    "year": "112",
+    "college": "醫學與健康學院",
+    "dept": "健康美容系",
+    "teacher": "陳中一",
+    "empId": "T0000054317",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Antiliver and colorectal cancer activity metabolites of the fruits of Cinnamomum macrostemon",
+    "code": "Chem. Nat. Compd.",
+    "accCode": "PUB-JRN-2024-2474",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Chem. Nat. Compd., 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康美容系"
+    ],
+    "id": "REC-112-256"
+  },
+  {
+    "year": "112",
+    "college": "醫學與健康學院",
+    "dept": "健康美容系",
+    "teacher": "陳中一",
+    "empId": "T0000054317",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Antiliver and colorectal cancer activity metabolites of the leaves of Michelia crassipes",
+    "code": "Chem. Nat. Compd.",
+    "accCode": "PUB-JRN-2024-2475",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Chem. Nat. Compd., 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康美容系"
+    ],
+    "id": "REC-112-257"
+  },
+  {
+    "year": "112",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "施芊卉",
+    "empId": "T0000084532",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "Anxiety of Weaning Ventilator：A Concept Analysis.",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2023-0651",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-112-258"
+  },
+  {
+    "year": "112",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "吳靜宜",
+    "empId": "T0000029836",
+    "adminRole": "實習指導教師",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Application of innovative information technology in dental education",
+    "code": "醫療品質雜誌Journal of Health Care Quality",
+    "accCode": "PUB-JRN-2023-2055",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: 醫療品質雜誌Journal of Health Care Quality, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-112-259"
+  },
+  {
+    "year": "112",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "吳靜宜",
+    "empId": "T0000029836",
+    "adminRole": "實習指導教師",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "Application of optical coherence tomography in the diagnostic dentistry: Experiences from A medical center",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2024-1622",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-112-260"
+  },
+  {
+    "year": "112",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "楊君菁",
+    "empId": "T0000084253",
+    "adminRole": "實習指導教師",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Application of the Transtheoretical Model to Physical Activity and Health-related Quality of Life Among Older People Living With Frailty in the Community: The Fitness and Nutrition Program for Seniors (FANS) Study Protocol.",
+    "code": "International Journal of Studies in Nursing",
+    "accCode": "PUB-JRN-2024-0212",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: International Journal of Studies in Nursing, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-112-261"
+  },
+  {
+    "year": "112",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "葉蕙芳",
+    "empId": "T0000055001",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "Apply gamification learning to improve nutrition and health knowledge in colorectal cancer patients-preliminary study",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2023-0370",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-112-262"
+  },
+  {
+    "year": "112",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "葉蕙芳",
+    "empId": "T0000055001",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "Apply Music Therapy with Six-Minute Walking test to improve Helplessness in Heart Failure patients- A case report",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2023-0369",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-112-263"
+  },
+  {
+    "year": "112",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "蔡宛玲",
+    "empId": "T0000121830",
+    "adminRole": "職能發展組副主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Aspartame intake delayed puberty onset in female offspring rats and girls",
+    "code": "Molecular Nutrition and Food Research",
+    "accCode": "PUB-JRN-2024-2233",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Molecular Nutrition and Food Research, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-112-264"
+  },
+  {
+    "year": "112",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "蔡宛玲",
+    "empId": "T0000121830",
+    "adminRole": "職能發展組副主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Associations of Central Precocious Puberty with Blood Pressure Trajectories: Prospective Cohort Study",
+    "code": "Pediatric Research",
+    "accCode": "PUB-JRN-2023-2234",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Pediatric Research, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-112-265"
+  },
+  {
+    "year": "112",
+    "college": "環境與生命學院",
+    "dept": "環境工程與科學系",
+    "teacher": "賴進興",
+    "empId": "T0000038591",
+    "adminRole": "教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Atmospheric mercury speciation and concentration at the urban and industrial sites in Taiwan over a three-year period",
+    "code": "Atmospheric Environment",
+    "accCode": "PUB-JRN-2023-1728",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Atmospheric Environment, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "環境工程與科學系"
+    ],
+    "id": "REC-112-266"
+  },
+  {
+    "year": "112",
+    "college": "醫學與健康學院",
+    "dept": "健康美容系",
+    "teacher": "陳中一",
+    "empId": "T0000054317",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Chemical constituents of the flowers of Aquilaria aggallocha",
+    "code": "Chem. Nat. Compd.",
+    "accCode": "PUB-JRN-2024-2476",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Chem. Nat. Compd., 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康美容系"
+    ],
+    "id": "REC-112-267"
+  },
+  {
+    "year": "112",
+    "college": "醫學與健康學院",
+    "dept": "健康美容系",
+    "teacher": "陳中一",
+    "empId": "T0000054317",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Chemistry constituents from the fungus of Streptomyces sp. BC129-2",
+    "code": "Chem. Nat. Compd.",
+    "accCode": "PUB-JRN-2024-2477",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Chem. Nat. Compd., 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康美容系"
+    ],
+    "id": "REC-112-268"
+  },
+  {
+    "year": "112",
+    "college": "人文與管理學院",
+    "dept": "休閒與遊憩事業管理系",
+    "teacher": "陳信璋",
+    "empId": "T0000116406",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第一作者兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "Class Distinction in the Tastes of coffee.",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2024-1569",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "休閒與遊憩事業管理系"
+    ],
+    "id": "REC-112-269"
+  },
+  {
+    "year": "112",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "楊君菁",
+    "empId": "T0000084253",
+    "adminRole": "實習指導教師",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "Cognitive Behavioral Therapy for Older Adults with Diabetes and Depression: A Systematic Review and Clinical Application Experience.",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2024-0081",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-112-270"
+  },
+  {
+    "year": "112",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "顧雅利",
+    "empId": "T0000077888",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "Comorbidity of the Depression and Dementia Among the Elders in One Long-Term Care Facility",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2023-0588",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-112-271"
+  },
+  {
+    "year": "112",
+    "college": "人文與管理學院",
+    "dept": "幼兒保育暨產業系",
+    "teacher": "張義雄",
+    "empId": "T0000094730",
+    "adminRole": "教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Design and implementation of a real-time face recognition system based on artificial intelligence techniques.",
+    "code": "Multimedia Systems",
+    "accCode": "PUB-JRN-2024-3019",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Multimedia Systems, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "幼兒保育暨產業系"
+    ],
+    "id": "REC-112-272"
+  },
+  {
+    "year": "112",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "陳舜華",
+    "empId": "T0000003564",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Development of 5-hydroxybenzothiophene derivatives as multi-kinase inhibitors with potential anti-cancer activity",
+    "code": "Future Medicinal Chemistry",
+    "accCode": "PUB-JRN-2024-2304",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Future Medicinal Chemistry, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-112-273"
+  },
+  {
+    "year": "112",
+    "college": "護理學院",
+    "dept": "健康事業管理系",
+    "teacher": "羅家倫",
+    "empId": "T0000060871",
+    "adminRole": "國際事務長（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "Development of an AI-Based Alert System for Targeted Temperature Management Patients Using Machine Learning and Millimeter-Wave Technology",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2023-1142",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "AI智慧應用",
+      "數位轉型",
+      "健康事業管理系"
+    ],
+    "id": "REC-112-274"
+  },
+  {
+    "year": "112",
+    "college": "護理學院",
+    "dept": "健康事業管理系",
+    "teacher": "包怡芬",
+    "empId": "T0000067834",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "Discussion on the current use of assistive devices for transfer in a care institution affiliated to a hospital in Taichung",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2023-1209",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康事業管理系"
+    ],
+    "id": "REC-112-275"
+  },
+  {
+    "year": "112",
+    "college": "護理學院",
+    "dept": "健康事業管理系",
+    "teacher": "林惠賢",
+    "empId": "T0000060449",
+    "adminRole": "教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Does consciousness level determine the timing of successful removal of urinary catheters at neurosurgery intensive care unit-implication to nosocomial infection prevention.",
+    "code": "Journal of Emergency Medicine",
+    "accCode": "PUB-JRN-2023-1500",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Journal of Emergency Medicine, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康事業管理系"
+    ],
+    "id": "REC-112-276"
+  },
+  {
+    "year": "112",
+    "college": "護理學院",
+    "dept": "健康事業管理系",
+    "teacher": "楊鎮維",
+    "empId": "T0000028271",
+    "adminRole": "教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第一作者兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "E化服務品質、科技接受模式與健康識能之關聯性研究─以健康存摺應用為例",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2023-1054",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康事業管理系"
+    ],
+    "id": "REC-112-277"
+  },
+  {
+    "year": "112",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "陳淑銘",
+    "empId": "T0000000530",
+    "adminRole": "教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "Effect of a digital foot ulcer care program in people with diabetic foot",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2024-0167",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-112-278"
+  },
+  {
+    "year": "112",
+    "college": "醫學與健康學院",
+    "dept": "醫學檢驗生物技術系",
+    "teacher": "郭順宇",
+    "empId": "T0000024975",
+    "adminRole": "教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "Effect of Celastrol on IgE-Mediated Allergic Response in RBL-2H3 Cells.",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2023-0850",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "醫學檢驗生物技術系"
+    ],
+    "id": "REC-112-279"
+  },
+  {
+    "year": "112",
+    "college": "醫學與健康學院",
+    "dept": "醫學檢驗生物技術系",
+    "teacher": "郭順宇",
+    "empId": "T0000024975",
+    "adminRole": "教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "Effect of Phenylethyl Isothiocyanate on Intracellular Calcium Levels and Viability in Jurkat Cells",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2023-0851",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "醫學檢驗生物技術系"
+    ],
+    "id": "REC-112-280"
+  },
+  {
+    "year": "112",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "唐佩玲",
+    "empId": "T0000029023",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Effectiveness of a multicomponent activity and horticultural intervention for the hospitalized older adults: A randomized controlled trial",
+    "code": "Geriatric Nursing",
+    "accCode": "PUB-JRN-2023-0474",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Geriatric Nursing, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-112-281"
+  },
+  {
+    "year": "112",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "楊君菁",
+    "empId": "T0000084253",
+    "adminRole": "實習指導教師",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Effectiveness of Online Mindfulness Platform in Improving Anxiety, Depression, and Stress in Adults During the COVID-19 Pandemic: A Randomized Control Trial.",
+    "code": "Innovation in Applied Nursing Informatics",
+    "accCode": "PUB-JRN-2024-0213",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Innovation in Applied Nursing Informatics, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-112-282"
+  },
+  {
+    "year": "112",
+    "college": "人文與管理學院",
+    "dept": "幼兒保育暨產業系",
+    "teacher": "張義雄",
+    "empId": "T0000094730",
+    "adminRole": "教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Effects of caring climate on career commitment for preschool teachers: the mediating roles of interpersonal trust and cooperative learning",
+    "code": "Early Years",
+    "accCode": "PUB-JRN-2024-3021",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Early Years, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "幼兒保育暨產業系"
+    ],
+    "id": "REC-112-283"
+  },
+  {
+    "year": "112",
+    "college": "醫學與健康學院",
+    "dept": "物理治療系",
+    "teacher": "康富傑",
+    "empId": "T0000060441",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第一作者兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "Effects of Physical Activity Level on Forward Head, Rounded Shoulders, and Kyphosis Posture.",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2023-0945",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "物理治療系"
+    ],
+    "id": "REC-112-284"
+  },
+  {
+    "year": "112",
+    "college": "醫學與健康學院",
+    "dept": "物理治療系",
+    "teacher": "陳姝希",
+    "empId": "T0000069003",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "Effects of Spinal Exercise on Forward Head Posture and the Static and Dynamic Balance of Young Adults",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2023-0953",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "物理治療系"
+    ],
+    "id": "REC-112-285"
+  },
+  {
+    "year": "112",
+    "college": "環境與生命學院",
+    "dept": "職業安全衛生系",
+    "teacher": "陳毅謙",
+    "empId": "T0000057449",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Enhancement of Mosquito Collection for Ultraviolet Light-Emitting Diodes Trapping System Using Cavity Reflectors",
+    "code": "Photonics",
+    "accCode": "PUB-JRN-2024-1896",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Photonics, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "職業安全衛生系"
+    ],
+    "id": "REC-112-286"
+  },
+  {
+    "year": "112",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "顧雅利",
+    "empId": "T0000077888",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第一作者兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "Evidence-Based Outcomes for two Patent Products of an All-in-One Oral Hygiene Tool and a Feeding Device with Interchangeable Feeding Utensils",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2024-0586",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-112-287"
+  },
+  {
+    "year": "112",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "洪瑄曼",
+    "empId": "T0000005248",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Exploration of Inflammatory Biomarkers and Psychological Cardiovascular Disease Risk Factors Among Community Dwelling Adults: A Gender Comparison Study",
+    "code": "Biological Research For Nursing",
+    "accCode": "PUB-JRN-2023-2329",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Biological Research For Nursing, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-112-288"
+  },
+  {
+    "year": "112",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "王惠玲",
+    "empId": "T0000056265",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Exploration of Inflammatory Biomarkers and Psychological Cardiovascular Disease Risk Factors Among Community Dwelling Adults: A Gender Comparison Study.",
+    "code": "Biological Research for Nursing",
+    "accCode": "PUB-JRN-2024-0543",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Biological Research for Nursing, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-112-289"
+  },
+  {
+    "year": "112",
+    "college": "醫學與健康學院",
+    "dept": "物理治療系",
+    "teacher": "李美誼",
+    "empId": "T0000022109",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "Exploratory Studies into the Lower Body Strengths and Gait atterns of the Young and the Elderly.",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2023-0887",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "物理治療系"
+    ],
+    "id": "REC-112-290"
+  },
+  {
+    "year": "112",
+    "college": "醫學與健康學院",
+    "dept": "物理治療系",
+    "teacher": "陳姝希",
+    "empId": "T0000069003",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "Exploratory Studies into the Lower Body Strengths and Gait Patterns of the Young and the Elderly",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2023-0954",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "物理治療系"
+    ],
+    "id": "REC-112-291"
+  },
+  {
+    "year": "112",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "顧雅利",
+    "empId": "T0000077888",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第一作者兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "Exploring Clinical Evidences of the Innovative Urine Catheter Fixation Device based on the Perspectives of Patients and Nurses",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2023-0587",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-112-292"
+  },
+  {
+    "year": "112",
+    "college": "護理學院",
+    "dept": "高齡及長期照護事業系",
+    "teacher": "楊月頴",
+    "empId": "T0000097047",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第一作者兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "Exploring the foot problems and care of the old people in the community - Literature Review",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2023-2033",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "高齡及長期照護事業系"
+    ],
+    "id": "REC-112-293"
+  },
+  {
+    "year": "112",
+    "college": "護理學院",
+    "dept": "健康事業管理系",
+    "teacher": "羅家倫",
+    "empId": "T0000060871",
+    "adminRole": "國際事務長（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "Exploring the Impact of Shared Decision-Making Strategies on Workplace Fatigue Factors among Nursing Staff: A Preliminary Investigation",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2024-1138",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康事業管理系"
+    ],
+    "id": "REC-112-294"
+  },
+  {
+    "year": "112",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "葉蕙芳",
+    "empId": "T0000055001",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "Exploring Virtual Patient training nurse practitioners to differential diagnosis effect",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2023-0371",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-112-295"
+  },
+  {
+    "year": "112",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "鍾淑瑜",
+    "empId": "T0000038204",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "Factors Associated with Health Related Quality of Life in Kidney Transplant Recipient.",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2023-0353",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-112-296"
+  },
+  {
+    "year": "112",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "黃芷苓",
+    "empId": "T0000093504",
+    "adminRole": "教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "SSCI 國際期刊",
+    "title": "Factors related to musculoskeletal disorders among hospital nurses",
+    "code": "The Journal of Nursing (TSSCI)",
+    "accCode": "PUB-JRN-2024-0817",
+    "disbursementRate": 100,
+    "amount": 2,
+    "metricNote": "SSCI 國際期刊 收錄 (刊物: The Journal of Nursing (TSSCI), 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-112-297"
+  },
+  {
+    "year": "112",
+    "college": "環境與生命學院",
+    "dept": "職業安全衛生系",
+    "teacher": "陳毅謙",
+    "empId": "T0000057449",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Five-Surface Phosphor-in-Glass for Enhanced Illumination and Superior Color Uniformity in Large-View Scale LEDs",
+    "code": "微型機械Micromachines",
+    "accCode": "PUB-JRN-2024-1895",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: 微型機械Micromachines, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "職業安全衛生系"
+    ],
+    "id": "REC-112-298"
+  },
+  {
+    "year": "112",
+    "college": "護理學院",
+    "dept": "健康事業管理系",
+    "teacher": "包怡芬",
+    "empId": "T0000067834",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "Foot problems related to health-related quality of life in middle-aged and older adults",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2023-1210",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康事業管理系"
+    ],
+    "id": "REC-112-299"
+  },
+  {
+    "year": "112",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "楊君菁",
+    "empId": "T0000084253",
+    "adminRole": "實習指導教師",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "Fostering nursing talent： A breakthrough in innovative teaching for clinical judgment and self-efficacy.",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2024-0077",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-112-300"
+  },
+  {
+    "year": "112",
+    "college": "護理學院",
+    "dept": "助產與婦嬰健康照護系",
+    "teacher": "郭心怡",
+    "empId": "T0000005425",
+    "adminRole": "講師",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "Free vibration of multiferroic laminates with interfacial imperfections and nonlocal effect",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2023-0244",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "助產與婦嬰健康照護系"
+    ],
+    "id": "REC-112-301"
+  },
+  {
+    "year": "112",
+    "college": "護理學院",
+    "dept": "健康事業管理系",
+    "teacher": "羅家倫",
+    "empId": "T0000060871",
+    "adminRole": "國際事務長（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第一作者兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "Harnessing the Artificial Intelligence Technologies to Advancing Nursing and Person-Centered Consumer Care by Enhancing the Resilience of Traditional Culture",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2023-1145",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康事業管理系"
+    ],
+    "id": "REC-112-302"
+  },
+  {
+    "year": "112",
+    "college": "護理學院",
+    "dept": "健康事業管理系",
+    "teacher": "黃傑康",
+    "empId": "T0000119634",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "How do mobile app users react to embedded advertising? A perspective from psychological reactance theory.",
+    "code": "Behaviour & Information Technology",
+    "accCode": "PUB-JRN-2024-1686",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Behaviour & Information Technology, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康事業管理系"
+    ],
+    "id": "REC-112-303"
+  },
+  {
+    "year": "112",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "顏秀珍",
+    "empId": "T0000089142",
+    "adminRole": "實習指導教師",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "How Does Sustainable Leadership of the Chief Executive Officer Promote the Willingness to Adopt the Environmental Innovation Strategy? The Key Mediating Role of Environmental Value of the Top Management Team",
+    "code": "Sustainability",
+    "accCode": "PUB-JRN-2024-2174",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Sustainability, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-112-304"
+  },
+  {
+    "year": "112",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "吳靜宜",
+    "empId": "T0000029836",
+    "adminRole": "實習指導教師",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "Hypoxia affected IL-8 secretion from Porphyromonas gingivalis stimulated epithelial cells",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2024-1623",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-112-305"
+  },
+  {
+    "year": "112",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "楊君菁",
+    "empId": "T0000084253",
+    "adminRole": "實習指導教師",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Incidence and factors associated with falls in older people in a long-term care facility: a prospective study in Taiwan",
+    "code": "Healthcare",
+    "accCode": "PUB-JRN-2024-0210",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Healthcare, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-112-306"
+  },
+  {
+    "year": "112",
+    "college": "醫學與健康學院",
+    "dept": "醫學檢驗生物技術系",
+    "teacher": "邱敏熙",
+    "empId": "T0000089506",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "SCIE 國際期刊",
+    "title": "Increased Serum Adipokines are associated with Sarcopenia in Non-obese Women with Rheumatoid Arthritis",
+    "code": "The Kaohsiung Journal of Medical Sciences",
+    "accCode": "PUB-JRN-2024-1197",
+    "disbursementRate": 100,
+    "amount": 2,
+    "metricNote": "SCIE 國際期刊 收錄 (刊物: The Kaohsiung Journal of Medical Sciences, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "醫學檢驗生物技術系"
+    ],
+    "id": "REC-112-307"
+  },
+  {
+    "year": "112",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "方莉",
+    "empId": "T0000062021",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第一作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Intention to sign an advance directive among nephrology medical staff and its related factors",
+    "code": "International Journal of Palliative Nursing",
+    "accCode": "PUB-JRN-2024-0560",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: International Journal of Palliative Nursing, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-112-308"
+  },
+  {
+    "year": "112",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "陳淑銘",
+    "empId": "T0000000530",
+    "adminRole": "教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Investigating the effects of digital foot self-management program on enhancing self-efficacy and self-care behavior among community-dwelling older adults with type 2 diabetes: A randomized controlled trial.",
+    "code": "Digital Health",
+    "accCode": "PUB-JRN-2023-0321",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Digital Health, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-112-309"
+  },
+  {
+    "year": "112",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "楊君菁",
+    "empId": "T0000084253",
+    "adminRole": "實習指導教師",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "LGBTQ Policy and Attitude Towards Gender Equality Among Long-Term Care Staffs Between Indonesia and Taiwan.",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2024-0078",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-112-310"
+  },
+  {
+    "year": "112",
+    "college": "護理學院",
+    "dept": "健康事業管理系",
+    "teacher": "羅家倫",
+    "empId": "T0000060871",
+    "adminRole": "國際事務長（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "Managing the Social Influence of Public Figures on Social Media",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2024-1141",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康事業管理系"
+    ],
+    "id": "REC-112-311"
+  },
+  {
+    "year": "112",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "陳立庭",
+    "empId": "T0000036425",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "Mediated and Moderated Effects of Insecure Attachment Style and Depressions",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2024-0348",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-112-312"
+  },
+  {
+    "year": "112",
+    "college": "醫學與健康學院",
+    "dept": "健康美容系",
+    "teacher": "陳中一",
+    "empId": "T0000054317",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Metabolites from Alpinia officinarum with antioxidant activity",
+    "code": "Chem. Nat. Compd.",
+    "accCode": "PUB-JRN-2024-2478",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Chem. Nat. Compd., 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康美容系"
+    ],
+    "id": "REC-112-313"
+  },
+  {
+    "year": "112",
+    "college": "醫學與健康學院",
+    "dept": "健康美容系",
+    "teacher": "陳中一",
+    "empId": "T0000054317",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Metabolites from Alpinia zerumbet with antioxidant activity",
+    "code": "Chem. Nat. Compd.",
+    "accCode": "PUB-JRN-2024-2479",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Chem. Nat. Compd., 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康美容系"
+    ],
+    "id": "REC-112-314"
+  },
+  {
+    "year": "112",
+    "college": "醫學與健康學院",
+    "dept": "健康美容系",
+    "teacher": "陳中一",
+    "empId": "T0000054317",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Metabolites from Antrodia camphorata with antioxidant activity",
+    "code": "Chem. Nat. Compd.",
+    "accCode": "PUB-JRN-2024-2480",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Chem. Nat. Compd., 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康美容系"
+    ],
+    "id": "REC-112-315"
+  },
+  {
+    "year": "112",
+    "college": "醫學與健康學院",
+    "dept": "健康美容系",
+    "teacher": "陳中一",
+    "empId": "T0000054317",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Metabolites from Cinnamomum subavenium with anti-dengue virus activity",
+    "code": "Chem. Nat. Compd.",
+    "accCode": "PUB-JRN-2024-2481",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Chem. Nat. Compd., 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康美容系"
+    ],
+    "id": "REC-112-316"
+  },
+  {
+    "year": "112",
+    "college": "醫學與健康學院",
+    "dept": "健康美容系",
+    "teacher": "陳中一",
+    "empId": "T0000054317",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Metabolites from Michelia compressa var. lanyuensis with antioxidant activity",
+    "code": "Chem. Nat. Compd.",
+    "accCode": "PUB-JRN-2024-2482",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Chem. Nat. Compd., 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康美容系"
+    ],
+    "id": "REC-112-317"
+  },
+  {
+    "year": "112",
+    "college": "醫學與健康學院",
+    "dept": "健康美容系",
+    "teacher": "陳中一",
+    "empId": "T0000054317",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Metabolites from Smilax nantoensis with antioxidant activity",
+    "code": "Chem. Nat. Compd.",
+    "accCode": "PUB-JRN-2024-2483",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Chem. Nat. Compd., 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康美容系"
+    ],
+    "id": "REC-112-318"
+  },
+  {
+    "year": "112",
+    "college": "醫學與健康學院",
+    "dept": "健康美容系",
+    "teacher": "陳中一",
+    "empId": "T0000054317",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Michelia compressa-derived santamarine inhibits oral cancer cell proliferation via oxidative stress-mediated apoptosis and DNA damage",
+    "code": "Pharmaceuticals",
+    "accCode": "PUB-JRN-2024-2484",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Pharmaceuticals, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康美容系"
+    ],
+    "id": "REC-112-319"
+  },
+  {
+    "year": "112",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "顏秀珍",
+    "empId": "T0000089142",
+    "adminRole": "實習指導教師",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "Mining Popular Discussion Topics on Social Media",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2023-1692",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-112-320"
+  },
+  {
+    "year": "112",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "吳靜宜",
+    "empId": "T0000029836",
+    "adminRole": "實習指導教師",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "MUC1 modulated cytokine secretion from Fusobacterium nucleatum-stimulated gingival keratinocytes",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2024-1624",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-112-321"
+  },
+  {
+    "year": "112",
+    "college": "環境與生命學院",
+    "dept": "環境工程與科學系",
+    "teacher": "賴進興",
+    "empId": "T0000038591",
+    "adminRole": "教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Multivariate analysis of carcinogenic equivalence (CEQ) to characterize carcinogenic VOC emissions in a typical petrochemical industrial park in Taiwan",
+    "code": "Environment International",
+    "accCode": "PUB-JRN-2024-1727",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Environment International, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "環境工程與科學系"
+    ],
+    "id": "REC-112-322"
+  },
+  {
+    "year": "112",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "蔡宛玲",
+    "empId": "T0000121830",
+    "adminRole": "職能發展組副主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "SCIE 國際期刊",
+    "title": "Natural sweetener glycyrrhizin protects against precocious puberty by modulating the gut microbiome",
+    "code": "Life Sciences",
+    "accCode": "PUB-JRN-2024-2232",
+    "disbursementRate": 100,
+    "amount": 2,
+    "metricNote": "SCIE 國際期刊 收錄 (刊物: Life Sciences, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-112-323"
+  },
+  {
+    "year": "112",
+    "college": "護理學院",
+    "dept": "健康事業管理系",
+    "teacher": "鄭南玉",
+    "empId": "T0000016973",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "SCIE 國際期刊",
+    "title": "Non-invasive assessment of skin hydration and sensation with diffuse reflectance spectroscopy",
+    "code": "Scientific Reports",
+    "accCode": "PUB-JRN-2023-1447",
+    "disbursementRate": 100,
+    "amount": 2,
+    "metricNote": "SCIE 國際期刊 收錄 (刊物: Scientific Reports, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康事業管理系"
+    ],
+    "id": "REC-112-324"
+  },
+  {
+    "year": "112",
+    "college": "護理學院",
+    "dept": "助產與婦嬰健康照護系",
+    "teacher": "郭心怡",
+    "empId": "T0000005425",
+    "adminRole": "講師",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Nonlocal free vibration of magneto-electro-elastic nanoplates with imperfect contacts",
+    "code": "Mechanics of Advanced Materials and Structures",
+    "accCode": "PUB-JRN-2024-0370",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Mechanics of Advanced Materials and Structures, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "助產與婦嬰健康照護系"
+    ],
+    "id": "REC-112-325"
+  },
+  {
+    "year": "112",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "楊君菁",
+    "empId": "T0000084253",
+    "adminRole": "實習指導教師",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "Nurse-Led Pre-Frailty Care: Integrating Health Belief Model in Geriatric Ward Experiences.",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2024-0079",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-112-326"
+  },
+  {
+    "year": "112",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "張怡娟",
+    "empId": "T0000009100",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "Nursing experience of using Video-feedback to improve rehabilitation self-efficacy in stroke patients.",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2023-0285",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-112-327"
+  },
+  {
+    "year": "112",
+    "college": "醫學與健康學院",
+    "dept": "健康美容系",
+    "teacher": "陳中一",
+    "empId": "T0000054317",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "One undescribed sesquiterpene from Streptomyces sp",
+    "code": "Chem. Nat. Compd.",
+    "accCode": "PUB-JRN-2024-2485",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Chem. Nat. Compd., 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康美容系"
+    ],
+    "id": "REC-112-328"
+  },
+  {
+    "year": "112",
+    "college": "醫學與健康學院",
+    "dept": "醫學檢驗生物技術系",
+    "teacher": "羅宏仁",
+    "empId": "T0000061310",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第二作者 (50%)",
+    "weightRatio": 0.5,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "P2X7 receptor blockade reduces pyroptotic inflammation and promotes phagocytosis in Vibrio vulnificus infection",
+    "code": "Journal of Cellular Physiology",
+    "accCode": "PUB-JRN-2023-1115",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Journal of Cellular Physiology, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "醫學檢驗生物技術系"
+    ],
+    "id": "REC-112-329"
   },
   {
     "year": "112",
@@ -16329,7 +34098,1332 @@ var DATASET_111_115 = [
       "分子環化反應",
       "應用化學及材料科學系"
     ],
-    "id": "REC-112-160"
+    "id": "REC-112-330"
+  },
+  {
+    "year": "112",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "陳舜華",
+    "empId": "T0000003564",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Perceived stress mediating the association between mindfulness and resilience among registered nurses",
+    "code": "Psychology Research and Behavior Management",
+    "accCode": "PUB-JRN-2023-2305",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Psychology Research and Behavior Management, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-112-331"
+  },
+  {
+    "year": "112",
+    "college": "醫學與健康學院",
+    "dept": "保健營養系",
+    "teacher": "蔡蕙芸",
+    "empId": "T0000098101",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "Protective effects of annatto-extracted tocotrienols on brain nerve injury in mice",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2023-1014",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "保健營養系"
+    ],
+    "id": "REC-112-332"
+  },
+  {
+    "year": "112",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "顏秀珍",
+    "empId": "T0000089142",
+    "adminRole": "實習指導教師",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "Reevaluating the Explanatory Ability and Model Adjustability of Explainable Machine Learning",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2024-1690",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-112-333"
+  },
+  {
+    "year": "112",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "王惠玲",
+    "empId": "T0000056265",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Related factors of health-related quality of life in female nurses with in-service training Program.",
+    "code": "Florence Nightingale Journal of Nursing",
+    "accCode": "PUB-JRN-2024-0542",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Florence Nightingale Journal of Nursing, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-112-334"
+  },
+  {
+    "year": "112",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "洪瑄曼",
+    "empId": "T0000005248",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Related Factors of Health-Related Quality of Life in Female Nurses with In-Service Training Program.",
+    "code": "Florence Nightingale Journal of Nursing",
+    "accCode": "PUB-JRN-2024-2328",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Florence Nightingale Journal of Nursing, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-112-335"
+  },
+  {
+    "year": "112",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "葉蕙芳",
+    "empId": "T0000055001",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "Relationships among patient dignity, demoralization and quality of life in patient with cancer",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2023-0372",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-112-336"
+  },
+  {
+    "year": "112",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "曾慧雯",
+    "empId": "T0000007105",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Reliability and Validity of a Self-perceived Listening, Empathy, and Presence (LEP) Skills Scale among the Associate Degree Nursing Students.",
+    "code": "新臺北護理期刊",
+    "accCode": "PUB-JRN-2024-2035",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: 新臺北護理期刊, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-112-337"
+  },
+  {
+    "year": "112",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "顧雅利",
+    "empId": "T0000077888",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Reliability and Validity of a Self-Perceived Listening, Empathy, and Presence (LEP) Skills Scale among the Associate Degree Nursing Students.",
+    "code": "新臺北護理期刊",
+    "accCode": "PUB-JRN-2024-0661",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: 新臺北護理期刊, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-112-338"
+  },
+  {
+    "year": "112",
+    "college": "環境與生命學院",
+    "dept": "職業安全衛生系",
+    "teacher": "陳毅謙",
+    "empId": "T0000057449",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "Research on AI Vision for Emotion Recognition in Archery Athletes",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2024-1540",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "AI智慧應用",
+      "數位轉型",
+      "職業安全衛生系"
+    ],
+    "id": "REC-112-339"
+  },
+  {
+    "year": "112",
+    "college": "醫學與健康學院",
+    "dept": "健康美容系",
+    "teacher": "陳中一",
+    "empId": "T0000054317",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Rhopaloic acid A triggers mitochondria damage-induced apoptosis in oral cancer by JNK/BNIP3/Nix-mediated mitophagy",
+    "code": "Phytomedicine",
+    "accCode": "PUB-JRN-2024-2486",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Phytomedicine, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康美容系"
+    ],
+    "id": "REC-112-340"
+  },
+  {
+    "year": "112",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "江季蓁",
+    "empId": "T0000066846",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Risk factors for anisometropia in schoolchildren: A population-based, longitudinal cohort study.",
+    "code": "Ophthalmic & physiological optics",
+    "accCode": "PUB-JRN-2023-0602",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Ophthalmic & physiological optics, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-112-341"
+  },
+  {
+    "year": "112",
+    "college": "醫學與健康學院",
+    "dept": "物理治療系",
+    "teacher": "康富傑",
+    "empId": "T0000060441",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "Scapular upward rotation in high school competitive swimmers with and without shoulder pain.",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2024-0944",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "物理治療系"
+    ],
+    "id": "REC-112-342"
+  },
+  {
+    "year": "112",
+    "college": "醫學與健康學院",
+    "dept": "健康美容系",
+    "teacher": "陳中一",
+    "empId": "T0000054317",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Secondary metabolites of Annona mucosa",
+    "code": "Chem. Nat. Compd.",
+    "accCode": "PUB-JRN-2024-2487",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Chem. Nat. Compd., 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康美容系"
+    ],
+    "id": "REC-112-343"
+  },
+  {
+    "year": "112",
+    "college": "醫學與健康學院",
+    "dept": "健康美容系",
+    "teacher": "陳中一",
+    "empId": "T0000054317",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Secondary metabolites of bran shells of Coxi lachryma-jobi",
+    "code": "Chem. Nat. Compd.",
+    "accCode": "PUB-JRN-2024-2496",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Chem. Nat. Compd., 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康美容系"
+    ],
+    "id": "REC-112-344"
+  },
+  {
+    "year": "112",
+    "college": "醫學與健康學院",
+    "dept": "健康美容系",
+    "teacher": "陳中一",
+    "empId": "T0000054317",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Secondary metabolites of Cinnamomum burmanni",
+    "code": "Chem. Nat. Compd.",
+    "accCode": "PUB-JRN-2024-2488",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Chem. Nat. Compd., 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康美容系"
+    ],
+    "id": "REC-112-345"
+  },
+  {
+    "year": "112",
+    "college": "醫學與健康學院",
+    "dept": "健康美容系",
+    "teacher": "陳中一",
+    "empId": "T0000054317",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Secondary metabolites of Cinnamomum camphora",
+    "code": "Chem. Nat. Compd.",
+    "accCode": "PUB-JRN-2024-2489",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Chem. Nat. Compd., 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康美容系"
+    ],
+    "id": "REC-112-346"
+  },
+  {
+    "year": "112",
+    "college": "醫學與健康學院",
+    "dept": "健康美容系",
+    "teacher": "陳中一",
+    "empId": "T0000054317",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Secondary metabolites of Cinnamomum kanehirae",
+    "code": "Chem. Nat. Compd.",
+    "accCode": "PUB-JRN-2024-2490",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Chem. Nat. Compd., 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康美容系"
+    ],
+    "id": "REC-112-347"
+  },
+  {
+    "year": "112",
+    "college": "醫學與健康學院",
+    "dept": "健康美容系",
+    "teacher": "陳中一",
+    "empId": "T0000054317",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Secondary metabolites of corn silk",
+    "code": "Chem. Nat. Compd.",
+    "accCode": "PUB-JRN-2024-2497",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Chem. Nat. Compd., 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康美容系"
+    ],
+    "id": "REC-112-348"
+  },
+  {
+    "year": "112",
+    "college": "醫學與健康學院",
+    "dept": "健康美容系",
+    "teacher": "陳中一",
+    "empId": "T0000054317",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Secondary metabolites of Ficus formosana",
+    "code": "Chem. Nat. Compd.",
+    "accCode": "PUB-JRN-2024-2491",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Chem. Nat. Compd., 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康美容系"
+    ],
+    "id": "REC-112-349"
+  },
+  {
+    "year": "112",
+    "college": "醫學與健康學院",
+    "dept": "健康美容系",
+    "teacher": "陳中一",
+    "empId": "T0000054317",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Secondary metabolites of fruits of Hylocereus polyrhizus",
+    "code": "Chem. Nat. Compd.",
+    "accCode": "PUB-JRN-2024-2498",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Chem. Nat. Compd., 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康美容系"
+    ],
+    "id": "REC-112-350"
+  },
+  {
+    "year": "112",
+    "college": "醫學與健康學院",
+    "dept": "健康美容系",
+    "teacher": "陳中一",
+    "empId": "T0000054317",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Secondary metabolites of Lycium ruthenicum",
+    "code": "Chem. Nat. Compd.",
+    "accCode": "PUB-JRN-2024-2492",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Chem. Nat. Compd., 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康美容系"
+    ],
+    "id": "REC-112-351"
+  },
+  {
+    "year": "112",
+    "college": "醫學與健康學院",
+    "dept": "健康美容系",
+    "teacher": "陳中一",
+    "empId": "T0000054317",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Secondary metabolites of Mangifera indica",
+    "code": "Chem. Nat. Compd.",
+    "accCode": "PUB-JRN-2024-2493",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Chem. Nat. Compd., 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康美容系"
+    ],
+    "id": "REC-112-352"
+  },
+  {
+    "year": "112",
+    "college": "醫學與健康學院",
+    "dept": "健康美容系",
+    "teacher": "陳中一",
+    "empId": "T0000054317",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Secondary metabolites of Plukenetia volubilis",
+    "code": "Chem. Nat. Compd.",
+    "accCode": "PUB-JRN-2024-2494",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Chem. Nat. Compd., 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康美容系"
+    ],
+    "id": "REC-112-353"
+  },
+  {
+    "year": "112",
+    "college": "醫學與健康學院",
+    "dept": "健康美容系",
+    "teacher": "陳中一",
+    "empId": "T0000054317",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Secondary metabolites of stalks of Cucurbita moschata",
+    "code": "Chem. Nat. Compd.",
+    "accCode": "PUB-JRN-2024-2499",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Chem. Nat. Compd., 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康美容系"
+    ],
+    "id": "REC-112-354"
+  },
+  {
+    "year": "112",
+    "college": "醫學與健康學院",
+    "dept": "健康美容系",
+    "teacher": "陳中一",
+    "empId": "T0000054317",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Secondary metabolites of whole plant of Houttuynia cordata",
+    "code": "Chem. Nat. Compd.",
+    "accCode": "PUB-JRN-2024-2500",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Chem. Nat. Compd., 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康美容系"
+    ],
+    "id": "REC-112-355"
+  },
+  {
+    "year": "112",
+    "college": "醫學與健康學院",
+    "dept": "健康美容系",
+    "teacher": "陳中一",
+    "empId": "T0000054317",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Secondary metabolites of Zingiber oligophyllum",
+    "code": "Chem. Nat. Compd.",
+    "accCode": "PUB-JRN-2024-2495",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Chem. Nat. Compd., 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康美容系"
+    ],
+    "id": "REC-112-356"
+  },
+  {
+    "year": "112",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "梁菁萍",
+    "empId": "T0000117242",
+    "adminRole": "教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Semi-analytical models for two-dimensional multispecies transport of sequentially degradation products influenced by rate-limited sorption subject to arbitrary time-dependent inlet boundary conditions.",
+    "code": "Advances in Water Resources.",
+    "accCode": "PUB-JRN-2023-0880",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Advances in Water Resources., 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-112-357"
+  },
+  {
+    "year": "112",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "陳淑銘",
+    "empId": "T0000000530",
+    "adminRole": "教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "SCIE 國際期刊",
+    "title": "Sex-based factors influencing perceived relocation stress and glycemic control among older adults with diabetes",
+    "code": "Nursing and Health Sciences",
+    "accCode": "PUB-JRN-2024-0320",
+    "disbursementRate": 100,
+    "amount": 2,
+    "metricNote": "SCIE 國際期刊 收錄 (刊物: Nursing and Health Sciences, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-112-358"
+  },
+  {
+    "year": "112",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "陳淑銘",
+    "empId": "T0000000530",
+    "adminRole": "教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "Sexual Dysfunction Uncertainty: A Concept Analysis",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2023-0168",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-112-359"
+  },
+  {
+    "year": "112",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "顧雅利",
+    "empId": "T0000077888",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "SCI 國際期刊",
+    "title": "Spiritual care models of patients living with cancer in Taiwan",
+    "code": "International Journal of Palliative Nursing               Impact Factor 0.7",
+    "accCode": "PUB-JRN-2024-0662",
+    "disbursementRate": 100,
+    "amount": 2,
+    "metricNote": "SCI 國際期刊 收錄 (刊物: International Journal of Palliative Nursing               Impact Factor 0.7, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-112-360"
+  },
+  {
+    "year": "112",
+    "college": "醫學與健康學院",
+    "dept": "醫學檢驗生物技術系",
+    "teacher": "羅宏仁",
+    "empId": "T0000061310",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Synergistic action of indole-3-carbinol with membrane-active agents against multidrug-resistant Gram-negative bacteria",
+    "code": "Letters in Applied Microbiology",
+    "accCode": "PUB-JRN-2023-1116",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Letters in Applied Microbiology, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "醫學檢驗生物技術系"
+    ],
+    "id": "REC-112-361"
+  },
+  {
+    "year": "112",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "吳靜宜",
+    "empId": "T0000029836",
+    "adminRole": "實習指導教師",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "SCIE 國際期刊",
+    "title": "Systemic antibiotics adjuvants to scaling and root planing in type 2 diabetic and periodontitis individuals: Systematic review with network meta-analysis",
+    "code": "Japanese Dental Science Review",
+    "accCode": "PUB-JRN-2023-2054",
+    "disbursementRate": 100,
+    "amount": 2,
+    "metricNote": "SCIE 國際期刊 收錄 (刊物: Japanese Dental Science Review, 審稿: 是, 出版國: NATJPN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-112-362"
+  },
+  {
+    "year": "112",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "方莉",
+    "empId": "T0000062021",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "The associations between depression, regular exercises and falls among the community-dwelling older people",
+    "code": "Florence Nightingale Journal of Nursing",
+    "accCode": "PUB-JRN-2024-0559",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Florence Nightingale Journal of Nursing, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-112-363"
+  },
+  {
+    "year": "112",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "施芊卉",
+    "empId": "T0000084532",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "The correlation between retaining rate ad nursing staff after COVID-19",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2024-0650",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-112-364"
+  },
+  {
+    "year": "112",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "葉蕙芳",
+    "empId": "T0000055001",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "The effect of nurse practitioner leadership style on the nurse practitioners performance",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2023-0373",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-112-365"
+  },
+  {
+    "year": "112",
+    "college": "醫學與健康學院",
+    "dept": "物理治療系",
+    "teacher": "康富傑",
+    "empId": "T0000060441",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "The effects of 4 weeks exercise Training on round shoulder posture in high school competitive swimmers.",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2023-0946",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "物理治療系"
+    ],
+    "id": "REC-112-366"
+  },
+  {
+    "year": "112",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "林佑樺",
+    "empId": "T0000120649",
+    "adminRole": "教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第一作者兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "The Effects of Telephone Counseling on Symptoms Distress in Patients with Brain tumor after Surgery",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2023-1886",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-112-367"
+  },
+  {
+    "year": "112",
+    "college": "人文與管理學院",
+    "dept": "幼兒保育暨產業系",
+    "teacher": "張義雄",
+    "empId": "T0000094730",
+    "adminRole": "教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "The effects of trust on user satisfaction with parenting apps for Taiwanese parents: The mediating roles of social ties and perceived value",
+    "code": "Education and Information Technologies",
+    "accCode": "PUB-JRN-2024-3022",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Education and Information Technologies, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "幼兒保育暨產業系"
+    ],
+    "id": "REC-112-368"
+  },
+  {
+    "year": "112",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "林佑樺",
+    "empId": "T0000120649",
+    "adminRole": "教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第一作者兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "The Exploration of Post-Intensive Care Syndromes and Related Factors on Intensive Care Unit Survivors",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2023-1887",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-112-369"
+  },
+  {
+    "year": "112",
+    "college": "護理學院",
+    "dept": "健康事業管理系",
+    "teacher": "楊鎮維",
+    "empId": "T0000028271",
+    "adminRole": "教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "The Impact of Knowledge Management and Social Media on Health Service Innovation: A Case Study of the Healthcare Industry",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2023-1055",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康事業管理系"
+    ],
+    "id": "REC-112-370"
+  },
+  {
+    "year": "112",
+    "college": "醫學與健康學院",
+    "dept": "醫學檢驗生物技術系",
+    "teacher": "郭順宇",
+    "empId": "T0000024975",
+    "adminRole": "教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "The Potential Effects of Celastrol on Oral Cancer Cells-Approaching with Next-Generation Sequencing and Bioinformatics.",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2024-0849",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "醫學檢驗生物技術系"
+    ],
+    "id": "REC-112-371"
+  },
+  {
+    "year": "112",
+    "college": "醫學與健康學院",
+    "dept": "醫學檢驗生物技術系",
+    "teacher": "邱敏熙",
+    "empId": "T0000089506",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "SCI 國際期刊",
+    "title": "The Reduced Gut Lachnospira Species Is Linked to Liver Enzyme Elevation and Insulin Resistance in Pediatric Fatty Liver Disease",
+    "code": "Int. J. Mol. Sci.",
+    "accCode": "PUB-JRN-2024-1198",
+    "disbursementRate": 100,
+    "amount": 2,
+    "metricNote": "SCI 國際期刊 收錄 (刊物: Int. J. Mol. Sci., 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "醫學檢驗生物技術系"
+    ],
+    "id": "REC-112-372"
+  },
+  {
+    "year": "112",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "黃芷苓",
+    "empId": "T0000093504",
+    "adminRole": "教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "To explore the related factors of teaching competence among nurse preceptors",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2023-0687",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-112-373"
+  },
+  {
+    "year": "112",
+    "college": "醫學與健康學院",
+    "dept": "保健營養系",
+    "teacher": "蔡蕙芸",
+    "empId": "T0000098101",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "Tocotrienol-rich extract ameliorates cognitive behavioral \r\nimpairment induced by methylglyoxal",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2023-1013",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "保健營養系"
+    ],
+    "id": "REC-112-374"
+  },
+  {
+    "year": "112",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "張怡娟",
+    "empId": "T0000009100",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第一作者兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "Using Blended Learning to Improve the Practical Abilities of Medical-Surgical Nursing Skills of Nursing Students – Taking the course “Medical-Surgical Nursing and Laboratory (I)” as an example.",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2023-0286",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-112-375"
+  },
+  {
+    "year": "112",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "陳淑銘",
+    "empId": "T0000000530",
+    "adminRole": "教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第一作者兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "Using digital innovation technologies in the \r\npostgraduate students: The application and \r\neffectiveness of individualized instructional design",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2023-0169",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-112-376"
+  },
+  {
+    "year": "112",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "楊君菁",
+    "empId": "T0000084253",
+    "adminRole": "實習指導教師",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "Using Machine Learning Algorithms to Predict Recovery Indicators for Inpatients With COVID-19 in Dedicated Ward.",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2024-0080",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-112-377"
+  },
+  {
+    "year": "112",
+    "college": "護理學院",
+    "dept": "健康事業管理系",
+    "teacher": "羅家倫",
+    "empId": "T0000060871",
+    "adminRole": "國際事務長（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "Utilizing Assistive and Interactive Technologies: Impacts on Quality of Life among Aging Adults",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2024-1139",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康事業管理系"
+    ],
+    "id": "REC-112-378"
+  },
+  {
+    "year": "112",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "楊君菁",
+    "empId": "T0000084253",
+    "adminRole": "實習指導教師",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Validity and Reliability of a Chinese Version Evidence Based Nursing Practice Competence Questionnaire among Psychiatric Nurses.",
+    "code": "The Journal of Psychiatric Mental Health Nursing",
+    "accCode": "PUB-JRN-2024-0214",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: The Journal of Psychiatric Mental Health Nursing, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-112-379"
   },
   {
     "year": "111",
@@ -16754,7 +35848,7 @@ var DATASET_111_115 = [
   {
     "year": "111",
     "college": "護理學院",
-    "dept": "護理系",
+    "dept": "共同教育中心",
     "teacher": "程紋貞",
     "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
     "isArticle7Exempt": true,
@@ -16773,9 +35867,36 @@ var DATASET_111_115 = [
     "group": "產學合作組",
     "status": "已結案",
     "keywords": [
-      "護理系"
+      "共同教育中心"
     ],
     "id": "REC-111-016"
+  },
+  {
+    "year": "111",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "黃淑芬",
+    "empId": "T0000062861",
+    "adminRole": "實習指導教師",
+    "isArticle7Exempt": false,
+    "authorOrder": "計畫主持人 (100%)",
+    "weightRatio": 1,
+    "category": "計畫案",
+    "subType": "國科會專題研究計畫",
+    "title": "2022銘傳觀光國際研討會－－擁抱新常態：觀光休憩餐旅產業於後疫情時代之永續發展",
+    "code": "NSTC-111-休閒遊憩-121",
+    "accCode": "ACC-111-NSTC-121",
+    "disbursementRate": 100,
+    "amount": 28,
+    "metricNote": "國科會核定 NT$ 28 萬 (國內舉辦國際學術研討會)",
+    "source": "TEACHER-WRITTING (表1-17 國科會計畫案)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已核定歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-111-017"
   },
   {
     "year": "111",
@@ -16801,7 +35922,7 @@ var DATASET_111_115 = [
     "keywords": [
       "資訊科技與管理系"
     ],
-    "id": "REC-111-017"
+    "id": "REC-111-018"
   },
   {
     "year": "111",
@@ -16827,7 +35948,7 @@ var DATASET_111_115 = [
     "keywords": [
       "環境工程與科學系"
     ],
-    "id": "REC-111-018"
+    "id": "REC-111-019"
   },
   {
     "year": "111",
@@ -16853,7 +35974,7 @@ var DATASET_111_115 = [
     "keywords": [
       "環境工程與科學系"
     ],
-    "id": "REC-111-019"
+    "id": "REC-111-020"
   },
   {
     "year": "111",
@@ -16879,7 +36000,7 @@ var DATASET_111_115 = [
     "keywords": [
       "環境工程與科學系"
     ],
-    "id": "REC-111-020"
+    "id": "REC-111-021"
   },
   {
     "year": "111",
@@ -16907,7 +36028,7 @@ var DATASET_111_115 = [
       "公共托育",
       "幼兒保育暨產業系"
     ],
-    "id": "REC-111-021"
+    "id": "REC-111-022"
   },
   {
     "year": "111",
@@ -16933,7 +36054,7 @@ var DATASET_111_115 = [
     "keywords": [
       "物理治療系"
     ],
-    "id": "REC-111-022"
+    "id": "REC-111-023"
   },
   {
     "year": "111",
@@ -16959,7 +36080,7 @@ var DATASET_111_115 = [
     "keywords": [
       "應用外語系"
     ],
-    "id": "REC-111-023"
+    "id": "REC-111-024"
   },
   {
     "year": "111",
@@ -16985,7 +36106,7 @@ var DATASET_111_115 = [
     "keywords": [
       "保健營養系"
     ],
-    "id": "REC-111-024"
+    "id": "REC-111-025"
   },
   {
     "year": "111",
@@ -17013,7 +36134,36 @@ var DATASET_111_115 = [
       "失智症照護",
       "物理治療系"
     ],
-    "id": "REC-111-025"
+    "id": "REC-111-026"
+  },
+  {
+    "year": "111",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "葉蕙芳",
+    "empId": "T0000055001",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "共同主持人 (50%)",
+    "weightRatio": 0.5,
+    "category": "計畫案",
+    "subType": "國科會專題研究計畫",
+    "title": "以知識架構做為臨床教育與評量上之臨床診斷能力指標",
+    "code": "NSTC-111-醫學教育-034",
+    "accCode": "ACC-111-NSTC-034",
+    "disbursementRate": 100,
+    "amount": 86.5,
+    "metricNote": "國科會核定 NT$ 86.5 萬 (專題研究計畫 (一般研究計畫))",
+    "source": "TEACHER-WRITTING (表1-17 國科會計畫案)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已核定歸檔",
+    "keywords": [
+      "臨床護理",
+      "教材研發",
+      "護理系"
+    ],
+    "id": "REC-111-027"
   },
   {
     "year": "111",
@@ -17041,12 +36191,41 @@ var DATASET_111_115 = [
       "數位轉型",
       "健康事業管理系"
     ],
-    "id": "REC-111-026"
+    "id": "REC-111-028"
   },
   {
     "year": "111",
     "college": "護理學院",
-    "dept": "護理系",
+    "dept": "健康事業管理系",
+    "teacher": "黃傑康",
+    "empId": "T0000119634",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "計畫主持人 (100%)",
+    "weightRatio": 1,
+    "category": "計畫案",
+    "subType": "國科會專題研究計畫",
+    "title": "以社會互動與公平理論建構台灣醫療院所醫病共享決策與病患轉診行為之定量模型：個人隱私為干擾變數",
+    "code": "NSTC-111-資訊管理-350",
+    "accCode": "ACC-111-NSTC-350",
+    "disbursementRate": 100,
+    "amount": 67,
+    "metricNote": "國科會核定 NT$ 67 萬 (專題研究計畫 (新進人員研究計畫))",
+    "source": "TEACHER-WRITTING (表1-17 國科會計畫案)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已核定歸檔",
+    "keywords": [
+      "AI智慧應用",
+      "數位轉型",
+      "健康事業管理系"
+    ],
+    "id": "REC-111-029"
+  },
+  {
+    "year": "111",
+    "college": "人文與管理學院",
+    "dept": "共同教育中心",
     "teacher": "葉耀宗",
     "adminRole": "主任（依評鑑辦法第7條得僅評教學基本指標）",
     "isArticle7Exempt": true,
@@ -17067,9 +36246,9 @@ var DATASET_111_115 = [
     "keywords": [
       "保健營養",
       "機能食品",
-      "護理系"
+      "共同教育中心"
     ],
-    "id": "REC-111-027"
+    "id": "REC-111-030"
   },
   {
     "year": "111",
@@ -17095,7 +36274,88 @@ var DATASET_111_115 = [
     "keywords": [
       "職業安全衛生系"
     ],
-    "id": "REC-111-028"
+    "id": "REC-111-031"
+  },
+  {
+    "year": "111",
+    "college": "人文與管理學院",
+    "dept": "共同教育中心",
+    "teacher": "李佩芳",
+    "empId": "T0000050192",
+    "adminRole": "產學合作組組長（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "計畫主持人 (100%)",
+    "weightRatio": 1,
+    "category": "計畫案",
+    "subType": "國科會專題研究計畫",
+    "title": "台灣傳統廟宇組織參與社區照顧建置之研究",
+    "code": "NSTC-111-社會福利制度發展-636",
+    "accCode": "ACC-111-NSTC-636",
+    "disbursementRate": 100,
+    "amount": 69.8,
+    "metricNote": "國科會核定 NT$ 69.8 萬 (專題研究計畫 (新進人員研究計畫))",
+    "source": "TEACHER-WRITTING (表1-17 國科會計畫案)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已核定歸檔",
+    "keywords": [
+      "共同教育中心"
+    ],
+    "id": "REC-111-032"
+  },
+  {
+    "year": "111",
+    "college": "醫學與健康學院",
+    "dept": "保健營養系",
+    "teacher": "蔡蕙芸",
+    "empId": "T0000098101",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "共同主持人 (50%)",
+    "weightRatio": 0.5,
+    "category": "計畫案",
+    "subType": "國科會專題研究計畫",
+    "title": "台灣蜆改善認知功能障礙之功效評估",
+    "code": "NSTC-111-食品科學-275",
+    "accCode": "ACC-111-NSTC-275",
+    "disbursementRate": 100,
+    "amount": 60,
+    "metricNote": "國科會核定 NT$ 60 萬 (專題研究計畫 (產學合作研究計畫))",
+    "source": "TEACHER-WRITTING (表1-17 國科會計畫案)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已核定歸檔",
+    "keywords": [
+      "保健營養系"
+    ],
+    "id": "REC-111-033"
+  },
+  {
+    "year": "111",
+    "college": "醫學與健康學院",
+    "dept": "保健營養系",
+    "teacher": "蔡蕙芸",
+    "empId": "T0000098101",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "共同主持人 (50%)",
+    "weightRatio": 0.5,
+    "category": "計畫案",
+    "subType": "國科會專題研究計畫",
+    "title": "台灣藜對胃黏膜保護功效之評估及其產品之開發",
+    "code": "NSTC-111-食品科學-274",
+    "accCode": "ACC-111-NSTC-274",
+    "disbursementRate": 100,
+    "amount": 65,
+    "metricNote": "國科會核定 NT$ 65 萬 (專題研究計畫 (鼓勵技專校院從事實務型研究專案計畫))",
+    "source": "TEACHER-WRITTING (表1-17 國科會計畫案)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已核定歸檔",
+    "keywords": [
+      "保健營養系"
+    ],
+    "id": "REC-111-034"
   },
   {
     "year": "111",
@@ -17123,7 +36383,7 @@ var DATASET_111_115 = [
       "公共托育",
       "護理系"
     ],
-    "id": "REC-111-029"
+    "id": "REC-111-035"
   },
   {
     "year": "111",
@@ -17151,7 +36411,7 @@ var DATASET_111_115 = [
       "公共托育",
       "物理治療系"
     ],
-    "id": "REC-111-030"
+    "id": "REC-111-036"
   },
   {
     "year": "111",
@@ -17177,7 +36437,7 @@ var DATASET_111_115 = [
     "keywords": [
       "資訊科技與管理系"
     ],
-    "id": "REC-111-031"
+    "id": "REC-111-037"
   },
   {
     "year": "111",
@@ -17205,7 +36465,7 @@ var DATASET_111_115 = [
       "教材研發",
       "護理系"
     ],
-    "id": "REC-111-032"
+    "id": "REC-111-038"
   },
   {
     "year": "111",
@@ -17233,7 +36493,7 @@ var DATASET_111_115 = [
       "失智症照護",
       "護理系"
     ],
-    "id": "REC-111-033"
+    "id": "REC-111-039"
   },
   {
     "year": "111",
@@ -17259,7 +36519,34 @@ var DATASET_111_115 = [
     "keywords": [
       "生物科技系"
     ],
-    "id": "REC-111-034"
+    "id": "REC-111-040"
+  },
+  {
+    "year": "111",
+    "college": "醫學與健康學院",
+    "dept": "保健營養系",
+    "teacher": "林佩瑩",
+    "empId": "T0000071516",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "計畫主持人 (100%)",
+    "weightRatio": 1,
+    "category": "計畫案",
+    "subType": "國科會專題研究計畫",
+    "title": "克服現時肺癌治療之困境：藥物投遞、精準標靶與抗藥性",
+    "code": "NSTC-111-胸腔內科-259",
+    "accCode": "ACC-111-NSTC-259",
+    "disbursementRate": 100,
+    "amount": 471,
+    "metricNote": "國科會核定 NT$ 471 萬 (專題研究計畫 (優秀年輕學者研究計畫))",
+    "source": "TEACHER-WRITTING (表1-17 國科會計畫案)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已核定歸檔",
+    "keywords": [
+      "保健營養系"
+    ],
+    "id": "REC-111-041"
   },
   {
     "year": "111",
@@ -17285,7 +36572,34 @@ var DATASET_111_115 = [
     "keywords": [
       "醫學檢驗生物技術系"
     ],
-    "id": "REC-111-035"
+    "id": "REC-111-042"
+  },
+  {
+    "year": "111",
+    "college": "醫學與健康學院",
+    "dept": "醫學檢驗生物技術系",
+    "teacher": "羅宏仁",
+    "empId": "T0000061310",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "計畫主持人 (100%)",
+    "weightRatio": 1,
+    "category": "計畫案",
+    "subType": "國科會專題研究計畫",
+    "title": "吲哚衍生物與外膜通透劑對革蘭氏陰性細菌協同抗菌模式與效應之探討",
+    "code": "NSTC-111-微生物免疫-178",
+    "accCode": "ACC-111-NSTC-178",
+    "disbursementRate": 100,
+    "amount": 58.5,
+    "metricNote": "國科會核定 NT$ 58.5 萬 (專題研究計畫 (鼓勵技專校院從事實務型研究專案計畫))",
+    "source": "TEACHER-WRITTING (表1-17 國科會計畫案)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已核定歸檔",
+    "keywords": [
+      "醫學檢驗生物技術系"
+    ],
+    "id": "REC-111-043"
   },
   {
     "year": "111",
@@ -17311,7 +36625,7 @@ var DATASET_111_115 = [
     "keywords": [
       "醫學檢驗生物技術系"
     ],
-    "id": "REC-111-036"
+    "id": "REC-111-044"
   },
   {
     "year": "111",
@@ -17339,7 +36653,7 @@ var DATASET_111_115 = [
       "產品開發",
       "護理系"
     ],
-    "id": "REC-111-037"
+    "id": "REC-111-045"
   },
   {
     "year": "111",
@@ -17365,7 +36679,7 @@ var DATASET_111_115 = [
     "keywords": [
       "護理系"
     ],
-    "id": "REC-111-038"
+    "id": "REC-111-046"
   },
   {
     "year": "111",
@@ -17395,7 +36709,38 @@ var DATASET_111_115 = [
       "教材研發",
       "健康事業管理系"
     ],
-    "id": "REC-111-039"
+    "id": "REC-111-047"
+  },
+  {
+    "year": "111",
+    "college": "護理學院",
+    "dept": "健康事業管理系",
+    "teacher": "林惠賢",
+    "empId": "T0000060449",
+    "adminRole": "教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "計畫主持人 (100%)",
+    "weightRatio": 1,
+    "category": "計畫案",
+    "subType": "國科會專題研究計畫",
+    "title": "兒童病人萬古黴素臨床最佳化給藥劑量系統之建構及臨床試驗療效與安全性評估：以生理學為基礎的藥物動力學模型(1/2)",
+    "code": "NSTC-111-醫務管理-317",
+    "accCode": "ACC-111-NSTC-317",
+    "disbursementRate": 100,
+    "amount": 80,
+    "metricNote": "國科會核定 NT$ 80 萬 (專題研究計畫 (鼓勵技專校院從事實務型研究專案計畫))",
+    "source": "TEACHER-WRITTING (表1-17 國科會計畫案)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已核定歸檔",
+    "keywords": [
+      "AI智慧應用",
+      "數位轉型",
+      "臨床護理",
+      "教材研發",
+      "健康事業管理系"
+    ],
+    "id": "REC-111-048"
   },
   {
     "year": "111",
@@ -17421,7 +36766,7 @@ var DATASET_111_115 = [
     "keywords": [
       "醫學檢驗生物技術系"
     ],
-    "id": "REC-111-040"
+    "id": "REC-111-049"
   },
   {
     "year": "111",
@@ -17448,7 +36793,35 @@ var DATASET_111_115 = [
       "專利研發",
       "職業安全衛生系"
     ],
-    "id": "REC-111-041"
+    "id": "REC-111-050"
+  },
+  {
+    "year": "111",
+    "college": "環境與生命學院",
+    "dept": "職業安全衛生系",
+    "teacher": "陳毅謙",
+    "empId": "T0000057449",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "計畫主持人 (100%)",
+    "weightRatio": 1,
+    "category": "計畫案",
+    "subType": "國科會專題研究計畫",
+    "title": "具深度學習之多階層自由曲面透鏡結合CSP雷射光學系統模組設計與開發(1/2)",
+    "code": "NSTC-111-新興機械工程技術-505",
+    "accCode": "ACC-111-NSTC-505",
+    "disbursementRate": 100,
+    "amount": 114.9,
+    "metricNote": "國科會核定 NT$ 114.9 萬 (專題研究計畫 (鼓勵女性從事科學及技術研究專案計畫))",
+    "source": "TEACHER-WRITTING (表1-17 國科會計畫案)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已核定歸檔",
+    "keywords": [
+      "專利研發",
+      "職業安全衛生系"
+    ],
+    "id": "REC-111-051"
   },
   {
     "year": "111",
@@ -17474,7 +36847,7 @@ var DATASET_111_115 = [
     "keywords": [
       "健康事業管理系"
     ],
-    "id": "REC-111-042"
+    "id": "REC-111-052"
   },
   {
     "year": "111",
@@ -17500,7 +36873,7 @@ var DATASET_111_115 = [
     "keywords": [
       "休閒與遊憩事業管理系"
     ],
-    "id": "REC-111-043"
+    "id": "REC-111-053"
   },
   {
     "year": "111",
@@ -17528,7 +36901,7 @@ var DATASET_111_115 = [
       "淨零減碳",
       "職業安全衛生系"
     ],
-    "id": "REC-111-044"
+    "id": "REC-111-054"
   },
   {
     "year": "111",
@@ -17556,7 +36929,7 @@ var DATASET_111_115 = [
       "公共托育",
       "幼兒保育暨產業系"
     ],
-    "id": "REC-111-045"
+    "id": "REC-111-055"
   },
   {
     "year": "111",
@@ -17584,7 +36957,7 @@ var DATASET_111_115 = [
       "淨零減碳",
       "職業安全衛生系"
     ],
-    "id": "REC-111-046"
+    "id": "REC-111-056"
   },
   {
     "year": "111",
@@ -17612,7 +36985,7 @@ var DATASET_111_115 = [
       "淨零減碳",
       "環境工程與科學系"
     ],
-    "id": "REC-111-047"
+    "id": "REC-111-057"
   },
   {
     "year": "111",
@@ -17638,7 +37011,7 @@ var DATASET_111_115 = [
     "keywords": [
       "健康美容系"
     ],
-    "id": "REC-111-048"
+    "id": "REC-111-058"
   },
   {
     "year": "111",
@@ -17668,7 +37041,34 @@ var DATASET_111_115 = [
       "機能食品",
       "保健營養系"
     ],
-    "id": "REC-111-049"
+    "id": "REC-111-059"
+  },
+  {
+    "year": "111",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "吳靜宜",
+    "empId": "T0000029836",
+    "adminRole": "實習指導教師",
+    "isArticle7Exempt": false,
+    "authorOrder": "共同主持人 (50%)",
+    "weightRatio": 0.5,
+    "category": "計畫案",
+    "subType": "國科會專題研究計畫",
+    "title": "非侵入式小唾液腺檢測用於口乾症診斷",
+    "code": "NSTC-111-牙醫-524",
+    "accCode": "ACC-111-NSTC-524",
+    "disbursementRate": 100,
+    "amount": 52.9,
+    "metricNote": "國科會核定 NT$ 52.9 萬 (專題研究計畫 (產學合作研究計畫))",
+    "source": "TEACHER-WRITTING (表1-17 國科會計畫案)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已核定歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-111-060"
   },
   {
     "year": "111",
@@ -17698,7 +37098,7 @@ var DATASET_111_115 = [
       "數位轉型",
       "環境工程與科學系"
     ],
-    "id": "REC-111-050"
+    "id": "REC-111-061"
   },
   {
     "year": "111",
@@ -17724,7 +37124,7 @@ var DATASET_111_115 = [
     "keywords": [
       "環境工程與科學系"
     ],
-    "id": "REC-111-051"
+    "id": "REC-111-062"
   },
   {
     "year": "111",
@@ -17750,7 +37150,38 @@ var DATASET_111_115 = [
     "keywords": [
       "護理系"
     ],
-    "id": "REC-111-052"
+    "id": "REC-111-063"
+  },
+  {
+    "year": "111",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "郭詩憲",
+    "empId": "T0000049611",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "共同主持人 (50%)",
+    "weightRatio": 0.5,
+    "category": "計畫案",
+    "subType": "國科會專題研究計畫",
+    "title": "後疫情時代的孕期疫苗接種行為：孕婦接種流感疫苗之壓力經驗、照護需求、知識與態度及「接種疫苗行動應用程式」介入之成效",
+    "code": "NSTC-111-護理-662",
+    "accCode": "ACC-111-NSTC-662",
+    "disbursementRate": 100,
+    "amount": 71,
+    "metricNote": "國科會核定 NT$ 71 萬 (專題研究計畫 (一般研究計畫))",
+    "source": "TEACHER-WRITTING (表1-17 國科會計畫案)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已核定歸檔",
+    "keywords": [
+      "高齡長照",
+      "失智症照護",
+      "精準醫療",
+      "分子檢測",
+      "護理系"
+    ],
+    "id": "REC-111-064"
   },
   {
     "year": "111",
@@ -17776,12 +37207,12 @@ var DATASET_111_115 = [
     "keywords": [
       "應用外語系"
     ],
-    "id": "REC-111-053"
+    "id": "REC-111-065"
   },
   {
     "year": "111",
-    "college": "護理學院",
-    "dept": "護理系",
+    "college": "人文與管理學院",
+    "dept": "共同教育中心",
     "teacher": "主持人",
     "adminRole": "專任教師",
     "isArticle7Exempt": false,
@@ -17800,9 +37231,9 @@ var DATASET_111_115 = [
     "group": "研發創新組",
     "status": "已結案",
     "keywords": [
-      "護理系"
+      "共同教育中心"
     ],
-    "id": "REC-111-054"
+    "id": "REC-111-066"
   },
   {
     "year": "111",
@@ -17832,7 +37263,36 @@ var DATASET_111_115 = [
       "機能食品",
       "醫學檢驗生物技術系"
     ],
-    "id": "REC-111-055"
+    "id": "REC-111-067"
+  },
+  {
+    "year": "111",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "梁菁萍",
+    "empId": "T0000117242",
+    "adminRole": "教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "共同主持人 (50%)",
+    "weightRatio": 0.5,
+    "category": "計畫案",
+    "subType": "國科會專題研究計畫",
+    "title": "徑向雙區受壓含水層污染物傳輸全新精確解析模式發展與應用(II)",
+    "code": "NSTC-111-水文學-076",
+    "accCode": "ACC-111-NSTC-076",
+    "disbursementRate": 100,
+    "amount": 172.6,
+    "metricNote": "國科會核定 NT$ 172.6 萬 (專題研究計畫 (一般研究計畫))",
+    "source": "TEACHER-WRITTING (表1-17 國科會計畫案)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已核定歸檔",
+    "keywords": [
+      "環境監測",
+      "淨零減碳",
+      "護理系"
+    ],
+    "id": "REC-111-068"
   },
   {
     "year": "111",
@@ -17858,7 +37318,7 @@ var DATASET_111_115 = [
     "keywords": [
       "保健營養系"
     ],
-    "id": "REC-111-056"
+    "id": "REC-111-069"
   },
   {
     "year": "111",
@@ -17884,7 +37344,7 @@ var DATASET_111_115 = [
     "keywords": [
       "幼兒保育暨產業系"
     ],
-    "id": "REC-111-057"
+    "id": "REC-111-070"
   },
   {
     "year": "111",
@@ -17910,7 +37370,7 @@ var DATASET_111_115 = [
     "keywords": [
       "幼兒保育暨產業系"
     ],
-    "id": "REC-111-058"
+    "id": "REC-111-071"
   },
   {
     "year": "111",
@@ -17936,7 +37396,7 @@ var DATASET_111_115 = [
     "keywords": [
       "幼兒保育暨產業系"
     ],
-    "id": "REC-111-059"
+    "id": "REC-111-072"
   },
   {
     "year": "111",
@@ -17962,7 +37422,7 @@ var DATASET_111_115 = [
     "keywords": [
       "幼兒保育暨產業系"
     ],
-    "id": "REC-111-060"
+    "id": "REC-111-073"
   },
   {
     "year": "111",
@@ -17988,7 +37448,7 @@ var DATASET_111_115 = [
     "keywords": [
       "護理系"
     ],
-    "id": "REC-111-061"
+    "id": "REC-111-074"
   },
   {
     "year": "111",
@@ -18018,7 +37478,7 @@ var DATASET_111_115 = [
       "機能食品",
       "醫學檢驗生物技術系"
     ],
-    "id": "REC-111-062"
+    "id": "REC-111-075"
   },
   {
     "year": "111",
@@ -18044,7 +37504,7 @@ var DATASET_111_115 = [
     "keywords": [
       "健康事業管理系"
     ],
-    "id": "REC-111-063"
+    "id": "REC-111-076"
   },
   {
     "year": "111",
@@ -18072,7 +37532,34 @@ var DATASET_111_115 = [
       "失智症照護",
       "護理系"
     ],
-    "id": "REC-111-064"
+    "id": "REC-111-077"
+  },
+  {
+    "year": "111",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "顏秀珍",
+    "empId": "T0000089142",
+    "adminRole": "實習指導教師",
+    "isArticle7Exempt": false,
+    "authorOrder": "計畫主持人 (100%)",
+    "weightRatio": 1,
+    "category": "計畫案",
+    "subType": "國科會專題研究計畫",
+    "title": "探勘高效益時間間隔序列型樣的研究與實作",
+    "code": "NSTC-111-資料庫與資料探勘-574",
+    "accCode": "ACC-111-NSTC-574",
+    "disbursementRate": 100,
+    "amount": 59.7,
+    "metricNote": "國科會核定 NT$ 59.7 萬 (專題研究計畫 (一般研究計畫))",
+    "source": "TEACHER-WRITTING (表1-17 國科會計畫案)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已核定歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-111-078"
   },
   {
     "year": "111",
@@ -18099,7 +37586,118 @@ var DATASET_111_115 = [
       "專利研發",
       "護理系"
     ],
-    "id": "REC-111-065"
+    "id": "REC-111-079"
+  },
+  {
+    "year": "111",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "陳淑銘",
+    "empId": "T0000000530",
+    "adminRole": "教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "共同主持人 (50%)",
+    "weightRatio": 0.5,
+    "category": "計畫案",
+    "subType": "國科會專題研究計畫",
+    "title": "創新專利產品的製作、開發、及實務應用之初探型研究",
+    "code": "NSTC-111-護理-003",
+    "accCode": "ACC-111-NSTC-003",
+    "disbursementRate": 100,
+    "amount": 67,
+    "metricNote": "國科會核定 NT$ 67 萬 (專題研究計畫 (鼓勵技專校院從事實務型研究專案計畫))",
+    "source": "TEACHER-WRITTING (表1-17 國科會計畫案)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已核定歸檔",
+    "keywords": [
+      "專利研發",
+      "護理系"
+    ],
+    "id": "REC-111-080"
+  },
+  {
+    "year": "111",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "吳靜宜",
+    "empId": "T0000029836",
+    "adminRole": "實習指導教師",
+    "isArticle7Exempt": false,
+    "authorOrder": "共同主持人 (50%)",
+    "weightRatio": 0.5,
+    "category": "計畫案",
+    "subType": "國科會專題研究計畫",
+    "title": "單純皰疹病毒與口腔致病菌的共同感染對於造骨細胞存活及功能的影響",
+    "code": "NSTC-111-牙醫-525",
+    "accCode": "ACC-111-NSTC-525",
+    "disbursementRate": 100,
+    "amount": 92,
+    "metricNote": "國科會核定 NT$ 92 萬 (專題研究計畫 (一般研究計畫))",
+    "source": "TEACHER-WRITTING (表1-17 國科會計畫案)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已核定歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-111-081"
+  },
+  {
+    "year": "111",
+    "college": "環境與生命學院",
+    "dept": "職業安全衛生系",
+    "teacher": "楊元彰",
+    "empId": "T0000110984",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "共同主持人 (50%)",
+    "weightRatio": 0.5,
+    "category": "計畫案",
+    "subType": "國科會專題研究計畫",
+    "title": "智慧型混合實境上肢復健訓練與分析系統之研製與應用--混合實境復健訓練配合人工智慧分析軟體應用於中風患者上肢復健之療效與評估",
+    "code": "NSTC-111-復健-509",
+    "accCode": "ACC-111-NSTC-509",
+    "disbursementRate": 100,
+    "amount": 90,
+    "metricNote": "國科會核定 NT$ 90 萬 (專題研究計畫 (產學合作研究計畫))",
+    "source": "TEACHER-WRITTING (表1-17 國科會計畫案)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已核定歸檔",
+    "keywords": [
+      "AI智慧應用",
+      "數位轉型",
+      "職業安全衛生系"
+    ],
+    "id": "REC-111-082"
+  },
+  {
+    "year": "111",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "吳佳珍",
+    "empId": "T0000022425",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "共同主持人 (50%)",
+    "weightRatio": 0.5,
+    "category": "計畫案",
+    "subType": "國科會專題研究計畫",
+    "title": "智謀介入團體對大學生人際能力、關係適應及負向情緒之成效",
+    "code": "NSTC-111-護理-028",
+    "accCode": "ACC-111-NSTC-028",
+    "disbursementRate": 100,
+    "amount": 72.5,
+    "metricNote": "國科會核定 NT$ 72.5 萬 (專題研究計畫 (鼓勵女性從事科學及技術研究專案計畫))",
+    "source": "TEACHER-WRITTING (表1-17 國科會計畫案)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已核定歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-111-083"
   },
   {
     "year": "111",
@@ -18127,7 +37725,7 @@ var DATASET_111_115 = [
       "機能食品",
       "保健營養系"
     ],
-    "id": "REC-111-066"
+    "id": "REC-111-084"
   },
   {
     "year": "111",
@@ -18153,7 +37751,61 @@ var DATASET_111_115 = [
     "keywords": [
       "護理系"
     ],
-    "id": "REC-111-067"
+    "id": "REC-111-085"
+  },
+  {
+    "year": "111",
+    "college": "醫學與健康學院",
+    "dept": "物理治療系",
+    "teacher": "鄒瑞怡",
+    "empId": "T0000045916",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "共同主持人 (50%)",
+    "weightRatio": 0.5,
+    "category": "計畫案",
+    "subType": "國科會專題研究計畫",
+    "title": "發展回饋心肺復甦術操作表現的運動學系統",
+    "code": "NSTC-111-生物力學-214",
+    "accCode": "ACC-111-NSTC-214",
+    "disbursementRate": 100,
+    "amount": 67.3,
+    "metricNote": "國科會核定 NT$ 67.3 萬 (專題研究計畫 (一般研究計畫))",
+    "source": "TEACHER-WRITTING (表1-17 國科會計畫案)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已核定歸檔",
+    "keywords": [
+      "物理治療系"
+    ],
+    "id": "REC-111-086"
+  },
+  {
+    "year": "111",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "梁菁萍",
+    "empId": "T0000117242",
+    "adminRole": "教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "共同主持人 (50%)",
+    "weightRatio": 0.5,
+    "category": "計畫案",
+    "subType": "國科會專題研究計畫",
+    "title": "發展數值模擬工具探討膠體加速放射性核種衰變鏈多成員核種遷移與放射性廢棄物地質處置安全評估應用",
+    "code": "NSTC-111-放射性物料安全科技-077",
+    "accCode": "ACC-111-NSTC-077",
+    "disbursementRate": 100,
+    "amount": 60,
+    "metricNote": "國科會核定 NT$ 60 萬 (專題研究計畫 (原子能合作研究計畫))",
+    "source": "TEACHER-WRITTING (表1-17 國科會計畫案)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已核定歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-111-087"
   },
   {
     "year": "111",
@@ -18179,7 +37831,34 @@ var DATASET_111_115 = [
     "keywords": [
       "護理系"
     ],
-    "id": "REC-111-068"
+    "id": "REC-111-088"
+  },
+  {
+    "year": "111",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "梁菁萍",
+    "empId": "T0000117242",
+    "adminRole": "教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "計畫主持人 (100%)",
+    "weightRatio": 1,
+    "category": "計畫案",
+    "subType": "國科會專題研究計畫",
+    "title": "結合「含水層儲蓄回抽」可行性地理空間分析與操作管理數值模擬建立「經營管理含水層補注」完善計畫",
+    "code": "NSTC-111-環境與資源管理-078",
+    "accCode": "ACC-111-NSTC-078",
+    "disbursementRate": 100,
+    "amount": 60.2,
+    "metricNote": "國科會核定 NT$ 60.2 萬 (專題研究計畫 (一般研究計畫))",
+    "source": "TEACHER-WRITTING (表1-17 國科會計畫案)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已核定歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-111-089"
   },
   {
     "year": "111",
@@ -18207,7 +37886,7 @@ var DATASET_111_115 = [
       "數位轉型",
       "資訊科技與管理系"
     ],
-    "id": "REC-111-069"
+    "id": "REC-111-090"
   },
   {
     "year": "111",
@@ -18235,7 +37914,7 @@ var DATASET_111_115 = [
       "分子檢測",
       "護理系"
     ],
-    "id": "REC-111-070"
+    "id": "REC-111-091"
   },
   {
     "year": "111",
@@ -18261,7 +37940,7 @@ var DATASET_111_115 = [
     "keywords": [
       "生物科技系"
     ],
-    "id": "REC-111-071"
+    "id": "REC-111-092"
   },
   {
     "year": "111",
@@ -18287,7 +37966,7 @@ var DATASET_111_115 = [
     "keywords": [
       "應用外語系"
     ],
-    "id": "REC-111-072"
+    "id": "REC-111-093"
   },
   {
     "year": "111",
@@ -18317,7 +37996,34 @@ var DATASET_111_115 = [
       "機能食品",
       "醫學檢驗生物技術系"
     ],
-    "id": "REC-111-073"
+    "id": "REC-111-094"
+  },
+  {
+    "year": "111",
+    "college": "醫學與健康學院",
+    "dept": "物理治療系",
+    "teacher": "張薰文",
+    "empId": "T0000095983",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "計畫主持人 (100%)",
+    "weightRatio": 1,
+    "category": "計畫案",
+    "subType": "國科會專題研究計畫",
+    "title": "臺北醫學大學基礎研究核心設施共同使用服務計畫(2/5)",
+    "code": "NSTC-111-中心總計畫-245",
+    "accCode": "ACC-111-NSTC-245",
+    "disbursementRate": 100,
+    "amount": 49.4,
+    "metricNote": "國科會核定 NT$ 49.4 萬 (專題研究計畫 (附屬/支援單位補助計畫))",
+    "source": "TEACHER-WRITTING (表1-17 國科會計畫案)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已核定歸檔",
+    "keywords": [
+      "物理治療系"
+    ],
+    "id": "REC-111-095"
   },
   {
     "year": "111",
@@ -18343,7 +38049,7 @@ var DATASET_111_115 = [
     "keywords": [
       "環境工程與科學系"
     ],
-    "id": "REC-111-074"
+    "id": "REC-111-096"
   },
   {
     "year": "111",
@@ -18371,12 +38077,12 @@ var DATASET_111_115 = [
       "數位轉型",
       "應用外語系"
     ],
-    "id": "REC-111-075"
+    "id": "REC-111-097"
   },
   {
     "year": "111",
     "college": "護理學院",
-    "dept": "護理系",
+    "dept": "共同教育中心",
     "teacher": "程紋貞",
     "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
     "isArticle7Exempt": true,
@@ -18395,9 +38101,9 @@ var DATASET_111_115 = [
     "group": "產學合作組",
     "status": "已結案",
     "keywords": [
-      "護理系"
+      "共同教育中心"
     ],
-    "id": "REC-111-076"
+    "id": "REC-111-098"
   },
   {
     "year": "111",
@@ -18423,7 +38129,34 @@ var DATASET_111_115 = [
     "keywords": [
       "醫學檢驗生物技術系"
     ],
-    "id": "REC-111-077"
+    "id": "REC-111-099"
+  },
+  {
+    "year": "111",
+    "college": "醫學與健康學院",
+    "dept": "醫學檢驗生物技術系",
+    "teacher": "王怡棻",
+    "empId": "T0000076255",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "計畫主持人 (100%)",
+    "weightRatio": 1,
+    "category": "計畫案",
+    "subType": "國科會專題研究計畫",
+    "title": "熱休克因子1 藉由影響m6A RNA修飾調控人類疱疹病毒第八型複製之研究",
+    "code": "NSTC-111-寄生蟲及醫技與實驗診斷-182",
+    "accCode": "ACC-111-NSTC-182",
+    "disbursementRate": 100,
+    "amount": 80,
+    "metricNote": "國科會核定 NT$ 80 萬 (專題研究計畫 (鼓勵女性從事科學及技術研究專案計畫))",
+    "source": "TEACHER-WRITTING (表1-17 國科會計畫案)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已核定歸檔",
+    "keywords": [
+      "醫學檢驗生物技術系"
+    ],
+    "id": "REC-111-100"
   },
   {
     "year": "111",
@@ -18451,7 +38184,7 @@ var DATASET_111_115 = [
       "分子檢測",
       "環境工程與科學系"
     ],
-    "id": "REC-111-078"
+    "id": "REC-111-101"
   },
   {
     "year": "111",
@@ -18479,7 +38212,7 @@ var DATASET_111_115 = [
       "教材研發",
       "護理系"
     ],
-    "id": "REC-111-079"
+    "id": "REC-111-102"
   },
   {
     "year": "111",
@@ -18505,7 +38238,7 @@ var DATASET_111_115 = [
     "keywords": [
       "資訊科技與管理系"
     ],
-    "id": "REC-111-080"
+    "id": "REC-111-103"
   },
   {
     "year": "111",
@@ -18531,7 +38264,34 @@ var DATASET_111_115 = [
     "keywords": [
       "資訊科技與管理系"
     ],
-    "id": "REC-111-081"
+    "id": "REC-111-104"
+  },
+  {
+    "year": "111",
+    "college": "人文與管理學院",
+    "dept": "資訊科技與管理系",
+    "teacher": "陳俊勳",
+    "empId": "T0000042494",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "計畫主持人 (100%)",
+    "weightRatio": 1,
+    "category": "計畫案",
+    "subType": "國科會專題研究計畫",
+    "title": "鋰電池儲能站火災危害分析、安全評估與緊急應變之整合性策略及性能提升方案--鋰電池儲能站火災風險評估及設置基準探討研究(總計畫及子計畫一)(I)",
+    "code": "NSTC-111-災防跨域-751",
+    "accCode": "ACC-111-NSTC-751",
+    "disbursementRate": 100,
+    "amount": 151.1,
+    "metricNote": "國科會核定 NT$ 151.1 萬 (專題研究計畫 (一般研究計畫))",
+    "source": "TEACHER-WRITTING (表1-17 國科會計畫案)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已核定歸檔",
+    "keywords": [
+      "資訊科技與管理系"
+    ],
+    "id": "REC-111-105"
   },
   {
     "year": "111",
@@ -18557,7 +38317,7 @@ var DATASET_111_115 = [
     "keywords": [
       "職業安全衛生系"
     ],
-    "id": "REC-111-082"
+    "id": "REC-111-106"
   },
   {
     "year": "111",
@@ -18583,7 +38343,7 @@ var DATASET_111_115 = [
     "keywords": [
       "職業安全衛生系"
     ],
-    "id": "REC-111-083"
+    "id": "REC-111-107"
   },
   {
     "year": "111",
@@ -18609,7 +38369,7 @@ var DATASET_111_115 = [
     "keywords": [
       "健康事業管理系"
     ],
-    "id": "REC-111-084"
+    "id": "REC-111-108"
   },
   {
     "year": "111",
@@ -18637,7 +38397,7 @@ var DATASET_111_115 = [
       "淨零減碳",
       "生物科技系"
     ],
-    "id": "REC-111-085"
+    "id": "REC-111-109"
   },
   {
     "year": "111",
@@ -18665,7 +38425,7 @@ var DATASET_111_115 = [
       "淨零減碳",
       "職業安全衛生系"
     ],
-    "id": "REC-111-086"
+    "id": "REC-111-110"
   },
   {
     "year": "111",
@@ -18691,7 +38451,7 @@ var DATASET_111_115 = [
     "keywords": [
       "生物科技系"
     ],
-    "id": "REC-111-087"
+    "id": "REC-111-111"
   },
   {
     "year": "111",
@@ -18719,7 +38479,7 @@ var DATASET_111_115 = [
       "教材研發",
       "護理系"
     ],
-    "id": "REC-111-088"
+    "id": "REC-111-112"
   },
   {
     "year": "111",
@@ -18745,7 +38505,34 @@ var DATASET_111_115 = [
     "keywords": [
       "環境工程與科學系"
     ],
-    "id": "REC-111-089"
+    "id": "REC-111-113"
+  },
+  {
+    "year": "111",
+    "college": "護理學院",
+    "dept": "助產與婦嬰健康照護系",
+    "teacher": "劉玉湘",
+    "empId": "T0000002441",
+    "adminRole": "招生推廣組副主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "共同主持人 (50%)",
+    "weightRatio": 0.5,
+    "category": "計畫案",
+    "subType": "國科會專題研究計畫",
+    "title": "嚴肅遊戲對青少男的性同意與較安全性行為之成效：從發展至評值",
+    "code": "NSTC-111-科技、社會與傳播-007",
+    "accCode": "ACC-111-NSTC-007",
+    "disbursementRate": 100,
+    "amount": 113.8,
+    "metricNote": "國科會核定 NT$ 113.8 萬 (專題研究計畫 (一般研究計畫))",
+    "source": "TEACHER-WRITTING (表1-17 國科會計畫案)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已核定歸檔",
+    "keywords": [
+      "助產與婦嬰健康照護系"
+    ],
+    "id": "REC-111-114"
   },
   {
     "year": "111",
@@ -18771,7 +38558,7 @@ var DATASET_111_115 = [
     "keywords": [
       "生物科技系"
     ],
-    "id": "REC-111-090"
+    "id": "REC-111-115"
   },
   {
     "year": "111",
@@ -18797,7 +38584,7 @@ var DATASET_111_115 = [
     "keywords": [
       "環境工程與科學系"
     ],
-    "id": "REC-111-091"
+    "id": "REC-111-116"
   },
   {
     "year": "111",
@@ -18823,7 +38610,7 @@ var DATASET_111_115 = [
     "keywords": [
       "環境工程與科學系"
     ],
-    "id": "REC-111-092"
+    "id": "REC-111-117"
   },
   {
     "year": "111",
@@ -18849,7 +38636,7 @@ var DATASET_111_115 = [
     "keywords": [
       "環境工程與科學系"
     ],
-    "id": "REC-111-093"
+    "id": "REC-111-118"
   },
   {
     "year": "111",
@@ -18875,7 +38662,7 @@ var DATASET_111_115 = [
     "keywords": [
       "醫學檢驗生物技術系"
     ],
-    "id": "REC-111-094"
+    "id": "REC-111-119"
   },
   {
     "year": "111",
@@ -18901,7 +38688,7 @@ var DATASET_111_115 = [
     "keywords": [
       "健康美容系"
     ],
-    "id": "REC-111-095"
+    "id": "REC-111-120"
   },
   {
     "year": "111",
@@ -18929,7 +38716,7 @@ var DATASET_111_115 = [
       "教材研發",
       "應用外語系"
     ],
-    "id": "REC-111-096"
+    "id": "REC-111-121"
   },
   {
     "year": "111",
@@ -18957,7 +38744,7 @@ var DATASET_111_115 = [
       "數位轉型",
       "高齡及長期照護事業系"
     ],
-    "id": "REC-111-097"
+    "id": "REC-111-122"
   },
   {
     "year": "111",
@@ -18983,7 +38770,7 @@ var DATASET_111_115 = [
     "keywords": [
       "醫學檢驗生物技術系"
     ],
-    "id": "REC-111-098"
+    "id": "REC-111-123"
   },
   {
     "year": "111",
@@ -19010,7 +38797,7 @@ var DATASET_111_115 = [
       "專利研發",
       "護理系"
     ],
-    "id": "REC-111-099"
+    "id": "REC-111-124"
   },
   {
     "year": "111",
@@ -19036,7 +38823,7 @@ var DATASET_111_115 = [
     "keywords": [
       "職業安全衛生系"
     ],
-    "id": "REC-111-100"
+    "id": "REC-111-125"
   },
   {
     "year": "111",
@@ -19063,7 +38850,7 @@ var DATASET_111_115 = [
       "專利研發",
       "護理系"
     ],
-    "id": "REC-111-101"
+    "id": "REC-111-126"
   },
   {
     "year": "111",
@@ -19090,7 +38877,7 @@ var DATASET_111_115 = [
       "專利研發",
       "護理系"
     ],
-    "id": "REC-111-102"
+    "id": "REC-111-127"
   },
   {
     "year": "111",
@@ -19116,7 +38903,7 @@ var DATASET_111_115 = [
     "keywords": [
       "應用化學及材料科學系"
     ],
-    "id": "REC-111-103"
+    "id": "REC-111-128"
   },
   {
     "year": "111",
@@ -19143,7 +38930,7 @@ var DATASET_111_115 = [
       "專利研發",
       "護理系"
     ],
-    "id": "REC-111-104"
+    "id": "REC-111-129"
   },
   {
     "year": "111",
@@ -19169,7 +38956,7 @@ var DATASET_111_115 = [
     "keywords": [
       "護理系"
     ],
-    "id": "REC-111-105"
+    "id": "REC-111-130"
   },
   {
     "year": "111",
@@ -19197,7 +38984,7 @@ var DATASET_111_115 = [
       "數位轉型",
       "健康事業管理系"
     ],
-    "id": "REC-111-106"
+    "id": "REC-111-131"
   },
   {
     "year": "111",
@@ -19223,7 +39010,7 @@ var DATASET_111_115 = [
     "keywords": [
       "物理治療系"
     ],
-    "id": "REC-111-107"
+    "id": "REC-111-132"
   },
   {
     "year": "111",
@@ -19249,7 +39036,7 @@ var DATASET_111_115 = [
     "keywords": [
       "護理系"
     ],
-    "id": "REC-111-108"
+    "id": "REC-111-133"
   },
   {
     "year": "111",
@@ -19277,7 +39064,7 @@ var DATASET_111_115 = [
       "淨零減碳",
       "護理系"
     ],
-    "id": "REC-111-109"
+    "id": "REC-111-134"
   },
   {
     "year": "111",
@@ -19306,7 +39093,7 @@ var DATASET_111_115 = [
       "專利研發",
       "健康事業管理系"
     ],
-    "id": "REC-111-110"
+    "id": "REC-111-135"
   },
   {
     "year": "111",
@@ -19334,7 +39121,7 @@ var DATASET_111_115 = [
       "實務專題",
       "護理系"
     ],
-    "id": "REC-111-111"
+    "id": "REC-111-136"
   },
   {
     "year": "111",
@@ -19364,7 +39151,7 @@ var DATASET_111_115 = [
       "實務專題",
       "保健營養系"
     ],
-    "id": "REC-111-112"
+    "id": "REC-111-137"
   },
   {
     "year": "111",
@@ -19392,7 +39179,7 @@ var DATASET_111_115 = [
       "實務專題",
       "環境工程與科學系"
     ],
-    "id": "REC-111-113"
+    "id": "REC-111-138"
   },
   {
     "year": "111",
@@ -19420,7 +39207,7 @@ var DATASET_111_115 = [
       "實務專題",
       "護理系"
     ],
-    "id": "REC-111-114"
+    "id": "REC-111-139"
   },
   {
     "year": "111",
@@ -19448,7 +39235,7 @@ var DATASET_111_115 = [
       "實務專題",
       "物理治療系"
     ],
-    "id": "REC-111-115"
+    "id": "REC-111-140"
   },
   {
     "year": "111",
@@ -19476,7 +39263,7 @@ var DATASET_111_115 = [
       "實務專題",
       "護理系"
     ],
-    "id": "REC-111-116"
+    "id": "REC-111-141"
   },
   {
     "year": "111",
@@ -19504,11 +39291,11 @@ var DATASET_111_115 = [
       "實務專題",
       "環境工程與科學系"
     ],
-    "id": "REC-111-117"
+    "id": "REC-111-142"
   },
   {
     "year": "111",
-    "college": "醫學與健康學院",
+    "college": "護理學院",
     "dept": "健康事業管理系",
     "teacher": "林政翰(指)",
     "adminRole": "專任教師",
@@ -19532,11 +39319,11 @@ var DATASET_111_115 = [
       "實務專題",
       "健康事業管理系"
     ],
-    "id": "REC-111-118"
+    "id": "REC-111-143"
   },
   {
     "year": "111",
-    "college": "醫學與健康學院",
+    "college": "護理學院",
     "dept": "健康事業管理系",
     "teacher": "林政翰(指)\r\n黃傑康(指)",
     "adminRole": "專任教師",
@@ -19560,7 +39347,7 @@ var DATASET_111_115 = [
       "實務專題",
       "健康事業管理系"
     ],
-    "id": "REC-111-119"
+    "id": "REC-111-144"
   },
   {
     "year": "111",
@@ -19588,11 +39375,11 @@ var DATASET_111_115 = [
       "實務專題",
       "護理系"
     ],
-    "id": "REC-111-120"
+    "id": "REC-111-145"
   },
   {
     "year": "111",
-    "college": "醫學與健康學院",
+    "college": "護理學院",
     "dept": "健康事業管理系",
     "teacher": "林政翰(指)",
     "adminRole": "專任教師",
@@ -19616,7 +39403,7 @@ var DATASET_111_115 = [
       "實務專題",
       "健康事業管理系"
     ],
-    "id": "REC-111-121"
+    "id": "REC-111-146"
   },
   {
     "year": "111",
@@ -19646,7 +39433,7 @@ var DATASET_111_115 = [
       "實務專題",
       "健康美容系"
     ],
-    "id": "REC-111-122"
+    "id": "REC-111-147"
   },
   {
     "year": "111",
@@ -19676,7 +39463,7 @@ var DATASET_111_115 = [
       "實務專題",
       "健康美容系"
     ],
-    "id": "REC-111-123"
+    "id": "REC-111-148"
   },
   {
     "year": "111",
@@ -19706,7 +39493,7 @@ var DATASET_111_115 = [
       "實務專題",
       "健康美容系"
     ],
-    "id": "REC-111-124"
+    "id": "REC-111-149"
   },
   {
     "year": "111",
@@ -19736,7 +39523,7 @@ var DATASET_111_115 = [
       "實務專題",
       "健康美容系"
     ],
-    "id": "REC-111-125"
+    "id": "REC-111-150"
   },
   {
     "year": "111",
@@ -19766,7 +39553,7 @@ var DATASET_111_115 = [
       "實務專題",
       "健康美容系"
     ],
-    "id": "REC-111-126"
+    "id": "REC-111-151"
   },
   {
     "year": "111",
@@ -19796,7 +39583,7 @@ var DATASET_111_115 = [
       "實務專題",
       "健康美容系"
     ],
-    "id": "REC-111-127"
+    "id": "REC-111-152"
   },
   {
     "year": "111",
@@ -19826,7 +39613,7 @@ var DATASET_111_115 = [
       "實務專題",
       "健康美容系"
     ],
-    "id": "REC-111-128"
+    "id": "REC-111-153"
   },
   {
     "year": "111",
@@ -19856,7 +39643,7 @@ var DATASET_111_115 = [
       "實務專題",
       "健康美容系"
     ],
-    "id": "REC-111-129"
+    "id": "REC-111-154"
   },
   {
     "year": "111",
@@ -19886,7 +39673,7 @@ var DATASET_111_115 = [
       "實務專題",
       "健康美容系"
     ],
-    "id": "REC-111-130"
+    "id": "REC-111-155"
   },
   {
     "year": "111",
@@ -19916,7 +39703,7 @@ var DATASET_111_115 = [
       "實務專題",
       "健康美容系"
     ],
-    "id": "REC-111-131"
+    "id": "REC-111-156"
   },
   {
     "year": "111",
@@ -19946,7 +39733,7 @@ var DATASET_111_115 = [
       "實務專題",
       "健康美容系"
     ],
-    "id": "REC-111-132"
+    "id": "REC-111-157"
   },
   {
     "year": "111",
@@ -19976,7 +39763,7 @@ var DATASET_111_115 = [
       "實務專題",
       "健康美容系"
     ],
-    "id": "REC-111-133"
+    "id": "REC-111-158"
   },
   {
     "year": "111",
@@ -20006,7 +39793,7 @@ var DATASET_111_115 = [
       "實務專題",
       "健康美容系"
     ],
-    "id": "REC-111-134"
+    "id": "REC-111-159"
   },
   {
     "year": "111",
@@ -20036,7 +39823,7 @@ var DATASET_111_115 = [
       "實務專題",
       "健康美容系"
     ],
-    "id": "REC-111-135"
+    "id": "REC-111-160"
   },
   {
     "year": "111",
@@ -20066,7 +39853,7 @@ var DATASET_111_115 = [
       "實務專題",
       "健康美容系"
     ],
-    "id": "REC-111-136"
+    "id": "REC-111-161"
   },
   {
     "year": "111",
@@ -20096,7 +39883,7 @@ var DATASET_111_115 = [
       "實務專題",
       "健康美容系"
     ],
-    "id": "REC-111-137"
+    "id": "REC-111-162"
   },
   {
     "year": "111",
@@ -20126,7 +39913,7 @@ var DATASET_111_115 = [
       "實務專題",
       "健康美容系"
     ],
-    "id": "REC-111-138"
+    "id": "REC-111-163"
   },
   {
     "year": "111",
@@ -20156,7 +39943,7 @@ var DATASET_111_115 = [
       "實務專題",
       "健康美容系"
     ],
-    "id": "REC-111-139"
+    "id": "REC-111-164"
   },
   {
     "year": "111",
@@ -20186,7 +39973,7 @@ var DATASET_111_115 = [
       "實務專題",
       "健康美容系"
     ],
-    "id": "REC-111-140"
+    "id": "REC-111-165"
   },
   {
     "year": "111",
@@ -20216,7 +40003,7 @@ var DATASET_111_115 = [
       "實務專題",
       "健康美容系"
     ],
-    "id": "REC-111-141"
+    "id": "REC-111-166"
   },
   {
     "year": "111",
@@ -20246,7 +40033,7 @@ var DATASET_111_115 = [
       "實務專題",
       "健康美容系"
     ],
-    "id": "REC-111-142"
+    "id": "REC-111-167"
   },
   {
     "year": "111",
@@ -20276,11 +40063,11 @@ var DATASET_111_115 = [
       "實務專題",
       "健康美容系"
     ],
-    "id": "REC-111-143"
+    "id": "REC-111-168"
   },
   {
     "year": "111",
-    "college": "醫學與健康學院",
+    "college": "護理學院",
     "dept": "健康事業管理系",
     "teacher": "林政翰",
     "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
@@ -20305,11 +40092,11 @@ var DATASET_111_115 = [
       "實務專題",
       "健康事業管理系"
     ],
-    "id": "REC-111-144"
+    "id": "REC-111-169"
   },
   {
     "year": "111",
-    "college": "醫學與健康學院",
+    "college": "護理學院",
     "dept": "健康事業管理系",
     "teacher": "林政翰",
     "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
@@ -20335,7 +40122,7 @@ var DATASET_111_115 = [
       "師生競賽",
       "實務專題"
     ],
-    "id": "REC-111-145"
+    "id": "REC-111-170"
   },
   {
     "year": "111",
@@ -20365,7 +40152,7 @@ var DATASET_111_115 = [
       "實務專題",
       "護理系"
     ],
-    "id": "REC-111-146"
+    "id": "REC-111-171"
   },
   {
     "year": "111",
@@ -20395,7 +40182,7 @@ var DATASET_111_115 = [
       "實務專題",
       "護理系"
     ],
-    "id": "REC-111-147"
+    "id": "REC-111-172"
   },
   {
     "year": "111",
@@ -20425,7 +40212,7 @@ var DATASET_111_115 = [
       "實務專題",
       "護理系"
     ],
-    "id": "REC-111-148"
+    "id": "REC-111-173"
   },
   {
     "year": "111",
@@ -20454,7 +40241,7 @@ var DATASET_111_115 = [
       "實務專題",
       "護理系"
     ],
-    "id": "REC-111-149"
+    "id": "REC-111-174"
   },
   {
     "year": "111",
@@ -20482,7 +40269,7 @@ var DATASET_111_115 = [
       "實務專題",
       "護理系"
     ],
-    "id": "REC-111-150"
+    "id": "REC-111-175"
   },
   {
     "year": "111",
@@ -20510,7 +40297,7 @@ var DATASET_111_115 = [
       "實務專題",
       "護理系"
     ],
-    "id": "REC-111-151"
+    "id": "REC-111-176"
   },
   {
     "year": "111",
@@ -20538,7 +40325,7 @@ var DATASET_111_115 = [
       "實務專題",
       "護理系"
     ],
-    "id": "REC-111-152"
+    "id": "REC-111-177"
   },
   {
     "year": "111",
@@ -20566,7 +40353,7 @@ var DATASET_111_115 = [
       "實務專題",
       "護理系"
     ],
-    "id": "REC-111-153"
+    "id": "REC-111-178"
   },
   {
     "year": "111",
@@ -20594,7 +40381,7 @@ var DATASET_111_115 = [
       "實務專題",
       "護理系"
     ],
-    "id": "REC-111-154"
+    "id": "REC-111-179"
   },
   {
     "year": "111",
@@ -20622,7 +40409,7 @@ var DATASET_111_115 = [
       "實務專題",
       "護理系"
     ],
-    "id": "REC-111-155"
+    "id": "REC-111-180"
   },
   {
     "year": "111",
@@ -20650,7 +40437,7 @@ var DATASET_111_115 = [
       "實務專題",
       "護理系"
     ],
-    "id": "REC-111-156"
+    "id": "REC-111-181"
   },
   {
     "year": "111",
@@ -20678,7 +40465,7 @@ var DATASET_111_115 = [
       "實務專題",
       "護理系"
     ],
-    "id": "REC-111-157"
+    "id": "REC-111-182"
   },
   {
     "year": "111",
@@ -20706,7 +40493,7 @@ var DATASET_111_115 = [
       "實務專題",
       "護理系"
     ],
-    "id": "REC-111-158"
+    "id": "REC-111-183"
   },
   {
     "year": "111",
@@ -20734,12 +40521,12 @@ var DATASET_111_115 = [
       "實務專題",
       "健康美容系"
     ],
-    "id": "REC-111-159"
+    "id": "REC-111-184"
   },
   {
     "year": "111",
-    "college": "護理學院",
-    "dept": "護理系",
+    "college": "人文與管理學院",
+    "dept": "共同教育中心",
     "teacher": "劉亞順",
     "adminRole": "專任教師",
     "isArticle7Exempt": false,
@@ -20760,9 +40547,9 @@ var DATASET_111_115 = [
     "keywords": [
       "師生競賽",
       "實務專題",
-      "護理系"
+      "共同教育中心"
     ],
-    "id": "REC-111-160"
+    "id": "REC-111-185"
   },
   {
     "year": "111",
@@ -20790,7 +40577,7 @@ var DATASET_111_115 = [
       "實務專題",
       "應用外語系"
     ],
-    "id": "REC-111-161"
+    "id": "REC-111-186"
   },
   {
     "year": "111",
@@ -20818,7 +40605,7 @@ var DATASET_111_115 = [
       "實務專題",
       "應用外語系"
     ],
-    "id": "REC-111-162"
+    "id": "REC-111-187"
   },
   {
     "year": "111",
@@ -20846,7 +40633,7 @@ var DATASET_111_115 = [
       "實務專題",
       "應用外語系"
     ],
-    "id": "REC-111-163"
+    "id": "REC-111-188"
   },
   {
     "year": "111",
@@ -20874,7 +40661,7 @@ var DATASET_111_115 = [
       "實務專題",
       "健康美容系"
     ],
-    "id": "REC-111-164"
+    "id": "REC-111-189"
   },
   {
     "year": "111",
@@ -20903,7 +40690,7 @@ var DATASET_111_115 = [
       "實務專題",
       "護理系"
     ],
-    "id": "REC-111-165"
+    "id": "REC-111-190"
   },
   {
     "year": "111",
@@ -20932,7 +40719,7 @@ var DATASET_111_115 = [
       "實務專題",
       "助產與婦嬰健康照護系"
     ],
-    "id": "REC-111-166"
+    "id": "REC-111-191"
   },
   {
     "year": "111",
@@ -20961,7 +40748,7 @@ var DATASET_111_115 = [
       "實務專題",
       "應用外語系"
     ],
-    "id": "REC-111-167"
+    "id": "REC-111-192"
   },
   {
     "year": "111",
@@ -20990,7 +40777,7 @@ var DATASET_111_115 = [
       "實務專題",
       "健康美容系"
     ],
-    "id": "REC-111-168"
+    "id": "REC-111-193"
   },
   {
     "year": "111",
@@ -21018,7 +40805,7 @@ var DATASET_111_115 = [
       "實務專題",
       "護理系"
     ],
-    "id": "REC-111-169"
+    "id": "REC-111-194"
   },
   {
     "year": "111",
@@ -21046,7 +40833,7 @@ var DATASET_111_115 = [
       "實務專題",
       "保健營養系"
     ],
-    "id": "REC-111-170"
+    "id": "REC-111-195"
   },
   {
     "year": "111",
@@ -21074,7 +40861,7 @@ var DATASET_111_115 = [
       "實務專題",
       "保健營養系"
     ],
-    "id": "REC-111-171"
+    "id": "REC-111-196"
   },
   {
     "year": "111",
@@ -21102,11 +40889,11 @@ var DATASET_111_115 = [
       "實務專題",
       "保健營養系"
     ],
-    "id": "REC-111-172"
+    "id": "REC-111-197"
   },
   {
     "year": "111",
-    "college": "醫學與健康學院",
+    "college": "護理學院",
     "dept": "健康事業管理系",
     "teacher": "黃傑康",
     "adminRole": "專任教師",
@@ -21131,11 +40918,11 @@ var DATASET_111_115 = [
       "實務專題",
       "健康事業管理系"
     ],
-    "id": "REC-111-173"
+    "id": "REC-111-198"
   },
   {
     "year": "111",
-    "college": "醫學與健康學院",
+    "college": "護理學院",
     "dept": "健康事業管理系",
     "teacher": "么佳琪",
     "adminRole": "專任教師",
@@ -21160,11 +40947,11 @@ var DATASET_111_115 = [
       "實務專題",
       "健康事業管理系"
     ],
-    "id": "REC-111-174"
+    "id": "REC-111-199"
   },
   {
     "year": "111",
-    "college": "醫學與健康學院",
+    "college": "護理學院",
     "dept": "健康事業管理系",
     "teacher": "周品欣",
     "adminRole": "專任教師",
@@ -21189,11 +40976,11 @@ var DATASET_111_115 = [
       "實務專題",
       "健康事業管理系"
     ],
-    "id": "REC-111-175"
+    "id": "REC-111-200"
   },
   {
     "year": "111",
-    "college": "醫學與健康學院",
+    "college": "護理學院",
     "dept": "健康事業管理系",
     "teacher": "吳欣霓",
     "adminRole": "專任教師",
@@ -21218,7 +41005,7 @@ var DATASET_111_115 = [
       "實務專題",
       "健康事業管理系"
     ],
-    "id": "REC-111-176"
+    "id": "REC-111-201"
   },
   {
     "year": "111",
@@ -21247,7 +41034,7 @@ var DATASET_111_115 = [
       "實務專題",
       "護理系"
     ],
-    "id": "REC-111-177"
+    "id": "REC-111-202"
   },
   {
     "year": "111",
@@ -21276,7 +41063,7 @@ var DATASET_111_115 = [
       "實務專題",
       "護理系"
     ],
-    "id": "REC-111-178"
+    "id": "REC-111-203"
   },
   {
     "year": "111",
@@ -21305,7 +41092,7 @@ var DATASET_111_115 = [
       "實務專題",
       "護理系"
     ],
-    "id": "REC-111-179"
+    "id": "REC-111-204"
   },
   {
     "year": "111",
@@ -21334,7 +41121,7 @@ var DATASET_111_115 = [
       "實務專題",
       "護理系"
     ],
-    "id": "REC-111-180"
+    "id": "REC-111-205"
   },
   {
     "year": "111",
@@ -21363,7 +41150,7 @@ var DATASET_111_115 = [
       "實務專題",
       "護理系"
     ],
-    "id": "REC-111-181"
+    "id": "REC-111-206"
   },
   {
     "year": "111",
@@ -21392,7 +41179,7 @@ var DATASET_111_115 = [
       "實務專題",
       "護理系"
     ],
-    "id": "REC-111-182"
+    "id": "REC-111-207"
   },
   {
     "year": "111",
@@ -21421,11 +41208,11 @@ var DATASET_111_115 = [
       "實務專題",
       "高齡及長期照護事業系"
     ],
-    "id": "REC-111-183"
+    "id": "REC-111-208"
   },
   {
     "year": "111",
-    "college": "醫學與健康學院",
+    "college": "護理學院",
     "dept": "健康事業管理系",
     "teacher": "鍾名軒",
     "adminRole": "專任教師",
@@ -21450,11 +41237,11 @@ var DATASET_111_115 = [
       "實務專題",
       "健康事業管理系"
     ],
-    "id": "REC-111-184"
+    "id": "REC-111-209"
   },
   {
     "year": "111",
-    "college": "醫學與健康學院",
+    "college": "護理學院",
     "dept": "健康事業管理系",
     "teacher": "賴佳萱",
     "adminRole": "專任教師",
@@ -21479,11 +41266,11 @@ var DATASET_111_115 = [
       "實務專題",
       "健康事業管理系"
     ],
-    "id": "REC-111-185"
+    "id": "REC-111-210"
   },
   {
     "year": "111",
-    "college": "醫學與健康學院",
+    "college": "護理學院",
     "dept": "健康事業管理系",
     "teacher": "林睿騰",
     "adminRole": "專任教師",
@@ -21508,7 +41295,7 @@ var DATASET_111_115 = [
       "實務專題",
       "健康事業管理系"
     ],
-    "id": "REC-111-186"
+    "id": "REC-111-211"
   },
   {
     "year": "111",
@@ -21536,7 +41323,7 @@ var DATASET_111_115 = [
       "實務專題",
       "護理系"
     ],
-    "id": "REC-111-187"
+    "id": "REC-111-212"
   },
   {
     "year": "111",
@@ -21564,7 +41351,7 @@ var DATASET_111_115 = [
       "實務專題",
       "護理系"
     ],
-    "id": "REC-111-188"
+    "id": "REC-111-213"
   },
   {
     "year": "111",
@@ -21592,7 +41379,7 @@ var DATASET_111_115 = [
       "實務專題",
       "護理系"
     ],
-    "id": "REC-111-189"
+    "id": "REC-111-214"
   },
   {
     "year": "111",
@@ -21620,7 +41407,7 @@ var DATASET_111_115 = [
       "實務專題",
       "護理系"
     ],
-    "id": "REC-111-190"
+    "id": "REC-111-215"
   },
   {
     "year": "111",
@@ -21648,7 +41435,7 @@ var DATASET_111_115 = [
       "實務專題",
       "護理系"
     ],
-    "id": "REC-111-191"
+    "id": "REC-111-216"
   },
   {
     "year": "111",
@@ -21676,7 +41463,7 @@ var DATASET_111_115 = [
       "實務專題",
       "護理系"
     ],
-    "id": "REC-111-192"
+    "id": "REC-111-217"
   },
   {
     "year": "111",
@@ -21704,7 +41491,7 @@ var DATASET_111_115 = [
       "實務專題",
       "護理系"
     ],
-    "id": "REC-111-193"
+    "id": "REC-111-218"
   },
   {
     "year": "111",
@@ -21732,7 +41519,7 @@ var DATASET_111_115 = [
       "實務專題",
       "護理系"
     ],
-    "id": "REC-111-194"
+    "id": "REC-111-219"
   },
   {
     "year": "111",
@@ -21760,7 +41547,7 @@ var DATASET_111_115 = [
       "實務專題",
       "護理系"
     ],
-    "id": "REC-111-195"
+    "id": "REC-111-220"
   },
   {
     "year": "111",
@@ -21788,7 +41575,4582 @@ var DATASET_111_115 = [
       "實務專題",
       "護理系"
     ],
-    "id": "REC-111-196"
+    "id": "REC-111-221"
+  },
+  {
+    "year": "111",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "薛建蓉",
+    "empId": "T0000091695",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第一作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "「議題導向跨領域」教學框架建構方法-由專題設計表現任務成果構築概念性理解課程設計",
+    "code": "高雄文化研究 2022 年年刊",
+    "accCode": "PUB-JRN-2022-0808",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: 高雄文化研究 2022 年年刊, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-111-222"
+  },
+  {
+    "year": "111",
+    "college": "護理學院",
+    "dept": "健康事業管理系",
+    "teacher": "林政翰",
+    "empId": "T0000074995",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "5G超高密度網路中基於模糊邏輯的換手決策",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2022-1230",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康事業管理系"
+    ],
+    "id": "REC-111-223"
+  },
+  {
+    "year": "111",
+    "college": "醫學與健康學院",
+    "dept": "物理治療系",
+    "teacher": "陳姝希",
+    "empId": "T0000069003",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第一作者兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "心智障礙成人健康賦能跨域專業整合行動方案之成效--以彈力i健康為例",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2022-0955",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "物理治療系"
+    ],
+    "id": "REC-111-224"
+  },
+  {
+    "year": "111",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "林佑樺",
+    "empId": "T0000120649",
+    "adminRole": "教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第一作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "支持性關懷對腦腫瘤術後病人之症狀困擾、護理需求與憂鬱成效之前驅性研究。The Effects of Supportive Caring on Symptoms Distress, Nursing Needs, and Depression in Patients With Brain Tumor After Surgery: A Preliminary Study.",
+    "code": "護理雜誌",
+    "accCode": "PUB-JRN-2023-2375",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: 護理雜誌, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "精準醫療",
+      "分子檢測",
+      "臨床護理",
+      "教材研發",
+      "護理系"
+    ],
+    "id": "REC-111-225"
+  },
+  {
+    "year": "111",
+    "college": "護理學院",
+    "dept": "健康事業管理系",
+    "teacher": "羅家倫",
+    "empId": "T0000060871",
+    "adminRole": "國際事務長（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第一作者兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "以社會認知理論探討校園霸凌揭露因素之研究",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2022-1150",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康事業管理系"
+    ],
+    "id": "REC-111-226"
+  },
+  {
+    "year": "111",
+    "college": "護理學院",
+    "dept": "健康事業管理系",
+    "teacher": "林政翰",
+    "empId": "T0000074995",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第二作者兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "以急診工作負荷指標EDWIN探討連續假期對急診壅塞的影響",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2023-1229",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康事業管理系"
+    ],
+    "id": "REC-111-227"
+  },
+  {
+    "year": "111",
+    "college": "護理學院",
+    "dept": "健康事業管理系",
+    "teacher": "羅家倫",
+    "empId": "T0000060871",
+    "adminRole": "國際事務長（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第一作者兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "以資料趨動科技大學在少子化時代之招生策略",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2022-1152",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康事業管理系"
+    ],
+    "id": "REC-111-228"
+  },
+  {
+    "year": "111",
+    "college": "護理學院",
+    "dept": "健康事業管理系",
+    "teacher": "羅家倫",
+    "empId": "T0000060871",
+    "adminRole": "國際事務長（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第一作者兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "以機器學習技術建構住院患者之壓力性損傷預測模型",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2023-1146",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "AI智慧應用",
+      "數位轉型",
+      "健康事業管理系"
+    ],
+    "id": "REC-111-229"
+  },
+  {
+    "year": "111",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "顧雅利",
+    "empId": "T0000077888",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第一作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "由一位長照機構老年婦女的生命故事衍生十位老人的正向經驗",
+    "code": "長庚護理",
+    "accCode": "PUB-JRN-2022-0666",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: 長庚護理, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "高齡長照",
+      "失智症照護",
+      "護理系"
+    ],
+    "id": "REC-111-230"
+  },
+  {
+    "year": "111",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "王惠玲",
+    "empId": "T0000056265",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第一作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "穴貼壓應用於更年期婦女睡眠品質之成效探討",
+    "code": "自然療法暨健康促進期刊",
+    "accCode": "PUB-JRN-2022-0544",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: 自然療法暨健康促進期刊, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-111-231"
+  },
+  {
+    "year": "111",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "楊君菁",
+    "empId": "T0000084253",
+    "adminRole": "實習指導教師",
+    "isArticle7Exempt": false,
+    "authorOrder": "第一作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "全髖關節置換術後個案接受早期阻力運動復健之實證案例",
+    "code": "福祉科技與服務管理學刊",
+    "accCode": "PUB-JRN-2023-0225",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: 福祉科技與服務管理學刊, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-111-232"
+  },
+  {
+    "year": "111",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "洪瑄曼",
+    "empId": "T0000005248",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第一作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "耳穴貼壓應用於更年期婦女睡眠品質之成效探討",
+    "code": "自然療法暨健康促進期刊",
+    "accCode": "PUB-JRN-2022-2332",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: 自然療法暨健康促進期刊, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-111-233"
+  },
+  {
+    "year": "111",
+    "college": "護理學院",
+    "dept": "健康事業管理系",
+    "teacher": "林政翰",
+    "empId": "T0000074995",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "使用P4交換機強化5G網路切片異質服務效能",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2022-1231",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康事業管理系"
+    ],
+    "id": "REC-111-234"
+  },
+  {
+    "year": "111",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "顧雅利",
+    "empId": "T0000077888",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第一作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "長照ABC2.0服務：東部某醫院的經驗。",
+    "code": "秀傳醫學雜誌",
+    "accCode": "PUB-JRN-2023-0664",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: 秀傳醫學雜誌, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "高齡長照",
+      "失智症照護",
+      "護理系"
+    ],
+    "id": "REC-111-235"
+  },
+  {
+    "year": "111",
+    "college": "護理學院",
+    "dept": "高齡及長期照護事業系",
+    "teacher": "田奇玉",
+    "empId": "T0000113236",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第一作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "活動式與體驗式生命教育教學實踐的應用探究：以「星級禮儀師」創作桌遊為例",
+    "code": "國民教育學報",
+    "accCode": "PUB-JRN-2022-2867",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: 國民教育學報, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "高齡及長期照護事業系"
+    ],
+    "id": "REC-111-236"
+  },
+  {
+    "year": "111",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "林佑樺",
+    "empId": "T0000120649",
+    "adminRole": "教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第一作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "疫情蔓延與弱勢族群防疫議題\r\nThe Spread of the Epidemic Among Vulnerable Groups and Related Epidemic Prevention Issues",
+    "code": "護理雜誌",
+    "accCode": "PUB-JRN-2022-2377",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: 護理雜誌, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-111-237"
+  },
+  {
+    "year": "111",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "施芊卉",
+    "empId": "T0000084532",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第一作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "原鄉新冠肺炎之健康識能與文化合適性防疫宣導策略",
+    "code": "護理雜誌",
+    "accCode": "PUB-JRN-2022-0779",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: 護理雜誌, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-111-238"
+  },
+  {
+    "year": "111",
+    "college": "護理學院",
+    "dept": "健康事業管理系",
+    "teacher": "包怡芬",
+    "empId": "T0000067834",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第二作者兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "討論雲端科技及體驗行銷對服務創新的影響-以健康事業為例",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2022-1213",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "AI智慧應用",
+      "數位轉型",
+      "健康事業管理系"
+    ],
+    "id": "REC-111-239"
+  },
+  {
+    "year": "111",
+    "college": "環境與生命學院",
+    "dept": "環境工程與科學系",
+    "teacher": "賴進興",
+    "empId": "T0000038591",
+    "adminRole": "教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第一作者兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "高氨氮電鍍廢水氣提回收固態結晶氯化銨之研究",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2022-1343",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "環境監測",
+      "淨零減碳",
+      "環境工程與科學系"
+    ],
+    "id": "REC-111-240"
+  },
+  {
+    "year": "111",
+    "college": "護理學院",
+    "dept": "健康事業管理系",
+    "teacher": "羅家倫",
+    "empId": "T0000060871",
+    "adminRole": "國際事務長（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第一作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "高齡者預防及延緩失能照護體適能方案成效分析",
+    "code": "福祉科技與服務管理學刊Journal of Gerontechnology and Service Management",
+    "accCode": "PUB-JRN-2022-1619",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: 福祉科技與服務管理學刊Journal of Gerontechnology and Service Management, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "高齡長照",
+      "失智症照護",
+      "健康事業管理系"
+    ],
+    "id": "REC-111-241"
+  },
+  {
+    "year": "111",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "吳靜宜",
+    "empId": "T0000029836",
+    "adminRole": "實習指導教師",
+    "isArticle7Exempt": false,
+    "authorOrder": "第一作者兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "高齡族群使用口乾藥物的情形",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2023-1625",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "高齡長照",
+      "失智症照護",
+      "護理系"
+    ],
+    "id": "REC-111-242"
+  },
+  {
+    "year": "111",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "林佑樺",
+    "empId": "T0000120649",
+    "adminRole": "教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第一作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "健康人權—論臺灣原住民族健康不均等與疫情政策之適當性\r\nHuman Health Rights: Discussing Health Inequality for Taiwanese Indigenous Peoples and the Appropriateness of Current Epidemic Policies",
+    "code": "護理雜誌",
+    "accCode": "PUB-JRN-2022-2376",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: 護理雜誌, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-111-243"
+  },
+  {
+    "year": "111",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "楊君菁",
+    "empId": "T0000084253",
+    "adminRole": "實習指導教師",
+    "isArticle7Exempt": false,
+    "authorOrder": "第一作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "常見輔助療法在護理之實證應用",
+    "code": "領導護理",
+    "accCode": "PUB-JRN-2022-0229",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: 領導護理, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "臨床護理",
+      "教材研發",
+      "護理系"
+    ],
+    "id": "REC-111-244"
+  },
+  {
+    "year": "111",
+    "college": "醫學與健康學院",
+    "dept": "物理治療系",
+    "teacher": "李美誼",
+    "empId": "T0000022109",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第一作者兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "探討使用單腳或雙腳站立方式測量扁平足各樣參數之差異",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2023-0888",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "物理治療系"
+    ],
+    "id": "REC-111-245"
+  },
+  {
+    "year": "111",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "楊君菁",
+    "empId": "T0000084253",
+    "adminRole": "實習指導教師",
+    "isArticle7Exempt": false,
+    "authorOrder": "第一作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "探討放鬆技巧介入於輕、中度失智症病人之主要照顧者憂鬱情緒與睡眠品質的成效",
+    "code": "源遠護理雜誌",
+    "accCode": "PUB-JRN-2023-0226",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: 源遠護理雜誌, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "高齡長照",
+      "失智症照護",
+      "護理系"
+    ],
+    "id": "REC-111-246"
+  },
+  {
+    "year": "111",
+    "college": "護理學院",
+    "dept": "高齡及長期照護事業系",
+    "teacher": "楊月頴",
+    "empId": "T0000097047",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第一作者兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "探討WANT模式提升長照機構人員失智症照護能力成效",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2023-2037",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "高齡長照",
+      "失智症照護",
+      "高齡及長期照護事業系"
+    ],
+    "id": "REC-111-247"
+  },
+  {
+    "year": "111",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "唐佩玲",
+    "empId": "T0000029023",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第一作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "教學醫院醫事人員研究能力之現況調查",
+    "code": "醫療品質雜誌",
+    "accCode": "PUB-JRN-2022-0476",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: 醫療品質雜誌, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-111-248"
+  },
+  {
+    "year": "111",
+    "college": "護理學院",
+    "dept": "健康事業管理系",
+    "teacher": "羅家倫",
+    "empId": "T0000060871",
+    "adminRole": "國際事務長（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第一作者兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "提升加護病房肺部復健運動執行率之研究",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2022-1153",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康事業管理系"
+    ],
+    "id": "REC-111-249"
+  },
+  {
+    "year": "111",
+    "college": "環境與生命學院",
+    "dept": "環境工程與科學系",
+    "teacher": "賴進興",
+    "empId": "T0000038591",
+    "adminRole": "教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第一作者兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "港區鄰近大氣環境VOCs監測與健康風險值估算",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2022-1341",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "環境監測",
+      "淨零減碳",
+      "環境工程與科學系"
+    ],
+    "id": "REC-111-250"
+  },
+  {
+    "year": "111",
+    "college": "護理學院",
+    "dept": "健康事業管理系",
+    "teacher": "羅家倫",
+    "empId": "T0000060871",
+    "adminRole": "國際事務長（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第一作者兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "結合機器學習技術及患者就醫行為資料預測具血尿而延遲診斷之膀胱癌患者",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2023-1147",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康事業管理系"
+    ],
+    "id": "REC-111-251"
+  },
+  {
+    "year": "111",
+    "college": "護理學院",
+    "dept": "健康事業管理系",
+    "teacher": "羅家倫",
+    "empId": "T0000060871",
+    "adminRole": "國際事務長（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第一作者兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "結合機器學習和毫米波技術建置非接觸式生理監控系統",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2022-1151",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康事業管理系"
+    ],
+    "id": "REC-111-252"
+  },
+  {
+    "year": "111",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "顧雅利",
+    "empId": "T0000077888",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第一作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "傾聽、同理、陪伴技能教案於三個護理課程之成效",
+    "code": "長庚護理",
+    "accCode": "PUB-JRN-2023-0663",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: 長庚護理, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "臨床護理",
+      "教材研發",
+      "護理系"
+    ],
+    "id": "REC-111-253"
+  },
+  {
+    "year": "111",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "江季蓁",
+    "empId": "T0000066846",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第一作者兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "運用自我管理理論照顧一位首次腦中風患者之護理經驗",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2022-0473",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "臨床護理",
+      "教材研發",
+      "護理系"
+    ],
+    "id": "REC-111-254"
+  },
+  {
+    "year": "111",
+    "college": "環境與生命學院",
+    "dept": "環境工程與科學系",
+    "teacher": "賴進興",
+    "empId": "T0000038591",
+    "adminRole": "教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第一作者兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "電鍍廢水中循環回收液態氯化銨之研究",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2022-1342",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "環境監測",
+      "淨零減碳",
+      "環境工程與科學系"
+    ],
+    "id": "REC-111-255"
+  },
+  {
+    "year": "111",
+    "college": "護理學院",
+    "dept": "健康事業管理系",
+    "teacher": "黃傑康",
+    "empId": "T0000119634",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第一作者兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "網紅粉絲持續訂閱與打賞行為影響因素之探討。",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2023-1310",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康事業管理系"
+    ],
+    "id": "REC-111-256"
+  },
+  {
+    "year": "111",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "顧雅利",
+    "empId": "T0000077888",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第一作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "導尿管固定裝置的創新研發與實證",
+    "code": "健康管理學刊",
+    "accCode": "PUB-JRN-2022-0665",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: 健康管理學刊, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "專利研發",
+      "護理系"
+    ],
+    "id": "REC-111-257"
+  },
+  {
+    "year": "111",
+    "college": "環境與生命學院",
+    "dept": "環境工程與科學系",
+    "teacher": "賴進興",
+    "empId": "T0000038591",
+    "adminRole": "教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第一作者兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "燃燒尺度對粒狀物及多環芳香烴排放特徵之研究",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2022-1345",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "環境監測",
+      "淨零減碳",
+      "環境工程與科學系"
+    ],
+    "id": "REC-111-258"
+  },
+  {
+    "year": "111",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "楊君菁",
+    "empId": "T0000084253",
+    "adminRole": "實習指導教師",
+    "isArticle7Exempt": false,
+    "authorOrder": "第一作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "環境荷爾蒙塑化劑健康識能量表之發展與驗證",
+    "code": "康科技期刊",
+    "accCode": "PUB-JRN-2023-0218",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: 康科技期刊, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "環境監測",
+      "淨零減碳",
+      "護理系"
+    ],
+    "id": "REC-111-259"
+  },
+  {
+    "year": "111",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "楊君菁",
+    "empId": "T0000084253",
+    "adminRole": "實習指導教師",
+    "isArticle7Exempt": false,
+    "authorOrder": "第一作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "藉由正念減壓改善銀髮俱樂部老年人憂鬱情緒與心理健康之成效探討：一項混合研究",
+    "code": "台灣健康照顧研究學刊",
+    "accCode": "PUB-JRN-2023-0219",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: 台灣健康照顧研究學刊, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "高齡長照",
+      "失智症照護",
+      "護理系"
+    ],
+    "id": "REC-111-260"
+  },
+  {
+    "year": "111",
+    "college": "醫學與健康學院",
+    "dept": "健康美容系",
+    "teacher": "陳中一",
+    "empId": "T0000054317",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "A benzoate of Synsepalum dulcificum",
+    "code": "Chem. Pharm. Res.",
+    "accCode": "PUB-JRN-2023-2503",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Chem. Pharm. Res., 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康美容系"
+    ],
+    "id": "REC-111-261"
+  },
+  {
+    "year": "111",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "蔡宛玲",
+    "empId": "T0000121830",
+    "adminRole": "職能發展組副主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "A dual-purpose deep learning model for auscultated lung and tracheal sound analysis based on mixed set training",
+    "code": "Biomedical Signal Processing and Control",
+    "accCode": "PUB-JRN-2023-2235",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Biomedical Signal Processing and Control, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-111-262"
+  },
+  {
+    "year": "111",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "王惠玲",
+    "empId": "T0000056265",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "A family nursing experience of improving the knowledge of hypertension",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2022-0388",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-111-263"
+  },
+  {
+    "year": "111",
+    "college": "護理學院",
+    "dept": "高齡及長期照護事業系",
+    "teacher": "楊月頴",
+    "empId": "T0000097047",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "A Feasibility evaluation of the need-centered WANT education and training program for behavioral and psychological symptoms of dementia.",
+    "code": "The Journal of Nursing Research",
+    "accCode": "PUB-JRN-2023-2854",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: The Journal of Nursing Research, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "高齡及長期照護事業系"
+    ],
+    "id": "REC-111-264"
+  },
+  {
+    "year": "111",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "陳淑銘",
+    "empId": "T0000000530",
+    "adminRole": "教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "A multimedia self-management program on symptom distress and self-care in cancer patient with chemotherapy: a pitot study for a feasibility",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2022-0172",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-111-265"
+  },
+  {
+    "year": "111",
+    "college": "醫學與健康學院",
+    "dept": "健康美容系",
+    "teacher": "陳中一",
+    "empId": "T0000054317",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "A new 4-pyrane of Smilax nantoensis.",
+    "code": "Chem. Nat. Compd.",
+    "accCode": "PUB-JRN-2023-2504",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Chem. Nat. Compd., 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康美容系"
+    ],
+    "id": "REC-111-266"
+  },
+  {
+    "year": "111",
+    "college": "醫學與健康學院",
+    "dept": "健康美容系",
+    "teacher": "陳中一",
+    "empId": "T0000054317",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "A new acetogenin from Annona mucosa.",
+    "code": "Chem. Nat. Compd.",
+    "accCode": "PUB-JRN-2023-2501",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Chem. Nat. Compd., 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康美容系"
+    ],
+    "id": "REC-111-267"
+  },
+  {
+    "year": "111",
+    "college": "醫學與健康學院",
+    "dept": "健康美容系",
+    "teacher": "陳中一",
+    "empId": "T0000054317",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "A new aminoglycoside from Hylocereus polyrhizus",
+    "code": "Chem. Pharm. Res.",
+    "accCode": "PUB-JRN-2023-2505",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Chem. Pharm. Res., 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康美容系"
+    ],
+    "id": "REC-111-268"
+  },
+  {
+    "year": "111",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "梁菁萍",
+    "empId": "T0000117242",
+    "adminRole": "教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "A new analytical model for transport of multiple contaminants considering remediation of both NAPL source and downgradient contaminant plume in groundwater",
+    "code": "Advances in Water Resources",
+    "accCode": "PUB-JRN-2022-0883",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Advances in Water Resources, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-111-269"
+  },
+  {
+    "year": "111",
+    "college": "醫學與健康學院",
+    "dept": "健康美容系",
+    "teacher": "陳中一",
+    "empId": "T0000054317",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "A new anhydride of Alpinia officinarum",
+    "code": "Chem. Nat. Compd.",
+    "accCode": "PUB-JRN-2023-2506",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Chem. Nat. Compd., 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康美容系"
+    ],
+    "id": "REC-111-270"
+  },
+  {
+    "year": "111",
+    "college": "醫學與健康學院",
+    "dept": "健康美容系",
+    "teacher": "陳中一",
+    "empId": "T0000054317",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "A new benzaldehyde of Nelumbo nucifera cv. Rosa-plena.",
+    "code": "Chem. Nat. Compd.",
+    "accCode": "PUB-JRN-2023-2507",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Chem. Nat. Compd., 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康美容系"
+    ],
+    "id": "REC-111-271"
+  },
+  {
+    "year": "111",
+    "college": "醫學與健康學院",
+    "dept": "健康美容系",
+    "teacher": "陳中一",
+    "empId": "T0000054317",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "A new benzylisoquinoline of Annona cherimola",
+    "code": "Chem. Pharm. Res.",
+    "accCode": "PUB-JRN-2023-2508",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Chem. Pharm. Res., 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康美容系"
+    ],
+    "id": "REC-111-272"
+  },
+  {
+    "year": "111",
+    "college": "醫學與健康學院",
+    "dept": "健康美容系",
+    "teacher": "陳中一",
+    "empId": "T0000054317",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "A new carbohydrate of Aquilaria agallocha",
+    "code": "Chem. Pharm. Res.",
+    "accCode": "PUB-JRN-2023-2509",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Chem. Pharm. Res., 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康美容系"
+    ],
+    "id": "REC-111-273"
+  },
+  {
+    "year": "111",
+    "college": "醫學與健康學院",
+    "dept": "健康美容系",
+    "teacher": "陳中一",
+    "empId": "T0000054317",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "A new crown ether from Mahonia fortune.",
+    "code": "Chem. Nat. Compd.",
+    "accCode": "PUB-JRN-2023-2510",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Chem. Nat. Compd., 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康美容系"
+    ],
+    "id": "REC-111-274"
+  },
+  {
+    "year": "111",
+    "college": "醫學與健康學院",
+    "dept": "健康美容系",
+    "teacher": "陳中一",
+    "empId": "T0000054317",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "A new dienoic acid of Capsicum annuum var. fasciculatum.",
+    "code": "Chem. Nat. Compd.",
+    "accCode": "PUB-JRN-2023-2511",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Chem. Nat. Compd., 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康美容系"
+    ],
+    "id": "REC-111-275"
+  },
+  {
+    "year": "111",
+    "college": "醫學與健康學院",
+    "dept": "健康美容系",
+    "teacher": "陳中一",
+    "empId": "T0000054317",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "A new dimeric benzenoid of Cinnamomum randaiense.",
+    "code": "Chem. Nat. Compd.",
+    "accCode": "PUB-JRN-2023-2512",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Chem. Nat. Compd., 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康美容系"
+    ],
+    "id": "REC-111-276"
+  },
+  {
+    "year": "111",
+    "college": "醫學與健康學院",
+    "dept": "健康美容系",
+    "teacher": "陳中一",
+    "empId": "T0000054317",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "A new homosesquiterpene from Cinnamomum reticulatum.",
+    "code": "Chem. Nat. Compd.",
+    "accCode": "PUB-JRN-2023-2513",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Chem. Nat. Compd., 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康美容系"
+    ],
+    "id": "REC-111-277"
+  },
+  {
+    "year": "111",
+    "college": "醫學與健康學院",
+    "dept": "健康美容系",
+    "teacher": "陳中一",
+    "empId": "T0000054317",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "A new ketone derivative from Plukenetia Volubilis.",
+    "code": "Chem. Nat. Compd",
+    "accCode": "PUB-JRN-2023-2514",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Chem. Nat. Compd, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康美容系"
+    ],
+    "id": "REC-111-278"
+  },
+  {
+    "year": "111",
+    "college": "醫學與健康學院",
+    "dept": "健康美容系",
+    "teacher": "陳中一",
+    "empId": "T0000054317",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "A new naphthalen derivative from Michelia champaca L.",
+    "code": "Chem. Nat. Compd.",
+    "accCode": "PUB-JRN-2023-2515",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Chem. Nat. Compd., 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康美容系"
+    ],
+    "id": "REC-111-279"
+  },
+  {
+    "year": "111",
+    "college": "醫學與健康學院",
+    "dept": "健康美容系",
+    "teacher": "陳中一",
+    "empId": "T0000054317",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "A new oxetane of Citrus microcarpa",
+    "code": "Chem. Pharm. Res.",
+    "accCode": "PUB-JRN-2023-2516",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Chem. Pharm. Res., 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康美容系"
+    ],
+    "id": "REC-111-280"
+  },
+  {
+    "year": "111",
+    "college": "醫學與健康學院",
+    "dept": "健康美容系",
+    "teacher": "陳中一",
+    "empId": "T0000054317",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "A new phenylalkanoid of Alpinia galanga.",
+    "code": "Chem. Nat. Compd.",
+    "accCode": "PUB-JRN-2023-2517",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Chem. Nat. Compd., 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康美容系"
+    ],
+    "id": "REC-111-281"
+  },
+  {
+    "year": "111",
+    "college": "醫學與健康學院",
+    "dept": "健康美容系",
+    "teacher": "陳中一",
+    "empId": "T0000054317",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "A new phenylalkanoid of Zingiber officinale.",
+    "code": "Chem. Nat. Compd.",
+    "accCode": "PUB-JRN-2023-2518",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Chem. Nat. Compd., 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康美容系"
+    ],
+    "id": "REC-111-282"
+  },
+  {
+    "year": "111",
+    "college": "醫學與健康學院",
+    "dept": "健康美容系",
+    "teacher": "陳中一",
+    "empId": "T0000054317",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "A new tetrahydrofuran of Cinnamomum burmannii",
+    "code": "Chem. Pharm. Res.",
+    "accCode": "PUB-JRN-2023-2519",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Chem. Pharm. Res., 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康美容系"
+    ],
+    "id": "REC-111-283"
+  },
+  {
+    "year": "111",
+    "college": "醫學與健康學院",
+    "dept": "健康美容系",
+    "teacher": "陳中一",
+    "empId": "T0000054317",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "A novel diaryl derivative from Antrodia camphorata",
+    "code": "Chem. Nat. Compd.",
+    "accCode": "PUB-JRN-2023-2520",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Chem. Nat. Compd., 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康美容系"
+    ],
+    "id": "REC-111-284"
+  },
+  {
+    "year": "111",
+    "college": "環境與生命學院",
+    "dept": "環境工程與科學系",
+    "teacher": "賴進興",
+    "empId": "T0000038591",
+    "adminRole": "教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "A recycling technology of producing crystal ammonium chloride from the electroplating wastewater",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2022-1344",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "環境工程與科學系"
+    ],
+    "id": "REC-111-285"
+  },
+  {
+    "year": "111",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "方莉",
+    "empId": "T0000062021",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "A study of regular exercise, social support and depression in the community-dwelling older people.",
+    "code": "International journal of nursing practice",
+    "accCode": "PUB-JRN-2022-0563",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: International journal of nursing practice, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-111-286"
+  },
+  {
+    "year": "111",
+    "college": "人文與管理學院",
+    "dept": "共同教育中心",
+    "teacher": "王昭凱",
+    "empId": "T0000051743",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "A Study on active constituent from Vietnamese herbs by supercritical fluid method",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2022-1824",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "共同教育中心"
+    ],
+    "id": "REC-111-287"
+  },
+  {
+    "year": "111",
+    "college": "環境與生命學院",
+    "dept": "職業安全衛生系",
+    "teacher": "陳毅謙",
+    "empId": "T0000057449",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "SCIE 國際期刊",
+    "title": "A study on computer vision for facial emotion recognition",
+    "code": "Scientific Reports",
+    "accCode": "PUB-JRN-2023-1898",
+    "disbursementRate": 100,
+    "amount": 2,
+    "metricNote": "SCIE 國際期刊 收錄 (刊物: Scientific Reports, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "職業安全衛生系"
+    ],
+    "id": "REC-111-288"
+  },
+  {
+    "year": "111",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "楊君菁",
+    "empId": "T0000084253",
+    "adminRole": "實習指導教師",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "A virtual reality intervention to improve formal caregivers’ understanding of community-dwelling people with dementia: a pilot study",
+    "code": "Contemporary Nurse",
+    "accCode": "PUB-JRN-2023-0222",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Contemporary Nurse, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-111-289"
+  },
+  {
+    "year": "111",
+    "college": "醫學與健康學院",
+    "dept": "保健營養系",
+    "teacher": "蔡蕙芸",
+    "empId": "T0000098101",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "SCIE 國際期刊",
+    "title": "Acetylation Enhances the Anticancer Activity and Oral\r\nBioavailability of 5-Demethyltangeretin",
+    "code": "International Journal of Molecular Sciences",
+    "accCode": "PUB-JRN-2022-1403",
+    "disbursementRate": 100,
+    "amount": 2,
+    "metricNote": "SCIE 國際期刊 收錄 (刊物: International Journal of Molecular Sciences, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "保健營養系"
+    ],
+    "id": "REC-111-290"
+  },
+  {
+    "year": "111",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "董曉婷",
+    "empId": "T0000045947",
+    "adminRole": "主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Acupunch exercise improved muscle mass, hand grip strength, and sleep quality of institutional older adults with probable sarcopenia",
+    "code": "Journal of Applied Gerontology",
+    "accCode": "PUB-JRN-2023-2098",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Journal of Applied Gerontology, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-111-291"
+  },
+  {
+    "year": "111",
+    "college": "護理學院",
+    "dept": "健康事業管理系",
+    "teacher": "黃傑康",
+    "empId": "T0000119634",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "An Empirical Study on Continuous Following and Repurchase Behavior of Internet Celebrity Fans.",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2023-1309",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康事業管理系"
+    ],
+    "id": "REC-111-292"
+  },
+  {
+    "year": "111",
+    "college": "醫學與健康學院",
+    "dept": "保健營養系",
+    "teacher": "林佩瑩",
+    "empId": "T0000071516",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Analysis of Cancer Survival Associated With Immune Checkpoint Inhibitors After Statistical Adjustment: A Systematic Review and Meta-analyses",
+    "code": "JAMA Netw Open",
+    "accCode": "PUB-JRN-2022-1368",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: JAMA Netw Open, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "保健營養系"
+    ],
+    "id": "REC-111-293"
+  },
+  {
+    "year": "111",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "梁菁萍",
+    "empId": "T0000117242",
+    "adminRole": "教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Analytical multispecies chemical mixture transport model comprising degradable byproducts subject to scale-dependent dispersion, Hydrogeology Journal,",
+    "code": "Hydrogeology Journal",
+    "accCode": "PUB-JRN-2022-0881",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Hydrogeology Journal, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-111-294"
+  },
+  {
+    "year": "111",
+    "college": "醫學與健康學院",
+    "dept": "健康美容系",
+    "teacher": "陳中一",
+    "empId": "T0000054317",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Anti-Covid-19 activity compounds from Michelia crassipes.",
+    "code": "Chem. Nat. Compd.",
+    "accCode": "PUB-JRN-2023-2521",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Chem. Nat. Compd., 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康美容系"
+    ],
+    "id": "REC-111-295"
+  },
+  {
+    "year": "111",
+    "college": "醫學與健康學院",
+    "dept": "健康美容系",
+    "teacher": "陳中一",
+    "empId": "T0000054317",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Anti-dengue virus activity of Michelia pilifera.",
+    "code": "Chem. Nat. Compd.",
+    "accCode": "PUB-JRN-2023-2522",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Chem. Nat. Compd., 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康美容系"
+    ],
+    "id": "REC-111-296"
+  },
+  {
+    "year": "111",
+    "college": "醫學與健康學院",
+    "dept": "健康美容系",
+    "teacher": "陳中一",
+    "empId": "T0000054317",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Anticolorectal cancer activity metabolites from Michelia compressa.",
+    "code": "Chem. Nat. Compd.",
+    "accCode": "PUB-JRN-2023-2502",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Chem. Nat. Compd., 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康美容系"
+    ],
+    "id": "REC-111-297"
+  },
+  {
+    "year": "111",
+    "college": "醫學與健康學院",
+    "dept": "健康美容系",
+    "teacher": "陳中一",
+    "empId": "T0000054317",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Antioxidant activity of Cinnamomum osmophleum",
+    "code": "Chem. Nat. Compd.",
+    "accCode": "PUB-JRN-2023-2523",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Chem. Nat. Compd., 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康美容系"
+    ],
+    "id": "REC-111-298"
+  },
+  {
+    "year": "111",
+    "college": "人文與管理學院",
+    "dept": "共同教育中心",
+    "teacher": "林怡礽",
+    "empId": "T0000034860",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Assisted Reductive Amination for Quantitation of Tryptophan,\r\n5-Hydroxytryptophan, and Serotonin by Ultraperformance Liquid Chromatography Coupled with TandemMass Spectrometry",
+    "code": "molecules",
+    "accCode": "PUB-JRN-2023-2262",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: molecules, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "共同教育中心"
+    ],
+    "id": "REC-111-299"
+  },
+  {
+    "year": "111",
+    "college": "醫學與健康學院",
+    "dept": "保健營養系",
+    "teacher": "林佩瑩",
+    "empId": "T0000071516",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Associations of influenza vaccination with severity of immune-related adverse events in patients with advanced thoracic cancers on immune checkpoint inhibitors",
+    "code": "ERJ Open Research",
+    "accCode": "PUB-JRN-2022-1367",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: ERJ Open Research, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "保健營養系"
+    ],
+    "id": "REC-111-300"
+  },
+  {
+    "year": "111",
+    "college": "醫學與健康學院",
+    "dept": "健康美容系",
+    "teacher": "陳中一",
+    "empId": "T0000054317",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Capsaicin exerts anti-benign prostatic hyperplasia effects via inhibiting androgen receptor signaling pathway: Capsaicin exerts anti-BPH.",
+    "code": "Biocell",
+    "accCode": "PUB-JRN-2023-2524",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Biocell, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康美容系"
+    ],
+    "id": "REC-111-301"
+  },
+  {
+    "year": "111",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "唐佩玲",
+    "empId": "T0000029023",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "Cardiovascular risk assessments in patients with diabetic-related complications",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2022-0322",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-111-302"
+  },
+  {
+    "year": "111",
+    "college": "醫學與健康學院",
+    "dept": "健康美容系",
+    "teacher": "陳中一",
+    "empId": "T0000054317",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Chemical constituents of the fungus Glomerella cingulata",
+    "code": "Chem Nat Compd.",
+    "accCode": "PUB-JRN-2023-2525",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Chem Nat Compd., 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康美容系"
+    ],
+    "id": "REC-111-303"
+  },
+  {
+    "year": "111",
+    "college": "醫學與健康學院",
+    "dept": "健康美容系",
+    "teacher": "陳中一",
+    "empId": "T0000054317",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Chemical constituents of the fungus Glomerella cingulate. 2023,",
+    "code": "Chem. Nat. Compd.",
+    "accCode": "PUB-JRN-2023-2526",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Chem. Nat. Compd., 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康美容系"
+    ],
+    "id": "REC-111-304"
+  },
+  {
+    "year": "111",
+    "college": "護理學院",
+    "dept": "健康事業管理系",
+    "teacher": "羅家倫",
+    "empId": "T0000060871",
+    "adminRole": "國際事務長（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "Combing Machine learning and Millimeter wave technology devices to build an artificial intelligence warning system for Targeted Temperature Management Patients.",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2023-1148",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康事業管理系"
+    ],
+    "id": "REC-111-305"
+  },
+  {
+    "year": "111",
+    "college": "護理學院",
+    "dept": "健康事業管理系",
+    "teacher": "林惠賢",
+    "empId": "T0000060449",
+    "adminRole": "教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Comparing efficacy of a single intraarticular injection of platelet-rich plasma (PRP) combined with different hyaluronans for knee osteoarthritis: a randomized-controlled clinical trial.",
+    "code": "BMC Musculoskeletal Disorders",
+    "accCode": "PUB-JRN-2022-1502",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: BMC Musculoskeletal Disorders, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康事業管理系"
+    ],
+    "id": "REC-111-306"
+  },
+  {
+    "year": "111",
+    "college": "護理學院",
+    "dept": "助產與婦嬰健康照護系",
+    "teacher": "郭心怡",
+    "empId": "T0000005425",
+    "adminRole": "講師",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Comparisons of wave characteristics in magneto-electro-elastic laminated composites with different layering directions",
+    "code": "Acta Mechanica",
+    "accCode": "PUB-JRN-2023-0371",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Acta Mechanica, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "助產與婦嬰健康照護系"
+    ],
+    "id": "REC-111-307"
+  },
+  {
+    "year": "111",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "梁菁萍",
+    "empId": "T0000117242",
+    "adminRole": "教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "SCIE 國際期刊",
+    "title": "Comprehensive assessment of the impact of land use and hydrogeological properties on the groundwater quality in Taiwan using factor and cluster analyses.",
+    "code": "Science of the Total Environment",
+    "accCode": "PUB-JRN-2022-0884",
+    "disbursementRate": 100,
+    "amount": 2,
+    "metricNote": "SCIE 國際期刊 收錄 (刊物: Science of the Total Environment, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-111-308"
+  },
+  {
+    "year": "111",
+    "college": "護理學院",
+    "dept": "高齡及長期照護事業系",
+    "teacher": "楊月頴",
+    "empId": "T0000097047",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "Construction Care Model Simulation for the BPSD in Long-term Care Facilities – Multiple-Case Study",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2023-2034",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "高齡及長期照護事業系"
+    ],
+    "id": "REC-111-309"
+  },
+  {
+    "year": "111",
+    "college": "醫學與健康學院",
+    "dept": "保健營養系",
+    "teacher": "林佩瑩",
+    "empId": "T0000071516",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Cox Proportional Hazard Ratios Overestimate Survival Benefit of Immune Checkpoint Inhibitors (ICI): Cox-TEL Adjustment and Meta-analyses of PD-L1 Expression and ICI Survival Benefit",
+    "code": "J Thorac Oncol",
+    "accCode": "PUB-JRN-2022-1366",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: J Thorac Oncol, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "保健營養系"
+    ],
+    "id": "REC-111-310"
+  },
+  {
+    "year": "111",
+    "college": "護理學院",
+    "dept": "健康事業管理系",
+    "teacher": "羅家倫",
+    "empId": "T0000060871",
+    "adminRole": "國際事務長（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "SSCI 國際期刊",
+    "title": "Crossing the Innovation Resistance Chasm: Exploring New Graduates' Attitudes Toward Artificial Intelligence Applications （Accepted）",
+    "code": "Journal of Global Information Management(SSCI",
+    "accCode": "PUB-JRN-2023-1618",
+    "disbursementRate": 100,
+    "amount": 2,
+    "metricNote": "SSCI 國際期刊 收錄 (刊物: Journal of Global Information Management(SSCI, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康事業管理系"
+    ],
+    "id": "REC-111-311"
+  },
+  {
+    "year": "111",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "顧雅利",
+    "empId": "T0000077888",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "Delirium Assessment and Care among Three Elders in Cerebrovascular Center of One Eastern Hospital",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2022-0593",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-111-312"
+  },
+  {
+    "year": "111",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "陳淑銘",
+    "empId": "T0000000530",
+    "adminRole": "教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Delirium Care by ICU Nurses: Focus Group Studies in a Medical Center of Southern Taiwan.",
+    "code": "Dimensions of Critical Care Nursing",
+    "accCode": "PUB-JRN-2023-0325",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Dimensions of Critical Care Nursing, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-111-313"
+  },
+  {
+    "year": "111",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "唐佩玲",
+    "empId": "T0000029023",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Demoralization level fluctuated at various time frame of radiotherapy for patients with different cancers: a longitudinal observational study",
+    "code": "BMC palliative care",
+    "accCode": "PUB-JRN-2022-0478",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: BMC palliative care, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-111-314"
+  },
+  {
+    "year": "111",
+    "college": "護理學院",
+    "dept": "健康事業管理系",
+    "teacher": "林惠賢",
+    "empId": "T0000060449",
+    "adminRole": "教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Demoralization level fluctuated at various time frame of radiotherapy for patients with different cancers: a longitudinal observational study.",
+    "code": "BMC Palliative Care",
+    "accCode": "PUB-JRN-2022-1503",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: BMC Palliative Care, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康事業管理系"
+    ],
+    "id": "REC-111-315"
+  },
+  {
+    "year": "111",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "黃芷苓",
+    "empId": "T0000093504",
+    "adminRole": "教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "Depression, social support, and cognitive impairment in community elderly with dementia - A pilot study",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2022-0688",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-111-316"
+  },
+  {
+    "year": "111",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "陳淑銘",
+    "empId": "T0000000530",
+    "adminRole": "教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Development and validation of a Perceived Relocation Stress Scale for older individuals transferred to long-term care facilities in Taiwan",
+    "code": "International Health",
+    "accCode": "PUB-JRN-2023-0324",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: International Health, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-111-317"
+  },
+  {
+    "year": "111",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "唐佩玲",
+    "empId": "T0000029023",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Different traditional Chinese medicine constitution is associated with dietary and lifestyle behaviors among adults in Taiwan",
+    "code": "Medicine (Baltimore)",
+    "accCode": "PUB-JRN-2022-0477",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Medicine (Baltimore), 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-111-318"
+  },
+  {
+    "year": "111",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "唐佩玲",
+    "empId": "T0000029023",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "Do Physical Work Demands Predict Return-to- work after Occupational Injury? A Machine Learning Study",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2022-0323",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-111-319"
+  },
+  {
+    "year": "111",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "唐佩玲",
+    "empId": "T0000029023",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Does category of strength predict return-to-work after occupational injury?",
+    "code": "BMC Public Health",
+    "accCode": "PUB-JRN-2022-0479",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: BMC Public Health, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-111-320"
+  },
+  {
+    "year": "111",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "陳淑銘",
+    "empId": "T0000000530",
+    "adminRole": "教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "Effect of a digital symptom self-management program on symptom distress and discomfort symptoms for cancer survivors after receiving chemotherapy",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2023-0170",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-111-321"
+  },
+  {
+    "year": "111",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "陳淑銘",
+    "empId": "T0000000530",
+    "adminRole": "教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "Effect of a world CAFÉ approach for undergraduate nursing students to improve cultural attitude and competence.",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2023-0171",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-111-322"
+  },
+  {
+    "year": "111",
+    "college": "醫學與健康學院",
+    "dept": "醫學檢驗生物技術系",
+    "teacher": "邱敏熙",
+    "empId": "T0000089506",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Effect of Astragalus membranaceus and Panax notoginseng extract on arginine absorption, intestinal permeability, microbiota population, immune activation, and appetite in human subjects with ulcerative colitis: A Pilot Study",
+    "code": "J Biochem Biotech",
+    "accCode": "PUB-JRN-2023-1199",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: J Biochem Biotech, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "醫學檢驗生物技術系"
+    ],
+    "id": "REC-111-323"
+  },
+  {
+    "year": "111",
+    "college": "醫學與健康學院",
+    "dept": "物理治療系",
+    "teacher": "鄒瑞怡",
+    "empId": "T0000045916",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Effect of thoracic stiffness on chest compression performance-A prospective randomized crossover observational manikin study",
+    "code": "Heliyon",
+    "accCode": "PUB-JRN-2022-1246",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Heliyon, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "物理治療系"
+    ],
+    "id": "REC-111-324"
+  },
+  {
+    "year": "111",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "洪瑄曼",
+    "empId": "T0000005248",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Effectiveness of mental health website intervention on stress and depression for women\r\nwith recurrent miscarriage: A randomized\r\ncontrolled trial",
+    "code": "Health Care for Women International",
+    "accCode": "PUB-JRN-2023-2331",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Health Care for Women International, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-111-325"
+  },
+  {
+    "year": "111",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "陳淑銘",
+    "empId": "T0000000530",
+    "adminRole": "教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "Effects of diabetes-cardiac comorbidity self-regulation program to improve self-efficacy, self-management, quality of life in diabetic-cardiac comorbidity patients",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2022-0177",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-111-326"
+  },
+  {
+    "year": "111",
+    "college": "醫學與健康學院",
+    "dept": "物理治療系",
+    "teacher": "翁滋嬪",
+    "empId": "T0000069128",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "Effects of Exercise Training on Autonomic Nervous Modulation of Patients with Obstructive Sleep Apnea: A Systematic Review.",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2023-0993",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "物理治療系"
+    ],
+    "id": "REC-111-327"
+  },
+  {
+    "year": "111",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "曾慧雯",
+    "empId": "T0000007105",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Effects of Mindfulness-Based Cognitive Therapy on Major Depressive Disorder with Multiple Episodes: A Systematic Re-view and Meta-Analysis",
+    "code": "Int.J. Environ. Res. Public Health",
+    "accCode": "PUB-JRN-2023-2036",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Int.J. Environ. Res. Public Health, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-111-328"
+  },
+  {
+    "year": "111",
+    "college": "環境與生命學院",
+    "dept": "應用化學及材料科學系",
+    "teacher": "王麗芬",
+    "empId": "T0000062452",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Enhanced production and characterization of coenzyme Q10 from Rhodobacter sphaeroides using a potential fermentation strategy",
+    "code": "Journal of the Taiwan Institute of Chemical Engineers",
+    "accCode": "PUB-JRN-2022-1850",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Journal of the Taiwan Institute of Chemical Engineers, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "應用化學及材料科學系"
+    ],
+    "id": "REC-111-329"
+  },
+  {
+    "year": "111",
+    "college": "醫學與健康學院",
+    "dept": "健康美容系",
+    "teacher": "陳采秀",
+    "empId": "T0000121656",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Estimation Method for Distance Cost to Access Medical Services: Policy and Patient Privacy Implications in Taiwan",
+    "code": "Frontiers in Public Health",
+    "accCode": "PUB-JRN-2022-0105",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Frontiers in Public Health, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康美容系"
+    ],
+    "id": "REC-111-330"
+  },
+  {
+    "year": "111",
+    "college": "醫學與健康學院",
+    "dept": "保健營養系",
+    "teacher": "蔡蕙芸",
+    "empId": "T0000098101",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "Evaluation of the improvement effects of bitter melon and freshwater clam on hyperlipidemia",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2023-1015",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "保健營養系"
+    ],
+    "id": "REC-111-331"
+  },
+  {
+    "year": "111",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "江季蓁",
+    "empId": "T0000066846",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第一作者兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "Experience of providing nursing care to a stroke patient at long-term care institution with first diagnosis of periodontal disease.",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2022-0471",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-111-332"
+  },
+  {
+    "year": "111",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "顧雅利",
+    "empId": "T0000077888",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "Exploring the Experiences of the Individual and Group Reminiscence Activities in Older Adults",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2022-0604",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-111-333"
+  },
+  {
+    "year": "111",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "顧雅利",
+    "empId": "T0000077888",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "Exploring the Spiritual Care of Cancer Patients in the Different Stages of one Eastern Hospital in Taiwan",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2022-0602",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-111-334"
+  },
+  {
+    "year": "111",
+    "college": "護理學院",
+    "dept": "健康事業管理系",
+    "teacher": "羅家倫",
+    "empId": "T0000060871",
+    "adminRole": "國際事務長（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "SSCI 國際期刊",
+    "title": "Factors Considered Important by Healthcare Professionals for the Management of Using Complementary Therapy in Diabetes: A Text-Mining Analysis",
+    "code": "CIN",
+    "accCode": "PUB-JRN-2023-1615",
+    "disbursementRate": 100,
+    "amount": 2,
+    "metricNote": "SSCI 國際期刊 收錄 (刊物: CIN, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康事業管理系"
+    ],
+    "id": "REC-111-335"
+  },
+  {
+    "year": "111",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "鍾淑瑜",
+    "empId": "T0000038204",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "Factors That Predict Self-Management Behaviors In Kidney Transplant Recipients.",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2022-0354",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-111-336"
+  },
+  {
+    "year": "111",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "施芊卉",
+    "empId": "T0000084532",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "Fluid Temperature Effects on the Acute Ethanol Intoxication with \r\nMassive Hemorrhage Rats.",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2023-0652",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-111-337"
+  },
+  {
+    "year": "111",
+    "college": "護理學院",
+    "dept": "高齡及長期照護事業系",
+    "teacher": "程紋貞",
+    "empId": "T0000093841",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "Foot problems related to health-related quality of life in middle-aged and older adults.",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2023-2022",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "高齡及長期照護事業系"
+    ],
+    "id": "REC-111-338"
+  },
+  {
+    "year": "111",
+    "college": "護理學院",
+    "dept": "助產與婦嬰健康照護系",
+    "teacher": "郭心怡",
+    "empId": "T0000005425",
+    "adminRole": "講師",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Free vibration of multiferroic laminated composites with interface imperfections",
+    "code": "Acta Mechanica",
+    "accCode": "PUB-JRN-2022-0372",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Acta Mechanica, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "助產與婦嬰健康照護系"
+    ],
+    "id": "REC-111-339"
+  },
+  {
+    "year": "111",
+    "college": "醫學與健康學院",
+    "dept": "保健營養系",
+    "teacher": "蔡蕙芸",
+    "empId": "T0000098101",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Freshwater Clam Extract Attenuates Indomethacin-Induced Gastric Damage In Vitro and In Vivo",
+    "code": "Foods",
+    "accCode": "PUB-JRN-2022-1402",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Foods, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "保健營養系"
+    ],
+    "id": "REC-111-340"
+  },
+  {
+    "year": "111",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "陳舜華",
+    "empId": "T0000003564",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "From EGFR kinase inhibitors to anti-inflammatory drugs: Optimization and biological evaluation of (4-(phenylamino)quinazolinyl)-phenylthiourea derivatives as novel NF-κB inhibitors",
+    "code": "Bioorganic Chemistry",
+    "accCode": "PUB-JRN-2022-2307",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Bioorganic Chemistry, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-111-341"
+  },
+  {
+    "year": "111",
+    "college": "醫學與健康學院",
+    "dept": "保健營養系",
+    "teacher": "蔡蕙芸",
+    "empId": "T0000098101",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "Gac oil improves gastric mucosal damage by enhancing antioxidant capacity",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2023-1016",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "保健營養系"
+    ],
+    "id": "REC-111-342"
+  },
+  {
+    "year": "111",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "陳淑銘",
+    "empId": "T0000000530",
+    "adminRole": "教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "Gender differences in perceived relocation stress, depression and glycemic control among older adults with diabetes in long-term care facility",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2022-0176",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-111-343"
+  },
+  {
+    "year": "111",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "梁菁萍",
+    "empId": "T0000117242",
+    "adminRole": "教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "General analytical solutions of multispecies advective-dispersive solute transport equations coupled with a complex reaction network",
+    "code": "Journal of Hydrology",
+    "accCode": "PUB-JRN-2022-0882",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Journal of Hydrology, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-111-344"
+  },
+  {
+    "year": "111",
+    "college": "醫學與健康學院",
+    "dept": "健康美容系",
+    "teacher": "陳中一",
+    "empId": "T0000054317",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "SCI 國際期刊",
+    "title": "Ginger-derived 3HDT exerts antiproliferative effects on breast cancer cells by apoptosis and DNA damage",
+    "code": "Int. J. Mol. Sci.",
+    "accCode": "PUB-JRN-2023-2527",
+    "disbursementRate": 100,
+    "amount": 2,
+    "metricNote": "SCI 國際期刊 收錄 (刊物: Int. J. Mol. Sci., 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康美容系"
+    ],
+    "id": "REC-111-345"
+  },
+  {
+    "year": "111",
+    "college": "護理學院",
+    "dept": "健康事業管理系",
+    "teacher": "鄭南玉",
+    "empId": "T0000016973",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Handheld diffuse reflectance spectroscopy system for noninvasive quantification of neonatal bilirubin and hemoglobin concentrations: a pilot study",
+    "code": "Biomedical Optics Express",
+    "accCode": "PUB-JRN-2023-1448",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Biomedical Optics Express, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康事業管理系"
+    ],
+    "id": "REC-111-346"
+  },
+  {
+    "year": "111",
+    "college": "環境與生命學院",
+    "dept": "職業安全衛生系",
+    "teacher": "陳毅謙",
+    "empId": "T0000057449",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "High reliability and luminance of the color wheel by phosphor-in-inorganic silicone",
+    "code": "Optical Materials Express",
+    "accCode": "PUB-JRN-2023-1899",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Optical Materials Express, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "職業安全衛生系"
+    ],
+    "id": "REC-111-347"
+  },
+  {
+    "year": "111",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "蔡家梅",
+    "empId": "T0000095912",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "Horticultural Therapy Program for Improving Emotion and Well-Being of Nursing Students: A Qualitative Study.",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2022-0728",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-111-348"
+  },
+  {
+    "year": "111",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "顏秀珍",
+    "empId": "T0000089142",
+    "adminRole": "實習指導教師",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "SCIE 國際期刊",
+    "title": "How Does Environmental Leadership Cause Adoption of Environmental Policy?",
+    "code": "Frontiers in Environmental Science",
+    "accCode": "PUB-JRN-2022-2179",
+    "disbursementRate": 100,
+    "amount": 2,
+    "metricNote": "SCIE 國際期刊 收錄 (刊物: Frontiers in Environmental Science, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-111-349"
+  },
+  {
+    "year": "111",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "顏秀珍",
+    "empId": "T0000089142",
+    "adminRole": "實習指導教師",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "How Does Sustainable Leadership Affect Environmental Innovation Strategy Adoption? The Mediating Role of Environmental Identity",
+    "code": "International Journal of Environmental Research and Public Health",
+    "accCode": "PUB-JRN-2023-2178",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: International Journal of Environmental Research and Public Health, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-111-350"
+  },
+  {
+    "year": "111",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "黃芷苓",
+    "empId": "T0000093504",
+    "adminRole": "教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "In response to the impact of the pandemic on clinical internships-hybrid practical teaching strategies (Invited paper in Chinese)",
+    "code": "Taiwan Association of Nursing Education",
+    "accCode": "PUB-JRN-2022-0819",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Taiwan Association of Nursing Education, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-111-351"
+  },
+  {
+    "year": "111",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "陳淑銘",
+    "empId": "T0000000530",
+    "adminRole": "教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "Individualized evidence-based approach for postgraduate learning: An international collaborative project.",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2022-0178",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-111-352"
+  },
+  {
+    "year": "111",
+    "college": "護理學院",
+    "dept": "健康事業管理系",
+    "teacher": "羅家倫",
+    "empId": "T0000060871",
+    "adminRole": "國際事務長（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "SCI 國際期刊",
+    "title": "Integrating Fuzzy Multiple Objective Programming and System Dynamics Approach in Talent Retention Policy Selection: A Case on Healthcare Industry",
+    "code": "Journal of Healthcare Engineering(SCI，Q2)",
+    "accCode": "PUB-JRN-2023-1617",
+    "disbursementRate": 100,
+    "amount": 2,
+    "metricNote": "SCI 國際期刊 收錄 (刊物: Journal of Healthcare Engineering(SCI，Q2), 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康事業管理系"
+    ],
+    "id": "REC-111-353"
+  },
+  {
+    "year": "111",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "楊君菁",
+    "empId": "T0000084253",
+    "adminRole": "實習指導教師",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Lessons on effective communication from Taiwan Government to combat COVID-19.",
+    "code": "GHMJ (Global Health Management Journal)",
+    "accCode": "PUB-JRN-2022-0227",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: GHMJ (Global Health Management Journal), 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-111-354"
+  },
+  {
+    "year": "111",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "顧雅利",
+    "empId": "T0000077888",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "Literature Review of Behavioral and Psychological Symptoms of Dementia (BPSD) for the Dementia Elders",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2022-0594",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-111-355"
+  },
+  {
+    "year": "111",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "顧雅利",
+    "empId": "T0000077888",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "Literature Review of Nurses’ Attitudes toward Older Adults",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2022-0595",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-111-356"
+  },
+  {
+    "year": "111",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "顧雅利",
+    "empId": "T0000077888",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "Literature Review of Transtheoretical Model in Health Promotion Behaviors and Lifestyles of Elderly Chronic Kidney Disease",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2022-0596",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-111-357"
+  },
+  {
+    "year": "111",
+    "college": "護理學院",
+    "dept": "健康事業管理系",
+    "teacher": "林惠賢",
+    "empId": "T0000060449",
+    "adminRole": "教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Lower attenuation and higher kurtosis of coronary artery calcification associated with vulnerable plaque- an agatston score propensity-matched CT radiomics study.",
+    "code": "BMC Cardiovascular Disorders",
+    "accCode": "PUB-JRN-2023-1501",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: BMC Cardiovascular Disorders, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康事業管理系"
+    ],
+    "id": "REC-111-358"
+  },
+  {
+    "year": "111",
+    "college": "醫學與健康學院",
+    "dept": "健康美容系",
+    "teacher": "陳中一",
+    "empId": "T0000054317",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Metabolites from Alpinia zerumbet with anti-dengue virus activity.",
+    "code": "Chem. Nat. Compd.",
+    "accCode": "PUB-JRN-2023-2528",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Chem. Nat. Compd., 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康美容系"
+    ],
+    "id": "REC-111-359"
+  },
+  {
+    "year": "111",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "顏秀珍",
+    "empId": "T0000089142",
+    "adminRole": "實習指導教師",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Mining Sequential Patterns in a Data Stream",
+    "code": "Journal of E-Business (JEB)",
+    "accCode": "PUB-JRN-2023-2177",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Journal of E-Business (JEB), 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-111-360"
+  },
+  {
+    "year": "111",
+    "college": "環境與生命學院",
+    "dept": "環境工程與科學系",
+    "teacher": "賴進興",
+    "empId": "T0000038591",
+    "adminRole": "教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "SCIE 國際期刊",
+    "title": "Modelling chloroform in indoor swimming pool air and water: the influences of internal air circulation and occupants",
+    "code": "Environmental Science and Pollution Research",
+    "accCode": "PUB-JRN-2023-1729",
+    "disbursementRate": 100,
+    "amount": 2,
+    "metricNote": "SCIE 國際期刊 收錄 (刊物: Environmental Science and Pollution Research, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "環境工程與科學系"
+    ],
+    "id": "REC-111-361"
+  },
+  {
+    "year": "111",
+    "college": "環境與生命學院",
+    "dept": "職業安全衛生系",
+    "teacher": "鄭立新",
+    "empId": "T0000017031",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "SCIE 國際期刊",
+    "title": "Modelling chloroform in indoor swimming-pool air and water: The influences of internal air circulation and occupants",
+    "code": "Environmental Science and Pollution Research",
+    "accCode": "PUB-JRN-2023-1880",
+    "disbursementRate": 100,
+    "amount": 2,
+    "metricNote": "SCIE 國際期刊 收錄 (刊物: Environmental Science and Pollution Research, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "職業安全衛生系"
+    ],
+    "id": "REC-111-362"
+  },
+  {
+    "year": "111",
+    "college": "護理學院",
+    "dept": "健康事業管理系",
+    "teacher": "黃傑康",
+    "empId": "T0000119634",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "Moderating Effect of Family Function in the Relationship between Resilience and Perceived Stress among Students in Junior Colleges",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2022-1311",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康事業管理系"
+    ],
+    "id": "REC-111-363"
+  },
+  {
+    "year": "111",
+    "college": "醫學與健康學院",
+    "dept": "醫學檢驗生物技術系",
+    "teacher": "羅宏仁",
+    "empId": "T0000061310",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "Modulatory effect of polysaccharide extracts from Inonotus spp. on Caenorhabditis elegans post-bacterial infection",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2022-0878",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "醫學檢驗生物技術系"
+    ],
+    "id": "REC-111-364"
+  },
+  {
+    "year": "111",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "顧雅利",
+    "empId": "T0000077888",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "Narrating Life Stories of Male Elders in the Military Villages",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2022-0605",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-111-365"
+  },
+  {
+    "year": "111",
+    "college": "醫學與健康學院",
+    "dept": "健康美容系",
+    "teacher": "陳中一",
+    "empId": "T0000054317",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Natural product from the culture broth of actinobacteria Actinomadura miaoliensis.",
+    "code": "Chem. Nat. Compd.",
+    "accCode": "PUB-JRN-2023-2529",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Chem. Nat. Compd., 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康美容系"
+    ],
+    "id": "REC-111-366"
+  },
+  {
+    "year": "111",
+    "college": "護理學院",
+    "dept": "高齡及長期照護事業系",
+    "teacher": "林欣妤",
+    "empId": "T0000087685",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "New insights for obstructive sleep apnea with upper airway muscle dysfunction: A narrative review",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2022-2016",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "高齡及長期照護事業系"
+    ],
+    "id": "REC-111-367"
+  },
+  {
+    "year": "111",
+    "college": "醫學與健康學院",
+    "dept": "健康美容系",
+    "teacher": "陳中一",
+    "empId": "T0000054317",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "New metabolite from Cinnamomum tenuifolium.",
+    "code": "Chem. Nat. Compd.",
+    "accCode": "PUB-JRN-2023-2530",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Chem. Nat. Compd., 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康美容系"
+    ],
+    "id": "REC-111-368"
+  },
+  {
+    "year": "111",
+    "college": "醫學與健康學院",
+    "dept": "保健營養系",
+    "teacher": "蔡蕙芸",
+    "empId": "T0000098101",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "Nobiletin derivative, 5-acetoxy-6,7,8,3',4'-\r\npentamethoxyflavone improves cognitive impairment in a methylglyoxalinduced Alzheimer-like mouse model",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2023-1017",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "保健營養系"
+    ],
+    "id": "REC-111-369"
+  },
+  {
+    "year": "111",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "陳舜華",
+    "empId": "T0000003564",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Palbociclib blocks neutrophilic PI3K activity to alleviate psoriasiform dermatitis",
+    "code": "British Journal of Pharmacology",
+    "accCode": "PUB-JRN-2023-2306",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: British Journal of Pharmacology, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-111-370"
+  },
+  {
+    "year": "111",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "江季蓁",
+    "empId": "T0000066846",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第一作者兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "Perceived and objective neighborhood environments associate with physical activity among adults: A cross-sectional survey of four cities in Taiwan.",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2023-0470",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-111-371"
+  },
+  {
+    "year": "111",
+    "college": "醫學與健康學院",
+    "dept": "健康美容系",
+    "teacher": "陳中一",
+    "empId": "T0000054317",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Plumbagin induces the apoptosis of drug-resistant oral cancer cell in vitro and in vivo through ROS-mediated endoplasmic reticulum stress and mitochondrial dysfunction",
+    "code": "Phytomedicine",
+    "accCode": "PUB-JRN-2023-2531",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Phytomedicine, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康美容系"
+    ],
+    "id": "REC-111-372"
+  },
+  {
+    "year": "111",
+    "college": "人文與管理學院",
+    "dept": "休閒與遊憩事業管理系",
+    "teacher": "林澤民",
+    "empId": "T0000089887",
+    "adminRole": "教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Post-Materialism and Political Grievances: Implications for Protest Participation in Hong Kong",
+    "code": "Journal of Asian and African Studies",
+    "accCode": "PUB-JRN-2023-0788",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Journal of Asian and African Studies, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "休閒與遊憩事業管理系"
+    ],
+    "id": "REC-111-373"
+  },
+  {
+    "year": "111",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "唐佩玲",
+    "empId": "T0000029023",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "Predicting mortality within 180 days postoperatively for dementia patients after hip fracture surgery based on analysis by machine learning.",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2023-0320",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-111-374"
+  },
+  {
+    "year": "111",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "洪瑄曼",
+    "empId": "T0000005248",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第一作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Prediction of Uric Acid on Renal Function among Adolescents:\r\nA Ten-Year Analysis",
+    "code": "European Modern Studies Journal",
+    "accCode": "PUB-JRN-2023-2330",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: European Modern Studies Journal, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-111-375"
+  },
+  {
+    "year": "111",
+    "college": "醫學與健康學院",
+    "dept": "保健營養系",
+    "teacher": "蔡蕙芸",
+    "empId": "T0000098101",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "SCIE 國際期刊",
+    "title": "Protective Effect of Ethanolic Extract of Djulis Hull on Indomethacin-Induced Gastric Injury",
+    "code": "Applied Sciences",
+    "accCode": "PUB-JRN-2023-1401",
+    "disbursementRate": 100,
+    "amount": 2,
+    "metricNote": "SCIE 國際期刊 收錄 (刊物: Applied Sciences, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "保健營養系"
+    ],
+    "id": "REC-111-376"
+  },
+  {
+    "year": "111",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "唐佩玲",
+    "empId": "T0000029023",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "Risk factors for Length of Stay in the Post- Anesthesia Care Unit",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2022-0324",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-111-377"
+  },
+  {
+    "year": "111",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "邱宜令",
+    "empId": "T0000072457",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "Risk Factors for Women with Gestational Diabetes Mellitus Developing Type 2 Diabetes",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2023-0776",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-111-378"
+  },
+  {
+    "year": "111",
+    "college": "醫學與健康學院",
+    "dept": "健康美容系",
+    "teacher": "陳中一",
+    "empId": "T0000054317",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Secondary metabolites from the endophytic fungus Nigrospora sp., from the medicinal plant Sacciolepis indica.",
+    "code": "Chem. Nat. Compd.",
+    "accCode": "PUB-JRN-2023-2532",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Chem. Nat. Compd., 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康美容系"
+    ],
+    "id": "REC-111-379"
+  },
+  {
+    "year": "111",
+    "college": "醫學與健康學院",
+    "dept": "健康美容系",
+    "teacher": "陳中一",
+    "empId": "T0000054317",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Secondary metabolites of Coleus amboinicus.",
+    "code": "Chem. Nat. Compd.",
+    "accCode": "PUB-JRN-2023-2533",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Chem. Nat. Compd., 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康美容系"
+    ],
+    "id": "REC-111-380"
+  },
+  {
+    "year": "111",
+    "college": "醫學與健康學院",
+    "dept": "健康美容系",
+    "teacher": "陳中一",
+    "empId": "T0000054317",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Secondary metabolites of fruits of Michelia compressa var. compressa.",
+    "code": "Chem. Nat. Compd.",
+    "accCode": "PUB-JRN-2023-2534",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Chem. Nat. Compd., 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康美容系"
+    ],
+    "id": "REC-111-381"
+  },
+  {
+    "year": "111",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "楊君菁",
+    "empId": "T0000084253",
+    "adminRole": "實習指導教師",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Sex differences between urinary phthalate metabolites and metabolic syndrome in adults: A cross-sectional Taiwan Biobank Study.",
+    "code": "International journal of environmental research and public health",
+    "accCode": "PUB-JRN-2022-0231",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: International journal of environmental research and public health, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-111-382"
+  },
+  {
+    "year": "111",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "楊君菁",
+    "empId": "T0000084253",
+    "adminRole": "實習指導教師",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "SCIE 國際期刊",
+    "title": "Sexual harassment prevention program for Indonesian nursing aides: a mixed methods study.",
+    "code": "International Journal of Public Health Science (IJPHS)",
+    "accCode": "PUB-JRN-2022-0230",
+    "disbursementRate": 100,
+    "amount": 2,
+    "metricNote": "SCIE 國際期刊 收錄 (刊物: International Journal of Public Health Science (IJPHS), 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-111-383"
+  },
+  {
+    "year": "111",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "楊君菁",
+    "empId": "T0000084253",
+    "adminRole": "實習指導教師",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Sexual harassment prevention program for Indonesian nursing aides: a mixed-methods study.",
+    "code": "International Journal of Public Health",
+    "accCode": "PUB-JRN-2023-0223",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: International Journal of Public Health, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-111-384"
+  },
+  {
+    "year": "111",
+    "college": "醫學與健康學院",
+    "dept": "健康美容系",
+    "teacher": "陳中一",
+    "empId": "T0000054317",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Sinularin exerts anti-cancer effects by inducing oxidative stress-mediated ferroptosis, apoptosis, and autophagy in prostate cancer cells",
+    "code": "Anti-Cancer Agents Med. Chem.",
+    "accCode": "PUB-JRN-2023-2535",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Anti-Cancer Agents Med. Chem., 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康美容系"
+    ],
+    "id": "REC-111-385"
+  },
+  {
+    "year": "111",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "蔡家梅",
+    "empId": "T0000095912",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Socially    Assistive Robots for People Living with Dementia in Long-Term Facilities: A Systematic Review and Meta-Analysis of Randomized Controlled Trials.",
+    "code": "Gerontology",
+    "accCode": "PUB-JRN-2023-0873",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Gerontology, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-111-386"
+  },
+  {
+    "year": "111",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "楊君菁",
+    "empId": "T0000084253",
+    "adminRole": "實習指導教師",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Socially assistive robots for people living with dementia in long-term facilities: A systematic review and meta-analysis of randomized controlled trials",
+    "code": "Gerontology",
+    "accCode": "PUB-JRN-2023-0221",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Gerontology, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-111-387"
+  },
+  {
+    "year": "111",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "顧雅利",
+    "empId": "T0000077888",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "Stages, Gender, and Risk Factors of Chronic Kidney Disease Patients in the OPD of One Southern Hospital",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2022-0597",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-111-388"
+  },
+  {
+    "year": "111",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "楊君菁",
+    "empId": "T0000084253",
+    "adminRole": "實習指導教師",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Study on Home-Based Direct Care Workers' Coping Responses to Workplace Sexual Harassment and Their Satisfaction with Long-Term Care Preventive Strategies.",
+    "code": "International Journal of Studies in Nursing",
+    "accCode": "PUB-JRN-2023-0224",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: International Journal of Studies in Nursing, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-111-389"
   },
   {
     "year": "111",
@@ -21817,7 +46179,1091 @@ var DATASET_111_115 = [
       "永續觀光休閒",
       "休閒與遊憩事業管理系"
     ],
-    "id": "REC-111-197"
+    "id": "REC-111-390"
+  },
+  {
+    "year": "111",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "顧雅利",
+    "empId": "T0000077888",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "Systematic Review of Evidences- based Literature of Elderly Delirium Care from 2020 to 2022",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2022-0598",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-111-391"
+  },
+  {
+    "year": "111",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "張怡娟",
+    "empId": "T0000009100",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第一作者兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "Teaching Achievements of Critical Thinking in Nursing Practice Courses.",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2022-0287",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-111-392"
+  },
+  {
+    "year": "111",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "唐佩玲",
+    "empId": "T0000029023",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "The Association Between Body Constitution and osteoporosis Among Women in Taiwan-machine learning approaches.",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2023-0321",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-111-393"
+  },
+  {
+    "year": "111",
+    "college": "護理學院",
+    "dept": "健康事業管理系",
+    "teacher": "羅家倫",
+    "empId": "T0000060871",
+    "adminRole": "國際事務長（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第一作者兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "The attitudes toward artificial intelligent applications: an investigation based on the innovation resistant theory",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2023-1149",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康事業管理系"
+    ],
+    "id": "REC-111-394"
+  },
+  {
+    "year": "111",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "陳淑銘",
+    "empId": "T0000000530",
+    "adminRole": "教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "The Concept Analysis of Post-Stroke Depression",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2022-0173",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-111-395"
+  },
+  {
+    "year": "111",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "顧雅利",
+    "empId": "T0000077888",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "The Content Validity of 3D Transferred into 2D Assessment Scale of Older Adults in a Senior Citizens’ Home of Southern Taiwan",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2022-0599",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-111-396"
+  },
+  {
+    "year": "111",
+    "college": "護理學院",
+    "dept": "高齡及長期照護事業系",
+    "teacher": "楊月頴",
+    "empId": "T0000097047",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "The development of need-driven care and management WANT model for BPSD- A modified Delphi study",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2023-2035",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "高齡及長期照護事業系"
+    ],
+    "id": "REC-111-397"
+  },
+  {
+    "year": "111",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "唐佩玲",
+    "empId": "T0000029023",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "The Effect of Applying Clinical Pathways on Medical Resource Utilization among Patients Undergoing a Thyroidectomy",
+    "code": "NTU Management Review",
+    "accCode": "PUB-JRN-2023-0475",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: NTU Management Review, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-111-398"
+  },
+  {
+    "year": "111",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "王惠玲",
+    "empId": "T0000056265",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "The effect of board game on health literacy of dementia in community elder.",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2022-0389",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-111-399"
+  },
+  {
+    "year": "111",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "楊君菁",
+    "empId": "T0000084253",
+    "adminRole": "實習指導教師",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "The effect of research on life satisfaction in middle-aged and older adults: physical disability and physical activity as a parallel and serial mediation analysis.",
+    "code": "BMC geriatrics",
+    "accCode": "PUB-JRN-2023-0220",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: BMC geriatrics, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-111-400"
+  },
+  {
+    "year": "111",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "方莉",
+    "empId": "T0000062021",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "The effect of workplace bullying and self-efficacy on emotional distress among hospital nurses.",
+    "code": "International Journal of Nursing Practice",
+    "accCode": "PUB-JRN-2023-0562",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: International Journal of Nursing Practice, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-111-401"
+  },
+  {
+    "year": "111",
+    "college": "護理學院",
+    "dept": "高齡及長期照護事業系",
+    "teacher": "楊月頴",
+    "empId": "T0000097047",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "The effectiveness of foot care for the old people in the community",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2023-2036",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "高齡及長期照護事業系"
+    ],
+    "id": "REC-111-402"
+  },
+  {
+    "year": "111",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "葉蕙芳",
+    "empId": "T0000055001",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第一作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "The Establishment of a Virtual Patient-based Nationwide Contest on Clinical Reasoning.",
+    "code": "Journal of Medical Education",
+    "accCode": "PUB-JRN-2022-0530",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Journal of Medical Education, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-111-403"
+  },
+  {
+    "year": "111",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "顏秀珍",
+    "empId": "T0000089142",
+    "adminRole": "實習指導教師",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "The Impact of Ethical Leadership on Financial Performance: The Mediating Role of Environmentally Proactive Strategy and the Moderating Role of Institutional Pressure",
+    "code": "Sustainability",
+    "accCode": "PUB-JRN-2023-2176",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Sustainability, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-111-404"
+  },
+  {
+    "year": "111",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "邱宜令",
+    "empId": "T0000072457",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第一作者兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "The Impact of Gestational Diabetes Mellitus on Pregnancy Outcomes",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2023-0777",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-111-405"
+  },
+  {
+    "year": "111",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "邱宜令",
+    "empId": "T0000072457",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "The Impact of Perinatal Factors in Pregnant Women with Hyperglycemia on Neonatal Comorbidities",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2022-0779",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-111-406"
+  },
+  {
+    "year": "111",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "顧雅利",
+    "empId": "T0000077888",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "The Innovative Light Therapy Mask of Elderly Delirium Care",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2022-0600",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-111-407"
+  },
+  {
+    "year": "111",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "陳淑銘",
+    "empId": "T0000000530",
+    "adminRole": "教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "The Innovative Restraint Gloves of Delirium Patients",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2022-0174",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-111-408"
+  },
+  {
+    "year": "111",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "顧雅利",
+    "empId": "T0000077888",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "The Innovative Restraint Gloves of Delirium Patients’ Care",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2022-0601",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-111-409"
+  },
+  {
+    "year": "111",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "鍾淑瑜",
+    "empId": "T0000038204",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "The Kidney Transplant Self-Management Scale: Instrument Development and Psychometric Testing",
+    "code": "Western Journal of Nursing Research",
+    "accCode": "PUB-JRN-2023-0523",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Western Journal of Nursing Research, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-111-410"
+  },
+  {
+    "year": "111",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "顏秀珍",
+    "empId": "T0000089142",
+    "adminRole": "實習指導教師",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "The Maintenance of Frequent Episodes",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2022-1694",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-111-411"
+  },
+  {
+    "year": "111",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "陳淑銘",
+    "empId": "T0000000530",
+    "adminRole": "教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "The mobile applications effect on blood glucose and self-efficacy in older people with type 2 diabetes: A systematic review.",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2022-0179",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-111-412"
+  },
+  {
+    "year": "111",
+    "college": "護理學院",
+    "dept": "健康事業管理系",
+    "teacher": "羅家倫",
+    "empId": "T0000060871",
+    "adminRole": "國際事務長（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "SSCI 國際期刊",
+    "title": "The Moderation Role of AI-Enabled Service Quality on the Attitude toward Fitness Apps",
+    "code": "Journal of Global Information Management(SSCI",
+    "accCode": "PUB-JRN-2023-1616",
+    "disbursementRate": 100,
+    "amount": 2,
+    "metricNote": "SSCI 國際期刊 收錄 (刊物: Journal of Global Information Management(SSCI, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "AI智慧應用",
+      "數位轉型",
+      "健康事業管理系"
+    ],
+    "id": "REC-111-413"
+  },
+  {
+    "year": "111",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "楊君菁",
+    "empId": "T0000084253",
+    "adminRole": "實習指導教師",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "The Parallel Mediation Effects of Depression, Well-Being, and Social Activity on Physical Performance and Frailty in Community-Dwelling Middle-Aged and Older People.",
+    "code": "Current Gerontology and Geriatrics Research",
+    "accCode": "PUB-JRN-2022-0228",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Current Gerontology and Geriatrics Research, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-111-414"
+  },
+  {
+    "year": "111",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "黃世惠",
+    "empId": "T0000079299",
+    "adminRole": "教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "The Potential Biomarker of Di(2-ethylhexyl)\r\nPhthalate Exposure during Catheterization",
+    "code": "中華民國心臟學會Acta Cardiologica Sinica",
+    "accCode": "PUB-JRN-2022-0742",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: 中華民國心臟學會Acta Cardiologica Sinica, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-111-415"
+  },
+  {
+    "year": "111",
+    "college": "醫學與健康學院",
+    "dept": "健康美容系",
+    "teacher": "陳中一",
+    "empId": "T0000054317",
+    "adminRole": "系主任（依評鑑辦法第7條得僅評教學基本指標）",
+    "isArticle7Exempt": true,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "The protection and antioxidant mechanisms of corticosteroids in LPS-treated retinal pigment epithelial cells",
+    "code": "Chem. Pharm. Res.",
+    "accCode": "PUB-JRN-2023-2536",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Chem. Pharm. Res., 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "健康美容系"
+    ],
+    "id": "REC-111-416"
+  },
+  {
+    "year": "111",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "黃芷苓",
+    "empId": "T0000093504",
+    "adminRole": "教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "The relationship of COVID-19 knowledge, health literacy, and infection control behaviors among hospital healthcare workers",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2022-0689",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-111-417"
+  },
+  {
+    "year": "111",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "江季蓁",
+    "empId": "T0000066846",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第一作者兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "The Relationship of Knowledge, Health Literacy, and Infection Control Behavior on COVID-19 among Hospital Healthcare Workers.",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2022-0472",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-111-418"
+  },
+  {
+    "year": "111",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "顏秀珍",
+    "empId": "T0000089142",
+    "adminRole": "實習指導教師",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "The Study on Improving Association-Based Classification Algorithms",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2023-1693",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-111-419"
+  },
+  {
+    "year": "111",
+    "college": "環境與生命學院",
+    "dept": "職業安全衛生系",
+    "teacher": "鄭立新",
+    "empId": "T0000017031",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "The study on influencing factors of airflow in laboratory fume hood",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2023-1509",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "職業安全衛生系"
+    ],
+    "id": "REC-111-420"
+  },
+  {
+    "year": "111",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "邱宜令",
+    "empId": "T0000072457",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "To explore the effectiveness of using the postpartum health education pocketbook in clinical internship care learning",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2023-0778",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-111-421"
+  },
+  {
+    "year": "111",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "陳淑銘",
+    "empId": "T0000000530",
+    "adminRole": "教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "To explore the relationship of knowledge and attitudes of Patient Autonomy Act and intention to sign advance decision in healthcare professionals",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2022-0175",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-111-422"
+  },
+  {
+    "year": "111",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "顧雅利",
+    "empId": "T0000077888",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "Two Innovative Urine Catheter Fixation Devices with Clinical Evidences",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2022-0603",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-111-423"
+  },
+  {
+    "year": "111",
+    "college": "環境與生命學院",
+    "dept": "環境工程與科學系",
+    "teacher": "賴進興",
+    "empId": "T0000038591",
+    "adminRole": "教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第一作者兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "UAV 搭載數位相機運用於掩埋場剩餘容積之估算",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2022-1340",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "AI智慧應用",
+      "數位轉型",
+      "環境工程與科學系"
+    ],
+    "id": "REC-111-424"
+  },
+  {
+    "year": "111",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "楊君菁",
+    "empId": "T0000084253",
+    "adminRole": "實習指導教師",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "Virtual reality program to support formal caregivers empathize BPSD for community-dwelling older adults with mild and moderate dementia.",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2023-0083",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-111-425"
+  },
+  {
+    "year": "111",
+    "college": "環境與生命學院",
+    "dept": "職業安全衛生系",
+    "teacher": "陳毅謙",
+    "empId": "T0000057449",
+    "adminRole": "助理教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Volatile Organic Compound Emissions from Indoor Fragrance Diffusers",
+    "code": "Atmosphere",
+    "accCode": "PUB-JRN-2023-1897",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Atmosphere, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "職業安全衛生系"
+    ],
+    "id": "REC-111-426"
+  },
+  {
+    "year": "111",
+    "college": "護理學院",
+    "dept": "助產與婦嬰健康照護系",
+    "teacher": "郭心怡",
+    "empId": "T0000005425",
+    "adminRole": "講師",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "Wave motion of magneto-electro-elastic laminated plates with membrane-type interfacial imperfections",
+    "code": "Composite Structures",
+    "accCode": "PUB-JRN-2022-0373",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Composite Structures, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "助產與婦嬰健康照護系"
+    ],
+    "id": "REC-111-427"
+  },
+  {
+    "year": "111",
+    "college": "人文與管理學院",
+    "dept": "休閒與遊憩事業管理系",
+    "teacher": "林澤民",
+    "empId": "T0000089887",
+    "adminRole": "教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上 (20%)",
+    "weightRatio": 0.2,
+    "category": "論文",
+    "subType": "學術期刊論文",
+    "title": "When Independence Meets Reality: Symbolic and Pragmatic Politics in Taiwan",
+    "code": "Journal of Contemporary China",
+    "accCode": "PUB-JRN-2023-0787",
+    "disbursementRate": 100,
+    "amount": 1.2,
+    "metricNote": "學術期刊論文 收錄 (刊物: Journal of Contemporary China, 審稿: 是, 出版國: NATTWN)",
+    "source": "TEACHER-WRITTING (表1-9 期刊論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "休閒與遊憩事業管理系"
+    ],
+    "id": "REC-111-428"
+  },
+  {
+    "year": "111",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "唐佩玲",
+    "empId": "T0000029023",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "Zentangle Art medical education to improves workplace health promotion",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2022-0326",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-111-429"
+  },
+  {
+    "year": "111",
+    "college": "護理學院",
+    "dept": "護理系",
+    "teacher": "唐佩玲",
+    "empId": "T0000029023",
+    "adminRole": "副教授",
+    "isArticle7Exempt": false,
+    "authorOrder": "第四作者及以上兼通訊作者 (100%)",
+    "weightRatio": 1,
+    "category": "論文",
+    "subType": "國內研討會論文",
+    "title": "Zentangle Art Workshop to Enhance Workplace Spirituality: Evaluation of Novice-Nurse Training Practices",
+    "code": " (台北, NATTWN)",
+    "accCode": "PUB-CONF-2022-0325",
+    "disbursementRate": 100,
+    "amount": 0.5,
+    "metricNote": "國內研討會論文 (發表於 , 審稿制度: 是)",
+    "source": "TEACHER-WRITTING (表1-10 研討會論文)",
+    "sourceUrl": "https://github.com/laisiff-dev/TEACHER-WRITTING",
+    "group": "研發創新組",
+    "status": "已發表歸檔",
+    "keywords": [
+      "護理系"
+    ],
+    "id": "REC-111-430"
   }
 ];
 

@@ -587,13 +587,14 @@
   <div class="top-bundle-bar no-print">
     <div>
       <span class="bundle-tag">整合系統總檔</span>
-      <span>內建 <strong>輔英 4 院 16 系所組織主檔、雲端硬碟「110-115研發計畫.專利」即時串接主檔 (共 909 筆完整實時清洗主檔)、7 大類人選演算法、獎金/評鑑核算公式、跨處室 SSO/會計/部會介接與 GitHub Actions 自動部署</strong></span>
+      <span>內建 <strong>輔英 4 院 16 系所組織主檔、雲端硬碟「110-115研發計畫.專利」即時串接主檔 (共 2,076 筆實時整合主檔)、個人 GitHub「TEACHER-WRITTING」論文庫 (5,258 筆歷年學術期刊/研討會/專書)、7 大類人選演算法、獎金/評鑑核算公式、跨處室 SSO/會計/部會介接與 GitHub Actions 自動部署</strong></span>
     </div>
     <div style="display:flex; gap:8px; flex-wrap:wrap;">
       <button class="btn btn-sm btn-accent" onclick="downloadFile('docs/SYSTEM_SPECIFICATION.md', 'SYSTEM_SPECIFICATION.md')">⬇ 系統規格書</button>
       <button class="btn btn-sm btn-secondary" onclick="downloadFile('data/fooyin_org_master.json', 'fooyin_org_master.json')">⬇ 4院16系所主檔</button>
-      <button class="btn btn-sm btn-primary" onclick="downloadFile('data/dataset_110_115.json', 'dataset_110_115.json')">⬇ 110-115完整JSON</button>
-      <button class="btn btn-sm btn-outline" onclick="switchTab('ingestion', document.querySelectorAll('.nav-tab')[4])" style="background:#0d9488; color:#fff; border-color:#0d9488;">☁️ 雲端硬碟讀取中心</button>
+      <button class="btn btn-sm btn-primary" onclick="downloadFile('data/dataset_110_115.json', 'dataset_110_115.json')">⬇ 110-115完整JSON (2,076筆)</button>
+      <button class="btn btn-sm" onclick="openTeacherWrittingModal()" style="background:#6d28d9; color:#fff; border-color:#6d28d9; font-weight:700;">📚 GitHub 論文庫 (5,258 筆)</button>
+      <button class="btn btn-sm btn-outline" onclick="switchTab('ingestion', document.querySelectorAll('.nav-tab')[4])" style="background:#0d9488; color:#fff; border-color:#0d9488;">☁️ 雲端與 GitHub 匯入中心</button>
       <button class="btn btn-sm btn-outline" onclick="downloadFile('.github/workflows/deploy.yml', 'deploy.yml')">⬇ GitHub Actions YAML</button>
     </div>
   </div>
@@ -649,6 +650,7 @@
         <span>研發處專屬多維度複合篩選器（年度 110–115、4 院 16 系所、細部類型即時連動全系統）</span>
       </div>
       <div class="filter-actions">
+        <button class="btn btn-sm" onclick="openTeacherWrittingModal()" style="background:#6d28d9; color:#fff; border-color:#6d28d9; font-weight:600;">📚 GitHub 論文庫 (5,258筆)</button>
         <button class="btn btn-outline btn-sm" onclick="resetFilters()">重置全部條件</button>
         <button class="btn btn-primary btn-sm" onclick="exportFilteredCSV()">匯出目前篩選清冊 (.csv)</button>
         <button class="btn btn-secondary btn-sm" onclick="window.print()">列印 / 轉存 PDF 報表</button>
@@ -1231,6 +1233,38 @@
             <button type="submit" class="btn btn-primary btn-sm" style="width:100%; margin-top:10px;">送出登錄至研發處審核庫</button>
           </form>
         </div>
+
+        <div class="channel-box" style="border: 2px solid #8b5cf6; background: #faf5ff;">
+          <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:6px;">
+            <h4 style="color:#6d28d9; margin-bottom:0;">管道 4：個人 GitHub 倉庫成果檢索與匯入</h4>
+            <span class="badge" style="background:#8b5cf6; color:#fff; font-size:11px;">TEACHER-WRITTING</span>
+          </div>
+          <p style="font-size:12px; color:#5b21b6; margin-bottom:8px;">
+            自個人 GitHub 倉庫 (<code>git@github.com:laisiff-dev/TEACHER-WRITTING.git</code>) 檢索與匯入教育部技專校院校務基本資料庫歷年發表，全校共 <strong>5,258 筆</strong> (期刊 3,056、研討會 2,193、專書 9、國科會 824)，已對應全校 676 位專兼任教師！
+          </p>
+          <div style="background:#fff; border:1px solid #ddd6fe; border-radius:8px; padding:10px; margin-bottom:10px; font-size:12px; color:#4c1d95; line-height:1.6;">
+            <strong>收錄分類指標：</strong><br/>
+            • 期刊論文：SCI/SCIE (1,514)、EI (282)、SSCI (160)、TSSCI (90)<br/>
+            • 研討會論文：國際研討會 (1,180)、國內研討會 (1,013)<br/>
+            • 110–115 學年度精選成果：<strong>1,009 筆</strong> 整合主檔
+          </div>
+          <div style="display:flex; flex-direction:column; gap:8px;">
+            <button class="btn btn-primary btn-sm" onclick="openTeacherWrittingModal()" style="background:#6d28d9; border-color:#6d28d9; font-weight:700; padding:8px 12px; width:100%; font-size:13px;">
+              🔍 開啟 5,258 筆論文多維度檢索與比對視窗 (LOOK 及匯入)
+            </button>
+            <div style="display:flex; gap:8px;">
+              <button class="btn btn-outline btn-sm" onclick="importTeacherWrittingDataset(true)" style="flex:1; border-color:#8b5cf6; color:#6d28d9; font-weight:600;" title="一鍵同步 110–115 學年度 1,009 筆至目前工作台">
+                ⚡ 同步 110–115 (1,009筆)
+              </button>
+              <button class="btn btn-outline btn-sm" onclick="downloadFile('data/teacher_publications_all.json', 'teacher_publications_all.json')" style="flex:1;">
+                ⬇ 完整 JSON 總檔
+              </button>
+            </div>
+            <a href="https://github.com/laisiff-dev/TEACHER-WRITTING" target="_blank" style="font-size:11.5px; color:#6d28d9; text-align:center; text-decoration:underline;">
+              🔗 瀏覽個人 GitHub 原始倉庫 (TEACHER-WRITTING)
+            </a>
+          </div>
+        </div>
       </div>
     </div>
 
@@ -1382,8 +1416,176 @@
       </div>
 
       <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px;">
-        <button class="btn btn-outline btn-sm" onclick="loadDefaultCloudDriveDataset(); closeCloudHelpModal();">⚡ 載入預設 110–115 雲端主檔備援 (909筆)</button>
+        <button class="btn btn-outline btn-sm" onclick="loadDefaultCloudDriveDataset(); closeCloudHelpModal();">⚡ 載入預設 110–115 雲端主檔備援 (2,076筆)</button>
         <button class="btn btn-secondary btn-sm" onclick="closeCloudHelpModal()">關閉</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal: 個人 GitHub 倉庫 (TEACHER-WRITTING) 教師歷年期刊與研討會論文檢索庫 (5,258 筆) -->
+  <div id="teacherWrittingModal" style="display:none; position:fixed; inset:0; background:rgba(15,23,42,0.65); z-index:9999; align-items:center; justify-content:center; backdrop-filter:blur(4px); padding:16px;">
+    <div style="background:#fff; border-radius:12px; max-width:1300px; width:100%; max-height:92vh; display:flex; flex-direction:column; box-shadow:0 25px 50px -12px rgba(0,0,0,0.3); border:1px solid #cbd5e1; overflow:hidden;">
+      
+      <!-- Modal Header -->
+      <div style="padding:16px 22px; background:linear-gradient(135deg, #4c1d95, #6d28d9 60%, #0f4c81); color:#fff; display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:10px;">
+        <div style="display:flex; align-items:center; gap:12px;">
+          <span style="font-size:26px;">📚</span>
+          <div>
+            <div style="display:flex; align-items:center; gap:8px;">
+              <strong style="font-size:17px; letter-spacing:0.3px;">教師歷年期刊與研討會論文智慧檢索庫 (GitHub: laisiff-dev/TEACHER-WRITTING)</strong>
+              <span class="badge" style="background:rgba(255,255,255,0.22); color:#fff; border:1px solid rgba(255,255,255,0.4); font-size:11px;">教育部 TVEDB 官方表冊全量收錄</span>
+            </div>
+            <div style="font-size:12px; opacity:0.92; margin-top:3px;">
+              自 <code>git@github.com:laisiff-dev/TEACHER-WRITTING.git</code> 匯入：期刊論文 3,056 篇、研討會論文 2,193 篇、專書 9 本，已 100% 完整對應 676 位專兼任教師
+            </div>
+          </div>
+        </div>
+        <div style="display:flex; align-items:center; gap:10px;">
+          <a href="https://github.com/laisiff-dev/TEACHER-WRITTING" target="_blank" class="btn btn-sm btn-outline" style="background:rgba(255,255,255,0.15); border-color:rgba(255,255,255,0.4); color:#fff; text-decoration:none;">
+            🔗 原始 GitHub 倉庫
+          </a>
+          <button onclick="closeTeacherWrittingModal()" style="background:none; border:none; color:#fff; font-size:22px; cursor:pointer; padding:2px 8px; line-height:1;">✕</button>
+        </div>
+      </div>
+
+      <!-- Stats Summary Banner -->
+      <div style="background:#f5f3ff; border-bottom:1px solid #ddd6fe; padding:10px 22px; display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:10px; font-size:12.5px;">
+        <div style="display:flex; gap:12px; flex-wrap:wrap; align-items:center;">
+          <span style="font-weight:700; color:#5b21b6;">📊 論文庫總量：</span>
+          <span class="badge" style="background:#ddd6fe; color:#4c1d95;">全量 5,258 筆</span>
+          <span class="badge" style="background:#e0f2fe; color:#0369a1;">期刊論文 3,056 篇 (SCI 1,514 / EI 282 / SSCI 160 / TSSCI 90)</span>
+          <span class="badge" style="background:#dcfce7; color:#15803d;">研討會論文 2,193 篇 (國際 1,180 / 國內 1,013)</span>
+          <span class="badge" style="background:#fef3c7; color:#b45309;">專書 9 本</span>
+        </div>
+        <div style="font-size:12.5px; color:#5b21b6;">
+          目前篩選符合：<strong id="twFilteredCountBadge" style="color:#6d28d9; font-size:14px;">5,258</strong> 筆
+        </div>
+      </div>
+
+      <!-- Filter Controls -->
+      <div style="padding:14px 22px; background:#fafafa; border-bottom:1px solid var(--border);">
+        <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap:10px;">
+          <div>
+            <label style="display:block; font-size:11.5px; font-weight:700; color:var(--text-muted); margin-bottom:3px;">關鍵字 (篇名/刊物/研討會/案號)</label>
+            <input type="text" id="twKeywordFilter" placeholder="搜尋篇名、刊物、ISSN..." oninput="filterTeacherWritting()" style="width:100%; padding:6px 10px; border:1px solid var(--border); border-radius:6px; font-size:12.5px;" />
+          </div>
+          <div>
+            <label style="display:block; font-size:11.5px; font-weight:700; color:var(--text-muted); margin-bottom:3px;">教師姓名 (676 位專兼任名冊)</label>
+            <input type="text" id="twTeacherFilter" placeholder="例如：賴文亮、蘇嘉宏..." oninput="filterTeacherWritting()" style="width:100%; padding:6px 10px; border:1px solid var(--border); border-radius:6px; font-size:12.5px;" />
+          </div>
+          <div>
+            <label style="display:block; font-size:11.5px; font-weight:700; color:var(--text-muted); margin-bottom:3px;">學院 (College)</label>
+            <select id="twCollegeFilter" onchange="filterTeacherWritting()" style="width:100%; padding:6px 8px; border:1px solid var(--border); border-radius:6px; font-size:12.5px;">
+              <option value="ALL">全部學院 (4 大學院)</option>
+              <option value="護理學院">護理學院</option>
+              <option value="醫學與健康學院">醫學與健康學院</option>
+              <option value="環境與生命學院">環境與生命學院</option>
+              <option value="人文與管理學院">人文與管理學院</option>
+            </select>
+          </div>
+          <div>
+            <label style="display:block; font-size:11.5px; font-weight:700; color:var(--text-muted); margin-bottom:3px;">系所 (Department)</label>
+            <select id="twDeptFilter" onchange="filterTeacherWritting()" style="width:100%; padding:6px 8px; border:1px solid var(--border); border-radius:6px; font-size:12.5px;">
+              <option value="ALL">全部系所 (16 系所)</option>
+            </select>
+          </div>
+          <div>
+            <label style="display:block; font-size:11.5px; font-weight:700; color:var(--text-muted); margin-bottom:3px;">成果/索引類型</label>
+            <select id="twTypeFilter" onchange="filterTeacherWritting()" style="width:100%; padding:6px 8px; border:1px solid var(--border); border-radius:6px; font-size:12.5px;">
+              <option value="ALL">全部成果類型</option>
+              <option value="SCI">SCI / SCIE 國際期刊 (1,514)</option>
+              <option value="SSCI">SSCI 社會科學期刊 (160)</option>
+              <option value="EI">EI 工程索引期刊 (282)</option>
+              <option value="TSSCI">TSSCI 核心期刊 (90)</option>
+              <option value="JOURNAL">全部期刊論文 (3,056)</option>
+              <option value="CONF_INT">國際研討會論文 (1,180)</option>
+              <option value="CONF_DOM">國內研討會論文 (1,013)</option>
+              <option value="BOOK">專書 / 專章 (9)</option>
+            </select>
+          </div>
+          <div>
+            <label style="display:block; font-size:11.5px; font-weight:700; color:var(--text-muted); margin-bottom:3px;">學年度</label>
+            <select id="twYearFilter" onchange="filterTeacherWritting()" style="width:100%; padding:6px 8px; border:1px solid var(--border); border-radius:6px; font-size:12.5px;">
+              <option value="ALL">全部學年度 (歷年發表)</option>
+              <option value="115">115 學年度</option>
+              <option value="114">114 學年度</option>
+              <option value="113">113 學年度</option>
+              <option value="112">112 學年度</option>
+              <option value="111">111 學年度</option>
+              <option value="110">110 學年度</option>
+              <option value="PRE_110">109 學年度及以前歷史成果</option>
+            </select>
+          </div>
+          <div>
+            <label style="display:block; font-size:11.5px; font-weight:700; color:var(--text-muted); margin-bottom:3px;">作者排序</label>
+            <select id="twOrderFilter" onchange="filterTeacherWritting()" style="width:100%; padding:6px 8px; border:1px solid var(--border); border-radius:6px; font-size:12.5px;">
+              <option value="ALL">全部作者角色</option>
+              <option value="FIRST">第一作者 (含第一兼通訊)</option>
+              <option value="COMM">通訊作者</option>
+            </select>
+          </div>
+          <div style="display:flex; align-items:flex-end;">
+            <button class="btn btn-outline btn-sm" onclick="resetTeacherWrittingFilters()" style="width:100%; padding:7px 10px; font-size:12px;">重置篩選</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Actions & Table Toolbar -->
+      <div style="padding:10px 22px; background:#fff; border-bottom:1px solid var(--border); display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:10px;">
+        <div style="display:flex; align-items:center; gap:10px;">
+          <button id="twBtnImportSelected" class="btn btn-primary btn-sm" onclick="importSelectedWritting()" disabled style="background:#6d28d9; border-color:#6d28d9; font-weight:700;">
+            🚀 匯入所勾選 (0 筆)
+          </button>
+          <button class="btn btn-outline btn-sm" onclick="importAllFilteredWritting()" style="color:#6d28d9; border-color:#ddd6fe; font-weight:600;">
+            ⚡ 批次匯入目前全部篩選成果
+          </button>
+          <button class="btn btn-outline btn-sm" onclick="exportTeacherWrittingCSV()" style="font-weight:600;">
+            📥 匯出篩選結果為 CSV (.csv)
+          </button>
+        </div>
+        <div style="display:flex; align-items:center; gap:8px;">
+          <span style="font-size:12px; color:var(--text-muted);">每頁筆數：</span>
+          <select id="twPageSizeSelect" onchange="twPageSize=Number(this.value); twCurrentPage=1; renderTeacherWrittingTable();" style="padding:4px 6px; border:1px solid var(--border); border-radius:4px; font-size:12px;">
+            <option value="25">25 筆</option>
+            <option value="50">50 筆</option>
+            <option value="100">100 筆</option>
+          </select>
+          <span id="twPageInfo" style="font-size:12px; color:var(--text-muted); margin-left:6px;">第 1 / 1 頁</span>
+          <button id="twPrevBtn" class="btn btn-outline btn-sm" onclick="changeTWPage(-1)" disabled style="padding:3px 8px;">◀ 上一頁</button>
+          <button id="twNextBtn" class="btn btn-outline btn-sm" onclick="changeTWPage(1)" style="padding:3px 8px;">下一頁 ▶</button>
+        </div>
+      </div>
+
+      <!-- Table Body Container -->
+      <div style="padding:0 22px; flex:1; overflow-y:auto; overflow-x:auto;">
+        <table class="data-table" style="font-size:12px; width:100%; margin-top:10px; margin-bottom:20px;">
+          <thead>
+            <tr>
+              <th style="width:36px; text-align:center;">
+                <input type="checkbox" id="twSelectAllCheckbox" onchange="toggleSelectAllWritting(this.checked)" title="全選/取消全選本頁" />
+              </th>
+              <th>學年</th>
+              <th>教師 / 職稱</th>
+              <th>系所 / 學院</th>
+              <th>收錄類型</th>
+              <th>論文篇名 / 著作名稱</th>
+              <th>刊物 / 研討會 / 出版資訊</th>
+              <th>作者序</th>
+              <th>狀態 / 操作</th>
+            </tr>
+          </thead>
+          <tbody id="twTableBody">
+            <!-- Dynamic rows rendered by JavaScript -->
+          </tbody>
+        </table>
+      </div>
+
+      <!-- Modal Footer -->
+      <div style="padding:12px 22px; background:#f8fafc; border-top:1px solid var(--border); display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px;">
+        <div style="font-size:12px; color:var(--text-muted);">
+          💡 提示：本庫已與教育部 TVEDB 表冊完全相容，單筆或批次匯入後將自動連動研發處「推薦人選引擎」、「獎金與評鑑核算公式」及「校務研究 IR 儀表板」。
+        </div>
+        <button class="btn btn-secondary btn-sm" onclick="closeTeacherWrittingModal()" style="padding:6px 16px;">關閉視窗</button>
       </div>
     </div>
   </div>
@@ -1392,6 +1594,7 @@
   <script src="data/fooyin_org_master.js"></script>
   <script src="data/dataset_110_115.js"></script>
   <script src="data/dataset_111_115.js"></script>
+  <script src="data/teacher_publications_all.js"></script>
   <script src="src/recommendation_engine.js"></script>
   <script src="src/evaluation_engine.js"></script>
   <script src="src/integration_specs.js"></script>
@@ -1714,7 +1917,8 @@
             <div style="background:var(--surface-alt); border-radius:4px; padding:6px 8px; font-size:11.5px; color:var(--text-muted); margin-top:8px;">
               ${c.strategy}
             </div>
-            <div style="margin-top:8px; display:flex; justify-content:flex-end;">
+            <div style="margin-top:8px; display:flex; justify-content:flex-end; gap:6px;">
+              <button class="btn btn-outline btn-sm" style="color:#6d28d9; border-color:#ddd6fe;" onclick="openTeacherWrittingModal('${c.name}')" title="LOOK：查詢該候選教師之歷年論文庫">📚 歷年發表</button>
               <button class="btn btn-outline btn-sm" onclick="triggerSingleOutreach('${c.name}', '${c.tier}')">發送個別邀約輔導單</button>
             </div>
           </div>
@@ -2011,6 +2215,7 @@
             <td><span class="badge ${statusBadge}">${r.status}</span></td>
             <td>
               <button class="btn btn-outline btn-sm" onclick="cycleStatus('${r.id}')">切換狀態</button>
+              <button class="btn btn-outline btn-sm" style="margin-top:4px; color:#6d28d9; border-color:#ddd6fe; display:inline-flex; align-items:center; gap:2px;" onclick="openTeacherWrittingModal('${r.teacher}')" title="LOOK：檢索該教師於 GitHub 論文庫全部發表">📚 論文庫</button>
             </td>
           </tr>
         `;
@@ -3017,6 +3222,299 @@
 
       triggerCSVDownload(csv, filename);
       showToast("已成功匯出教育部技專校院校務基本資料庫標準表冊 (.csv)！");
+    }
+
+    // ==========================================
+    // GitHub: laisiff-dev/TEACHER-WRITTING 論文庫控制器
+    // ==========================================
+    let twAllRecords = [];
+    let twFilteredRecords = [];
+    let twCurrentPage = 1;
+    let twPageSize = 25;
+    let twSelectedIds = new Set();
+
+    function getTeacherWrittingSource() {
+      if (window.FOOYIN_PUBLICATIONS_ALL && Array.isArray(window.FOOYIN_PUBLICATIONS_ALL) && window.FOOYIN_PUBLICATIONS_ALL.length > 0) {
+        return window.FOOYIN_PUBLICATIONS_ALL;
+      }
+      return [];
+    }
+
+    function openTeacherWrittingModal(defaultTeacher = "") {
+      twAllRecords = getTeacherWrittingSource();
+      if (!twAllRecords || twAllRecords.length === 0) {
+        showToast("⚠️ 正在載入 GitHub TEACHER-WRITTING 論文庫，請稍候...");
+      }
+      
+      const modal = document.getElementById("teacherWrittingModal");
+      if (modal) modal.style.display = "flex";
+
+      // 填充系所下拉
+      const deptSel = document.getElementById("twDeptFilter");
+      if (deptSel && deptSel.options.length <= 1) {
+        deptSel.innerHTML = '<option value="ALL">全部系所 (16 系所)</option>';
+        Object.keys(FOOYIN_ORG).forEach(c => {
+          const grp = document.createElement("optgroup");
+          grp.label = c;
+          FOOYIN_ORG[c].forEach(d => {
+            const opt = document.createElement("option");
+            opt.value = d;
+            opt.textContent = d;
+            grp.appendChild(opt);
+          });
+          deptSel.appendChild(grp);
+        });
+      }
+
+      // 如果有預設指定教師姓名
+      const teacherInput = document.getElementById("twTeacherFilter");
+      if (teacherInput) {
+        teacherInput.value = defaultTeacher || "";
+      }
+
+      filterTeacherWritting();
+    }
+
+    function closeTeacherWrittingModal() {
+      const modal = document.getElementById("teacherWrittingModal");
+      if (modal) modal.style.display = "none";
+    }
+
+    function filterTeacherWritting() {
+      twAllRecords = getTeacherWrittingSource();
+      const kw = (document.getElementById("twKeywordFilter")?.value || "").trim().toLowerCase();
+      const teacher = (document.getElementById("twTeacherFilter")?.value || "").trim().toLowerCase();
+      const college = document.getElementById("twCollegeFilter")?.value || "ALL";
+      const dept = document.getElementById("twDeptFilter")?.value || "ALL";
+      const type = document.getElementById("twTypeFilter")?.value || "ALL";
+      const year = document.getElementById("twYearFilter")?.value || "ALL";
+      const authorOrder = document.getElementById("twOrderFilter")?.value || "ALL";
+
+      twFilteredRecords = twAllRecords.filter(r => {
+        if (kw) {
+          const matchKw = (r.title && r.title.toLowerCase().includes(kw)) ||
+                          (r.code && r.code.toLowerCase().includes(kw)) ||
+                          (r.metricNote && r.metricNote.toLowerCase().includes(kw)) ||
+                          (r.teacher && r.teacher.toLowerCase().includes(kw));
+          if (!matchKw) return false;
+        }
+        if (teacher && (!r.teacher || !r.teacher.toLowerCase().includes(teacher))) {
+          return false;
+        }
+        if (college !== "ALL" && r.college !== college) {
+          return false;
+        }
+        if (dept !== "ALL" && r.dept !== dept) {
+          return false;
+        }
+        if (type !== "ALL") {
+          if (type === "SCI" && !r.subType.includes("SCI")) return false;
+          else if (type === "SSCI" && !r.subType.includes("SSCI")) return false;
+          else if (type === "EI" && !r.subType.includes("EI")) return false;
+          else if (type === "TSSCI" && !r.subType.includes("TSSCI")) return false;
+          else if (type === "CONF_INT" && !r.subType.includes("國際研討會")) return false;
+          else if (type === "CONF_DOM" && !r.subType.includes("國內研討會")) return false;
+          else if (type === "BOOK" && !r.subType.includes("專書")) return false;
+          else if (type === "JOURNAL" && !r.source.includes("期刊論文")) return false;
+        }
+        if (year !== "ALL") {
+          if (year === "PRE_110") {
+            const yNum = Number(r.year);
+            if (!yNum || yNum >= 110) return false;
+          } else {
+            if (r.year !== year) return false;
+          }
+        }
+        if (authorOrder !== "ALL") {
+          if (authorOrder === "FIRST" && !(r.authorOrder && r.authorOrder.includes("第一作者"))) return false;
+          if (authorOrder === "COMM" && !(r.authorOrder && r.authorOrder.includes("通訊作者"))) return false;
+        }
+        return true;
+      });
+
+      twCurrentPage = 1;
+      twSelectedIds.clear();
+      renderTeacherWrittingTable();
+    }
+
+    function renderTeacherWrittingTable() {
+      const countEl = document.getElementById("twFilteredCountBadge");
+      if (countEl) countEl.textContent = twFilteredRecords.length.toLocaleString();
+
+      const tbody = document.getElementById("twTableBody");
+      const pageInfo = document.getElementById("twPageInfo");
+      const prevBtn = document.getElementById("twPrevBtn");
+      const nextBtn = document.getElementById("twNextBtn");
+
+      const total = twFilteredRecords.length;
+      const totalPages = Math.max(1, Math.ceil(total / twPageSize));
+      if (twCurrentPage > totalPages) twCurrentPage = totalPages;
+
+      if (pageInfo) pageInfo.textContent = `第 ${twCurrentPage} / ${totalPages} 頁 (共 ${total.toLocaleString()} 筆)`;
+      if (prevBtn) prevBtn.disabled = twCurrentPage <= 1;
+      if (nextBtn) nextBtn.disabled = twCurrentPage >= totalPages;
+
+      const start = (twCurrentPage - 1) * twPageSize;
+      const pageRows = twFilteredRecords.slice(start, start + twPageSize);
+
+      if (pageRows.length === 0) {
+        tbody.innerHTML = `<tr><td colspan="9" style="text-align:center; padding:30px; color:var(--text-muted);">無符合條件之論文成果</td></tr>`;
+        return;
+      }
+
+      tbody.innerHTML = pageRows.map(r => {
+        const isChecked = twSelectedIds.has(r.id);
+        let badgeClass = "badge-paper";
+        if (r.subType.includes("SCI") || r.subType.includes("SSCI")) badgeClass = "badge-tier1";
+        else if (r.subType.includes("EI") || r.subType.includes("TSSCI")) badgeClass = "badge-tier2";
+        else if (r.subType.includes("研討會")) badgeClass = "badge-tier3";
+        else if (r.subType.includes("專書")) badgeClass = "badge-project";
+
+        // 檢查是否已存在於目前研發處主檔中
+        const isAlreadyImported = rdRecords.some(x => x.id === r.id || (x.title === r.title && x.teacher === r.teacher));
+
+        return `
+          <tr style="${isAlreadyImported ? 'background:#f8fafc;' : ''}">
+            <td style="text-align:center;">
+              <input type="checkbox" onchange="toggleWrittingSelection('${r.id}', this.checked)" ${isChecked ? 'checked' : ''} />
+            </td>
+            <td><strong>${r.year || '-'}</strong></td>
+            <td>
+              <strong>${r.teacher}</strong>
+              <div style="font-size:11px; color:var(--text-muted);">${r.adminRole || ''}</div>
+            </td>
+            <td>
+              <div>${r.dept}</div>
+              <div style="font-size:11px; color:var(--text-muted);">${r.college}</div>
+            </td>
+            <td><span class="badge ${badgeClass}">${r.subType}</span></td>
+            <td style="max-width:320px; word-break:break-word;">
+              <strong>${r.title}</strong>
+              <div style="font-size:11px; color:#475569; margin-top:3px;">
+                <code>${r.code || ''}</code>
+              </div>
+            </td>
+            <td style="font-size:12px; color:var(--text-muted); max-width:200px;">
+              ${r.metricNote || '-'}
+            </td>
+            <td>
+              <span style="font-size:12px; font-weight:600; color:${r.authorOrder && r.authorOrder.includes('第一作者') ? '#b45309' : 'inherit'};">
+                ${r.authorOrder || '共同作者'}
+              </span>
+            </td>
+            <td>
+              ${isAlreadyImported 
+                ? '<span class="badge badge-verified" title="已納入研發處審查與IR主檔">● 已在主檔</span>' 
+                : `<button class="btn btn-outline btn-sm" onclick="importSingleWritting('${r.id}')" style="color:var(--primary); font-size:11.5px; padding:3px 8px;">匯入主檔</button>`
+              }
+            </td>
+          </tr>
+        `;
+      }).join("");
+
+      // Update select all checkbox state
+      const selectAllCb = document.getElementById("twSelectAllCheckbox");
+      if (selectAllCb) {
+        selectAllCb.checked = pageRows.length > 0 && pageRows.every(r => twSelectedIds.has(r.id));
+      }
+      updateTWSelectedActionUI();
+    }
+
+    function changeTWPage(delta) {
+      twCurrentPage += delta;
+      renderTeacherWrittingTable();
+    }
+
+    function toggleWrittingSelection(id, checked) {
+      if (checked) twSelectedIds.add(id);
+      else twSelectedIds.delete(id);
+      updateTWSelectedActionUI();
+    }
+
+    function toggleSelectAllWritting(checked) {
+      const start = (twCurrentPage - 1) * twPageSize;
+      const pageRows = twFilteredRecords.slice(start, start + twPageSize);
+      pageRows.forEach(r => {
+        if (checked) twSelectedIds.add(r.id);
+        else twSelectedIds.delete(r.id);
+      });
+      renderTeacherWrittingTable();
+      updateTWSelectedActionUI();
+    }
+
+    function updateTWSelectedActionUI() {
+      const btn = document.getElementById("twBtnImportSelected");
+      if (btn) {
+        btn.textContent = `🚀 匯入所勾選 (${twSelectedIds.size} 筆)`;
+        btn.disabled = twSelectedIds.size === 0;
+      }
+    }
+
+    function importSingleWritting(id) {
+      const rec = twAllRecords.find(r => r.id === id);
+      if (!rec) return;
+      applyImportedRecords([JSON.parse(JSON.stringify(rec))], "GitHub: TEACHER-WRITTING (單筆)");
+      renderTeacherWrittingTable();
+      showToast(`已將 ${rec.teacher}「${rec.title.slice(0, 15)}...」匯入系統！`);
+    }
+
+    function importSelectedWritting() {
+      if (twSelectedIds.size === 0) return;
+      const toImport = twAllRecords.filter(r => twSelectedIds.has(r.id));
+      applyImportedRecords(JSON.parse(JSON.stringify(toImport)), `GitHub: TEACHER-WRITTING (${toImport.length} 筆)`);
+      twSelectedIds.clear();
+      renderTeacherWrittingTable();
+      closeTeacherWrittingModal();
+    }
+
+    function importAllFilteredWritting() {
+      if (twFilteredRecords.length === 0) return;
+      if (!confirm(`確定要將目前篩選出的 ${twFilteredRecords.length} 筆論文/著作全部匯入研發處系統工作台嗎？`)) return;
+      applyImportedRecords(JSON.parse(JSON.stringify(twFilteredRecords)), `GitHub: TEACHER-WRITTING 篩選匯入 (${twFilteredRecords.length} 筆)`);
+      closeTeacherWrittingModal();
+    }
+
+    // 一鍵同步 110–115 論文庫資料集
+    function importTeacherWrittingDataset(notify = true) {
+      const source = (window.DATASET_110_115 && window.DATASET_110_115.length > 0)
+        ? window.DATASET_110_115
+        : (window.FOOYIN_PUBLICATIONS_ALL || []);
+      
+      applyImportedRecords(JSON.parse(JSON.stringify(source)), "GitHub: TEACHER-WRITTING 110–115 整合總檔");
+      if (notify) {
+        showToast(`✅ 已成功自 GitHub TEACHER-WRITTING 同步更新系統主檔！`);
+      }
+    }
+
+    function exportTeacherWrittingCSV() {
+      if (twFilteredRecords.length === 0) {
+        showToast("無可匯出之紀錄！");
+        return;
+      }
+      let csv = "\uFEFF學年度,學院,系所,教師姓名,職稱,論文/著作類型,論文名稱,刊物/研討會名稱,卷期/城市,作者序,DOI/案號/指標,來源倉庫\n";
+      twFilteredRecords.forEach(r => {
+        csv += `"${r.year || ''}","${r.college || ''}","${r.dept || ''}","${r.teacher || ''}","${r.adminRole || ''}","${r.subType || ''}","${(r.title || '').replace(/"/g, '""')}","${(r.code || '').replace(/"/g, '""')}","${(r.metricNote || '').replace(/"/g, '""')}","${r.authorOrder || ''}","${r.accCode || ''}","git@github.com:laisiff-dev/TEACHER-WRITTING.git"\n`;
+      });
+      triggerCSVDownload(csv, `輔英科技大學_TEACHER-WRITTING_論文清冊_${new Date().toISOString().slice(0,10)}.csv`);
+      showToast(`已成功匯出 ${twFilteredRecords.length} 筆論文清冊 CSV！`);
+    }
+
+    function resetTeacherWrittingFilters() {
+      const kw = document.getElementById("twKeywordFilter");
+      const teacher = document.getElementById("twTeacherFilter");
+      const college = document.getElementById("twCollegeFilter");
+      const dept = document.getElementById("twDeptFilter");
+      const type = document.getElementById("twTypeFilter");
+      const year = document.getElementById("twYearFilter");
+      const order = document.getElementById("twOrderFilter");
+      if (kw) kw.value = "";
+      if (teacher) teacher.value = "";
+      if (college) college.value = "ALL";
+      if (dept) dept.value = "ALL";
+      if (type) type.value = "ALL";
+      if (year) year.value = "ALL";
+      if (order) order.value = "ALL";
+      filterTeacherWritting();
     }
 
     function getFallbackDataset() {

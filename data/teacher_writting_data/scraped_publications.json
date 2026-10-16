@@ -1,0 +1,650 @@
+{
+  "teachers": [
+    {
+      "rsNo": "b723b42447914ffca469cf69e7433572",
+      "name_chi": "林清和",
+      "name_eng": "Ching-Ho   Lin",
+      "org": "輔英科技大學環境工程與科學系",
+      "title": "教授且兼任環境與生命學院 院長"
+    },
+    {
+      "rsNo": "0172b467ee7e40ae97c2a64d912fca12",
+      "name_chi": "林清和",
+      "name_eng": "Ching-Ha   Lin",
+      "org": "國立新竹高級中學",
+      "title": "教師"
+    },
+    {
+      "rsNo": "55de6a7d86034a69bf9d969c6df99d9d",
+      "name_chi": "林清和",
+      "name_eng": "CHING-HO   LIN",
+      "org": "中國文化大學體育學系運動教練碩博士班",
+      "title": "教授"
+    }
+  ],
+  "publications": [
+    {
+      "rsNo": "b723b42447914ffca469cf69e7433572",
+      "teacher_name": "林清和",
+      "pub_date": "2022-01",
+      "year": "2022",
+      "month": "1",
+      "category": "期刊論文",
+      "title": "Boundary Layer Characteristics Over Complex Terrain in Central Taiwan: Observations and Numerical Modeling",
+      "authors": "F.-Y. Cheng, Y.-T. Wang, M.-Q. Huang, P.-L. Lin, C.-H. Lin, P.-H. Lin, S.-H. Wang, B.-J. Tsuang",
+      "source": "Journal of Geophysical Research: Atmospheres"
+    },
+    {
+      "rsNo": "b723b42447914ffca469cf69e7433572",
+      "teacher_name": "林清和",
+      "pub_date": "2021-08",
+      "year": "2021",
+      "month": "8",
+      "category": "技術報告",
+      "title": "建置AERMOD本土化模式及空品模式審驗制度專案工作計畫(三)",
+      "authors": "林清和，黃麗珍",
+      "source": ""
+    },
+    {
+      "rsNo": "b723b42447914ffca469cf69e7433572",
+      "teacher_name": "林清和",
+      "pub_date": "2020-10",
+      "year": "2020",
+      "month": "10",
+      "category": "技術報告",
+      "title": "建置AERMOD本土化模式及空品模式審驗制度專案工作計畫(二)",
+      "authors": "林清和，黃麗珍",
+      "source": ""
+    },
+    {
+      "rsNo": "b723b42447914ffca469cf69e7433572",
+      "teacher_name": "林清和",
+      "pub_date": "2020-10",
+      "year": "2020",
+      "month": "10",
+      "category": "技術報告",
+      "title": "探討小琉球臭氧污染成因與管制策略-繫留氣球實場觀測結合三維網格模式模擬",
+      "authors": "林清和，吳義林，賴進興",
+      "source": ""
+    },
+    {
+      "rsNo": "b723b42447914ffca469cf69e7433572",
+      "teacher_name": "林清和",
+      "pub_date": "2019-11",
+      "year": "2019",
+      "month": "11",
+      "category": "期刊論文",
+      "title": "Impact of Effective Roughness Length on Mesoscale Meteorological Simulations over Heterogeneous Land Surfaces in Taiwan",
+      "authors": "Cheng, F.Y., Lin, F.F., Wang, Y.T., Tsai, J.L., Tsuang, B.J., Lin, C.H.",
+      "source": "Atmosphere"
+    },
+    {
+      "rsNo": "b723b42447914ffca469cf69e7433572",
+      "teacher_name": "林清和",
+      "pub_date": "2019-10",
+      "year": "2019",
+      "month": "10",
+      "category": "技術報告",
+      "title": "建置AERMOD本土化模式及空品模式審驗制度專案工作計畫(一)",
+      "authors": "林清和，黃麗珍",
+      "source": ""
+    },
+    {
+      "rsNo": "b723b42447914ffca469cf69e7433572",
+      "teacher_name": "林清和",
+      "pub_date": "2019-08",
+      "year": "2019",
+      "month": "8",
+      "category": "期刊論文",
+      "title": "Effect of pool fire scale of heavy fuel oil on the characteristics of PAH emissions",
+      "authors": "Cheng, L.H., Yeh, C.F., Tsai, K.C., Lee, P.F., Tseng, T.P., Huang, L.J., Yeh, S.H., Hsu, H.T., Lin, C.H., Lai, C.H., Brimblecombe, P., Chen, M.J.",
+      "source": "Fuel"
+    },
+    {
+      "rsNo": "b723b42447914ffca469cf69e7433572",
+      "teacher_name": "林清和",
+      "pub_date": "2016-01",
+      "year": "2016",
+      "month": "1",
+      "category": "期刊論文",
+      "title": "Excess lifetime cancer risk assessment of volatile organic compounds emitted from a petrochemical industrial complex",
+      "authors": "Chen, M.J., Lin, C.H., Lai, C.H., Cheng, L.H., Yang, Y.H., Huang, L.J., Yeh, S.H., Hsu, H.T.",
+      "source": "Aerosol Air Quality Res."
+    },
+    {
+      "rsNo": "b723b42447914ffca469cf69e7433572",
+      "teacher_name": "林清和",
+      "pub_date": "2015-05",
+      "year": "2015",
+      "month": "5",
+      "category": "期刊論文",
+      "title": "Modelling the transport of toluene liquid in protective polymer gloves using a fluorescent dye-tracing technique",
+      "authors": "Ming-Jen Chen, Li-Hsin Cheng, Tzu-Ping Tseng, Yong-Sheng Huang, Ching-Ho Lin,Chin-Hsing Lai",
+      "source": "European Polymer Journal"
+    },
+    {
+      "rsNo": "b723b42447914ffca469cf69e7433572",
+      "teacher_name": "林清和",
+      "pub_date": "2015-05",
+      "year": "2015",
+      "month": "5",
+      "category": "期刊論文",
+      "title": "New Data Processing Equation to Improve the Response Time of an Electrochemical Concentration Cell (ECC) Ozonesonde",
+      "authors": "Li-Jen Huang,Ming-Jen Chen,Chin-Hsing Lai,Hui-Tsung Hsu,Ching-Ho Lin",
+      "source": "Aerosol and Air Quality Research"
+    },
+    {
+      "rsNo": "b723b42447914ffca469cf69e7433572",
+      "teacher_name": "林清和",
+      "pub_date": "2012-08",
+      "year": "2012",
+      "month": "8",
+      "category": "期刊論文",
+      "title": "Mass transfer of toluene vapor through protective polymer gloves",
+      "authors": "Cheng, L.H., Chen, M.J. Chen, Cheng, W.H., Lin, C.H., Lai, C.H",
+      "source": "Journal of Membrane Science"
+    },
+    {
+      "rsNo": "b723b42447914ffca469cf69e7433572",
+      "teacher_name": "林清和",
+      "pub_date": "2011-04",
+      "year": "2011",
+      "month": "4",
+      "category": "期刊論文",
+      "title": "Estimating Cancer Risk Increment from Air Pollutant Exposure for Sewer Workers Working in an Industrial City",
+      "authors": "S.-H. Yeh, C.-H. Lai, C.-H. Lin, M.-J. Chen, H.-T. Hsu, G.-X. Lin, T.-T. Lin, Y.-W. Huang",
+      "source": "Aerosol and Air Quality Research"
+    },
+    {
+      "rsNo": "b723b42447914ffca469cf69e7433572",
+      "teacher_name": "林清和",
+      "pub_date": "2011-01",
+      "year": "2011",
+      "month": "1",
+      "category": "期刊論文",
+      "title": "Development of a multi-pathway probabilistic health risk assessment model for swimmers exposed to chloroform in indoor swimming pools",
+      "authors": "Chen, MJ , Lin, CH ,Duh, JM , Chou, WS ,Hsu, HT",
+      "source": "JOURNAL OF HAZARDOUS MATERIALS"
+    },
+    {
+      "rsNo": "b723b42447914ffca469cf69e7433572",
+      "teacher_name": "林清和",
+      "pub_date": "2010-11",
+      "year": "2010",
+      "month": "11",
+      "category": "期刊論文",
+      "title": "Simple model for estimating dry deposition velocity of ozone and its destruction in a polluted nocturnal boundary layer",
+      "authors": "Lin, Ching-Ho*, Lai CH,Wu YL, Chen MJ",
+      "source": "ATMOSPHERIC ENVIRONMENT"
+    },
+    {
+      "rsNo": "b723b42447914ffca469cf69e7433572",
+      "teacher_name": "林清和",
+      "pub_date": "2010-05",
+      "year": "2010",
+      "month": "5",
+      "category": "期刊論文",
+      "title": "Ozone reservoir layers in a coastal environment – a case study in southern Taiwan",
+      "authors": "C.-H. Lin*, Y.-L. Wu, C.-H. Lai",
+      "source": "Atmospheric Chemistry and Physics"
+    },
+    {
+      "rsNo": "b723b42447914ffca469cf69e7433572",
+      "teacher_name": "林清和",
+      "pub_date": "2010-04",
+      "year": "2010",
+      "month": "4",
+      "category": "期刊論文",
+      "title": "Effects of Local Circulations, Turbulent Internal Boundary Layers, and Elevated Industrial Plumes on Coastal Ozone Pollution in the Downwind Kaohsiung Urban-Industrial Complex",
+      "authors": "Wu YL, Lin CH* , Lai CH, Lai HC, Young CY",
+      "source": "TERRESTRIAL ATMOSPHERIC AND OCEANIC SCIENCES"
+    },
+    {
+      "rsNo": "b723b42447914ffca469cf69e7433572",
+      "teacher_name": "林清和",
+      "pub_date": "2008-06",
+      "year": "2008",
+      "month": "6",
+      "category": "期刊論文",
+      "title": "Air Quality Measurements from the Southern Particulate Matter Supersite in Taiwan",
+      "authors": "Ching-Ho Lin*, Yee-Lin Wu, Chin-Hsing Lai, John G. Watson, Judith C. Chow",
+      "source": "Aerosol and Air Quality Research"
+    },
+    {
+      "rsNo": "b723b42447914ffca469cf69e7433572",
+      "teacher_name": "林清和",
+      "pub_date": "2008-04",
+      "year": "2008",
+      "month": "4",
+      "category": "期刊論文",
+      "title": "Impact of Downward Mixing Ozone on Surface Ozone Accumulation in Southern Taiwan",
+      "authors": "Lin, Ching-Ho*",
+      "source": "AWMA"
+    },
+    {
+      "rsNo": "b723b42447914ffca469cf69e7433572",
+      "teacher_name": "林清和",
+      "pub_date": "2007-08",
+      "year": "2007",
+      "month": "8",
+      "category": "期刊論文",
+      "title": "Impact of sea breeze air masses laden with ozone on inland surfaceozone concentrations: A case study of the northern coast of Taiwan",
+      "authors": "Lin, Ching-Ho*, Chin-Hsing Lai, Yee-Lin Wu, Po-Hsiung Lin, and Hsin-Chih Lai",
+      "source": "Journal of Geophysical Reseach-Atmosphere"
+    },
+    {
+      "rsNo": "b723b42447914ffca469cf69e7433572",
+      "teacher_name": "林清和",
+      "pub_date": "2007-03",
+      "year": "2007",
+      "month": "3",
+      "category": "期刊論文",
+      "title": "Vertical ozone distributions observed using tethered ozonesondes in a coastal industrial city, Kaohsiung, in southern Taiwan",
+      "authors": "Lin, Ching-Ho*, C.-H. Lai, Y.-L Wu, H.-C. Lai, P.-H Lin,",
+      "source": "Environmental Monitoring and Assessment"
+    }
+  ],
+  "projects": [
+    {
+      "rsNo": "b723b42447914ffca469cf69e7433572",
+      "teacher_name": "林清和",
+      "year": "100",
+      "category": "專題研究計畫 (一般研究計畫)",
+      "discipline": "環境工程",
+      "title": "低層大氣環境中夜間奇氧消耗特性之研究",
+      "role": "計畫主持人",
+      "budget": "2,743,000"
+    },
+    {
+      "rsNo": "b723b42447914ffca469cf69e7433572",
+      "teacher_name": "林清和",
+      "year": "099",
+      "category": "專題研究計畫 (一般研究計畫)",
+      "discipline": "大氣物理與大氣化學",
+      "title": "台灣巨型城市環境研究(I) -- 二次有機氣膠之環境衝擊--都市與郊區邊界層大氣環境剖面量測分析",
+      "role": "共同主持人",
+      "budget": "3,987,000"
+    },
+    {
+      "rsNo": "b723b42447914ffca469cf69e7433572",
+      "teacher_name": "林清和",
+      "year": "097",
+      "category": "專題研究計畫 (一般研究計畫)",
+      "discipline": "環境工程",
+      "title": "沿海工業城臭氧污染形成機制之研究",
+      "role": "計畫主持人",
+      "budget": "2,971,000"
+    },
+    {
+      "rsNo": "b723b42447914ffca469cf69e7433572",
+      "teacher_name": "林清和",
+      "year": "096",
+      "category": "補助科學與技術人員國外短期研究",
+      "discipline": "",
+      "title": "利用美國加州Fresno微粒超級測站之經驗促進台灣微粒超級測站之品保提昇與未來應用發展",
+      "role": "計畫主持人",
+      "budget": "246,900"
+    },
+    {
+      "rsNo": "b723b42447914ffca469cf69e7433572",
+      "teacher_name": "林清和",
+      "year": "095",
+      "category": "專題研究計畫 (一般研究計畫)",
+      "discipline": "環境工程",
+      "title": "臭氧消耗層之特性與形成機制之研究(2/2)",
+      "role": "計畫主持人",
+      "budget": "940,000"
+    },
+    {
+      "rsNo": "b723b42447914ffca469cf69e7433572",
+      "teacher_name": "林清和",
+      "year": "095",
+      "category": "專題研究計畫 (環保署合作代辦計畫)",
+      "discipline": "環境工程",
+      "title": "南二高與東西向快速道路對空氣品質之影響--子計畫二：南二高與東西向快速道路對於移動源排放量與其空間分佈之影響研究",
+      "role": "計畫主持人",
+      "budget": "640,000"
+    },
+    {
+      "rsNo": "b723b42447914ffca469cf69e7433572",
+      "teacher_name": "林清和",
+      "year": "094",
+      "category": "專題研究計畫 (環保署合作代辦計畫)",
+      "discipline": "環境工程",
+      "title": "高屏空品區臭氧空氣品質不良成因探討與前驅污染物質來源分析--子計畫一：臭氧前驅物排放與氣象因數對於高屏地區臭氧濃度之影響分析",
+      "role": "計畫主持人",
+      "budget": "931,700"
+    },
+    {
+      "rsNo": "b723b42447914ffca469cf69e7433572",
+      "teacher_name": "林清和",
+      "year": "094",
+      "category": "專題研究計畫 (一般研究計畫)",
+      "discipline": "環境工程",
+      "title": "臭氧消耗層之特性與形成機制之研究(1/2)",
+      "role": "計畫主持人",
+      "budget": "1,369,000"
+    },
+    {
+      "rsNo": "b723b42447914ffca469cf69e7433572",
+      "teacher_name": "林清和",
+      "year": "093",
+      "category": "補助國內專家學者出席國際學術會議",
+      "discipline": "",
+      "title": "ISEIS 2004年環境資訊國際研討會",
+      "role": "計畫主持人",
+      "budget": ""
+    },
+    {
+      "rsNo": "b723b42447914ffca469cf69e7433572",
+      "teacher_name": "林清和",
+      "year": "093",
+      "category": "專題研究計畫 (一般研究計畫)",
+      "discipline": "環境工程",
+      "title": "臭氧儲留層之特性與其對於地面臭氧濃度貢獻之研究",
+      "role": "計畫主持人",
+      "budget": "1,009,900"
+    },
+    {
+      "rsNo": "b723b42447914ffca469cf69e7433572",
+      "teacher_name": "林清和",
+      "year": "092",
+      "category": "專題研究計畫 (新進人員研究計畫)",
+      "discipline": "空氣污染防制",
+      "title": "受體導向統計模式之研究",
+      "role": "計畫主持人",
+      "budget": "415,900"
+    },
+    {
+      "rsNo": "b723b42447914ffca469cf69e7433572",
+      "teacher_name": "林清和",
+      "year": "092",
+      "category": "專題研究計畫 (環保署合作代辦計畫)",
+      "discipline": "環境工程",
+      "title": "高屏總量管制區空氣品質改善效益與地區因素之關聯性研究--子計畫：高屏總量管制區內各類交通網路排放量特性之研究",
+      "role": "計畫主持人",
+      "budget": "844,100"
+    },
+    {
+      "rsNo": "b723b42447914ffca469cf69e7433572",
+      "teacher_name": "林清和",
+      "year": "091",
+      "category": "專題研究計畫 (環保署合作代辦計畫)",
+      "discipline": "環境工程",
+      "title": "高屏空品區空氣污染總量管制計劃--子計劃二：基準年排放量建置與未來年成長量推估之研究",
+      "role": "計畫主持人",
+      "budget": "883,400"
+    },
+    {
+      "rsNo": "b723b42447914ffca469cf69e7433572",
+      "teacher_name": "林清和",
+      "year": "089",
+      "category": "專題研究計畫 (新進人員研究計畫)",
+      "discipline": "空氣污染防制",
+      "title": "空氣污染事件之污染來源及其貢獻之研究(I)-理論及應用程式發展",
+      "role": "計畫主持人",
+      "budget": "352,900"
+    },
+    {
+      "rsNo": "b723b42447914ffca469cf69e7433572",
+      "teacher_name": "林清和",
+      "year": "089",
+      "category": "專題研究計畫 (新進人員研究計畫)",
+      "discipline": "空氣污染防制",
+      "title": "蒙地卡羅法模擬氣膠微粒在紊流邊界層發展區域之擴散與沈降之研究",
+      "role": "計畫主持人",
+      "budget": "233,200"
+    },
+    {
+      "rsNo": "b723b42447914ffca469cf69e7433572",
+      "teacher_name": "林清和",
+      "year": "100",
+      "category": "專題研究計畫 (一般研究計畫)",
+      "discipline": "環境工程",
+      "title": "低層大氣環境中夜間奇氧消耗特性之研究",
+      "role": "計畫主持人",
+      "budget": "2,743,000"
+    },
+    {
+      "rsNo": "b723b42447914ffca469cf69e7433572",
+      "teacher_name": "林清和",
+      "year": "099",
+      "category": "專題研究計畫 (一般研究計畫)",
+      "discipline": "大氣物理與大氣化學",
+      "title": "台灣巨型城市環境研究(I) -- 二次有機氣膠之環境衝擊--都市與郊區邊界層大氣環境剖面量測分析",
+      "role": "共同主持人",
+      "budget": "3,987,000"
+    },
+    {
+      "rsNo": "b723b42447914ffca469cf69e7433572",
+      "teacher_name": "林清和",
+      "year": "097",
+      "category": "專題研究計畫 (一般研究計畫)",
+      "discipline": "環境工程",
+      "title": "沿海工業城臭氧污染形成機制之研究",
+      "role": "計畫主持人",
+      "budget": "2,971,000"
+    },
+    {
+      "rsNo": "b723b42447914ffca469cf69e7433572",
+      "teacher_name": "林清和",
+      "year": "096",
+      "category": "補助科學與技術人員國外短期研究",
+      "discipline": "",
+      "title": "利用美國加州Fresno微粒超級測站之經驗促進台灣微粒超級測站之品保提昇與未來應用發展",
+      "role": "計畫主持人",
+      "budget": "246,900"
+    },
+    {
+      "rsNo": "b723b42447914ffca469cf69e7433572",
+      "teacher_name": "林清和",
+      "year": "095",
+      "category": "專題研究計畫 (一般研究計畫)",
+      "discipline": "環境工程",
+      "title": "臭氧消耗層之特性與形成機制之研究(2/2)",
+      "role": "計畫主持人",
+      "budget": "940,000"
+    },
+    {
+      "rsNo": "b723b42447914ffca469cf69e7433572",
+      "teacher_name": "林清和",
+      "year": "095",
+      "category": "專題研究計畫 (環保署合作代辦計畫)",
+      "discipline": "環境工程",
+      "title": "南二高與東西向快速道路對空氣品質之影響--子計畫二：南二高與東西向快速道路對於移動源排放量與其空間分佈之影響研究",
+      "role": "計畫主持人",
+      "budget": "640,000"
+    },
+    {
+      "rsNo": "b723b42447914ffca469cf69e7433572",
+      "teacher_name": "林清和",
+      "year": "094",
+      "category": "專題研究計畫 (環保署合作代辦計畫)",
+      "discipline": "環境工程",
+      "title": "高屏空品區臭氧空氣品質不良成因探討與前驅污染物質來源分析--子計畫一：臭氧前驅物排放與氣象因數對於高屏地區臭氧濃度之影響分析",
+      "role": "計畫主持人",
+      "budget": "931,700"
+    },
+    {
+      "rsNo": "b723b42447914ffca469cf69e7433572",
+      "teacher_name": "林清和",
+      "year": "094",
+      "category": "專題研究計畫 (一般研究計畫)",
+      "discipline": "環境工程",
+      "title": "臭氧消耗層之特性與形成機制之研究(1/2)",
+      "role": "計畫主持人",
+      "budget": "1,369,000"
+    },
+    {
+      "rsNo": "b723b42447914ffca469cf69e7433572",
+      "teacher_name": "林清和",
+      "year": "093",
+      "category": "補助國內專家學者出席國際學術會議",
+      "discipline": "",
+      "title": "ISEIS 2004年環境資訊國際研討會",
+      "role": "計畫主持人",
+      "budget": ""
+    },
+    {
+      "rsNo": "b723b42447914ffca469cf69e7433572",
+      "teacher_name": "林清和",
+      "year": "093",
+      "category": "專題研究計畫 (一般研究計畫)",
+      "discipline": "環境工程",
+      "title": "臭氧儲留層之特性與其對於地面臭氧濃度貢獻之研究",
+      "role": "計畫主持人",
+      "budget": "1,009,900"
+    },
+    {
+      "rsNo": "b723b42447914ffca469cf69e7433572",
+      "teacher_name": "林清和",
+      "year": "092",
+      "category": "專題研究計畫 (新進人員研究計畫)",
+      "discipline": "空氣污染防制",
+      "title": "受體導向統計模式之研究",
+      "role": "計畫主持人",
+      "budget": "415,900"
+    },
+    {
+      "rsNo": "b723b42447914ffca469cf69e7433572",
+      "teacher_name": "林清和",
+      "year": "092",
+      "category": "專題研究計畫 (環保署合作代辦計畫)",
+      "discipline": "環境工程",
+      "title": "高屏總量管制區空氣品質改善效益與地區因素之關聯性研究--子計畫：高屏總量管制區內各類交通網路排放量特性之研究",
+      "role": "計畫主持人",
+      "budget": "844,100"
+    },
+    {
+      "rsNo": "b723b42447914ffca469cf69e7433572",
+      "teacher_name": "林清和",
+      "year": "091",
+      "category": "專題研究計畫 (環保署合作代辦計畫)",
+      "discipline": "環境工程",
+      "title": "高屏空品區空氣污染總量管制計劃--子計劃二：基準年排放量建置與未來年成長量推估之研究",
+      "role": "計畫主持人",
+      "budget": "883,400"
+    },
+    {
+      "rsNo": "b723b42447914ffca469cf69e7433572",
+      "teacher_name": "林清和",
+      "year": "089",
+      "category": "專題研究計畫 (新進人員研究計畫)",
+      "discipline": "空氣污染防制",
+      "title": "空氣污染事件之污染來源及其貢獻之研究(I)-理論及應用程式發展",
+      "role": "計畫主持人",
+      "budget": "352,900"
+    },
+    {
+      "rsNo": "b723b42447914ffca469cf69e7433572",
+      "teacher_name": "林清和",
+      "year": "089",
+      "category": "專題研究計畫 (新進人員研究計畫)",
+      "discipline": "空氣污染防制",
+      "title": "蒙地卡羅法模擬氣膠微粒在紊流邊界層發展區域之擴散與沈降之研究",
+      "role": "計畫主持人",
+      "budget": "233,200"
+    },
+    {
+      "rsNo": "0172b467ee7e40ae97c2a64d912fca12",
+      "teacher_name": "林清和",
+      "year": "098",
+      "category": "專題研究計畫 (其他補助計畫)",
+      "discipline": "科學教育一科學資優學生",
+      "title": "高瞻計畫(新竹中學)--子計畫一:高中與尖端生物科技之銜接教材,教法的實驗與發展(4/4)",
+      "role": "計畫主持人",
+      "budget": "1,188,000"
+    },
+    {
+      "rsNo": "0172b467ee7e40ae97c2a64d912fca12",
+      "teacher_name": "林清和",
+      "year": "097",
+      "category": "專題研究計畫 (其他補助計畫)",
+      "discipline": "科學教育一科學資優學生",
+      "title": "高瞻計畫(新竹中學)--子計畫一:高中與尖端生物科技之銜接教材,教法的實驗與發展(3/4)",
+      "role": "計畫主持人",
+      "budget": "911,000"
+    },
+    {
+      "rsNo": "0172b467ee7e40ae97c2a64d912fca12",
+      "teacher_name": "林清和",
+      "year": "096",
+      "category": "專題研究計畫 (其他補助計畫)",
+      "discipline": "科學教育一科學資優學生",
+      "title": "高瞻計畫(新竹中學)--子計畫一:高中與尖端生物科技之銜接教材,教法的實驗與發展(2/4)",
+      "role": "計畫主持人",
+      "budget": "745,000"
+    },
+    {
+      "rsNo": "0172b467ee7e40ae97c2a64d912fca12",
+      "teacher_name": "林清和",
+      "year": "098",
+      "category": "專題研究計畫 (其他補助計畫)",
+      "discipline": "科學教育一科學資優學生",
+      "title": "高瞻計畫(新竹中學)--子計畫一:高中與尖端生物科技之銜接教材,教法的實驗與發展(4/4)",
+      "role": "計畫主持人",
+      "budget": "1,188,000"
+    },
+    {
+      "rsNo": "0172b467ee7e40ae97c2a64d912fca12",
+      "teacher_name": "林清和",
+      "year": "097",
+      "category": "專題研究計畫 (其他補助計畫)",
+      "discipline": "科學教育一科學資優學生",
+      "title": "高瞻計畫(新竹中學)--子計畫一:高中與尖端生物科技之銜接教材,教法的實驗與發展(3/4)",
+      "role": "計畫主持人",
+      "budget": "911,000"
+    },
+    {
+      "rsNo": "0172b467ee7e40ae97c2a64d912fca12",
+      "teacher_name": "林清和",
+      "year": "096",
+      "category": "專題研究計畫 (其他補助計畫)",
+      "discipline": "科學教育一科學資優學生",
+      "title": "高瞻計畫(新竹中學)--子計畫一:高中與尖端生物科技之銜接教材,教法的實驗與發展(2/4)",
+      "role": "計畫主持人",
+      "budget": "745,000"
+    },
+    {
+      "rsNo": "55de6a7d86034a69bf9d969c6df99d9d",
+      "teacher_name": "林清和",
+      "year": "088",
+      "category": "專題研究計畫 (一般研究計畫)",
+      "discipline": "心像訓練指導法",
+      "title": "心象練習的心理機制",
+      "role": "計畫主持人",
+      "budget": "290,400"
+    },
+    {
+      "rsNo": "55de6a7d86034a69bf9d969c6df99d9d",
+      "teacher_name": "林清和",
+      "year": "086",
+      "category": "專題研究計畫 (一般研究計畫)",
+      "discipline": "運動技術模式分析",
+      "title": "棒球左右打擊區擊球表現之比較",
+      "role": "計畫主持人",
+      "budget": "286,000"
+    },
+    {
+      "rsNo": "55de6a7d86034a69bf9d969c6df99d9d",
+      "teacher_name": "林清和",
+      "year": "088",
+      "category": "專題研究計畫 (一般研究計畫)",
+      "discipline": "心像訓練指導法",
+      "title": "心象練習的心理機制",
+      "role": "計畫主持人",
+      "budget": "290,400"
+    },
+    {
+      "rsNo": "55de6a7d86034a69bf9d969c6df99d9d",
+      "teacher_name": "林清和",
+      "year": "086",
+      "category": "專題研究計畫 (一般研究計畫)",
+      "discipline": "運動技術模式分析",
+      "title": "棒球左右打擊區擊球表現之比較",
+      "role": "計畫主持人",
+      "budget": "286,000"
+    }
+  ],
+  "updated_at": "2026-10-02T16:08:53.951080"
+}

@@ -155,14 +155,15 @@ const DEPT_TO_COLLEGE = {
   '助產與婦嬰健康照護系': '護理學院',
   '高齡及長期照護事業系': '護理學院',
   '學士後護理系': '護理學院',
+  '健康事業管理系': '護理學院',
   '醫學檢驗生物技術系': '醫學與健康學院',
   '物理治療系': '醫學與健康學院',
   '保健營養系': '醫學與健康學院',
   '健康美容系': '醫學與健康學院',
-  '健康事業管理系': '醫學與健康學院',
   '應用化學及材料科學系': '環境與生命學院',
   '環境工程與科學系': '環境與生命學院',
   '職業安全衛生系': '環境與生命學院',
+  '生物科技與綠色產業系': '環境與生命學院',
   '生物科技系': '環境與生命學院',
   '應用外語系': '人文與管理學院',
   '幼兒保育暨產業系': '人文與管理學院',
@@ -178,13 +179,27 @@ const COLLEGE_ALIASES = {
   '人管學院': '人文與管理學院', '人管': '人文與管理學院', '人文與管理學院': '人文與管理學院'
 };
 
+function decodeHtml(s) {
+  if (!s) return '';
+  return String(s).replace(/&#(\d+);/g, (_, dec) => String.fromCharCode(dec)).replace(/&amp;/g, '&').trim();
+}
+
+function getAcademicYear(yearStr, monthStr) {
+  const y = parseInt(yearStr);
+  const m = parseInt(monthStr) || 6;
+  if (!y || isNaN(y)) return null;
+  const calYear = y > 1900 ? y : y + 1911;
+  const ay = m >= 8 ? (calYear - 1911) : (calYear - 1912);
+  return ay;
+}
+
 function cleanDept(rawDept) {
   if (!rawDept) return '護理系';
   const str = String(rawDept).replace(/[\r\n\t\s]/g, '').trim();
   for (const [key, val] of Object.entries(DEPT_ALIASES)) {
     if (str.includes(key)) return val;
   }
-  return '護理系';
+  return '共同教育中心';
 }
 
 function cleanCollege(rawCollege, dept) {
@@ -815,6 +830,305 @@ const verifiedPapers = [
 verifiedPapers.forEach(p => cleanedRecords.push(p));
 
 // ==========================================================
+// 6. 匯入個人 GitHub (git@github.com:laisiff-dev/TEACHER-WRITTING.git) 之期刊論文、研討會論文、專書與國科會計畫
+// ==========================================================
+const teacherWrittingDir = path.join(rootDir, 'data', 'teacher_writting_data');
+const allHistoricalPublications = [];
+
+if (fs.existsSync(teacherWrittingDir)) {
+  console.log('\n--> 正在從個人 GitHub TEACHER-WRITTING 倉庫匯入教師研究成果...');
+  
+  // 6-1. 讀取 Table 1-1 (老師清單名冊)
+  const rosterPath = path.join(teacherWrittingDir, 'table1_1_List(老師清單).xls');
+  const teacherIdMap = {};
+  if (fs.existsSync(rosterPath)) {
+    const wbT = XLSX.readFile(rosterPath);
+    const rowsT = XLSX.utils.sheet_to_json(wbT.Sheets[wbT.SheetNames[0]], { header: 1 });
+    for (let i = 2; i < rowsT.length; i++) {
+      const r = rowsT[i];
+      if (!r || !r[1]) continue;
+      const id = String(r[1]).trim();
+      const name = decodeHtml(r[6]);
+      const dept = decodeHtml(r[4]);
+      const title = decodeHtml(r[9]);
+      if (id && name) teacherIdMap[id] = { id, name, dept, title };
+    }
+    console.log(`  ✓ 已載入教師身分編碼名冊：共 ${Object.keys(teacherIdMap).length} 位教師`);
+  }
+
+  // 6-2. 讀取 Table 1-9 (期刊論文)
+  const jrnPath = path.join(teacherWrittingDir, 'table1_9(期刊論文).xls');
+  if (fs.existsSync(jrnPath)) {
+    const wb9 = XLSX.readFile(jrnPath);
+    const rows9 = XLSX.utils.sheet_to_json(wb9.Sheets[wb9.SheetNames[0]], { header: 1 });
+    let jrn110Count = 0;
+    for (let i = 1; i < rows9.length; i++) {
+      const r = rows9[i];
+      if (!r || !r[2]) continue;
+      const empId = String(r[0]).trim();
+      const tInfo = teacherIdMap[empId] || { name: '專任教師', dept: '共同教育中心', title: '專任教師' };
+      const teacher = tInfo.name;
+      const dept = cleanDept(tInfo.dept);
+      const college = cleanCollege(null, dept);
+      const title = decodeHtml(r[2]);
+      const journalName = decodeHtml(r[6]);
+      const vol = decodeHtml(r[7]);
+      const no = decodeHtml(r[9]);
+      const pubYear = decodeHtml(r[12]);
+      const pubMonth = decodeHtml(r[11]);
+      const categoryRaw = decodeHtml(r[5]);
+      const peerReviewed = decodeHtml(r[8]);
+      const country = decodeHtml(r[10]);
+      const orderRaw = decodeHtml(r[3]);
+      const isCorresp = decodeHtml(r[4]) === '是';
+
+      let subType = '學術期刊論文';
+      if (categoryRaw === 'SCI') subType = 'SCI 國際期刊';
+      else if (categoryRaw === 'SCIE') subType = 'SCIE 國際期刊';
+      else if (categoryRaw === 'SSCI') subType = 'SSCI 國際期刊';
+      else if (categoryRaw === 'EI') subType = 'EI 工程索引期刊';
+      else if (categoryRaw === 'TSSCI') subType = 'TSSCI 核心期刊';
+      else if (categoryRaw === 'AHCI') subType = 'AHCI 人文核心期刊';
+
+      let authorOrder = '第一作者';
+      let weightRatio = 1.0;
+      if (orderRaw === 'A') { authorOrder = isCorresp ? '第一作者兼通訊作者 (100%)' : '第一作者 (100%)'; weightRatio = 1.0; }
+      else if (orderRaw === 'B') { authorOrder = isCorresp ? '第二作者兼通訊作者 (100%)' : '第二作者 (50%)'; weightRatio = isCorresp ? 1.0 : 0.5; }
+      else if (orderRaw === 'C') { authorOrder = isCorresp ? '第三作者兼通訊作者 (100%)' : '第三作者 (25%)'; weightRatio = isCorresp ? 1.0 : 0.25; }
+      else { authorOrder = isCorresp ? '第四作者及以上兼通訊作者 (100%)' : '第四作者及以上 (20%)'; weightRatio = isCorresp ? 1.0 : 0.2; }
+
+      const ay = getAcademicYear(pubYear, pubMonth);
+      const fac = facultyRoleMap[teacher] || {};
+
+      const record = {
+        rawYear: ay,
+        year: String(ay || 113),
+        college,
+        dept,
+        teacher,
+        empId,
+        adminRole: fac.desc || (fac.article7Exempt ? '主管（依第7條免評/僅評基本）' : (tInfo.title || '專任教師')),
+        isArticle7Exempt: !!fac.article7Exempt,
+        authorOrder,
+        weightRatio,
+        category: '論文',
+        subType,
+        title,
+        code: `${journalName}${vol ? ` Vol.${vol}` : ''}${no ? ` No.${no}` : ''}`,
+        accCode: `PUB-JRN-${pubYear}-${String(i).padStart(4, '0')}`,
+        disbursementRate: 100,
+        amount: subType.includes('SCI') || subType.includes('SSCI') ? 2.0 : 1.2,
+        metricNote: `${subType} 收錄 (刊物: ${journalName}, 審稿: ${peerReviewed}, 出版國: ${country})`,
+        source: 'TEACHER-WRITTING (表1-9 期刊論文)',
+        sourceUrl: 'https://github.com/laisiff-dev/TEACHER-WRITTING',
+        group: '研發創新組',
+        status: '已發表歸檔',
+        keywords: extractKeywords(title, dept, '論文'),
+        id: `JRN-${pubYear}-${String(i).padStart(4, '0')}`
+      };
+
+      allHistoricalPublications.push(record);
+      if (ay >= 110 && ay <= 115) {
+        cleanedRecords.push(record);
+        jrn110Count++;
+      }
+    }
+    console.log(`  ✓ 已匯入期刊論文：全歷史 ${rows9.length - 1} 筆，110–115 學年度 ${jrn110Count} 筆`);
+  }
+
+  // 6-3. 讀取 Table 1-10 (研討會論文)
+  const confPath = path.join(teacherWrittingDir, 'table1_10(研討會論文).xls');
+  if (fs.existsSync(confPath)) {
+    const wb10 = XLSX.readFile(confPath);
+    const rows10 = XLSX.utils.sheet_to_json(wb10.Sheets[wb10.SheetNames[0]], { header: 1 });
+    let conf110Count = 0;
+    for (let i = 1; i < rows10.length; i++) {
+      const r = rows10[i];
+      if (!r || !r[2]) continue;
+      const empId = String(r[0]).trim();
+      const tInfo = teacherIdMap[empId] || { name: '專任教師', dept: '共同教育中心', title: '專任教師' };
+      const teacher = tInfo.name;
+      const dept = cleanDept(tInfo.dept);
+      const college = cleanCollege(null, dept);
+      const title = decodeHtml(r[2]);
+      const confName = decodeHtml(r[6]);
+      const country = decodeHtml(r[7]);
+      const city = decodeHtml(r[8]);
+      const startDate = decodeHtml(r[9]);
+      const pubYear = decodeHtml(r[11]);
+      const peerReviewed = decodeHtml(r[3]);
+      const orderRaw = decodeHtml(r[4]);
+      const isCorresp = decodeHtml(r[5]) === '是';
+
+      const isIntl = country && !['NATTWN', '臺灣', 'ROC', '中華民國'].includes(country);
+      const subType = isIntl ? '國際研討會論文' : '國內研討會論文';
+
+      let authorOrder = '第一作者';
+      let weightRatio = 1.0;
+      if (orderRaw === 'A') { authorOrder = isCorresp ? '第一作者兼通訊作者 (100%)' : '第一作者 (100%)'; weightRatio = 1.0; }
+      else if (orderRaw === 'B') { authorOrder = isCorresp ? '第二作者兼通訊作者 (100%)' : '第二作者 (50%)'; weightRatio = isCorresp ? 1.0 : 0.5; }
+      else if (orderRaw === 'C') { authorOrder = isCorresp ? '第三作者兼通訊作者 (100%)' : '第三作者 (25%)'; weightRatio = isCorresp ? 1.0 : 0.25; }
+      else { authorOrder = isCorresp ? '第四作者及以上兼通訊作者 (100%)' : '第四作者及以上 (20%)'; weightRatio = isCorresp ? 1.0 : 0.2; }
+
+      const month = startDate ? startDate.split('/')[1] : '6';
+      const ay = getAcademicYear(pubYear, month);
+      const fac = facultyRoleMap[teacher] || {};
+
+      const record = {
+        rawYear: ay,
+        year: String(ay || 113),
+        college,
+        dept,
+        teacher,
+        empId,
+        adminRole: fac.desc || (fac.article7Exempt ? '主管（依第7條免評/僅評基本）' : (tInfo.title || '專任教師')),
+        isArticle7Exempt: !!fac.article7Exempt,
+        authorOrder,
+        weightRatio,
+        category: '論文',
+        subType,
+        title,
+        code: `${confName}${city ? ` (${city}, ${country})` : ''}`,
+        accCode: `PUB-CONF-${pubYear}-${String(i).padStart(4, '0')}`,
+        disbursementRate: 100,
+        amount: 0.5,
+        metricNote: `${subType} (發表於 ${confName}, 審稿制度: ${peerReviewed})`,
+        source: 'TEACHER-WRITTING (表1-10 研討會論文)',
+        sourceUrl: 'https://github.com/laisiff-dev/TEACHER-WRITTING',
+        group: '研發創新組',
+        status: '已發表歸檔',
+        keywords: extractKeywords(title, dept, '論文'),
+        id: `CONF-${pubYear}-${String(i).padStart(4, '0')}`
+      };
+
+      allHistoricalPublications.push(record);
+      if (ay >= 110 && ay <= 115) {
+        cleanedRecords.push(record);
+        conf110Count++;
+      }
+    }
+    console.log(`  ✓ 已匯入研討會論文：全歷史 ${rows10.length - 1} 筆，110–115 學年度 ${conf110Count} 筆`);
+  }
+
+  // 6-4. 讀取 Table 1-11 (專書)
+  const bookPath = path.join(teacherWrittingDir, 'table1_11(專書).xls');
+  if (fs.existsSync(bookPath)) {
+    const wb11 = XLSX.readFile(bookPath);
+    const rows11 = XLSX.utils.sheet_to_json(wb11.Sheets[wb11.SheetNames[0]], { header: 1 });
+    let book110Count = 0;
+    for (let i = 1; i < rows11.length; i++) {
+      const r = rows11[i];
+      if (!r || !r[2]) continue;
+      const empId = String(r[0]).trim();
+      const tInfo = teacherIdMap[empId] || { name: '專任教師', dept: '共同教育中心', title: '專任教師' };
+      const teacher = tInfo.name;
+      const dept = cleanDept(tInfo.dept);
+      const college = cleanCollege(null, dept);
+      const title = decodeHtml(r[2]);
+      const publisher = decodeHtml(r[11]);
+      const isbn = decodeHtml(r[12]);
+      const pubYear = decodeHtml(r[9]);
+      const pubMonth = decodeHtml(r[10]);
+      const ay = getAcademicYear(pubYear, pubMonth);
+      const fac = facultyRoleMap[teacher] || {};
+
+      const record = {
+        rawYear: ay,
+        year: String(ay || 113),
+        college,
+        dept,
+        teacher,
+        empId,
+        adminRole: fac.desc || (fac.article7Exempt ? '主管（依第7條免評/僅評基本）' : (tInfo.title || '專任教師')),
+        isArticle7Exempt: !!fac.article7Exempt,
+        authorOrder: '第一作者 (100%)',
+        weightRatio: 1.0,
+        category: '論文',
+        subType: '專書/專書篇章',
+        title,
+        code: `ISBN:${isbn} (${publisher})`,
+        accCode: `PUB-BOOK-${pubYear}-${String(i).padStart(3, '0')}`,
+        disbursementRate: 100,
+        amount: 1.5,
+        metricNote: `專書出版 (出版社: ${publisher}, ISBN: ${isbn})`,
+        source: 'TEACHER-WRITTING (表1-11 專書)',
+        sourceUrl: 'https://github.com/laisiff-dev/TEACHER-WRITTING',
+        group: '研發創新組',
+        status: '已發表歸檔',
+        keywords: extractKeywords(title, dept, '論文'),
+        id: `BOOK-${pubYear}-${String(i).padStart(3, '0')}`
+      };
+
+      allHistoricalPublications.push(record);
+      if (ay >= 110 && ay <= 115) {
+        cleanedRecords.push(record);
+        book110Count++;
+      }
+    }
+    console.log(`  ✓ 已匯入專書/篇章：全歷史 ${rows11.length - 1} 筆，110–115 學年度 ${book110Count} 筆`);
+  }
+
+  // 6-5. 讀取 Table 1-17 (國科會計畫案)
+  const nstcPath = path.join(teacherWrittingDir, 'table1_17(國科會計畫案).xls');
+  if (fs.existsSync(nstcPath)) {
+    const wb17 = XLSX.readFile(nstcPath);
+    const rows17 = XLSX.utils.sheet_to_json(wb17.Sheets[wb17.SheetNames[0]], { header: 1 });
+    let nstc110Count = 0;
+    for (let i = 1; i < rows17.length; i++) {
+      const r = rows17[i];
+      if (!r || !r[6]) continue;
+      const ay = parseInt(decodeHtml(r[2]));
+      if (ay >= 110 && ay <= 115) {
+        const empId = String(r[0]).trim();
+        const teacher = decodeHtml(r[1]);
+        const title = decodeHtml(r[6]);
+        const subTypeDesc = decodeHtml(r[4]);
+        const role = decodeHtml(r[7]);
+        const amountStr = decodeHtml(r[8]).replace(/,/g, '');
+        const amount = Math.round((parseFloat(amountStr) / 10000 || 0) * 100) / 100;
+        const discipline = decodeHtml(r[5]);
+
+        const tInfo = teacherIdMap[empId] || { dept: '共同教育中心', title: '專任教師' };
+        const dept = cleanDept(tInfo.dept);
+        const college = cleanCollege(null, dept);
+        const fac = facultyRoleMap[teacher] || {};
+
+        const isPI = role.includes('主持人') && !role.includes('共同');
+        const weightRatio = isPI ? 1.0 : 0.5;
+
+        cleanedRecords.push({
+          rawYear: ay,
+          year: String(ay),
+          college,
+          dept,
+          teacher,
+          empId,
+          adminRole: fac.desc || (fac.article7Exempt ? '主管（依第7條免評/僅評基本）' : (tInfo.title || '專任教師')),
+          isArticle7Exempt: !!fac.article7Exempt,
+          authorOrder: isPI ? '計畫主持人 (100%)' : '共同主持人 (50%)',
+          weightRatio,
+          category: '計畫案',
+          subType: '國科會專題研究計畫',
+          title,
+          code: `NSTC-${ay}-${discipline}-${String(i).padStart(3, '0')}`,
+          accCode: `ACC-${ay}-NSTC-${String(i).padStart(3, '0')}`,
+          disbursementRate: 100,
+          amount,
+          metricNote: `國科會核定 NT$ ${amount} 萬 (${subTypeDesc})`,
+          source: 'TEACHER-WRITTING (表1-17 國科會計畫案)',
+          sourceUrl: 'https://github.com/laisiff-dev/TEACHER-WRITTING',
+          group: '研發創新組',
+          status: '已核定歸檔',
+          keywords: extractKeywords(title, dept, '計畫案')
+        });
+        nstc110Count++;
+      }
+    }
+    console.log(`  ✓ 已匯入國科會計畫案：110–115 學年度共 ${nstc110Count} 筆`);
+  }
+}
+
+// ==========================================================
 // 7. 去重複與賦予系統唯一標準流水號 (REC-${year}-${padded_idx})
 // ==========================================================
 const uniqueMap = new Map();
@@ -920,4 +1234,30 @@ const buildJsPath = path.join(rootDir, 'build_dataset.js');
 fs.writeFileSync(buildJsPath, jsContent110_115, 'utf8');
 console.log(`✓ 同步更新根目錄 ${buildJsPath}`);
 
-console.log('\n資料清洗與建置完成！未來新資料可透過 Google 雲端讀取中心或新增 Excel 至 data/raw_excel/ 後執行本腳本持續維護。');
+// 8-6. data/teacher_publications_all.json & data/teacher_publications_all.js (全歷史研究成果庫)
+if (allHistoricalPublications && allHistoricalPublications.length > 0) {
+  const jsonPathAllPub = path.join(rootDir, 'data', 'teacher_publications_all.json');
+  fs.writeFileSync(jsonPathAllPub, JSON.stringify(allHistoricalPublications, null, 2), 'utf8');
+  console.log(`✓ 寫入教師全歷史論文著作主檔 ${jsonPathAllPub} (${allHistoricalPublications.length} 筆, ${(fs.statSync(jsonPathAllPub).size / 1024).toFixed(1)} KB)`);
+
+  const jsPathAllPub = path.join(rootDir, 'data', 'teacher_publications_all.js');
+  const jsContentAllPub = `/**
+ * 輔英科技大學 教師歷年研究期刊、研討會論文與著作全歷史資料庫
+ * 資料來源：個人 GitHub 倉庫 TEACHER-WRITTING (git@github.com:laisiff-dev/TEACHER-WRITTING.git)
+ * 總筆數：${allHistoricalPublications.length} 筆 (包含 1985–2026 完整期刊、研討會與專書)
+ * 更新日期：${new Date().toISOString().split('T')[0]}
+ */
+var FOOYIN_PUBLICATIONS_ALL = ${JSON.stringify(allHistoricalPublications, null, 2)};
+
+if (typeof window !== "undefined") {
+  window.FOOYIN_PUBLICATIONS_ALL = FOOYIN_PUBLICATIONS_ALL;
+}
+if (typeof module !== "undefined" && module.exports) {
+  module.exports = FOOYIN_PUBLICATIONS_ALL;
+}
+`;
+  fs.writeFileSync(jsPathAllPub, jsContentAllPub, 'utf8');
+  console.log(`✓ 寫入教師全歷史論文著作 JS 檔 ${jsPathAllPub} (${(fs.statSync(jsPathAllPub).size / 1024).toFixed(1)} KB)`);
+}
+
+console.log('\n資料清洗與建置完成！未來新資料可透過 Google 雲端讀取中心、新增 Excel 至 data/raw_excel/ 或同步 GitHub TEACHER-WRITTING 後執行本腳本持續維護。');
